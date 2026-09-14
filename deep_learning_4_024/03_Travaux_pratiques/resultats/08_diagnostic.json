@@ -1,0 +1,7 @@
+{
+  "A": "split puis fit scaler uniquement sur train",
+  "B": "eval et no_grad pour évaluer",
+  "C": "logits et classes entières",
+  "D": "matrice, précision, rappel, AP et capacité",
+  "E": "choix sur validation ; test ouvert une fois"
+}

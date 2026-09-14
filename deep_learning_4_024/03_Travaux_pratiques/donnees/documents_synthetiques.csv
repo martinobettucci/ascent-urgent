@@ -1,0 +1,385 @@
+document_id,texte,classe,classe_id,gabarit_id,partition
+DOC-0-0-0,Je souhaite des informations sur ma demande fictive.,information,0,0-0,train
+DOC-0-0-1,Je souhaite des informations sur la référence simulée.,information,0,0-0,train
+DOC-0-0-2,Je souhaite des informations sur mon dossier d’exercice.,information,0,0-0,train
+DOC-0-0-3,Je souhaite des informations sur le document de démonstration.,information,0,0-0,train
+DOC-0-0-4,Je souhaite des informations sur la formalité pédagogique.,information,0,0-0,train
+DOC-0-0-5,Je souhaite des informations sur mon espace fictif.,information,0,0-0,train
+DOC-0-0-6,Je souhaite des informations sur la simulation numéro 12.,information,0,0-0,train
+DOC-0-0-7,Je souhaite des informations sur la demande de test.,information,0,0-0,train
+DOC-0-1-0,Pouvez-vous expliquer les conditions concernant ma demande fictive ?,information,0,0-1,train
+DOC-0-1-1,Pouvez-vous expliquer les conditions concernant la référence simulée ?,information,0,0-1,train
+DOC-0-1-2,Pouvez-vous expliquer les conditions concernant mon dossier d’exercice ?,information,0,0-1,train
+DOC-0-1-3,Pouvez-vous expliquer les conditions concernant le document de démonstration ?,information,0,0-1,train
+DOC-0-1-4,Pouvez-vous expliquer les conditions concernant la formalité pédagogique ?,information,0,0-1,train
+DOC-0-1-5,Pouvez-vous expliquer les conditions concernant mon espace fictif ?,information,0,0-1,train
+DOC-0-1-6,Pouvez-vous expliquer les conditions concernant la simulation numéro 12 ?,information,0,0-1,train
+DOC-0-1-7,Pouvez-vous expliquer les conditions concernant la demande de test ?,information,0,0-1,train
+DOC-0-2-0,Où trouver le guide relatif à ma demande fictive ?,information,0,0-2,train
+DOC-0-2-1,Où trouver le guide relatif à la référence simulée ?,information,0,0-2,train
+DOC-0-2-2,Où trouver le guide relatif à mon dossier d’exercice ?,information,0,0-2,train
+DOC-0-2-3,Où trouver le guide relatif à le document de démonstration ?,information,0,0-2,train
+DOC-0-2-4,Où trouver le guide relatif à la formalité pédagogique ?,information,0,0-2,train
+DOC-0-2-5,Où trouver le guide relatif à mon espace fictif ?,information,0,0-2,train
+DOC-0-2-6,Où trouver le guide relatif à la simulation numéro 12 ?,information,0,0-2,train
+DOC-0-2-7,Où trouver le guide relatif à la demande de test ?,information,0,0-2,train
+DOC-0-3-0,Je cherche la documentation pour ma demande fictive.,information,0,0-3,train
+DOC-0-3-1,Je cherche la documentation pour la référence simulée.,information,0,0-3,train
+DOC-0-3-2,Je cherche la documentation pour mon dossier d’exercice.,information,0,0-3,train
+DOC-0-3-3,Je cherche la documentation pour le document de démonstration.,information,0,0-3,train
+DOC-0-3-4,Je cherche la documentation pour la formalité pédagogique.,information,0,0-3,train
+DOC-0-3-5,Je cherche la documentation pour mon espace fictif.,information,0,0-3,train
+DOC-0-3-6,Je cherche la documentation pour la simulation numéro 12.,information,0,0-3,train
+DOC-0-3-7,Je cherche la documentation pour la demande de test.,information,0,0-3,train
+DOC-0-4-0,Merci de préciser la procédure de ma demande fictive.,information,0,0-4,train
+DOC-0-4-1,Merci de préciser la procédure de la référence simulée.,information,0,0-4,train
+DOC-0-4-2,Merci de préciser la procédure de mon dossier d’exercice.,information,0,0-4,train
+DOC-0-4-3,Merci de préciser la procédure de le document de démonstration.,information,0,0-4,train
+DOC-0-4-4,Merci de préciser la procédure de la formalité pédagogique.,information,0,0-4,train
+DOC-0-4-5,Merci de préciser la procédure de mon espace fictif.,information,0,0-4,train
+DOC-0-4-6,Merci de préciser la procédure de la simulation numéro 12.,information,0,0-4,train
+DOC-0-4-7,Merci de préciser la procédure de la demande de test.,information,0,0-4,train
+DOC-0-5-0,Quelle démarche suivre au sujet de ma demande fictive ?,information,0,0-5,train
+DOC-0-5-1,Quelle démarche suivre au sujet de la référence simulée ?,information,0,0-5,train
+DOC-0-5-2,Quelle démarche suivre au sujet de mon dossier d’exercice ?,information,0,0-5,train
+DOC-0-5-3,Quelle démarche suivre au sujet de le document de démonstration ?,information,0,0-5,train
+DOC-0-5-4,Quelle démarche suivre au sujet de la formalité pédagogique ?,information,0,0-5,train
+DOC-0-5-5,Quelle démarche suivre au sujet de mon espace fictif ?,information,0,0-5,train
+DOC-0-5-6,Quelle démarche suivre au sujet de la simulation numéro 12 ?,information,0,0-5,train
+DOC-0-5-7,Quelle démarche suivre au sujet de la demande de test ?,information,0,0-5,train
+DOC-0-6-0,Pourriez-vous renseigner les pièces nécessaires pour ma demande fictive ?,information,0,0-6,train
+DOC-0-6-1,Pourriez-vous renseigner les pièces nécessaires pour la référence simulée ?,information,0,0-6,train
+DOC-0-6-2,Pourriez-vous renseigner les pièces nécessaires pour mon dossier d’exercice ?,information,0,0-6,train
+DOC-0-6-3,Pourriez-vous renseigner les pièces nécessaires pour le document de démonstration ?,information,0,0-6,train
+DOC-0-6-4,Pourriez-vous renseigner les pièces nécessaires pour la formalité pédagogique ?,information,0,0-6,train
+DOC-0-6-5,Pourriez-vous renseigner les pièces nécessaires pour mon espace fictif ?,information,0,0-6,train
+DOC-0-6-6,Pourriez-vous renseigner les pièces nécessaires pour la simulation numéro 12 ?,information,0,0-6,train
+DOC-0-6-7,Pourriez-vous renseigner les pièces nécessaires pour la demande de test ?,information,0,0-6,train
+DOC-0-7-0,Je voudrais comprendre les règles de ma demande fictive.,information,0,0-7,train
+DOC-0-7-1,Je voudrais comprendre les règles de la référence simulée.,information,0,0-7,train
+DOC-0-7-2,Je voudrais comprendre les règles de mon dossier d’exercice.,information,0,0-7,train
+DOC-0-7-3,Je voudrais comprendre les règles de le document de démonstration.,information,0,0-7,train
+DOC-0-7-4,Je voudrais comprendre les règles de la formalité pédagogique.,information,0,0-7,train
+DOC-0-7-5,Je voudrais comprendre les règles de mon espace fictif.,information,0,0-7,train
+DOC-0-7-6,Je voudrais comprendre les règles de la simulation numéro 12.,information,0,0-7,train
+DOC-0-7-7,Je voudrais comprendre les règles de la demande de test.,information,0,0-7,train
+DOC-0-8-0,Comment obtenir une notice sur ma demande fictive ?,information,0,0-8,validation
+DOC-0-8-1,Comment obtenir une notice sur la référence simulée ?,information,0,0-8,validation
+DOC-0-8-2,Comment obtenir une notice sur mon dossier d’exercice ?,information,0,0-8,validation
+DOC-0-8-3,Comment obtenir une notice sur le document de démonstration ?,information,0,0-8,validation
+DOC-0-8-4,Comment obtenir une notice sur la formalité pédagogique ?,information,0,0-8,validation
+DOC-0-8-5,Comment obtenir une notice sur mon espace fictif ?,information,0,0-8,validation
+DOC-0-8-6,Comment obtenir une notice sur la simulation numéro 12 ?,information,0,0-8,validation
+DOC-0-8-7,Comment obtenir une notice sur la demande de test ?,information,0,0-8,validation
+DOC-0-9-0,Besoin de précisions générales pour ma demande fictive.,information,0,0-9,validation
+DOC-0-9-1,Besoin de précisions générales pour la référence simulée.,information,0,0-9,validation
+DOC-0-9-2,Besoin de précisions générales pour mon dossier d’exercice.,information,0,0-9,validation
+DOC-0-9-3,Besoin de précisions générales pour le document de démonstration.,information,0,0-9,validation
+DOC-0-9-4,Besoin de précisions générales pour la formalité pédagogique.,information,0,0-9,validation
+DOC-0-9-5,Besoin de précisions générales pour mon espace fictif.,information,0,0-9,validation
+DOC-0-9-6,Besoin de précisions générales pour la simulation numéro 12.,information,0,0-9,validation
+DOC-0-9-7,Besoin de précisions générales pour la demande de test.,information,0,0-9,validation
+DOC-0-10-0,Merci de transmettre des renseignements sur ma demande fictive.,information,0,0-10,test
+DOC-0-10-1,Merci de transmettre des renseignements sur la référence simulée.,information,0,0-10,test
+DOC-0-10-2,Merci de transmettre des renseignements sur mon dossier d’exercice.,information,0,0-10,test
+DOC-0-10-3,Merci de transmettre des renseignements sur le document de démonstration.,information,0,0-10,test
+DOC-0-10-4,Merci de transmettre des renseignements sur la formalité pédagogique.,information,0,0-10,test
+DOC-0-10-5,Merci de transmettre des renseignements sur mon espace fictif.,information,0,0-10,test
+DOC-0-10-6,Merci de transmettre des renseignements sur la simulation numéro 12.,information,0,0-10,test
+DOC-0-10-7,Merci de transmettre des renseignements sur la demande de test.,information,0,0-10,test
+DOC-0-11-0,Je consulte les modalités relatives à ma demande fictive.,information,0,0-11,test
+DOC-0-11-1,Je consulte les modalités relatives à la référence simulée.,information,0,0-11,test
+DOC-0-11-2,Je consulte les modalités relatives à mon dossier d’exercice.,information,0,0-11,test
+DOC-0-11-3,Je consulte les modalités relatives à le document de démonstration.,information,0,0-11,test
+DOC-0-11-4,Je consulte les modalités relatives à la formalité pédagogique.,information,0,0-11,test
+DOC-0-11-5,Je consulte les modalités relatives à mon espace fictif.,information,0,0-11,test
+DOC-0-11-6,Je consulte les modalités relatives à la simulation numéro 12.,information,0,0-11,test
+DOC-0-11-7,Je consulte les modalités relatives à la demande de test.,information,0,0-11,test
+DOC-1-0-0,Je souhaite payer le montant de ma demande fictive.,paiement,1,1-0,train
+DOC-1-0-1,Je souhaite payer le montant de la référence simulée.,paiement,1,1-0,train
+DOC-1-0-2,Je souhaite payer le montant de mon dossier d’exercice.,paiement,1,1-0,train
+DOC-1-0-3,Je souhaite payer le montant de le document de démonstration.,paiement,1,1-0,train
+DOC-1-0-4,Je souhaite payer le montant de la formalité pédagogique.,paiement,1,1-0,train
+DOC-1-0-5,Je souhaite payer le montant de mon espace fictif.,paiement,1,1-0,train
+DOC-1-0-6,Je souhaite payer le montant de la simulation numéro 12.,paiement,1,1-0,train
+DOC-1-0-7,Je souhaite payer le montant de la demande de test.,paiement,1,1-0,train
+DOC-1-1-0,Comment effectuer le règlement de ma demande fictive ?,paiement,1,1-1,train
+DOC-1-1-1,Comment effectuer le règlement de la référence simulée ?,paiement,1,1-1,train
+DOC-1-1-2,Comment effectuer le règlement de mon dossier d’exercice ?,paiement,1,1-1,train
+DOC-1-1-3,Comment effectuer le règlement de le document de démonstration ?,paiement,1,1-1,train
+DOC-1-1-4,Comment effectuer le règlement de la formalité pédagogique ?,paiement,1,1-1,train
+DOC-1-1-5,Comment effectuer le règlement de mon espace fictif ?,paiement,1,1-1,train
+DOC-1-1-6,Comment effectuer le règlement de la simulation numéro 12 ?,paiement,1,1-1,train
+DOC-1-1-7,Comment effectuer le règlement de la demande de test ?,paiement,1,1-1,train
+DOC-1-2-0,Je demande un échéancier pour le paiement de ma demande fictive.,paiement,1,1-2,train
+DOC-1-2-1,Je demande un échéancier pour le paiement de la référence simulée.,paiement,1,1-2,train
+DOC-1-2-2,Je demande un échéancier pour le paiement de mon dossier d’exercice.,paiement,1,1-2,train
+DOC-1-2-3,Je demande un échéancier pour le paiement de le document de démonstration.,paiement,1,1-2,train
+DOC-1-2-4,Je demande un échéancier pour le paiement de la formalité pédagogique.,paiement,1,1-2,train
+DOC-1-2-5,Je demande un échéancier pour le paiement de mon espace fictif.,paiement,1,1-2,train
+DOC-1-2-6,Je demande un échéancier pour le paiement de la simulation numéro 12.,paiement,1,1-2,train
+DOC-1-2-7,Je demande un échéancier pour le paiement de la demande de test.,paiement,1,1-2,train
+DOC-1-3-0,Le prélèvement concernant ma demande fictive semble rejeté.,paiement,1,1-3,train
+DOC-1-3-1,Le prélèvement concernant la référence simulée semble rejeté.,paiement,1,1-3,train
+DOC-1-3-2,Le prélèvement concernant mon dossier d’exercice semble rejeté.,paiement,1,1-3,train
+DOC-1-3-3,Le prélèvement concernant le document de démonstration semble rejeté.,paiement,1,1-3,train
+DOC-1-3-4,Le prélèvement concernant la formalité pédagogique semble rejeté.,paiement,1,1-3,train
+DOC-1-3-5,Le prélèvement concernant mon espace fictif semble rejeté.,paiement,1,1-3,train
+DOC-1-3-6,Le prélèvement concernant la simulation numéro 12 semble rejeté.,paiement,1,1-3,train
+DOC-1-3-7,Le prélèvement concernant la demande de test semble rejeté.,paiement,1,1-3,train
+DOC-1-4-0,Merci de confirmer la réception du virement de ma demande fictive.,paiement,1,1-4,train
+DOC-1-4-1,Merci de confirmer la réception du virement de la référence simulée.,paiement,1,1-4,train
+DOC-1-4-2,Merci de confirmer la réception du virement de mon dossier d’exercice.,paiement,1,1-4,train
+DOC-1-4-3,Merci de confirmer la réception du virement de le document de démonstration.,paiement,1,1-4,train
+DOC-1-4-4,Merci de confirmer la réception du virement de la formalité pédagogique.,paiement,1,1-4,train
+DOC-1-4-5,Merci de confirmer la réception du virement de mon espace fictif.,paiement,1,1-4,train
+DOC-1-4-6,Merci de confirmer la réception du virement de la simulation numéro 12.,paiement,1,1-4,train
+DOC-1-4-7,Merci de confirmer la réception du virement de la demande de test.,paiement,1,1-4,train
+DOC-1-5-0,Je veux solder la somme liée à ma demande fictive.,paiement,1,1-5,train
+DOC-1-5-1,Je veux solder la somme liée à la référence simulée.,paiement,1,1-5,train
+DOC-1-5-2,Je veux solder la somme liée à mon dossier d’exercice.,paiement,1,1-5,train
+DOC-1-5-3,Je veux solder la somme liée à le document de démonstration.,paiement,1,1-5,train
+DOC-1-5-4,Je veux solder la somme liée à la formalité pédagogique.,paiement,1,1-5,train
+DOC-1-5-5,Je veux solder la somme liée à mon espace fictif.,paiement,1,1-5,train
+DOC-1-5-6,Je veux solder la somme liée à la simulation numéro 12.,paiement,1,1-5,train
+DOC-1-5-7,Je veux solder la somme liée à la demande de test.,paiement,1,1-5,train
+DOC-1-6-0,Pouvez-vous fournir un justificatif de règlement pour ma demande fictive ?,paiement,1,1-6,train
+DOC-1-6-1,Pouvez-vous fournir un justificatif de règlement pour la référence simulée ?,paiement,1,1-6,train
+DOC-1-6-2,Pouvez-vous fournir un justificatif de règlement pour mon dossier d’exercice ?,paiement,1,1-6,train
+DOC-1-6-3,Pouvez-vous fournir un justificatif de règlement pour le document de démonstration ?,paiement,1,1-6,train
+DOC-1-6-4,Pouvez-vous fournir un justificatif de règlement pour la formalité pédagogique ?,paiement,1,1-6,train
+DOC-1-6-5,Pouvez-vous fournir un justificatif de règlement pour mon espace fictif ?,paiement,1,1-6,train
+DOC-1-6-6,Pouvez-vous fournir un justificatif de règlement pour la simulation numéro 12 ?,paiement,1,1-6,train
+DOC-1-6-7,Pouvez-vous fournir un justificatif de règlement pour la demande de test ?,paiement,1,1-6,train
+DOC-1-7-0,Je rencontre un problème de carte au paiement de ma demande fictive.,paiement,1,1-7,train
+DOC-1-7-1,Je rencontre un problème de carte au paiement de la référence simulée.,paiement,1,1-7,train
+DOC-1-7-2,Je rencontre un problème de carte au paiement de mon dossier d’exercice.,paiement,1,1-7,train
+DOC-1-7-3,Je rencontre un problème de carte au paiement de le document de démonstration.,paiement,1,1-7,train
+DOC-1-7-4,Je rencontre un problème de carte au paiement de la formalité pédagogique.,paiement,1,1-7,train
+DOC-1-7-5,Je rencontre un problème de carte au paiement de mon espace fictif.,paiement,1,1-7,train
+DOC-1-7-6,Je rencontre un problème de carte au paiement de la simulation numéro 12.,paiement,1,1-7,train
+DOC-1-7-7,Je rencontre un problème de carte au paiement de la demande de test.,paiement,1,1-7,train
+DOC-1-8-0,Le débit lié à ma demande fictive apparaît deux fois.,paiement,1,1-8,validation
+DOC-1-8-1,Le débit lié à la référence simulée apparaît deux fois.,paiement,1,1-8,validation
+DOC-1-8-2,Le débit lié à mon dossier d’exercice apparaît deux fois.,paiement,1,1-8,validation
+DOC-1-8-3,Le débit lié à le document de démonstration apparaît deux fois.,paiement,1,1-8,validation
+DOC-1-8-4,Le débit lié à la formalité pédagogique apparaît deux fois.,paiement,1,1-8,validation
+DOC-1-8-5,Le débit lié à mon espace fictif apparaît deux fois.,paiement,1,1-8,validation
+DOC-1-8-6,Le débit lié à la simulation numéro 12 apparaît deux fois.,paiement,1,1-8,validation
+DOC-1-8-7,Le débit lié à la demande de test apparaît deux fois.,paiement,1,1-8,validation
+DOC-1-9-0,Je souhaite étaler le règlement de ma demande fictive.,paiement,1,1-9,validation
+DOC-1-9-1,Je souhaite étaler le règlement de la référence simulée.,paiement,1,1-9,validation
+DOC-1-9-2,Je souhaite étaler le règlement de mon dossier d’exercice.,paiement,1,1-9,validation
+DOC-1-9-3,Je souhaite étaler le règlement de le document de démonstration.,paiement,1,1-9,validation
+DOC-1-9-4,Je souhaite étaler le règlement de la formalité pédagogique.,paiement,1,1-9,validation
+DOC-1-9-5,Je souhaite étaler le règlement de mon espace fictif.,paiement,1,1-9,validation
+DOC-1-9-6,Je souhaite étaler le règlement de la simulation numéro 12.,paiement,1,1-9,validation
+DOC-1-9-7,Je souhaite étaler le règlement de la demande de test.,paiement,1,1-9,validation
+DOC-1-10-0,Mon versement relatif à ma demande fictive reste en attente.,paiement,1,1-10,test
+DOC-1-10-1,Mon versement relatif à la référence simulée reste en attente.,paiement,1,1-10,test
+DOC-1-10-2,Mon versement relatif à mon dossier d’exercice reste en attente.,paiement,1,1-10,test
+DOC-1-10-3,Mon versement relatif à le document de démonstration reste en attente.,paiement,1,1-10,test
+DOC-1-10-4,Mon versement relatif à la formalité pédagogique reste en attente.,paiement,1,1-10,test
+DOC-1-10-5,Mon versement relatif à mon espace fictif reste en attente.,paiement,1,1-10,test
+DOC-1-10-6,Mon versement relatif à la simulation numéro 12 reste en attente.,paiement,1,1-10,test
+DOC-1-10-7,Mon versement relatif à la demande de test reste en attente.,paiement,1,1-10,test
+DOC-1-11-0,Merci de m’indiquer les coordonnées pour payer ma demande fictive.,paiement,1,1-11,test
+DOC-1-11-1,Merci de m’indiquer les coordonnées pour payer la référence simulée.,paiement,1,1-11,test
+DOC-1-11-2,Merci de m’indiquer les coordonnées pour payer mon dossier d’exercice.,paiement,1,1-11,test
+DOC-1-11-3,Merci de m’indiquer les coordonnées pour payer le document de démonstration.,paiement,1,1-11,test
+DOC-1-11-4,Merci de m’indiquer les coordonnées pour payer la formalité pédagogique.,paiement,1,1-11,test
+DOC-1-11-5,Merci de m’indiquer les coordonnées pour payer mon espace fictif.,paiement,1,1-11,test
+DOC-1-11-6,Merci de m’indiquer les coordonnées pour payer la simulation numéro 12.,paiement,1,1-11,test
+DOC-1-11-7,Merci de m’indiquer les coordonnées pour payer la demande de test.,paiement,1,1-11,test
+DOC-2-0-0,Je souhaite prendre rendez-vous pour ma demande fictive.,rendez_vous,2,2-0,train
+DOC-2-0-1,Je souhaite prendre rendez-vous pour la référence simulée.,rendez_vous,2,2-0,train
+DOC-2-0-2,Je souhaite prendre rendez-vous pour mon dossier d’exercice.,rendez_vous,2,2-0,train
+DOC-2-0-3,Je souhaite prendre rendez-vous pour le document de démonstration.,rendez_vous,2,2-0,train
+DOC-2-0-4,Je souhaite prendre rendez-vous pour la formalité pédagogique.,rendez_vous,2,2-0,train
+DOC-2-0-5,Je souhaite prendre rendez-vous pour mon espace fictif.,rendez_vous,2,2-0,train
+DOC-2-0-6,Je souhaite prendre rendez-vous pour la simulation numéro 12.,rendez_vous,2,2-0,train
+DOC-2-0-7,Je souhaite prendre rendez-vous pour la demande de test.,rendez_vous,2,2-0,train
+DOC-2-1-0,Pouvez-vous réserver un créneau afin de discuter de ma demande fictive ?,rendez_vous,2,2-1,train
+DOC-2-1-1,Pouvez-vous réserver un créneau afin de discuter de la référence simulée ?,rendez_vous,2,2-1,train
+DOC-2-1-2,Pouvez-vous réserver un créneau afin de discuter de mon dossier d’exercice ?,rendez_vous,2,2-1,train
+DOC-2-1-3,Pouvez-vous réserver un créneau afin de discuter de le document de démonstration ?,rendez_vous,2,2-1,train
+DOC-2-1-4,Pouvez-vous réserver un créneau afin de discuter de la formalité pédagogique ?,rendez_vous,2,2-1,train
+DOC-2-1-5,Pouvez-vous réserver un créneau afin de discuter de mon espace fictif ?,rendez_vous,2,2-1,train
+DOC-2-1-6,Pouvez-vous réserver un créneau afin de discuter de la simulation numéro 12 ?,rendez_vous,2,2-1,train
+DOC-2-1-7,Pouvez-vous réserver un créneau afin de discuter de la demande de test ?,rendez_vous,2,2-1,train
+DOC-2-2-0,Je dois déplacer mon rendez-vous concernant ma demande fictive.,rendez_vous,2,2-2,train
+DOC-2-2-1,Je dois déplacer mon rendez-vous concernant la référence simulée.,rendez_vous,2,2-2,train
+DOC-2-2-2,Je dois déplacer mon rendez-vous concernant mon dossier d’exercice.,rendez_vous,2,2-2,train
+DOC-2-2-3,Je dois déplacer mon rendez-vous concernant le document de démonstration.,rendez_vous,2,2-2,train
+DOC-2-2-4,Je dois déplacer mon rendez-vous concernant la formalité pédagogique.,rendez_vous,2,2-2,train
+DOC-2-2-5,Je dois déplacer mon rendez-vous concernant mon espace fictif.,rendez_vous,2,2-2,train
+DOC-2-2-6,Je dois déplacer mon rendez-vous concernant la simulation numéro 12.,rendez_vous,2,2-2,train
+DOC-2-2-7,Je dois déplacer mon rendez-vous concernant la demande de test.,rendez_vous,2,2-2,train
+DOC-2-3-0,Merci de proposer une date d’entretien pour ma demande fictive.,rendez_vous,2,2-3,train
+DOC-2-3-1,Merci de proposer une date d’entretien pour la référence simulée.,rendez_vous,2,2-3,train
+DOC-2-3-2,Merci de proposer une date d’entretien pour mon dossier d’exercice.,rendez_vous,2,2-3,train
+DOC-2-3-3,Merci de proposer une date d’entretien pour le document de démonstration.,rendez_vous,2,2-3,train
+DOC-2-3-4,Merci de proposer une date d’entretien pour la formalité pédagogique.,rendez_vous,2,2-3,train
+DOC-2-3-5,Merci de proposer une date d’entretien pour mon espace fictif.,rendez_vous,2,2-3,train
+DOC-2-3-6,Merci de proposer une date d’entretien pour la simulation numéro 12.,rendez_vous,2,2-3,train
+DOC-2-3-7,Merci de proposer une date d’entretien pour la demande de test.,rendez_vous,2,2-3,train
+DOC-2-4-0,Je demande une rencontre avec un conseiller au sujet de ma demande fictive.,rendez_vous,2,2-4,train
+DOC-2-4-1,Je demande une rencontre avec un conseiller au sujet de la référence simulée.,rendez_vous,2,2-4,train
+DOC-2-4-2,Je demande une rencontre avec un conseiller au sujet de mon dossier d’exercice.,rendez_vous,2,2-4,train
+DOC-2-4-3,Je demande une rencontre avec un conseiller au sujet de le document de démonstration.,rendez_vous,2,2-4,train
+DOC-2-4-4,Je demande une rencontre avec un conseiller au sujet de la formalité pédagogique.,rendez_vous,2,2-4,train
+DOC-2-4-5,Je demande une rencontre avec un conseiller au sujet de mon espace fictif.,rendez_vous,2,2-4,train
+DOC-2-4-6,Je demande une rencontre avec un conseiller au sujet de la simulation numéro 12.,rendez_vous,2,2-4,train
+DOC-2-4-7,Je demande une rencontre avec un conseiller au sujet de la demande de test.,rendez_vous,2,2-4,train
+DOC-2-5-0,Le créneau réservé pour ma demande fictive ne me convient plus.,rendez_vous,2,2-5,train
+DOC-2-5-1,Le créneau réservé pour la référence simulée ne me convient plus.,rendez_vous,2,2-5,train
+DOC-2-5-2,Le créneau réservé pour mon dossier d’exercice ne me convient plus.,rendez_vous,2,2-5,train
+DOC-2-5-3,Le créneau réservé pour le document de démonstration ne me convient plus.,rendez_vous,2,2-5,train
+DOC-2-5-4,Le créneau réservé pour la formalité pédagogique ne me convient plus.,rendez_vous,2,2-5,train
+DOC-2-5-5,Le créneau réservé pour mon espace fictif ne me convient plus.,rendez_vous,2,2-5,train
+DOC-2-5-6,Le créneau réservé pour la simulation numéro 12 ne me convient plus.,rendez_vous,2,2-5,train
+DOC-2-5-7,Le créneau réservé pour la demande de test ne me convient plus.,rendez_vous,2,2-5,train
+DOC-2-6-0,Peut-on organiser un appel de conseil pour ma demande fictive ?,rendez_vous,2,2-6,train
+DOC-2-6-1,Peut-on organiser un appel de conseil pour la référence simulée ?,rendez_vous,2,2-6,train
+DOC-2-6-2,Peut-on organiser un appel de conseil pour mon dossier d’exercice ?,rendez_vous,2,2-6,train
+DOC-2-6-3,Peut-on organiser un appel de conseil pour le document de démonstration ?,rendez_vous,2,2-6,train
+DOC-2-6-4,Peut-on organiser un appel de conseil pour la formalité pédagogique ?,rendez_vous,2,2-6,train
+DOC-2-6-5,Peut-on organiser un appel de conseil pour mon espace fictif ?,rendez_vous,2,2-6,train
+DOC-2-6-6,Peut-on organiser un appel de conseil pour la simulation numéro 12 ?,rendez_vous,2,2-6,train
+DOC-2-6-7,Peut-on organiser un appel de conseil pour la demande de test ?,rendez_vous,2,2-6,train
+DOC-2-7-0,Je souhaite annuler mon entretien lié à ma demande fictive.,rendez_vous,2,2-7,train
+DOC-2-7-1,Je souhaite annuler mon entretien lié à la référence simulée.,rendez_vous,2,2-7,train
+DOC-2-7-2,Je souhaite annuler mon entretien lié à mon dossier d’exercice.,rendez_vous,2,2-7,train
+DOC-2-7-3,Je souhaite annuler mon entretien lié à le document de démonstration.,rendez_vous,2,2-7,train
+DOC-2-7-4,Je souhaite annuler mon entretien lié à la formalité pédagogique.,rendez_vous,2,2-7,train
+DOC-2-7-5,Je souhaite annuler mon entretien lié à mon espace fictif.,rendez_vous,2,2-7,train
+DOC-2-7-6,Je souhaite annuler mon entretien lié à la simulation numéro 12.,rendez_vous,2,2-7,train
+DOC-2-7-7,Je souhaite annuler mon entretien lié à la demande de test.,rendez_vous,2,2-7,train
+DOC-2-8-0,Quelle disponibilité pour un rendez-vous sur ma demande fictive ?,rendez_vous,2,2-8,validation
+DOC-2-8-1,Quelle disponibilité pour un rendez-vous sur la référence simulée ?,rendez_vous,2,2-8,validation
+DOC-2-8-2,Quelle disponibilité pour un rendez-vous sur mon dossier d’exercice ?,rendez_vous,2,2-8,validation
+DOC-2-8-3,Quelle disponibilité pour un rendez-vous sur le document de démonstration ?,rendez_vous,2,2-8,validation
+DOC-2-8-4,Quelle disponibilité pour un rendez-vous sur la formalité pédagogique ?,rendez_vous,2,2-8,validation
+DOC-2-8-5,Quelle disponibilité pour un rendez-vous sur mon espace fictif ?,rendez_vous,2,2-8,validation
+DOC-2-8-6,Quelle disponibilité pour un rendez-vous sur la simulation numéro 12 ?,rendez_vous,2,2-8,validation
+DOC-2-8-7,Quelle disponibilité pour un rendez-vous sur la demande de test ?,rendez_vous,2,2-8,validation
+DOC-2-9-0,J’aimerais fixer une heure de rencontre pour ma demande fictive.,rendez_vous,2,2-9,validation
+DOC-2-9-1,J’aimerais fixer une heure de rencontre pour la référence simulée.,rendez_vous,2,2-9,validation
+DOC-2-9-2,J’aimerais fixer une heure de rencontre pour mon dossier d’exercice.,rendez_vous,2,2-9,validation
+DOC-2-9-3,J’aimerais fixer une heure de rencontre pour le document de démonstration.,rendez_vous,2,2-9,validation
+DOC-2-9-4,J’aimerais fixer une heure de rencontre pour la formalité pédagogique.,rendez_vous,2,2-9,validation
+DOC-2-9-5,J’aimerais fixer une heure de rencontre pour mon espace fictif.,rendez_vous,2,2-9,validation
+DOC-2-9-6,J’aimerais fixer une heure de rencontre pour la simulation numéro 12.,rendez_vous,2,2-9,validation
+DOC-2-9-7,J’aimerais fixer une heure de rencontre pour la demande de test.,rendez_vous,2,2-9,validation
+DOC-2-10-0,Merci de confirmer la date de mon rendez-vous pour ma demande fictive.,rendez_vous,2,2-10,test
+DOC-2-10-1,Merci de confirmer la date de mon rendez-vous pour la référence simulée.,rendez_vous,2,2-10,test
+DOC-2-10-2,Merci de confirmer la date de mon rendez-vous pour mon dossier d’exercice.,rendez_vous,2,2-10,test
+DOC-2-10-3,Merci de confirmer la date de mon rendez-vous pour le document de démonstration.,rendez_vous,2,2-10,test
+DOC-2-10-4,Merci de confirmer la date de mon rendez-vous pour la formalité pédagogique.,rendez_vous,2,2-10,test
+DOC-2-10-5,Merci de confirmer la date de mon rendez-vous pour mon espace fictif.,rendez_vous,2,2-10,test
+DOC-2-10-6,Merci de confirmer la date de mon rendez-vous pour la simulation numéro 12.,rendez_vous,2,2-10,test
+DOC-2-10-7,Merci de confirmer la date de mon rendez-vous pour la demande de test.,rendez_vous,2,2-10,test
+DOC-2-11-0,Je recherche un créneau d’accueil pour ma demande fictive.,rendez_vous,2,2-11,test
+DOC-2-11-1,Je recherche un créneau d’accueil pour la référence simulée.,rendez_vous,2,2-11,test
+DOC-2-11-2,Je recherche un créneau d’accueil pour mon dossier d’exercice.,rendez_vous,2,2-11,test
+DOC-2-11-3,Je recherche un créneau d’accueil pour le document de démonstration.,rendez_vous,2,2-11,test
+DOC-2-11-4,Je recherche un créneau d’accueil pour la formalité pédagogique.,rendez_vous,2,2-11,test
+DOC-2-11-5,Je recherche un créneau d’accueil pour mon espace fictif.,rendez_vous,2,2-11,test
+DOC-2-11-6,Je recherche un créneau d’accueil pour la simulation numéro 12.,rendez_vous,2,2-11,test
+DOC-2-11-7,Je recherche un créneau d’accueil pour la demande de test.,rendez_vous,2,2-11,test
+DOC-3-0-0,Je souhaite corriger une erreur concernant ma demande fictive.,rectification,3,3-0,train
+DOC-3-0-1,Je souhaite corriger une erreur concernant la référence simulée.,rectification,3,3-0,train
+DOC-3-0-2,Je souhaite corriger une erreur concernant mon dossier d’exercice.,rectification,3,3-0,train
+DOC-3-0-3,Je souhaite corriger une erreur concernant le document de démonstration.,rectification,3,3-0,train
+DOC-3-0-4,Je souhaite corriger une erreur concernant la formalité pédagogique.,rectification,3,3-0,train
+DOC-3-0-5,Je souhaite corriger une erreur concernant mon espace fictif.,rectification,3,3-0,train
+DOC-3-0-6,Je souhaite corriger une erreur concernant la simulation numéro 12.,rectification,3,3-0,train
+DOC-3-0-7,Je souhaite corriger une erreur concernant la demande de test.,rectification,3,3-0,train
+DOC-3-1-0,Merci de rectifier la donnée inexacte liée à ma demande fictive.,rectification,3,3-1,train
+DOC-3-1-1,Merci de rectifier la donnée inexacte liée à la référence simulée.,rectification,3,3-1,train
+DOC-3-1-2,Merci de rectifier la donnée inexacte liée à mon dossier d’exercice.,rectification,3,3-1,train
+DOC-3-1-3,Merci de rectifier la donnée inexacte liée à le document de démonstration.,rectification,3,3-1,train
+DOC-3-1-4,Merci de rectifier la donnée inexacte liée à la formalité pédagogique.,rectification,3,3-1,train
+DOC-3-1-5,Merci de rectifier la donnée inexacte liée à mon espace fictif.,rectification,3,3-1,train
+DOC-3-1-6,Merci de rectifier la donnée inexacte liée à la simulation numéro 12.,rectification,3,3-1,train
+DOC-3-1-7,Merci de rectifier la donnée inexacte liée à la demande de test.,rectification,3,3-1,train
+DOC-3-2-0,Une information erronée apparaît dans ma demande fictive.,rectification,3,3-2,train
+DOC-3-2-1,Une information erronée apparaît dans la référence simulée.,rectification,3,3-2,train
+DOC-3-2-2,Une information erronée apparaît dans mon dossier d’exercice.,rectification,3,3-2,train
+DOC-3-2-3,Une information erronée apparaît dans le document de démonstration.,rectification,3,3-2,train
+DOC-3-2-4,Une information erronée apparaît dans la formalité pédagogique.,rectification,3,3-2,train
+DOC-3-2-5,Une information erronée apparaît dans mon espace fictif.,rectification,3,3-2,train
+DOC-3-2-6,Une information erronée apparaît dans la simulation numéro 12.,rectification,3,3-2,train
+DOC-3-2-7,Une information erronée apparaît dans la demande de test.,rectification,3,3-2,train
+DOC-3-3-0,Je signale une faute de saisie pour ma demande fictive.,rectification,3,3-3,train
+DOC-3-3-1,Je signale une faute de saisie pour la référence simulée.,rectification,3,3-3,train
+DOC-3-3-2,Je signale une faute de saisie pour mon dossier d’exercice.,rectification,3,3-3,train
+DOC-3-3-3,Je signale une faute de saisie pour le document de démonstration.,rectification,3,3-3,train
+DOC-3-3-4,Je signale une faute de saisie pour la formalité pédagogique.,rectification,3,3-3,train
+DOC-3-3-5,Je signale une faute de saisie pour mon espace fictif.,rectification,3,3-3,train
+DOC-3-3-6,Je signale une faute de saisie pour la simulation numéro 12.,rectification,3,3-3,train
+DOC-3-3-7,Je signale une faute de saisie pour la demande de test.,rectification,3,3-3,train
+DOC-3-4-0,Pouvez-vous modifier la valeur incorrecte de ma demande fictive ?,rectification,3,3-4,train
+DOC-3-4-1,Pouvez-vous modifier la valeur incorrecte de la référence simulée ?,rectification,3,3-4,train
+DOC-3-4-2,Pouvez-vous modifier la valeur incorrecte de mon dossier d’exercice ?,rectification,3,3-4,train
+DOC-3-4-3,Pouvez-vous modifier la valeur incorrecte de le document de démonstration ?,rectification,3,3-4,train
+DOC-3-4-4,Pouvez-vous modifier la valeur incorrecte de la formalité pédagogique ?,rectification,3,3-4,train
+DOC-3-4-5,Pouvez-vous modifier la valeur incorrecte de mon espace fictif ?,rectification,3,3-4,train
+DOC-3-4-6,Pouvez-vous modifier la valeur incorrecte de la simulation numéro 12 ?,rectification,3,3-4,train
+DOC-3-4-7,Pouvez-vous modifier la valeur incorrecte de la demande de test ?,rectification,3,3-4,train
+DOC-3-5-0,Je demande la correction du dossier relatif à ma demande fictive.,rectification,3,3-5,train
+DOC-3-5-1,Je demande la correction du dossier relatif à la référence simulée.,rectification,3,3-5,train
+DOC-3-5-2,Je demande la correction du dossier relatif à mon dossier d’exercice.,rectification,3,3-5,train
+DOC-3-5-3,Je demande la correction du dossier relatif à le document de démonstration.,rectification,3,3-5,train
+DOC-3-5-4,Je demande la correction du dossier relatif à la formalité pédagogique.,rectification,3,3-5,train
+DOC-3-5-5,Je demande la correction du dossier relatif à mon espace fictif.,rectification,3,3-5,train
+DOC-3-5-6,Je demande la correction du dossier relatif à la simulation numéro 12.,rectification,3,3-5,train
+DOC-3-5-7,Je demande la correction du dossier relatif à la demande de test.,rectification,3,3-5,train
+DOC-3-6-0,La référence de ma demande fictive comporte une erreur.,rectification,3,3-6,train
+DOC-3-6-1,La référence de la référence simulée comporte une erreur.,rectification,3,3-6,train
+DOC-3-6-2,La référence de mon dossier d’exercice comporte une erreur.,rectification,3,3-6,train
+DOC-3-6-3,La référence de le document de démonstration comporte une erreur.,rectification,3,3-6,train
+DOC-3-6-4,La référence de la formalité pédagogique comporte une erreur.,rectification,3,3-6,train
+DOC-3-6-5,La référence de mon espace fictif comporte une erreur.,rectification,3,3-6,train
+DOC-3-6-6,La référence de la simulation numéro 12 comporte une erreur.,rectification,3,3-6,train
+DOC-3-6-7,La référence de la demande de test comporte une erreur.,rectification,3,3-6,train
+DOC-3-7-0,Merci de remplacer les coordonnées inexactes de ma demande fictive.,rectification,3,3-7,train
+DOC-3-7-1,Merci de remplacer les coordonnées inexactes de la référence simulée.,rectification,3,3-7,train
+DOC-3-7-2,Merci de remplacer les coordonnées inexactes de mon dossier d’exercice.,rectification,3,3-7,train
+DOC-3-7-3,Merci de remplacer les coordonnées inexactes de le document de démonstration.,rectification,3,3-7,train
+DOC-3-7-4,Merci de remplacer les coordonnées inexactes de la formalité pédagogique.,rectification,3,3-7,train
+DOC-3-7-5,Merci de remplacer les coordonnées inexactes de mon espace fictif.,rectification,3,3-7,train
+DOC-3-7-6,Merci de remplacer les coordonnées inexactes de la simulation numéro 12.,rectification,3,3-7,train
+DOC-3-7-7,Merci de remplacer les coordonnées inexactes de la demande de test.,rectification,3,3-7,train
+DOC-3-8-0,Le montant indiqué sur ma demande fictive doit être rectifié.,rectification,3,3-8,validation
+DOC-3-8-1,Le montant indiqué sur la référence simulée doit être rectifié.,rectification,3,3-8,validation
+DOC-3-8-2,Le montant indiqué sur mon dossier d’exercice doit être rectifié.,rectification,3,3-8,validation
+DOC-3-8-3,Le montant indiqué sur le document de démonstration doit être rectifié.,rectification,3,3-8,validation
+DOC-3-8-4,Le montant indiqué sur la formalité pédagogique doit être rectifié.,rectification,3,3-8,validation
+DOC-3-8-5,Le montant indiqué sur mon espace fictif doit être rectifié.,rectification,3,3-8,validation
+DOC-3-8-6,Le montant indiqué sur la simulation numéro 12 doit être rectifié.,rectification,3,3-8,validation
+DOC-3-8-7,Le montant indiqué sur la demande de test doit être rectifié.,rectification,3,3-8,validation
+DOC-3-9-0,Je conteste une donnée mal enregistrée au sujet de ma demande fictive.,rectification,3,3-9,validation
+DOC-3-9-1,Je conteste une donnée mal enregistrée au sujet de la référence simulée.,rectification,3,3-9,validation
+DOC-3-9-2,Je conteste une donnée mal enregistrée au sujet de mon dossier d’exercice.,rectification,3,3-9,validation
+DOC-3-9-3,Je conteste une donnée mal enregistrée au sujet de le document de démonstration.,rectification,3,3-9,validation
+DOC-3-9-4,Je conteste une donnée mal enregistrée au sujet de la formalité pédagogique.,rectification,3,3-9,validation
+DOC-3-9-5,Je conteste une donnée mal enregistrée au sujet de mon espace fictif.,rectification,3,3-9,validation
+DOC-3-9-6,Je conteste une donnée mal enregistrée au sujet de la simulation numéro 12.,rectification,3,3-9,validation
+DOC-3-9-7,Je conteste une donnée mal enregistrée au sujet de la demande de test.,rectification,3,3-9,validation
+DOC-3-10-0,Pouvez-vous réviser l’élément erroné concernant ma demande fictive ?,rectification,3,3-10,test
+DOC-3-10-1,Pouvez-vous réviser l’élément erroné concernant la référence simulée ?,rectification,3,3-10,test
+DOC-3-10-2,Pouvez-vous réviser l’élément erroné concernant mon dossier d’exercice ?,rectification,3,3-10,test
+DOC-3-10-3,Pouvez-vous réviser l’élément erroné concernant le document de démonstration ?,rectification,3,3-10,test
+DOC-3-10-4,Pouvez-vous réviser l’élément erroné concernant la formalité pédagogique ?,rectification,3,3-10,test
+DOC-3-10-5,Pouvez-vous réviser l’élément erroné concernant mon espace fictif ?,rectification,3,3-10,test
+DOC-3-10-6,Pouvez-vous réviser l’élément erroné concernant la simulation numéro 12 ?,rectification,3,3-10,test
+DOC-3-10-7,Pouvez-vous réviser l’élément erroné concernant la demande de test ?,rectification,3,3-10,test
+DOC-3-11-0,Une mise à jour corrective est nécessaire pour ma demande fictive.,rectification,3,3-11,test
+DOC-3-11-1,Une mise à jour corrective est nécessaire pour la référence simulée.,rectification,3,3-11,test
+DOC-3-11-2,Une mise à jour corrective est nécessaire pour mon dossier d’exercice.,rectification,3,3-11,test
+DOC-3-11-3,Une mise à jour corrective est nécessaire pour le document de démonstration.,rectification,3,3-11,test
+DOC-3-11-4,Une mise à jour corrective est nécessaire pour la formalité pédagogique.,rectification,3,3-11,test
+DOC-3-11-5,Une mise à jour corrective est nécessaire pour mon espace fictif.,rectification,3,3-11,test
+DOC-3-11-6,Une mise à jour corrective est nécessaire pour la simulation numéro 12.,rectification,3,3-11,test
+DOC-3-11-7,Une mise à jour corrective est nécessaire pour la demande de test.,rectification,3,3-11,test

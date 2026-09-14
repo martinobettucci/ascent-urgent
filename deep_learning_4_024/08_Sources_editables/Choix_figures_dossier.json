@@ -1,0 +1,133 @@
+{
+  "map": [
+    1,
+    5,
+    10,
+    13,
+    18,
+    31,
+    "DOC_007",
+    70,
+    39,
+    40,
+    20,
+    21,
+    46,
+    48,
+    56,
+    57,
+    "DOC_017",
+    98,
+    23,
+    25,
+    27,
+    41,
+    28,
+    4,
+    16,
+    17,
+    "DOC_027",
+    "DOC_028",
+    46,
+    "DOC_030",
+    55,
+    59,
+    60,
+    66,
+    74,
+    81,
+    86,
+    88,
+    89,
+    "DOC_040",
+    91,
+    92,
+    95,
+    "DOC_044",
+    97,
+    99,
+    120,
+    100,
+    101,
+    104,
+    "DOC_051",
+    103,
+    "DOC_053",
+    102,
+    "DOC_055",
+    93,
+    "DOC_057",
+    124,
+    "DOC_059",
+    "DOC_060",
+    "DOC_061",
+    "DOC_062",
+    "DOC_063"
+  ],
+  "special": {
+    "7": {
+      "name": "DOC_007",
+      "title": "Trois régimes d’ajustement"
+    },
+    "17": {
+      "name": "DOC_017",
+      "title": "CNN, LSTM et attention"
+    },
+    "27": {
+      "name": "DOC_027",
+      "title": "Un extrait des données synthétiques"
+    },
+    "28": {
+      "name": "DOC_028",
+      "title": "Carte de fin de journée"
+    },
+    "30": {
+      "name": "DOC_030",
+      "title": "Cinq expériences contrôlées sur un CNN"
+    },
+    "40": {
+      "name": "DOC_040",
+      "title": "Trois niveaux de formulation"
+    },
+    "44": {
+      "name": "DOC_044",
+      "title": "Qualité du signal et incertitude"
+    },
+    "51": {
+      "name": "DOC_051",
+      "title": "Règles de données du stage"
+    },
+    "53": {
+      "name": "DOC_053",
+      "title": "Points de transparence à examiner"
+    },
+    "55": {
+      "name": "DOC_055",
+      "title": "Des risques à chaque étape"
+    },
+    "57": {
+      "name": "DOC_057",
+      "title": "Progression des compétences du stage"
+    },
+    "59": {
+      "name": "DOC_059",
+      "title": "Hiérarchie des titres, textes et annotations"
+    },
+    "60": {
+      "name": "DOC_060",
+      "title": "Légende des catégories visuelles"
+    },
+    "61": {
+      "name": "DOC_061",
+      "title": "Transformer une liste en explication"
+    },
+    "62": {
+      "name": "DOC_062",
+      "title": "Incidents et solutions de repli"
+    },
+    "63": {
+      "name": "DOC_063",
+      "title": "Les dix étapes de la démarche"
+    }
+  }
+}

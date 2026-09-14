@@ -1,0 +1,67 @@
+{
+  "perimetre": "Consolidation des fichiers locaux et des deux archives précédentes, sans réécriture des supports.",
+  "pdf": {
+    "documents/Cahier_participant_4_020.pdf": {
+      "pages": 22,
+      "lecture_et_rendu": true,
+      "chiffre": false
+    },
+    "documents/Dossier_pedagogique_4_020.pdf": {
+      "pages": 80,
+      "lecture_et_rendu": true,
+      "chiffre": false
+    },
+    "presentations/Formation_4_020_Jour_1.pdf": {
+      "pages": 75,
+      "lecture_et_rendu": true,
+      "chiffre": false
+    },
+    "presentations/Formation_4_020_Jour_2.pdf": {
+      "pages": 83,
+      "lecture_et_rendu": true,
+      "chiffre": false
+    }
+  },
+  "office": {
+    "documents/Cahier_participant_4_020.docx": {
+      "integrite_zip_et_xml": true,
+      "paragraphes": 241,
+      "tableaux": 17
+    },
+    "documents/Dossier_pedagogique_4_020.docx": {
+      "integrite_zip_et_xml": true,
+      "paragraphes": 1540,
+      "tableaux": 18
+    },
+    "presentations/Formation_4_020_Jour_1.pptx": {
+      "integrite_zip_et_xml": true,
+      "diapositives": 75,
+      "diapositives_avec_notes": 75
+    },
+    "presentations/Formation_4_020_Jour_2.pptx": {
+      "integrite_zip_et_xml": true,
+      "diapositives": 83,
+      "diapositives_avec_notes": 83
+    }
+  },
+  "notebooks": {
+    "01_Atelier_Novalia_participant.ipynb": {
+      "format_valide": true,
+      "cellules": 21,
+      "execute_dans_cette_recuperation": false
+    },
+    "02_Atelier_Novalia_corrige_execute.ipynb": {
+      "format_valide": true,
+      "cellules": 21,
+      "execute_dans_cette_recuperation": false
+    },
+    "03_Simulation_contrat_donnees.ipynb": {
+      "format_valide": true,
+      "cellules": 3,
+      "execute_dans_cette_recuperation": false
+    }
+  },
+  "illustrations_png": 25,
+  "originaux_initiaux_identiques": 13,
+  "provenances_reconciliees": 106
+}

@@ -1,0 +1,3237 @@
+{
+  "date_regroupement_utc": "2026-09-14T16:44:31.068664+00:00",
+  "objet": "Archive unique de tous les supports 4-024 récupérables dans cette conversation",
+  "archives_sources": [
+    {
+      "nom": "Formation_4_024_supports_et_TP.zip",
+      "octets": 39765289,
+      "sha256": "c374782086d52718f340b1aeac83f6a725b04f58d97a8c3a93a1adf8ca8fdaeb",
+      "integrite_crc": "OK"
+    },
+    {
+      "nom": "deep_learning_4_024_github.zip",
+      "octets": 870325,
+      "sha256": "2263b8e5bdd2c70d031fa7465fd3a909334055478f3d790e7e9251313dfa28f7",
+      "integrite_crc": "OK"
+    }
+  ],
+  "methode": "Fusion exacte des contenus décompressés ; doublons identiques conservés une seule fois ; ajout de toutes les pièces séparées.",
+  "fichiers_separes_verifies": 48,
+  "pieces_jointes_ajoutees": 6,
+  "couverture_sources": [
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/01_Presentations/.~lock.Formation_4_024_126_diapos.pdf#",
+      "fichier_archive_finale": "deep_learning_4_024/09_Originaux_et_apercus/Artefacts_techniques/.~lock.Formation_4_024_126_diapos.pdf#",
+      "octets": 75,
+      "sha256": "6493c6eff483c5fdbc7785287344c9b46ff206e83dc12252a0ad1c81203fee67"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/01_Presentations/Formation_4_024_126_diapos.pdf",
+      "fichier_archive_finale": "deep_learning_4_024/01_Presentations/Formation_4_024_126_diapos.pdf",
+      "octets": 5841270,
+      "sha256": "5fabc175d0f25701ae88d2dafca2bc407671a39e52cff62d478583d19b488620"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/01_Presentations/Formation_4_024_126_diapos.pptx",
+      "fichier_archive_finale": "deep_learning_4_024/01_Presentations/Formation_4_024_126_diapos.pptx",
+      "octets": 6111448,
+      "sha256": "cdf18f008eabc08cdaf9565ab5f884424cb0b1ddd2d69e4a96348f72e046213c"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/01_Presentations/Jour_1_Fondamentaux_et_premiers_modeles.pdf",
+      "fichier_archive_finale": "deep_learning_4_024/01_Presentations/Jour_1_Fondamentaux_et_premiers_modeles.pdf",
+      "octets": 2368795,
+      "sha256": "84ca8ba8d6c859fc33d2fc7fff297663612991f91a6500e96865b6f7ce4ec9e6"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/01_Presentations/Jour_1_Fondamentaux_et_premiers_modeles.pptx",
+      "fichier_archive_finale": "deep_learning_4_024/01_Presentations/Jour_1_Fondamentaux_et_premiers_modeles.pptx",
+      "octets": 2122775,
+      "sha256": "3dbca60091741a46668c900de326ef155c7713e67d486d54316c4fecd88011b9"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/01_Presentations/Jour_2_CNN_LSTM_et_diagnostic.pdf",
+      "fichier_archive_finale": "deep_learning_4_024/01_Presentations/Jour_2_CNN_LSTM_et_diagnostic.pdf",
+      "octets": 2607395,
+      "sha256": "1e7534763d6b51aab13314b57defe1d6190eff537ee4d6aa7f9901cab7435fad"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/01_Presentations/Jour_2_CNN_LSTM_et_diagnostic.pptx",
+      "fichier_archive_finale": "deep_learning_4_024/01_Presentations/Jour_2_CNN_LSTM_et_diagnostic.pptx",
+      "octets": 2409633,
+      "sha256": "d7ef3a55464042dc7f22962a96b2789ddb642fef8e1c1c19dab694604272bef0"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/01_Presentations/Jour_3_Cas_metiers_et_projet.pdf",
+      "fichier_archive_finale": "deep_learning_4_024/01_Presentations/Jour_3_Cas_metiers_et_projet.pdf",
+      "octets": 2443128,
+      "sha256": "29e6fa1c64e7aa6f17e0e5e44ef58f91e60e010c063e8b4ad6586ed4979ca989"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/01_Presentations/Jour_3_Cas_metiers_et_projet.pptx",
+      "fichier_archive_finale": "deep_learning_4_024/01_Presentations/Jour_3_Cas_metiers_et_projet.pptx",
+      "octets": 2178997,
+      "sha256": "45017c4910e92915401fbc5f7c076c62ffb9ea4d3324e6b97f019c980d31db10"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/02_Documents/Cahier_participant_TP_et_projet.docx",
+      "fichier_archive_finale": "deep_learning_4_024/02_Documents/Cahier_participant_TP_et_projet.docx",
+      "octets": 198213,
+      "sha256": "a1390968ec8bcb5ca5fc4bf10eecd0d9afd439c9cce413c222e8d8ad4b8a6a1f"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/02_Documents/Cahier_participant_TP_et_projet.pdf",
+      "fichier_archive_finale": "deep_learning_4_024/02_Documents/Cahier_participant_TP_et_projet.pdf",
+      "octets": 386042,
+      "sha256": "53246578c8b3cdec4b377cfaccb19c7d86b576de6a25dd6fb856d82b88853e00"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/02_Documents/Dossier_pedagogique_4_024.docx",
+      "fichier_archive_finale": "deep_learning_4_024/02_Documents/Dossier_pedagogique_4_024.docx",
+      "octets": 3250311,
+      "sha256": "4c003d5da876cacaf73f7ab6372a14aa653353a8a850c35dddaa56fbe670e055"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/02_Documents/Dossier_pedagogique_4_024.pdf",
+      "fichier_archive_finale": "deep_learning_4_024/02_Documents/Dossier_pedagogique_4_024.pdf",
+      "octets": 3585254,
+      "sha256": "3315fb8379157148f3fbec3d917612a35c5f6d0487986f4e8839f20839e241b5"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/02_Documents/Guide_formateur_126_diapos.docx",
+      "fichier_archive_finale": "deep_learning_4_024/02_Documents/Guide_formateur_126_diapos.docx",
+      "octets": 224598,
+      "sha256": "35eb35483cee8a20fee665843e45a500ab6b5fdc2beff7f7118211e65ef2ceae"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/02_Documents/Guide_formateur_126_diapos.pdf",
+      "fichier_archive_finale": "deep_learning_4_024/02_Documents/Guide_formateur_126_diapos.pdf",
+      "octets": 682845,
+      "sha256": "756bc3e590da4bea79b75f8de2e713c25fe61e3240455465c21302b3896b1170"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/03_Travaux_pratiques/INDEX_TP.json",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/INDEX_TP.json",
+      "octets": 1982,
+      "sha256": "3fd0b44c4d0658389625aba89ff7937f243331f8036333a18d44fe9eb9eee8e0"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/03_Travaux_pratiques/LISEZ_MOI.md",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/LISEZ_MOI.md",
+      "octets": 1939,
+      "sha256": "8e1fae80d7d723627d49a7e408161d7234e6d3497af950547491c3e33414d7a0"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/03_Travaux_pratiques/apprenants/00_Vérifier_son_environnement.ipynb",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/apprenants/00_Vérifier_son_environnement.ipynb",
+      "octets": 7369,
+      "sha256": "38ae016e77b339f963c56799c252dc8f581bde9fa1c008cbd04612fe75130a43"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/03_Travaux_pratiques/apprenants/01_Tenseurs__gradients_et_taux_d_apprentissage.ipynb",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/apprenants/01_Tenseurs__gradients_et_taux_d_apprentissage.ipynb",
+      "octets": 6343,
+      "sha256": "6392de7802fd6a05a488c2b98d89b37113d2eb7926199eb5d8b097712fea96a9"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/03_Travaux_pratiques/apprenants/02_Premier_pipeline_tabulaire__PyTorch_et_Keras.ipynb",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/apprenants/02_Premier_pipeline_tabulaire__PyTorch_et_Keras.ipynb",
+      "octets": 9611,
+      "sha256": "7c5d0d445050add36a67d92bb628d727796f6e5909ea8852ff2a537e8e258c5e"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/03_Travaux_pratiques/apprenants/03_Métriques__calibration_et_seuils.ipynb",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/apprenants/03_Métriques__calibration_et_seuils.ipynb",
+      "octets": 7207,
+      "sha256": "799e45e3b353ccea8a4fe1ce6dcfc20b3e0d3e099755ff9151e778992104521c"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/03_Travaux_pratiques/apprenants/04_CNN___classer_des_images_et_examiner_les_erreurs.ipynb",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/apprenants/04_CNN___classer_des_images_et_examiner_les_erreurs.ipynb",
+      "octets": 8261,
+      "sha256": "338779bf42ec9e80ea970521d35f85011053f77eb8d662033c54b2a5a7a597b2"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/03_Travaux_pratiques/apprenants/05_Diagnostic_et_régularisation.ipynb",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/apprenants/05_Diagnostic_et_régularisation.ipynb",
+      "octets": 7278,
+      "sha256": "d78d129b9c6480635b90b48787a1b71d026df3f10efea7a772046cb8b852146f"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/03_Travaux_pratiques/apprenants/06_LSTM_et_prévision_à_un_pas.ipynb",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/apprenants/06_LSTM_et_prévision_à_un_pas.ipynb",
+      "octets": 6113,
+      "sha256": "2ca5fb0de9063f0706fd84bee9b1d79b0141f3c8f84cf1dddf30a8709a351c90"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/03_Travaux_pratiques/apprenants/07_Transfert_et_ajustement_fin_hors_ligne.ipynb",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/apprenants/07_Transfert_et_ajustement_fin_hors_ligne.ipynb",
+      "octets": 6655,
+      "sha256": "677b7135c92ddcd568ebeed6d50000cc933872044c4c5c1df9bc9c0ef343a8fd"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/03_Travaux_pratiques/apprenants/08_Déboguer_cinq_incidents.ipynb",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/apprenants/08_Déboguer_cinq_incidents.ipynb",
+      "octets": 6765,
+      "sha256": "55c6d35bffd54f06e2892f8ccaac6866fe40d080fd3d8434600c8acc2875ad42"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/03_Travaux_pratiques/apprenants/09_Priorisation_sous_capacité_et_dérive.ipynb",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/apprenants/09_Priorisation_sous_capacité_et_dérive.ipynb",
+      "octets": 6359,
+      "sha256": "50826177d8491d8be00aee01374f18f9e500ed0018ae51732d414a3bf35df10e"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/03_Travaux_pratiques/apprenants/10_Projet_final___un_prototype_défendable.ipynb",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/apprenants/10_Projet_final___un_prototype_défendable.ipynb",
+      "octets": 7742,
+      "sha256": "b316354c03893952372e87850cf8169a71bb5a25f67888c130fe648b90a04904"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/03_Travaux_pratiques/corriges/00_Vérifier_son_environnement.ipynb",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/corriges/00_Vérifier_son_environnement.ipynb",
+      "octets": 10380,
+      "sha256": "de530014d231c8b9cc39183c3bd1149b2751377f6d1687b378e63fda6e9f4299"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/03_Travaux_pratiques/corriges/01_Tenseurs__gradients_et_taux_d_apprentissage.ipynb",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/corriges/01_Tenseurs__gradients_et_taux_d_apprentissage.ipynb",
+      "octets": 9874,
+      "sha256": "9467e80dbb7fdc6bca466d4ada4efb2b7c3f93331c0390d05eb4bee33328bcc9"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/03_Travaux_pratiques/corriges/02_Premier_pipeline_tabulaire__PyTorch_et_Keras.ipynb",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/corriges/02_Premier_pipeline_tabulaire__PyTorch_et_Keras.ipynb",
+      "octets": 11823,
+      "sha256": "46cbc6fe39f1d28a9ecb0b30d2900a97adfc241b309ea9d272ef54a4bd2b4818"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/03_Travaux_pratiques/corriges/03_Métriques__calibration_et_seuils.ipynb",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/corriges/03_Métriques__calibration_et_seuils.ipynb",
+      "octets": 10631,
+      "sha256": "d663fe9f64d05977b283e8910c6b38d1d78fee96f8edeed8672fbf9e073784bd"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/03_Travaux_pratiques/corriges/04_CNN___classer_des_images_et_examiner_les_erreurs.ipynb",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/corriges/04_CNN___classer_des_images_et_examiner_les_erreurs.ipynb",
+      "octets": 12486,
+      "sha256": "aa8fdecaa17e47a96643501a7986afed690d83b0518c0caf83468ebbd0d37513"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/03_Travaux_pratiques/corriges/05_Diagnostic_et_régularisation.ipynb",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/corriges/05_Diagnostic_et_régularisation.ipynb",
+      "octets": 10545,
+      "sha256": "39883e0a12f0a19a825ca7de08ca352967f5ae0812ade8c9803ebc57541ebb76"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/03_Travaux_pratiques/corriges/06_LSTM_et_prévision_à_un_pas.ipynb",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/corriges/06_LSTM_et_prévision_à_un_pas.ipynb",
+      "octets": 9129,
+      "sha256": "0897d2954b7df1dbcae686c5ec62a79a40c86ae702e8b4304fba966949bcdec8"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/03_Travaux_pratiques/corriges/07_Transfert_et_ajustement_fin_hors_ligne.ipynb",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/corriges/07_Transfert_et_ajustement_fin_hors_ligne.ipynb",
+      "octets": 9680,
+      "sha256": "0b3b920dfddb439d1a5acdad43f1dedeeabc140bf4360f9a3157c2b61ec311a6"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/03_Travaux_pratiques/corriges/08_Déboguer_cinq_incidents.ipynb",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/corriges/08_Déboguer_cinq_incidents.ipynb",
+      "octets": 10363,
+      "sha256": "004450a759a119bb4616b1cd52de6edfc3cb085e4c7a4e79fdf8f3b613a86d8d"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/03_Travaux_pratiques/corriges/09_Priorisation_sous_capacité_et_dérive.ipynb",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/corriges/09_Priorisation_sous_capacité_et_dérive.ipynb",
+      "octets": 9446,
+      "sha256": "70ae94459e5c798262830d1454123da108752e8a4dcad20a605087d3c9c1ab87"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/03_Travaux_pratiques/corriges/10_Projet_final___un_prototype_défendable.ipynb",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/corriges/10_Projet_final___un_prototype_défendable.ipynb",
+      "octets": 15085,
+      "sha256": "8d37a83bf30dc23fbcacc57d84982acf9d048082c5235fd8a846ee456a64830c"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/03_Travaux_pratiques/corriges_executes/00_Vérifier_son_environnement.ipynb",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/corriges_executes/00_Vérifier_son_environnement.ipynb",
+      "octets": 10380,
+      "sha256": "9d88e9be08919beced641cd42f2671c0779e41b5645a4db96affa958478b20ac"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/03_Travaux_pratiques/corriges_executes/01_Tenseurs__gradients_et_taux_d_apprentissage.ipynb",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/corriges_executes/01_Tenseurs__gradients_et_taux_d_apprentissage.ipynb",
+      "octets": 9874,
+      "sha256": "2a9a450389e9eb9138b1555b1edb37c3d8535070b65e756c91f92e09d06ece17"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/03_Travaux_pratiques/corriges_executes/02_Premier_pipeline_tabulaire__PyTorch_et_Keras.ipynb",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/corriges_executes/02_Premier_pipeline_tabulaire__PyTorch_et_Keras.ipynb",
+      "octets": 16470,
+      "sha256": "bf323b3253d7966514a6424b7ccb41cd4d50591de31ef60311d0680f5eb31893"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/03_Travaux_pratiques/corriges_executes/03_Métriques__calibration_et_seuils.ipynb",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/corriges_executes/03_Métriques__calibration_et_seuils.ipynb",
+      "octets": 10631,
+      "sha256": "daeb8cef1700a8212b1fc70af75b9c353d1bc70e5bdfcb9bd76898339216562f"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/03_Travaux_pratiques/corriges_executes/04_CNN___classer_des_images_et_examiner_les_erreurs.ipynb",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/corriges_executes/04_CNN___classer_des_images_et_examiner_les_erreurs.ipynb",
+      "octets": 12486,
+      "sha256": "9133bd358c3bc021dfb73d58dcc1607bf4e7e1e07561d2e504ad5d4937234419"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/03_Travaux_pratiques/corriges_executes/05_Diagnostic_et_régularisation.ipynb",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/corriges_executes/05_Diagnostic_et_régularisation.ipynb",
+      "octets": 10545,
+      "sha256": "67cb4f19d12bdddb27f8de72381a43f7ae0dcffa36df5c0aff1a6baa266ec8b4"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/03_Travaux_pratiques/corriges_executes/06_LSTM_et_prévision_à_un_pas.ipynb",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/corriges_executes/06_LSTM_et_prévision_à_un_pas.ipynb",
+      "octets": 9129,
+      "sha256": "6424de19524be1c79565257f965b7752abfc27f2df02f4537c14142e8b68f40c"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/03_Travaux_pratiques/corriges_executes/07_Transfert_et_ajustement_fin_hors_ligne.ipynb",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/corriges_executes/07_Transfert_et_ajustement_fin_hors_ligne.ipynb",
+      "octets": 9680,
+      "sha256": "0ac64d9f2a502797a1cef36cc65cc4186fc73beb7df70b9491a909c08ef71d04"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/03_Travaux_pratiques/corriges_executes/08_Déboguer_cinq_incidents.ipynb",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/corriges_executes/08_Déboguer_cinq_incidents.ipynb",
+      "octets": 10363,
+      "sha256": "f0b0297dd5ab42ef9b00fcedfa80a36b0b5413ab6f18193a16b1bd8de6dae38f"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/03_Travaux_pratiques/corriges_executes/09_Priorisation_sous_capacité_et_dérive.ipynb",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/corriges_executes/09_Priorisation_sous_capacité_et_dérive.ipynb",
+      "octets": 9447,
+      "sha256": "3d61b99382bfbbd830ba97aaaf6f9bc8246bf2688603b80d21a207d2a597f44a"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/03_Travaux_pratiques/corriges_executes/10_Projet_final___un_prototype_défendable.ipynb",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/corriges_executes/10_Projet_final___un_prototype_défendable.ipynb",
+      "octets": 15085,
+      "sha256": "86431979bd33fa9c22888d7ad0b0e43399d9b1b5599ab45d759fc15ea2c49529"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/03_Travaux_pratiques/donnees/FICHES_DONNEES.json",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/donnees/FICHES_DONNEES.json",
+      "octets": 2069,
+      "sha256": "9bc0979123ecabea0233ff7f5830f64f7224d677e58bae4ccbc15f41c4e721c2"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/03_Travaux_pratiques/donnees/chiffres_8x8.npz",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/donnees/chiffres_8x8.npz",
+      "octets": 74509,
+      "sha256": "5a1c8cf11d09908fbcb31a33be43b372686a59d40e87a23fa0fbbcfb3c32f1e7"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/03_Travaux_pratiques/donnees/documents_synthetiques.csv",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/donnees/documents_synthetiques.csv",
+      "octets": 39480,
+      "sha256": "7fa43fc8cf8e60bb90250fb8f1f9961ecef0d4694a2ec1ae8e18f1c76bb35115"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/03_Travaux_pratiques/donnees/dossiers_synthetiques.csv",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/donnees/dossiers_synthetiques.csv",
+      "octets": 491435,
+      "sha256": "4c8a848757025c7cbb45da2e73582850c51334766ed5697053cf8f40ef240f66"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/03_Travaux_pratiques/donnees/priorisation_rare.csv",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/donnees/priorisation_rare.csv",
+      "octets": 1023160,
+      "sha256": "5d2c6fc4642ec3aeeb0d64384f37b8ff9ddc0ddfd05cee11aeea6281cf2b5f1d"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/03_Travaux_pratiques/donnees/serie_synthetique.csv",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/donnees/serie_synthetique.csv",
+      "octets": 29684,
+      "sha256": "3cb2cc6ebe29ee956ed9065eeface2820464769e41a4691ca47681e8eb53a9bf"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/03_Travaux_pratiques/modules/atelier.py",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/modules/atelier.py",
+      "octets": 13031,
+      "sha256": "c4990eabe16c1e006890d324aa7ed48dfd30d0081dcf88c5f93881365c6d312d"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/03_Travaux_pratiques/requirements-cpu.txt",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/requirements-cpu.txt",
+      "octets": 189,
+      "sha256": "8d65a5389e63c0f020990a84a817feed2dbc83dc92762f811f430f28d52b9ee7"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/03_Travaux_pratiques/resultats/00_environnement.json",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/resultats/00_environnement.json",
+      "octets": 324,
+      "sha256": "ac867825400b55fd4f446ff83d63c103e111d275ae9fae11b0323f4dcef64c54"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/03_Travaux_pratiques/resultats/01_taux.png",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/resultats/01_taux.png",
+      "octets": 50248,
+      "sha256": "e94d4ebf78fe8f94249e901975cc3f03328e18160d5c67298364b4ac73a30bf0"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/03_Travaux_pratiques/resultats/02_comparaison.json",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/resultats/02_comparaison.json",
+      "octets": 1428,
+      "sha256": "e3debd4224ab640bf93f40e691faa3bbfef188bc7e1b702b65d33ffc784f59dc"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/03_Travaux_pratiques/resultats/02_mlp.pt",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/resultats/02_mlp.pt",
+      "octets": 7561,
+      "sha256": "3b1636c221e7a4fcc53cc60530eabc1c012fa32d19099d347e58e01a0526f438"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/03_Travaux_pratiques/resultats/02_modele.keras",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/resultats/02_modele.keras",
+      "octets": 40160,
+      "sha256": "08bc56fcd815f6455f2531a84d4b8eb8407d2cd0a0e8330eb79fc579c2ae45aa"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/03_Travaux_pratiques/resultats/02_pretraitement.npz",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/resultats/02_pretraitement.npz",
+      "octets": 824,
+      "sha256": "1f8c875e5fea79c29ffe0bc0c3a9ce012e7da896f485b860777e1a834141a154"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/03_Travaux_pratiques/resultats/02_pytorch.png",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/resultats/02_pytorch.png",
+      "octets": 46462,
+      "sha256": "e4557592dcc0acc38752e21710e3ef5a5f9eacceef256201df8c1b3556f2e5a4"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/03_Travaux_pratiques/resultats/03_calibration.png",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/resultats/03_calibration.png",
+      "octets": 44937,
+      "sha256": "1b185728ac5676a89320f22a0e253b23f14680756d9c56f14362af11e844754d"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/03_Travaux_pratiques/resultats/03_confusion.png",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/resultats/03_confusion.png",
+      "octets": 29458,
+      "sha256": "1134da557d2100e8b62bfb3c30e023ad4a07103f9c85503a74bb604d10e572ea"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/03_Travaux_pratiques/resultats/03_metriques.json",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/resultats/03_metriques.json",
+      "octets": 436,
+      "sha256": "d10a5317d0552b17575c9851baec94edc9cfac9f56992acf25af79f942f3de02"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/03_Travaux_pratiques/resultats/03_precision_rappel.png",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/resultats/03_precision_rappel.png",
+      "octets": 30075,
+      "sha256": "ab1d4b21e962016d60f21a0458dc4a19853bf6d53527521746aa99394ac5e49b"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/03_Travaux_pratiques/resultats/04_cnn.png",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/resultats/04_cnn.png",
+      "octets": 47139,
+      "sha256": "3e9d5acb72184973940d51fb181eb37bef1549e0423fd2bc17557a02a3cdb043"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/03_Travaux_pratiques/resultats/04_cnn.pt",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/resultats/04_cnn.pt",
+      "octets": 10505,
+      "sha256": "38b5bc9624aef31ae1dc3387b9098382e403436c7cbad5d096748f44c540c314"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/03_Travaux_pratiques/resultats/04_comparaison.json",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/resultats/04_comparaison.json",
+      "octets": 354,
+      "sha256": "d4cf835a168cc48e9789a576d1987cacde01d321f56b51dc11d815fdd982ace5"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/03_Travaux_pratiques/resultats/04_dense.png",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/resultats/04_dense.png",
+      "octets": 51128,
+      "sha256": "619906ddbc60d274a72701c193886b853d91d5772b432d867d984f33a436f8f2"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/03_Travaux_pratiques/resultats/04_erreurs.png",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/resultats/04_erreurs.png",
+      "octets": 78784,
+      "sha256": "1b7821a5415829c076c2135c292698d577534be31432a3bf94630ff069d3b825"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/03_Travaux_pratiques/resultats/05_dropout.png",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/resultats/05_dropout.png",
+      "octets": 48819,
+      "sha256": "5a1c92449b282bb592c0990a8b51dde8c737b0c4373239f73a4b119a110fc75d"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/03_Travaux_pratiques/resultats/05_micro_lot.png",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/resultats/05_micro_lot.png",
+      "octets": 44747,
+      "sha256": "639f6a4b9c3de808ae6964b00160e3e99ba9f28986209959b9dbdff4edbec8c8"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/03_Travaux_pratiques/resultats/05_penalisation.png",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/resultats/05_penalisation.png",
+      "octets": 53647,
+      "sha256": "eaa90918e600ef7593cb5c338e42c90617593242f5f1c022afbef9abd780993f"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/03_Travaux_pratiques/resultats/05_reference.png",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/resultats/05_reference.png",
+      "octets": 54156,
+      "sha256": "1cfff4b2eb11c3c31af80353ffa92cca76a363fa7cc607b3a81399880e442451"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/03_Travaux_pratiques/resultats/05_regularisation.json",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/resultats/05_regularisation.json",
+      "octets": 496,
+      "sha256": "65ac207b680819a066e02798209345dd594bb6ce7be721a2bb65b708a939e427"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/03_Travaux_pratiques/resultats/06_lstm.png",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/resultats/06_lstm.png",
+      "octets": 43574,
+      "sha256": "ec622a0dad0f8ae983f30b02bd4d01506547437a1dc29b3f2cadd4679ebaba67"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/03_Travaux_pratiques/resultats/06_previsions.png",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/resultats/06_previsions.png",
+      "octets": 129794,
+      "sha256": "d2c0462d86e10e73e7c013164b3fed7e74b6d89382a6272088b9448be3cc39d5"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/03_Travaux_pratiques/resultats/06_sequence.json",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/resultats/06_sequence.json",
+      "octets": 250,
+      "sha256": "063a3f33714719a7aaa0aa9b9680b65e4a78223523e27cb3b7864e906ec804e7"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/03_Travaux_pratiques/resultats/06_serie.png",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/resultats/06_serie.png",
+      "octets": 120534,
+      "sha256": "5914a61e801205ad69fcf8c049b38dcef0c244de27bc96139aab93d67fb6e7ea"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/03_Travaux_pratiques/resultats/07_ajustement.png",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/resultats/07_ajustement.png",
+      "octets": 63788,
+      "sha256": "de4de4c1c0de12f30e95e3d69e57ab4212cf31f6f264113a2ae1a9b7a791a7cc"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/03_Travaux_pratiques/resultats/07_transfert.json",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/resultats/07_transfert.json",
+      "octets": 190,
+      "sha256": "7006782037c00beda208af69407ca778040e11802a230cb6533c03d0831c3398"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/03_Travaux_pratiques/resultats/07_transfert.pt",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/resultats/07_transfert.pt",
+      "octets": 10769,
+      "sha256": "0a680971c709a2dafeee6635e4ee5739ccfb6266a0cefca7a8fa047cb1ee4bc4"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/03_Travaux_pratiques/resultats/08_diagnostic.json",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/resultats/08_diagnostic.json",
+      "octets": 242,
+      "sha256": "ea8c87865f65ae2185778d5e92a60cf2239f578b0239142b173a3d83bec0e4ba"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/03_Travaux_pratiques/resultats/09_capacite.json",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/resultats/09_capacite.json",
+      "octets": 1326,
+      "sha256": "62c67d3027a0f5fe6ea49282ddd54baa9073afe940c82676a786b2561f115a69"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/03_Travaux_pratiques/resultats/09_derive.png",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/resultats/09_derive.png",
+      "octets": 31128,
+      "sha256": "dd1a7560d7ed7c98ac4b4536e7f2aecfdcd3318fa23215970601761434e40fb1"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/03_Travaux_pratiques/resultats/10_journal.csv",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/resultats/10_journal.csv",
+      "octets": 137,
+      "sha256": "63c180e69d9271ce9a236fbf09656e3c5262e9d242cb76e5c7507333383c52b5"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/03_Travaux_pratiques/resultats/10_priorisation.png",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/resultats/10_priorisation.png",
+      "octets": 44244,
+      "sha256": "87b4f10042cac636c78e4dce3acdf2364d0a8a6c425a63d2d76a7be8bbc26a82"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/03_Travaux_pratiques/resultats/projet_priorisation.json",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/resultats/projet_priorisation.json",
+      "octets": 843,
+      "sha256": "2b00781087fed9e1fae93f3184afb96dd544ecd38a668269c8934c046803709e"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/04_Evaluations/Evaluations_et_corriges.docx",
+      "fichier_archive_finale": "deep_learning_4_024/04_Evaluations/Evaluations_et_corriges.docx",
+      "octets": 190550,
+      "sha256": "6f8523d5d0ce174db1c998f6011f5013846978da31ed0422e948f70c5a5c3123"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/04_Evaluations/Evaluations_et_corriges.pdf",
+      "fichier_archive_finale": "deep_learning_4_024/04_Evaluations/Evaluations_et_corriges.pdf",
+      "octets": 239830,
+      "sha256": "1e5530ef282a08461a325e5714ab40d998e9e25b26688f50e1a1f213900a3a2c"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/04_Evaluations/Evaluations_participant.docx",
+      "fichier_archive_finale": "deep_learning_4_024/04_Evaluations/Evaluations_participant.docx",
+      "octets": 190051,
+      "sha256": "0caf3d4f008ba968b64756b67233cdeea948f82b22da6f8407d4ee92f09e9cc1"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/04_Evaluations/Evaluations_participant.pdf",
+      "fichier_archive_finale": "deep_learning_4_024/04_Evaluations/Evaluations_participant.pdf",
+      "octets": 235399,
+      "sha256": "32de807b2f4a23936940139b9b14d48fcef0dcacbfa86f8a63a5a70adada3b8f"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/04_Evaluations/QCM_et_corriges.json",
+      "fichier_archive_finale": "deep_learning_4_024/04_Evaluations/QCM_et_corriges.json",
+      "octets": 4172,
+      "sha256": "3c81b5aa9b3062264e98552f21d8e66cd0ad2dd795299c4ff4ea55e284d8e511"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/001_hero.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/001_hero.png",
+      "octets": 150664,
+      "sha256": "24fd999c7ef4cb99d7a7dd8ecfb9b17c200db3ecfffbe296e9cc52442bddde50"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/001_hero.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/001_hero.svg",
+      "octets": 10164,
+      "sha256": "0b779fed3c05c6acfdbb599f5d69d96881fd9c5c095ca7f87773564c866d7def"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/002_pipeline.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/002_pipeline.png",
+      "octets": 35608,
+      "sha256": "2e2e1f3e6bf44cba441a0d7bb1f20d92ca59040b84b21a9da16fc2f109d3af49"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/002_pipeline.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/002_pipeline.svg",
+      "octets": 2625,
+      "sha256": "527c58771503189f9ec41cb2a190f5174e23e28b07e23fb8b55f0cb5f02e4440"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/003_journey.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/003_journey.png",
+      "octets": 35141,
+      "sha256": "a458f3bd20e68d34d62b7a7896b4292cbef26d669c8f0e237e2a33b59eda63dd"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/003_journey.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/003_journey.svg",
+      "octets": 2399,
+      "sha256": "c78390b1173bbd9d0a5914609f60034d3ecb0f9e16f8c2974e275085a1a70fed"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/004_diagnostic.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/004_diagnostic.png",
+      "octets": 47210,
+      "sha256": "46b0e2e8617db2d38ca6cb6b4a53b6aca2bea3fa1fa6fcc782a2b3462804799a"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/004_diagnostic.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/004_diagnostic.svg",
+      "octets": 3582,
+      "sha256": "62dd1429d1d7a1160137ead3d3af69b8aba74c476242c3b7e0f4e56af87691d1"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/005_taxonomy.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/005_taxonomy.png",
+      "octets": 59684,
+      "sha256": "8403357fb50489ba8325c0ccda2cad8bb02f3ead1d704687b3cdb9c9147998d4"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/005_taxonomy.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/005_taxonomy.svg",
+      "octets": 2487,
+      "sha256": "11f62c4d15ef209227421c4c7401d61279646edd1e2dc29def1b1dc6e10aa061"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/006_learningtypes.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/006_learningtypes.png",
+      "octets": 37623,
+      "sha256": "b7ec9b4584eced64c98b7cc10b51bf19976d1d462804c801c3bc14d1c622eadc"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/006_learningtypes.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/006_learningtypes.svg",
+      "octets": 2163,
+      "sha256": "b17741676215b8dcd82f61adcf5e5c2e4413229871f331a1589f1bb87abd6918"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/007_taskcards.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/007_taskcards.png",
+      "octets": 41178,
+      "sha256": "09bb04b43213bc7cbbd8d43685357ed60864248a4e3282912710041f1b8b45ff"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/007_taskcards.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/007_taskcards.svg",
+      "octets": 2369,
+      "sha256": "8e73b76be470213cd28e3f708437aacad5c261b3e1e014c8b62976f64f215cba"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/008_dataset.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/008_dataset.png",
+      "octets": 40257,
+      "sha256": "67cb8bb891acf3ecdd32b7e5a98b7a8bd56031feb13dead9530b0c8ae8795e53"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/008_dataset.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/008_dataset.svg",
+      "octets": 2340,
+      "sha256": "329d24435f6e04c19b32441f3dc44aeb07bd8b6b505773ee132d74b9198288b5"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/009_traininfer.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/009_traininfer.png",
+      "octets": 50871,
+      "sha256": "c2eab560d57e0131fabe56cae1bffccfc693def3691ea31fe82d47b2be31eb62"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/009_traininfer.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/009_traininfer.svg",
+      "octets": 3798,
+      "sha256": "01cb3ec169a5bf366daf6d3c6395ed4f6b938ccd9ce23262fc7f52f225c181b8"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/010_neuron.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/010_neuron.png",
+      "octets": 54662,
+      "sha256": "36b78906a48d31af05aa1989877ada35deb6d429214cae91f99b7c372e5d1a4b"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/010_neuron.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/010_neuron.svg",
+      "octets": 2983,
+      "sha256": "f6a2dded199ffebbefdaedf0c8a43e5eb65c677c4220c72c8a1c1f2954d0851e"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/011_xor.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/011_xor.png",
+      "octets": 49401,
+      "sha256": "0bf0d8507b04a338654c02247f683ba3921dd85630dee1b53890410d2e406c8c"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/011_xor.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/011_xor.svg",
+      "octets": 3019,
+      "sha256": "cc823cb064e8036eb91149cc09717efe94fb57ad97a0243385ba432516e561d0"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/012_activations.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/012_activations.png",
+      "octets": 47956,
+      "sha256": "5d544e71d4b875517cc3cd62fbbb8c34db7e607c1155cea5af834e000a96651a"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/012_activations.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/012_activations.svg",
+      "octets": 5226,
+      "sha256": "e8fbdf637e207cf8739f98dc67eec0ac47a7ad91b783a8f94e3f0eba36e11562"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/013_tensors.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/013_tensors.png",
+      "octets": 45924,
+      "sha256": "83dd68c5d5c29966b196ade6db2133f4c06dd555f2ab0db32149445e16605023"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/013_tensors.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/013_tensors.svg",
+      "octets": 2881,
+      "sha256": "fbac7b3202406e7f0e12a633a0ee271fe64e7dbf172f306fca0c6acc0475240f"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/014_shape.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/014_shape.png",
+      "octets": 51630,
+      "sha256": "6521318087dab0a858601f92654ce735f020ca8ac3b2f232f016659d98777541"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/014_shape.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/014_shape.svg",
+      "octets": 5965,
+      "sha256": "9cd733bed2a2a3486d728ac4b16428a8a7b6b882c182425ea43995def268116e"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/015_loss.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/015_loss.png",
+      "octets": 54196,
+      "sha256": "bf53dc55119bcd7ca21d0d69e0aab7c5022ed410b0b79d243abbe8096586a52b"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/015_loss.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/015_loss.svg",
+      "octets": 3712,
+      "sha256": "6f3f7d447265e224d69829f4dbf7686ebfa9057d58864b669508e72667240d00"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/016_gradient.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/016_gradient.png",
+      "octets": 51021,
+      "sha256": "e03446c5eaea23b737e80a622835db3215cf055e3d00439eeb285d3fcb3237d9"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/016_gradient.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/016_gradient.svg",
+      "octets": 3521,
+      "sha256": "1052df74795074ffb823eeb3a4c3ac3cd59d3e74efcabb4ff39e3862eceafa44"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/017_lr.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/017_lr.png",
+      "octets": 51052,
+      "sha256": "654774d887af3081dee9a3691db0ac2bc6cc1dd88b18d9257cee244f33421fd8"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/017_lr.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/017_lr.svg",
+      "octets": 3296,
+      "sha256": "9d87118e2e28fa2df424dc4ed69bf56c611ffb4421fa88fcd94942a833af001a"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/018_backprop.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/018_backprop.png",
+      "octets": 36463,
+      "sha256": "e977293086665576fe77c440f0e3cd11d0c3f10c401666be12efc4ebfae901fb"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/018_backprop.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/018_backprop.svg",
+      "octets": 2627,
+      "sha256": "ad2a5e4c4706b9759a4b6a72d9db940fa440a36eba3a073258f9525317681811"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/019_batch.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/019_batch.png",
+      "octets": 36841,
+      "sha256": "57862be500911e678daf765431b7ab6f8400f25d07440daff892da9716837181"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/019_batch.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/019_batch.svg",
+      "octets": 2221,
+      "sha256": "37334b52619be6776e98368605c1ca75efe22e5142159eee0bb187f4801df63a"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/020_timeline.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/020_timeline.png",
+      "octets": 45442,
+      "sha256": "8f77dc39ec2483c65d5f37cd7b702771281ea7052835c9f9ea1af5ef98ed9d74"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/020_timeline.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/020_timeline.svg",
+      "octets": 2559,
+      "sha256": "ccfce574966bc1f32e48f993dc9b4ab7115a1717adf71e2b3abdc00f442fa5cf"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/021_drivers.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/021_drivers.png",
+      "octets": 41166,
+      "sha256": "bde22ac89731a73cb44cdc2600d21ed57ad88b1a48c5e54947556461182dcbb8"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/021_drivers.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/021_drivers.svg",
+      "octets": 2789,
+      "sha256": "4f6fefa7a16edd33dcccafa7966d0c868d6d45b6144fa5aed45bee57e67bf8ae"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/022_baseline.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/022_baseline.png",
+      "octets": 37761,
+      "sha256": "58761a0811c4eaf8299135a5e2a0be34d1672b98832783a32813cb9f379bb7f7"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/022_baseline.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/022_baseline.svg",
+      "octets": 2909,
+      "sha256": "4824819a386476898565d823f552e8fcdba8df801f7a816fd2cdaa9564ffe6a2"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/023_framework.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/023_framework.png",
+      "octets": 63661,
+      "sha256": "612d2df8a270aa455faddbda97ac531a41281383f5822a8b6fbc9e0ed6165bcf"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/023_framework.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/023_framework.svg",
+      "octets": 2800,
+      "sha256": "c20f18ea5b1bd0be52be8be4a1ed25c467eabab744edc0c08e342f6daafaa5a4"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/024_stack.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/024_stack.png",
+      "octets": 63415,
+      "sha256": "ee6ae7c7cfa3c0ca415520c2c0633a6c80142ae5863a5797158c32c0223fdd9a"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/024_stack.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/024_stack.svg",
+      "octets": 2811,
+      "sha256": "38f552d7e0f2f11f5b8c42ed167fe0272236e11a05c52352950b5d3ea9d16459"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/025_environment.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/025_environment.png",
+      "octets": 37382,
+      "sha256": "1c4c6ff23b0697e1c013cf5e8cba2b190cd322b3826beb859e0787f7af84f6d5"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/025_environment.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/025_environment.svg",
+      "octets": 2225,
+      "sha256": "625a63f417eeb11fa3ff387e8a522c266313fce044cbc705a0d0b0d43f51f5b5"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/026_checklist.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/026_checklist.png",
+      "octets": 48980,
+      "sha256": "ded591f424b27e70c4e29a82e9450e73c9e25c2b2ad7644af275a458a5c57bb9"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/026_checklist.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/026_checklist.svg",
+      "octets": 3606,
+      "sha256": "28faf445d2974feb6e3f4961768a8507e751caec31013cf767af106cb60f6dbb"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/027_repro.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/027_repro.png",
+      "octets": 43228,
+      "sha256": "d08d217e08755168c95ba56e376d1595b259a9e0b54a7f122c78f07c093c0523"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/027_repro.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/027_repro.svg",
+      "octets": 2365,
+      "sha256": "e50da13a13da8e64a851ee50597db60fab7ff5b206b4c1b222c16f1cc43a7174"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/028_code_torch.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/028_code_torch.png",
+      "octets": 57126,
+      "sha256": "8084b39c9c7e7577971641e58405e121fa72cec297b82026ad27e7f095afdfca"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/028_code_torch.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/028_code_torch.svg",
+      "octets": 1737,
+      "sha256": "2dd107a767471fbbfa91fc3d5b1d0ca7f4400535959c4999e3b01ab6e2db41b2"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/029_code_keras.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/029_code_keras.png",
+      "octets": 60481,
+      "sha256": "dd88a1ded90598e4749ab844c4874d4e6bb7bc875e8d63a3df5befdb35f518f5"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/029_code_keras.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/029_code_keras.svg",
+      "octets": 1807,
+      "sha256": "c2badb4deb8d0dbb11729b4c1c3bca5e4f1b40107660a4c18871542b49dcbe1f"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/030_checkpoint.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/030_checkpoint.png",
+      "octets": 37205,
+      "sha256": "e36e8784da0e916e938c144e8b5600d496374049fbb871c61dbb57844a6a016d"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/030_checkpoint.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/030_checkpoint.svg",
+      "octets": 2240,
+      "sha256": "e88b4c532616bfe053db44935128afdee93a1efd7a8f2eb90394243b9bdf9ca4"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/031_split.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/031_split.png",
+      "octets": 46686,
+      "sha256": "4cd7a0ff22f7ec78286b1a5861947ab0f0cc35ad3946da434e7acff712ac2d95"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/031_split.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/031_split.svg",
+      "octets": 2480,
+      "sha256": "6ebffc492a79f35c65b0739c29904830e8148eb57137ee4fdae64295d383e287"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/032_leakage.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/032_leakage.png",
+      "octets": 38692,
+      "sha256": "0235162d076dd167e262dfe6952e318f2ce710661903955b8bee71963d33a49f"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/032_leakage.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/032_leakage.svg",
+      "octets": 2369,
+      "sha256": "cf4796b37b0d3c0a9cfda552e9a66ed0085426f54e8b7b4d0e16af10a0c2616a"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/033_scaler.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/033_scaler.png",
+      "octets": 37545,
+      "sha256": "5ccd0b0c8605063de49da45bfc62e763be6f938938391d673935ae331185d229"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/033_scaler.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/033_scaler.svg",
+      "octets": 2345,
+      "sha256": "b99486506699f5b48ab0a7cc19d247ceb1b134b5159d3b59503fd9b54051ed01"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/034_tpboard.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/034_tpboard.png",
+      "octets": 41747,
+      "sha256": "3709f3c6222ad1042a3d5a4389674356a31da46e9fa980b91f26599853cf3a39"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/034_tpboard.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/034_tpboard.svg",
+      "octets": 2375,
+      "sha256": "fa88305d8de9e579636cc6fb073aaa3d31160be6a22648dc473b2bd481cec0fb"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/035_pipeline.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/035_pipeline.png",
+      "octets": 35441,
+      "sha256": "2a0e51cd89fbf5afb9185f89fe959e993d14fff088ad85dcf8678b2c4dac0574"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/035_pipeline.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/035_pipeline.svg",
+      "octets": 2622,
+      "sha256": "03892cb332bde089df295e3bfae4d8f6704d7df5312deab6fd9b3b2f1b7f1edd"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/036_compare.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/036_compare.png",
+      "octets": 37908,
+      "sha256": "17a58732aecb6fd711595ea8471ad6485bc4907dd6026074423a98351774ee86"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/036_compare.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/036_compare.svg",
+      "octets": 2478,
+      "sha256": "603cb35fe23bdff2c1938804fcf159cd7e639e000c5ca92c7d9bab1ca898acf8"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/037_curves.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/037_curves.png",
+      "octets": 54861,
+      "sha256": "235d5f9e587f23bcebb3146cd7d21ac2358a35732332066bd3772129339a3329"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/037_curves.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/037_curves.svg",
+      "octets": 3156,
+      "sha256": "35b602fbd6e91327026a6b920bae73e66ea1ef059e32cb89f07b0327e162e80f"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/038_imbalance.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/038_imbalance.png",
+      "octets": 59169,
+      "sha256": "df20e44951931f80155b7a11334df95c8d15479e7ed6d2a55f9e5ffa812ce521"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/038_imbalance.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/038_imbalance.svg",
+      "octets": 1850,
+      "sha256": "9bafdf4062e98a235ad8644e1728ba759c42e9616ab14396fc815490e108b012"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/039_confusion.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/039_confusion.png",
+      "octets": 64983,
+      "sha256": "6e9b202d0f71cb7b43a1f8b6c92b53994b42d2d0f19f59bc9e85aa03edcf2fef"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/039_confusion.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/039_confusion.svg",
+      "octets": 3277,
+      "sha256": "307e907bfd4ca56b527c8819298f62193b18e6597f2d5777f43fbcba6828e230"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/040_threshold.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/040_threshold.png",
+      "octets": 51672,
+      "sha256": "f67c326a240a95bdfb805b448a5f08206a12093844c508d8ab26542e8dbf7e15"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/040_threshold.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/040_threshold.svg",
+      "octets": 6763,
+      "sha256": "45585c8e5f8f574113f13ed0855e4405f52b49f0d84f32bc44b91db2a28e2744"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/041_journal.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/041_journal.png",
+      "octets": 45725,
+      "sha256": "538277c5ae19f2177c04c8632c78d22c7ae13953c52297746fe5e412a5465fb6"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/041_journal.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/041_journal.svg",
+      "octets": 3602,
+      "sha256": "2c8cfb54ecf0aab83286f0c4ad463ef74c378e284e8b952ef7f8f246c505ed91"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/042_checkpoint.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/042_checkpoint.png",
+      "octets": 35923,
+      "sha256": "40f49293fdef6396bc5ab14a0a20b8286a5df7800ea1323db297e510cf81d9d9"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/042_checkpoint.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/042_checkpoint.svg",
+      "octets": 2219,
+      "sha256": "5d659519245f08d95f5a17c964d35dacdb8a044b7c6daa5a7283abfd9960cab2"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/043_hero.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/043_hero.png",
+      "octets": 150664,
+      "sha256": "24fd999c7ef4cb99d7a7dd8ecfb9b17c200db3ecfffbe296e9cc52442bddde50"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/043_hero.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/043_hero.svg",
+      "octets": 10164,
+      "sha256": "0b779fed3c05c6acfdbb599f5d69d96881fd9c5c095ca7f87773564c866d7def"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/044_diagnostic.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/044_diagnostic.png",
+      "octets": 47270,
+      "sha256": "8b3a46e2de2b5d7aeaf01681d1ed75e7ae2c9a2c87bcb500054170e3702bf07a"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/044_diagnostic.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/044_diagnostic.svg",
+      "octets": 3585,
+      "sha256": "84bc1e0ab45d29fceeedea706d7d8bd33d0ec644ebb2080313769d60df7bf018"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/045_architectures.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/045_architectures.png",
+      "octets": 34741,
+      "sha256": "648eb0dfeaaafdad799553f094ed866992b671138d5665d37cdee0a9fd4aa162"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/045_architectures.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/045_architectures.svg",
+      "octets": 2410,
+      "sha256": "5df4efd9e214a27b22e51b2d61995ddeb1f5f33b26662afe677efd3ce04f2749"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/046_mlpcnn.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/046_mlpcnn.png",
+      "octets": 48770,
+      "sha256": "9bb771199d8e9d03491a4cdd9dc1ec16a4eb1cfc4836da8c252e07cdb1bbafee"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/046_mlpcnn.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/046_mlpcnn.svg",
+      "octets": 3763,
+      "sha256": "4a2704b021141efa2a91b2fc7d577bf5f9ce6192dec6b39c6480a87151bb9739"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/047_digits.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/047_digits.png",
+      "octets": 64649,
+      "sha256": "11c0166d4ba6dfdbd3315bf22b5b00c4d703703ba93c44555171f53bfd6f975e"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/047_digits.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/047_digits.svg",
+      "octets": 52710,
+      "sha256": "2ba2ff0f7f505ae63b6471266ed32ffcc3714fae42858c8925dcefd3145f25d2"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/048_convolution.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/048_convolution.png",
+      "octets": 50943,
+      "sha256": "e67f25d07978642f432d34b3532f5fbd2775fe8defbacaae29a199364de99e56"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/048_convolution.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/048_convolution.svg",
+      "octets": 9510,
+      "sha256": "952d2946b100ae9f5f4877e3b265cba55e0b2e236de540dc20c5938d05d45a30"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/049_padding.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/049_padding.png",
+      "octets": 58287,
+      "sha256": "4632f533052e955f515cf54c256500060cadaf99c087fa76c1e4db1c89149c61"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/049_padding.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/049_padding.svg",
+      "octets": 10427,
+      "sha256": "de117fe3eaf8560717da7e53d04801a537ab370a62262cf9706e0d16ae4e1ca9"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/050_parameters.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/050_parameters.png",
+      "octets": 54245,
+      "sha256": "ae787164fdc2c86f0de214ef41545ab8a3fa881fcd9dd24400cbb9ec91d581a9"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/050_parameters.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/050_parameters.svg",
+      "octets": 2097,
+      "sha256": "310e93bc817228a84c8a713369f409c1eee70772a6791e9edf746e7952998df5"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/051_pooling.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/051_pooling.png",
+      "octets": 45065,
+      "sha256": "2bbad5f28f809f957ca4d296a63e3dfb7046a82c8c170c06b4d661e072f41055"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/051_pooling.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/051_pooling.svg",
+      "octets": 5915,
+      "sha256": "a29c5e1533efb4e281396ba8441a4b04b20c774e545fbdcb242c81e6bcebe225"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/052_receptive.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/052_receptive.png",
+      "octets": 49723,
+      "sha256": "631ab4d2dcb131ce385a315b8d90157b441e91b1acd701d82cc956c337d0d30d"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/052_receptive.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/052_receptive.svg",
+      "octets": 9140,
+      "sha256": "39f50e516e8cf76ef49c2a26037f3e8c4776ee667baa4f4d8b0030540651266d"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/053_cnn.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/053_cnn.png",
+      "octets": 35298,
+      "sha256": "85cc98ded2966059d4eb040132c260145dace16db85bc71ea742856379ffc7cc"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/053_cnn.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/053_cnn.svg",
+      "octets": 2622,
+      "sha256": "4fc6710cdf53f7b47f2822298cacb1f83380f5594f6e95bbc57020e1dfbb51f3"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/054_tpboard.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/054_tpboard.png",
+      "octets": 41228,
+      "sha256": "778d62c09a57c9fa509b4c3bee75e14f8219d50749884021c0e50ee70771a7fa"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/054_tpboard.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/054_tpboard.svg",
+      "octets": 2367,
+      "sha256": "8ffd871d2d819e5a7fc6e7b394691a06f2f0c6b9d2ceec4cf00530d0a8df312a"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/055_errors.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/055_errors.png",
+      "octets": 152812,
+      "sha256": "ce1359cf06b4e358ef9ce1d8964b8798c83e569d47caf58287c913bd8056a7d1"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/055_errors.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/055_errors.svg",
+      "octets": 82918,
+      "sha256": "3c6a3472fd35cf149a9413e59f3ed1baf01d190089c26c31c8924823e38643c8"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/056_rnn.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/056_rnn.png",
+      "octets": 41104,
+      "sha256": "45223889d5b6049252f3657ca7e574cf067839e246270fd7f80f4c2ffaacf027"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/056_rnn.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/056_rnn.svg",
+      "octets": 5509,
+      "sha256": "a8c0f9b8b75b2d353f6b28041ec8ca0ef572e878b5f101cb561bbf9be1c45858"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/057_lstm.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/057_lstm.png",
+      "octets": 42483,
+      "sha256": "d5a3b6322b86bba089c7480da31f1dc5d756d3a965c5d0490a4b84adde4895a8"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/057_lstm.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/057_lstm.svg",
+      "octets": 2590,
+      "sha256": "bebc80b241f99f9c9ddd951a2c15dcb088e3ff5eef2033f0ddc2a913713f111a"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/058_vanishing.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/058_vanishing.png",
+      "octets": 41289,
+      "sha256": "398392a5b5beca19727283e703269caf29105e9c89139f27417b5446771f2702"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/058_vanishing.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/058_vanishing.svg",
+      "octets": 2217,
+      "sha256": "51b7445fab6710ffc5458c90cf83f26778e425322366fbd19fc8f9594cd155b7"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/059_window.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/059_window.png",
+      "octets": 61325,
+      "sha256": "39e0519dfc557d4c8c07cacfbf6d9e8404b0defcb4151e10acaeba92c1c16f96"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/059_window.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/059_window.svg",
+      "octets": 2477,
+      "sha256": "c25c846f41b69265cf073858499b38640b5082a069f46e3c7a0c8427334dc196"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/060_timesplit.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/060_timesplit.png",
+      "octets": 42357,
+      "sha256": "c3f8d3aa5ef1812ead0444467bbb1ba5bab9ca92153cd356e25b395620c872ca"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/060_timesplit.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/060_timesplit.svg",
+      "octets": 2445,
+      "sha256": "e2b455969d2ba17b843d3b4ea263663707b375b2b6434684281b396f0b38562f"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/061_tpboard.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/061_tpboard.png",
+      "octets": 41905,
+      "sha256": "ad32f7fed3c6a33d456dffc04ebfb68344af623af7688a0e9d516d95da8ed1a0"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/061_tpboard.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/061_tpboard.svg",
+      "octets": 2366,
+      "sha256": "bbffeb78b4b1cbdd48a4a85e200e700265f7b0c223258bf65fb511161871d1c7"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/062_forecast.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/062_forecast.png",
+      "octets": 40603,
+      "sha256": "735d1992c318cfac219a2e08b8bae8dc4f6ade617b35b0273ef6af01e55a361f"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/062_forecast.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/062_forecast.svg",
+      "octets": 2919,
+      "sha256": "208dce872ddef6979d17a8e8a9b09a346d1d37af7565f5422abe709c0c843a09"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/063_attention.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/063_attention.png",
+      "octets": 43249,
+      "sha256": "29913b5335345b82c0172b18f378e4d14911810d50eb7d63ae59a188508e815d"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/063_attention.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/063_attention.svg",
+      "octets": 1727,
+      "sha256": "e1d0ab209b92d3540d33b327b14f73fd63641fdbc70801f5fb24cacdcc4395c2"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/064_section.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/064_section.png",
+      "octets": 33326,
+      "sha256": "929985706799a055f7a23064fa7b264afe35e9291a21aa1c314eed3dbe126cc3"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/064_section.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/064_section.svg",
+      "octets": 2622,
+      "sha256": "0d8d9de7a612f16b1bbed9885faf579c5154d8443daa782e632592a2cbd6d832"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/065_curves.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/065_curves.png",
+      "octets": 77562,
+      "sha256": "10196ec2e69d2052c82c2114fedd12800a320f6bd81cf56a2a026261d234af67"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/065_curves.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/065_curves.svg",
+      "octets": 6345,
+      "sha256": "8c53c919141fd22ddc5e6963fc5b081aeb6095ad836a155a3c30719e37d5a253"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/066_diagnosticmatrix.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/066_diagnosticmatrix.png",
+      "octets": 81736,
+      "sha256": "af32bbf6e101ddd4c604c0778cf9fb6cd525d27361c16975550dc7ae5a8f5cd9"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/066_diagnosticmatrix.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/066_diagnosticmatrix.svg",
+      "octets": 5046,
+      "sha256": "cc2277041ff93a7bad1abdd20d090a6c9229e9e80ec54f16ddd394af3354fc02"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/067_tinybatch.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/067_tinybatch.png",
+      "octets": 97495,
+      "sha256": "25f90e159f6678a212a55c199c5a48fa52ea81b967d8db94244b50af3b116d57"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/067_tinybatch.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/067_tinybatch.svg",
+      "octets": 10791,
+      "sha256": "d2e971391797ffba3cd32ed89e9342a86956a32498c1b318a7868a748a1976e7"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/068_optimizer.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/068_optimizer.png",
+      "octets": 38624,
+      "sha256": "963f2be7f819de525f07a7ea43651b1a10a630c1a8c1509dcfd34cbc64c15189"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/068_optimizer.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/068_optimizer.svg",
+      "octets": 2616,
+      "sha256": "b33550827e650135b810ea947d880f3a2f39fad4d654aa5569d262676eaa411b"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/069_regularization.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/069_regularization.png",
+      "octets": 38532,
+      "sha256": "2abcae24fb3c1f26afab20f9754af3caf74014ccd21877560dcc5258951ddae7"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/069_regularization.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/069_regularization.svg",
+      "octets": 2771,
+      "sha256": "6edb0bd35c0a6992f1b222e22f91a0e32d8448517601b5526a69c85ed72cf50d"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/070_dropout.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/070_dropout.png",
+      "octets": 160615,
+      "sha256": "a5e50763831ee3d2958e995fbec6b7323f8b4cc72396e2fb57ea27963a6ed3dc"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/070_dropout.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/070_dropout.svg",
+      "octets": 12829,
+      "sha256": "66d64a7640760487bb7544b96ab86d2669849fe887344e6f15566c4ed7021a72"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/071_batchnorm.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/071_batchnorm.png",
+      "octets": 52861,
+      "sha256": "cbb8030c17d21a542743abe53db9886eda91be29b22f193a12205c318da75817"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/071_batchnorm.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/071_batchnorm.svg",
+      "octets": 3040,
+      "sha256": "762740df5a0bc43e9cbd897ea42111740ff80009f35b1a8845f4e31496bf73cf"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/072_augmentation.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/072_augmentation.png",
+      "octets": 65024,
+      "sha256": "58375b29c92b55c50da05ca295982343e6e94090bfc902fced44458649eec0a0"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/072_augmentation.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/072_augmentation.svg",
+      "octets": 52724,
+      "sha256": "880cad746e60fcbe6356a5cd2a0787f6896b5dced864341a31bdd610d706df8e"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/073_earlystop.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/073_earlystop.png",
+      "octets": 39624,
+      "sha256": "856cb32c074683c29fc3062db57b52fe3a63f143ca1de1d7b2ab9a74d62e044e"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/073_earlystop.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/073_earlystop.svg",
+      "octets": 2626,
+      "sha256": "393b42fcdd6d9f2a4a2fe64993bee9dbeef9f0b69586736ad831ea0719eb7023"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/074_transfer.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/074_transfer.png",
+      "octets": 50924,
+      "sha256": "0be1d6d8922b8a58865a7be9dcb862721201db0b9a2395bb5d2489e63160c82e"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/074_transfer.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/074_transfer.svg",
+      "octets": 3361,
+      "sha256": "3bd54c27139db26bc1f3abaa13315f2a694f410a8ac9718c358cba414a43910e"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/075_freeze.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/075_freeze.png",
+      "octets": 38427,
+      "sha256": "bb1865e75ed124ce833d2f87cea4e764864f31bcd3f51f265645376f238dd000"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/075_freeze.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/075_freeze.svg",
+      "octets": 2352,
+      "sha256": "17a92b4c1b5ab36d83485039282868fbd8757c5886a2b02ea25915c03dfe9166"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/076_tpboard.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/076_tpboard.png",
+      "octets": 41182,
+      "sha256": "1d8373398c87e4ed727e92f23e8c61340a8028285453754da2306a5f12b3c5e0"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/076_tpboard.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/076_tpboard.svg",
+      "octets": 2376,
+      "sha256": "2355e5aa5a7fc74f945886b58319a386ebf41a8a6e45f542bb733accf853fbf5"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/077_checkpoint.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/077_checkpoint.png",
+      "octets": 34485,
+      "sha256": "230a639f59e7bf354ad578b77831ce4190ba17629fe493fa4d47e4ee95652adc"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/077_checkpoint.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/077_checkpoint.svg",
+      "octets": 2213,
+      "sha256": "b94606145d9b0bb0dae17bf175e5716b893137a9d8bdcf7fe114b253a503efb5"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/078_imbalance.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/078_imbalance.png",
+      "octets": 57564,
+      "sha256": "2727f73d2b5034110a066929ebf948f79982e799a3884fd74a4b2a4dbab8785c"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/078_imbalance.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/078_imbalance.svg",
+      "octets": 1857,
+      "sha256": "7d32b441fe03883f239bb0b93f5e8607454703130cbef677f4a17cbc6dd242da"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/079_calibration.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/079_calibration.png",
+      "octets": 62813,
+      "sha256": "f541ed506c53f40870729ab9a106efa029eaa4c2be82a932703411bf93e52e7d"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/079_calibration.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/079_calibration.svg",
+      "octets": 3199,
+      "sha256": "ea94ce743304a677e8a4b8eb0157a7ea29374d96f0c1fde8dce342de6c22be38"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/080_segments.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/080_segments.png",
+      "octets": 37431,
+      "sha256": "1f2e35236bbc1e93817d12fffa00664f2ccc3a9742e44fdfbb308d48462f9949"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/080_segments.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/080_segments.svg",
+      "octets": 2339,
+      "sha256": "21ff1131477d2cd3e9c09c156dc76c2faa9621c0231cb7cd86c548659bd9e8c9"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/081_incident.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/081_incident.png",
+      "octets": 41409,
+      "sha256": "4ab93c775f6c0c2f90665176f778b1303123f17b763cbddbae643d580101de50"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/081_incident.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/081_incident.svg",
+      "octets": 2347,
+      "sha256": "46a786f5a2d2e8158170bf703e66db8c96741ff31b3c482aa9f88ecbfafe53cc"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/082_journal.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/082_journal.png",
+      "octets": 45076,
+      "sha256": "b0dbe15f858de0d3c8814a072457edc76aa99da04d80064817f65e9abe6f1ca2"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/082_journal.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/082_journal.svg",
+      "octets": 3597,
+      "sha256": "d4d032888586c685a6c7fd31b7a1d56b12bd4013cdb39009ef014d24d5191cd3"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/083_defense.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/083_defense.png",
+      "octets": 37007,
+      "sha256": "b3763221d268e555ede80b908f72c462dbdf2a69a9a67d9b08f41365e78eccc6"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/083_defense.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/083_defense.svg",
+      "octets": 2637,
+      "sha256": "53b539b3dbb14f51e430825c332023d3938f19b760657d13132a804af236de25"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/084_checkpoint.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/084_checkpoint.png",
+      "octets": 36191,
+      "sha256": "9a9ebe62e70f193a14c260093ce633439d2d74e4d5853836c1939e003af07669"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/084_checkpoint.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/084_checkpoint.svg",
+      "octets": 2219,
+      "sha256": "aba1f2642d3cede9bf279757d02beac93fe1409e6b26478990d737bf062c727e"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/085_hero.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/085_hero.png",
+      "octets": 150664,
+      "sha256": "24fd999c7ef4cb99d7a7dd8ecfb9b17c200db3ecfffbe296e9cc52442bddde50"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/085_hero.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/085_hero.svg",
+      "octets": 10164,
+      "sha256": "0b779fed3c05c6acfdbb599f5d69d96881fd9c5c095ca7f87773564c866d7def"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/086_casegrid.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/086_casegrid.png",
+      "octets": 43696,
+      "sha256": "3d2e12e7911f638e1d0685db3f36c914c7dd594618580af1b8cec87e32f4079c"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/086_casegrid.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/086_casegrid.svg",
+      "octets": 2385,
+      "sha256": "f31cce3c6227bbf8e1e57f8fac8be36a5b94dde8458ae6fdb3510964ff67c917"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/087_case_foncier.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/087_case_foncier.png",
+      "octets": 49972,
+      "sha256": "f3941b4f3a25258487393b34405b2f7bfc736969e588efd1df011ec228f1fd41"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/087_case_foncier.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/087_case_foncier.svg",
+      "octets": 2759,
+      "sha256": "1d140bc8340e9bc697c871905e9c7c6caab8f905e08744906cfdd0baf3e88bfb"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/088_foncierflow.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/088_foncierflow.png",
+      "octets": 41115,
+      "sha256": "8d68c5728d5307b75a2f5029487da392822c1aa4709a44277278d57380b06488"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/088_foncierflow.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/088_foncierflow.svg",
+      "octets": 2372,
+      "sha256": "e72293b5c9c0320e12b0a5c0e15e338359ba1bbe5291c06e3fa9c26e2003e1d4"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/089_aerial.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/089_aerial.png",
+      "octets": 49367,
+      "sha256": "e6c324b7782220d2d81fc9fcec8fd170a7839541843abb19911cd145e73c422e"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/089_aerial.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/089_aerial.svg",
+      "octets": 3376,
+      "sha256": "373e493b861f50fee062e5220e00cb8013607e9f1790c577966252a3bcc3b5f5"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/090_case_cfvr.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/090_case_cfvr.png",
+      "octets": 45850,
+      "sha256": "ea14510242875469776ed19c0a17f957586774dd6a1cba259cf174af6490f300"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/090_case_cfvr.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/090_case_cfvr.svg",
+      "octets": 2607,
+      "sha256": "e03549083d92a64e31ec77784d4cf1e3817d8c3e1f6696571aa9c2e50ba028d3"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/091_topk.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/091_topk.png",
+      "octets": 57667,
+      "sha256": "3c832fff0ecea0c60d1d14bd40760245349229a6ab8122cc4757640998a37a0b"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/091_topk.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/091_topk.svg",
+      "octets": 10000,
+      "sha256": "00d53a657ea136856cef2ffd270dde43d9cb21dc17b91306573d6c741c4bec15"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/092_stream.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/092_stream.png",
+      "octets": 40378,
+      "sha256": "54b7cabfcdf8ce086f8724d9c25841da0a7554d4887543a96f0e10a1f930a97f"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/092_stream.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/092_stream.svg",
+      "octets": 2779,
+      "sha256": "b415ef1253cbe08b8727af4318b53087ec90262a2d1ce4502a5adb8856032be8"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/093_drift.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/093_drift.png",
+      "octets": 68068,
+      "sha256": "f9fcf1472845427376e8a9f8a9ee4b738da545a0b16f25eba6c895c92c7d15a1"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/093_drift.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/093_drift.svg",
+      "octets": 5273,
+      "sha256": "976a6c0efd4693d057f15c6cd56293ee0b3eb5a29005e2ba5d4f99c6562e36ad"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/094_case_health.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/094_case_health.png",
+      "octets": 46207,
+      "sha256": "020c1f63603352edef973c6918bf964523a79013ea58f47aeb8a6e393af56541"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/094_case_health.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/094_case_health.svg",
+      "octets": 2615,
+      "sha256": "bbbbf196a7bd701411cc7616e1e723bd131e11ada1164169470ce3cbd2eb5f0f"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/095_oct.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/095_oct.png",
+      "octets": 58634,
+      "sha256": "825cc4770700986cb7b02b4d01c18ec4f7bb0d996cbcbd7c80d90b02ab93801a"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/095_oct.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/095_oct.svg",
+      "octets": 8571,
+      "sha256": "54c9e566b568d7def8280c1f6bcbf9a49cb974f11498ee13eb0371de4ea18b3c"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/096_costmatrix.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/096_costmatrix.png",
+      "octets": 53537,
+      "sha256": "2f1c61f297bd808e1429be7ee26b287baacb653c40a149f262c46a882f1d3ec1"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/096_costmatrix.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/096_costmatrix.svg",
+      "octets": 2490,
+      "sha256": "1a6ad63b53e5cc40112f6b5ad6d5dd88eb98ba7bd34bd3fa651e04e2c9bf3eef"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/097_documents.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/097_documents.png",
+      "octets": 45764,
+      "sha256": "a8ed680fcab97f39ad84149307bf417d4836b7d8ec0c7d3e9ed1a6484fd9ab29"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/097_documents.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/097_documents.svg",
+      "octets": 4025,
+      "sha256": "ab2b9108d5b35a2009c551b9e45929a1cce272dd4e8819b25b5c30e10d79a542"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/098_decisiontree.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/098_decisiontree.png",
+      "octets": 44748,
+      "sha256": "5e03529103ff574a2d153f71b96e5f170f3c9b88a04f5f072ba20c5a6ea95ebd"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/098_decisiontree.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/098_decisiontree.svg",
+      "octets": 3192,
+      "sha256": "66c5c21f53f63784a337bd15e61e76ea32d2cf0a654ead91ab20527e9a88b263"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/099_sectors.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/099_sectors.png",
+      "octets": 40185,
+      "sha256": "601dfa0e40c34966fb2590264be626aa19969d4c12ea3987326c89f9364fb1e2"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/099_sectors.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/099_sectors.svg",
+      "octets": 2354,
+      "sha256": "c16b4af5da6a3027fa8a83bbf4440763c35b9c4cd85f0ace1fbbbb13b30cbd01"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/100_governance.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/100_governance.png",
+      "octets": 36075,
+      "sha256": "a170fbb8ea6507465427e7e9da54d41dc92528b688401416da105c0ca9615d9a"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/100_governance.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/100_governance.svg",
+      "octets": 2631,
+      "sha256": "4f021d67fe1808118bfb779f6c5633f4c8f27677088716cd3755991df6d8a04a"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/101_purpose.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/101_purpose.png",
+      "octets": 39851,
+      "sha256": "a7b0bab63984b6d1a5b13698e3d2714f00ce2ff734685c3d283a7c9daacd5ef4"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/101_purpose.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/101_purpose.svg",
+      "octets": 2363,
+      "sha256": "cf97f1e2990a8f71004eea00b092485ff54fb4169f29bce9e00b61961ba7ac73"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/102_humanloop.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/102_humanloop.png",
+      "octets": 59856,
+      "sha256": "1678845064262bf6f9b5ec047d789d86c958c8df25e527de2edbe5f90785ff15"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/102_humanloop.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/102_humanloop.svg",
+      "octets": 3743,
+      "sha256": "b7945c81d3ebf36e51b91ca2a72e2aa8a0e27d2ea73b74ffc97d15e9e5668c8e"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/103_compliance.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/103_compliance.png",
+      "octets": 42786,
+      "sha256": "cd91289170c9c047e69a99e076c6a3b793d253615bcf0b10e123acb9f9a6811b"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/103_compliance.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/103_compliance.svg",
+      "octets": 3080,
+      "sha256": "d0d8f05729d2ac48266aa3ad7cd4049b628e101730d219b70f005448e02f82cd"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/104_cards.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/104_cards.png",
+      "octets": 33248,
+      "sha256": "3edef374b9984c2e1123c8cb590d0e4a07c7391b9f1e7080b059e374180900a6"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/104_cards.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/104_cards.svg",
+      "octets": 2006,
+      "sha256": "050bdc174161c158a78040bed8bd2af3ed32a3b8287ed8691061e63c02375089"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/105_casegrid.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/105_casegrid.png",
+      "octets": 44161,
+      "sha256": "05ad22d69cb481a0d1c8703d1be1537cbf0d5728d31b8298b9818ba7e3f023d5"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/105_casegrid.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/105_casegrid.svg",
+      "octets": 2387,
+      "sha256": "b69040d2abe1a18507011af8894d594a10e1884c1dc6c23f012caae5667b1538"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/106_section.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/106_section.png",
+      "octets": 33966,
+      "sha256": "1078c342f4d3a2e55be0c0f8a8fa9f1b2553baef210404b4a2f7d0693a4ca7de"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/106_section.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/106_section.svg",
+      "octets": 2632,
+      "sha256": "aecb871540bee3540361e8896440714e5909c7155d59d0cdae354ef1f6cc5051"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/107_projecttracks.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/107_projecttracks.png",
+      "octets": 36281,
+      "sha256": "7f80590597d60ffb8ec6ff74f2e6dcadc4e589146c8c24523bc281adeffe2f66"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/107_projecttracks.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/107_projecttracks.svg",
+      "octets": 2209,
+      "sha256": "6b26a8645e374f9d753229247b3806ea1fd3665706b0e838e70e7e1b6cb30000"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/108_digits.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/108_digits.png",
+      "octets": 65312,
+      "sha256": "21f2bacbfefeea6ec62d66335c2ffa184cfd26d2543ab8af80e41fd85ff865f0"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/108_digits.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/108_digits.svg",
+      "octets": 52709,
+      "sha256": "fecf25c0bbefff9993eaf5850875093c95d10c402d57235fd698577cabd9337c"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/109_topk.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/109_topk.png",
+      "octets": 56452,
+      "sha256": "49d051c3579fe067e25800f8fea257c4093b13deb087fefa899f55a1f4d38a13"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/109_topk.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/109_topk.svg",
+      "octets": 9972,
+      "sha256": "109b0452dde20f6f68ca9aeedb9f3a7f80ff2d7e64ae4984a63d055a309ecb79"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/110_window.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/110_window.png",
+      "octets": 60687,
+      "sha256": "01f7c685a3a2c1c9bbe5b19981500013adbd3e1b2f58cff2eefe0197ba0c61a4"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/110_window.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/110_window.svg",
+      "octets": 2461,
+      "sha256": "1a0139fe89e86527fa09ea676824fdfd9621e53e1331695fb823bd2e57139e3a"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/111_documents.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/111_documents.png",
+      "octets": 45142,
+      "sha256": "d3b2ecf313e10bb34c2bee59552a2388e04836f60a393534411d5b274441353b"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/111_documents.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/111_documents.svg",
+      "octets": 4008,
+      "sha256": "b7d06485c133b7acd5fa60d3d8f82e1969d0fec7c69e25ce607ec2e3f4d359ae"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/112_roles.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/112_roles.png",
+      "octets": 34542,
+      "sha256": "535427f49d254898fb4c3e29457334cdb6263fbd3837c0476220a290b78c1585"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/112_roles.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/112_roles.svg",
+      "octets": 2219,
+      "sha256": "68670e3be98a59c3301ccfb167a9897e8f87f1e22df7eba035ea41722953e057"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/113_dataset.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/113_dataset.png",
+      "octets": 40537,
+      "sha256": "f1e866a6dd84f36cdbb98fd6262f6ed80383697c0be1e4af3dd00d6f315aa3dd"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/113_dataset.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/113_dataset.svg",
+      "octets": 2346,
+      "sha256": "6a6008607ac4136889fa8614649cc97a72351bedf93f3041b072bacbb093a251"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/114_baseline.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/114_baseline.png",
+      "octets": 37975,
+      "sha256": "79e4ba1b4afa45e9d67667390b9211e4e5ead651cf055130df08c7ea83105aea"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/114_baseline.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/114_baseline.svg",
+      "octets": 2897,
+      "sha256": "e8351929dbcdd09468aca63867bf1bd81218a4050563d73688530670a0943a87"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/115_metrics.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/115_metrics.png",
+      "octets": 40208,
+      "sha256": "358bee46c9759b0e28f219bcfbb005a22a82107d7c0f1769b1514d92fce3e543"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/115_metrics.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/115_metrics.svg",
+      "octets": 2933,
+      "sha256": "7a92a16defbf4234a5663ced910aada3356942fa0164c6082ce4b23dd950f998"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/116_journal.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/116_journal.png",
+      "octets": 45539,
+      "sha256": "be5836fde28d110a925a8b68b0650e967e9b4eae622f10ab24a82199a16b7240"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/116_journal.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/116_journal.svg",
+      "octets": 3603,
+      "sha256": "7a51675f352a313e713dee51b543fca0666a602c112c929306ac01d5568070ab"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/117_testlock.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/117_testlock.png",
+      "octets": 42751,
+      "sha256": "be6d7c151a637497cb1d860cd9350829037b5b002213adf7be34863dd649736e"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/117_testlock.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/117_testlock.svg",
+      "octets": 1864,
+      "sha256": "8abcc3e8774c2991880bccca6c7a657ba3b2aaeb054818090bf9331519f4e62a"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/118_errors.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/118_errors.png",
+      "octets": 152812,
+      "sha256": "ce1359cf06b4e358ef9ce1d8964b8798c83e569d47caf58287c913bd8056a7d1"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/118_errors.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/118_errors.svg",
+      "octets": 82918,
+      "sha256": "3c6a3472fd35cf149a9413e59f3ed1baf01d190089c26c31c8924823e38643c8"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/119_cards.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/119_cards.png",
+      "octets": 33196,
+      "sha256": "922fe4b82b849a37d2ff3794e7deee9a6e5e1433da09beb646463ec15d2bd0f5"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/119_cards.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/119_cards.svg",
+      "octets": 2005,
+      "sha256": "ff61efc461ee424fab7bc926363824aef84e738dd55933a5fb0486a5cb9febe1"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/120_executive.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/120_executive.png",
+      "octets": 50036,
+      "sha256": "853dfa1ce7a754e427836bc85199f23b8d77c3baa28221fc11670504be7b136b"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/120_executive.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/120_executive.svg",
+      "octets": 2205,
+      "sha256": "fffc6f4749574b42d1f606c3f766de6dabf7cd2c994dbdf82952d84793d2efb1"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/121_rubric.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/121_rubric.png",
+      "octets": 51116,
+      "sha256": "7243347517c7aba59076b7ac69b39c067945e55f967036aca1219bf9e3d1d35c"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/121_rubric.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/121_rubric.svg",
+      "octets": 2835,
+      "sha256": "e749143efb78ad652c05e2ac194ff04cd0ef1cc4a742298d2e08bd167138cbe7"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/122_defense.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/122_defense.png",
+      "octets": 36376,
+      "sha256": "902fa115f7d077392c6a9b860c99eb1cdfbba3c9855bc31e77d7480e2b2ffa72"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/122_defense.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/122_defense.svg",
+      "octets": 2632,
+      "sha256": "b91d7c21d1f76c9840116020f7808b324f8dc765349baf06aecdcd018c7eb5db"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/123_quiz.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/123_quiz.png",
+      "octets": 48798,
+      "sha256": "59f14e1d7f6e27abe793add87923d2d3aa398f1272c7beaccd3dc9e510bb0607"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/123_quiz.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/123_quiz.svg",
+      "octets": 3607,
+      "sha256": "42fd818136e33b5bfb86d95ee3e7d553ac64bebf951b03a236fc230f2b0aec8f"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/124_incident.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/124_incident.png",
+      "octets": 42168,
+      "sha256": "7e6d7edc9117868217af2868da57379a575a3e33b4152d6f20f029c5d3b815c2"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/124_incident.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/124_incident.svg",
+      "octets": 2359,
+      "sha256": "78fabbacd777086749a5849202ec75ecb0fc3572f4a91fb4cb4f5c553f707a06"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/125_deployment.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/125_deployment.png",
+      "octets": 38206,
+      "sha256": "67241374bc1ca7b57de415052ef94e2ce1db169cd384f94926abaa72916967cc"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/125_deployment.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/125_deployment.svg",
+      "octets": 2782,
+      "sha256": "d3857e6dfb19ceb8a8fa9187599ab45aab6408c3b849ac09fcda8b63cfe52dac"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/126_resources.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/126_resources.png",
+      "octets": 41745,
+      "sha256": "f0307a935f3d6541546027d15a8ffc557d0855ed2b885292f5c7d3713c5d198c"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/126_resources.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/126_resources.svg",
+      "octets": 2922,
+      "sha256": "05623652c4655fc6da978fa5c22e003a87a56040e6f919ed2f0551407e26406d"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/DOC_007.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/DOC_007.png",
+      "octets": 58999,
+      "sha256": "f0eac42ec966d8388980f30f1866f89d64c5f2ae8ef1cb371b91bc294ffdb2d9"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/DOC_007.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/DOC_007.svg",
+      "octets": 16752,
+      "sha256": "d597fa78a428df6da2f66d3e6bcb2ac3629a9e2f6a2bb3398e0cf46b6d3a36d9"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/DOC_017.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/DOC_017.png",
+      "octets": 47653,
+      "sha256": "56231e28559d0ec57b733688d11ce3eea456c24b80da3b3dae7ee77c66bd6c89"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/DOC_017.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/DOC_017.svg",
+      "octets": 5531,
+      "sha256": "9061df9f4dab9ff0324f67fff629bff857ec32c50bd2c28bbdf7d41df9ff46b9"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/DOC_027.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/DOC_027.png",
+      "octets": 75672,
+      "sha256": "7d36c9bfe93d4477d5cfe36984cf322b340e033a8daffc642ae0cf6bc6d57a4b"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/DOC_027.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/DOC_027.svg",
+      "octets": 13720,
+      "sha256": "ac69a27a854be77295fc7ca1fc5a80c791714b1d08c71dbdc2566d642216f41e"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/DOC_028.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/DOC_028.png",
+      "octets": 37824,
+      "sha256": "494f8d8427b5307e84baa8eb3165c8e6e8b6d0c54f53c033cbd17f12be5e0841"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/DOC_028.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/DOC_028.svg",
+      "octets": 2173,
+      "sha256": "89a872e6d4bdbd52341dddcf03bf073ffbbf40eed39488c128ac333b1564e9d8"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/DOC_030.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/DOC_030.png",
+      "octets": 80060,
+      "sha256": "991a5c5aabaa8f1f2d5e862b2673ce1faa70bdad21a54132fbae5f48f08774ee"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/DOC_030.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/DOC_030.svg",
+      "octets": 7664,
+      "sha256": "3b5999cc59aa4f9b2dfe0834c2d00d721a9b3ee07b2b5c92770e8637e8472007"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/DOC_040.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/DOC_040.png",
+      "octets": 45053,
+      "sha256": "088342e605c708cd8d46e9d38536c04e91bccd1f88117f7e9f1e8174683611b1"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/DOC_040.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/DOC_040.svg",
+      "octets": 1747,
+      "sha256": "a92dfb724b3d11b11ad7a060f384bef22209c5f5a70dfacfb4bfe1a331fb0c95"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/DOC_044.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/DOC_044.png",
+      "octets": 121348,
+      "sha256": "797a6c516e40c65d9c8e2998a6b7ee021ec05eabe23c1c37ff0db2449f96f7ab"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/DOC_044.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/DOC_044.svg",
+      "octets": 15408,
+      "sha256": "837d6737ca0b3feb0213afcbf33272578ebd4517739efb27153c8897ca858f8e"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/DOC_051.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/DOC_051.png",
+      "octets": 45970,
+      "sha256": "464e6a7dc2c6e9fab738bf8df329361a8f30068161127c611d93b6c2b7d20e2f"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/DOC_051.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/DOC_051.svg",
+      "octets": 1758,
+      "sha256": "08490ea6474e12e77abd4e93b188ca8f73a9a2146bbd10035f7b6e1c3e69b745"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/DOC_053.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/DOC_053.png",
+      "octets": 52339,
+      "sha256": "940a14bc8f380bcc33a1b23baa7ba8090c7af3d706be967535e04b3335297ff6"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/DOC_053.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/DOC_053.svg",
+      "octets": 2392,
+      "sha256": "42402a113fee895e5225c935cb81c0a93158fb250b0b357e3fe9299187a82f92"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/DOC_055.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/DOC_055.png",
+      "octets": 47499,
+      "sha256": "cdb748e7a8a42e22113a6c5ef50fc5c79ab2ebb5471a6a0fd644e3b563ee2717"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/DOC_055.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/DOC_055.svg",
+      "octets": 3833,
+      "sha256": "83989426268db9370965cdd97fb9297f56fca4d4c066b9b736943b58cf14b2a8"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/DOC_057.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/DOC_057.png",
+      "octets": 42297,
+      "sha256": "6792fca3eb19716650f492a36f3dc52aa58d526d9be00121edb7dbd92c6cd0c9"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/DOC_057.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/DOC_057.svg",
+      "octets": 2148,
+      "sha256": "ae0dde0f0dad63e6837cc29f38f92766ae3128e86a55f2b0a3e6af41f60ccf22"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/DOC_059.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/DOC_059.png",
+      "octets": 49569,
+      "sha256": "c00acb164f1d6f8786770d2b80eafc2d8c5992986f60fbac2b37a898aa41847e"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/DOC_059.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/DOC_059.svg",
+      "octets": 1703,
+      "sha256": "8165ea2703d44845950fb374c66b0e80a44a0616986e748fe23065151bba3687"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/DOC_060.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/DOC_060.png",
+      "octets": 47025,
+      "sha256": "14d9856bd80707a09288ef2ebdffcbb874142d165b739fb6bffeb17adddc4a9f"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/DOC_060.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/DOC_060.svg",
+      "octets": 2336,
+      "sha256": "7bd2c16bde1790b3e814e9cf9bbda97bf47af96734fcf748c50f128beea211db"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/DOC_061.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/DOC_061.png",
+      "octets": 44104,
+      "sha256": "99ab4514d2a97621839f68d3dd5e600b0a7862016b1132f2c88724c366d37522"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/DOC_061.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/DOC_061.svg",
+      "octets": 4989,
+      "sha256": "5dabee4ca6f5fada51bf155903e999a131266e7ed2861c1e4ea8ffd18ab914f0"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/DOC_062.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/DOC_062.png",
+      "octets": 54024,
+      "sha256": "8eae3894f85bdce10a32b2da0516a9bcc12bbe5c4730024e09dc5159984c19b0"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/DOC_062.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/DOC_062.svg",
+      "octets": 2427,
+      "sha256": "e696f3a71c82953ee68dffb2c0a67458c8194479844068eb302012428ffe0171"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/DOC_063.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/DOC_063.png",
+      "octets": 54722,
+      "sha256": "c6c438e6bfec0c219547d18793c15cf6536fcd72a85e143986a15968a674dca7"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/DOC_063.svg",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/DOC_063.svg",
+      "octets": 3913,
+      "sha256": "8d2e003fc3dc15ca712b61b192ef8ddeb6f0bdf5b80bef4b2326d5dc05601df3"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/LISEZ_MOI.md",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/LISEZ_MOI.md",
+      "octets": 492,
+      "sha256": "157e0e59f5411d12c933906492c167b9c371fc5be21962c9c7c180969914263b"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/05_Illustrations/detail_reseau_imagegen.png",
+      "fichier_archive_finale": "deep_learning_4_024/05_Illustrations/detail_reseau_imagegen.png",
+      "octets": 47614,
+      "sha256": "252363f055ad87ae093a0f8bdcb37b2bafee2ffa189ea217aebcc80b149bb908"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/06_Qualite/RAPPORT_QUALITE.md",
+      "fichier_archive_finale": "deep_learning_4_024/06_Qualite/RAPPORT_QUALITE.md",
+      "octets": 2013,
+      "sha256": "6bfcb3d66809adcb02a0dc65d8fb51706a839808f5c71ef85cb594bd428b855b"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/06_Qualite/controle_geometrie_pdf.json",
+      "fichier_archive_finale": "deep_learning_4_024/06_Qualite/controle_geometrie_pdf.json",
+      "octets": 1126,
+      "sha256": "064b9e678f420d40fac8ec9f7f49741b7482b574c87700e679d2ba30d69e0d3f"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/06_Qualite/controle_livrables.json",
+      "fichier_archive_finale": "deep_learning_4_024/06_Qualite/controle_livrables.json",
+      "octets": 2095,
+      "sha256": "77213c1b8bfc47a4a62b9bd7e038d46459240a76803fbdae30a6f0fa4afd2b94"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/06_Qualite/integrite_fichiers_initiaux.json",
+      "fichier_archive_finale": "deep_learning_4_024/06_Qualite/integrite_fichiers_initiaux.json",
+      "octets": 4453,
+      "sha256": "f989fe3f3b607f0b482cba61f0ec5e900c7b1a7cdac5bc7fd4ea37b69a9dc9d4"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/06_Qualite/recette_exports.json",
+      "fichier_archive_finale": "deep_learning_4_024/06_Qualite/recette_exports.json",
+      "octets": 528,
+      "sha256": "61898a79b70ee32689f0cc5b8dfef03970778e92d7dc8772e25ab911ecd13594"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/06_Qualite/recette_notebooks.json",
+      "fichier_archive_finale": "deep_learning_4_024/06_Qualite/recette_notebooks.json",
+      "octets": 1855,
+      "sha256": "4f1dd30acbff03c9395a2fb2e76ef8b4dffb4525b4ab58fcf944506a9c727f33"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/08_Sources_editables/Choix_figures_dossier.json",
+      "fichier_archive_finale": "deep_learning_4_024/08_Sources_editables/Choix_figures_dossier.json",
+      "octets": 2165,
+      "sha256": "1d59c9eaea16168ca52e82feba16188698e836dd6d7c7ec4d4d045a5dac4b40a"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/08_Sources_editables/Correspondance_illustrations.json",
+      "fichier_archive_finale": "deep_learning_4_024/08_Sources_editables/Correspondance_illustrations.json",
+      "octets": 27265,
+      "sha256": "e5488c85a50232fe92d6fcfa7f7e78c83218660b589a81ed9393d76205e75f5a"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/08_Sources_editables/Dossier_original_fourni.txt",
+      "fichier_archive_finale": "deep_learning_4_024/08_Sources_editables/Dossier_original_fourni.txt",
+      "octets": 88499,
+      "sha256": "8d1a7e9dcc7b999a25697fbc70b25e6983d203013624f21973d221d05eac5ddd"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/08_Sources_editables/conducteur.json",
+      "fichier_archive_finale": "deep_learning_4_024/08_Sources_editables/conducteur.json",
+      "octets": 9470,
+      "sha256": "d6c5c77b682934c35bca17cba3f83f6a31d99eca135c78a8178d385e769a45f2"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/08_Sources_editables/production/LISEZ_MOI.md",
+      "fichier_archive_finale": "deep_learning_4_024/08_Sources_editables/production/LISEZ_MOI.md",
+      "octets": 792,
+      "sha256": "b80ab769ea12e5c3e3271645b0b418d72b34d65ed4f9777517a2d893d564a70e"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/08_Sources_editables/production/build_decks.py",
+      "fichier_archive_finale": "deep_learning_4_024/08_Sources_editables/production/build_decks.py",
+      "octets": 5727,
+      "sha256": "f360e1ecf8df3c4ca85a03f5bc54e3cd320b2d1c8d949a64f8d83c148c76b33c"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/08_Sources_editables/production/build_doc_figures.py",
+      "fichier_archive_finale": "deep_learning_4_024/08_Sources_editables/production/build_doc_figures.py",
+      "octets": 11117,
+      "sha256": "4dc0cdbd3257f311fc291e0d7034f51e539b40987b1de1ace761bbb5c4aa5051"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/08_Sources_editables/production/build_docs.py",
+      "fichier_archive_finale": "deep_learning_4_024/08_Sources_editables/production/build_docs.py",
+      "octets": 29917,
+      "sha256": "13002a7fc07317ab26a95ed9d9efc5979e0bd6e2bba3e047b55844ea12ab3447"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/08_Sources_editables/production/build_visuals.py",
+      "fichier_archive_finale": "deep_learning_4_024/08_Sources_editables/production/build_visuals.py",
+      "octets": 30035,
+      "sha256": "cbb9e3a15337580b1140712ab006252fd7f41926d8951e40ddd3d806cb308f6a"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/08_Sources_editables/references.json",
+      "fichier_archive_finale": "deep_learning_4_024/08_Sources_editables/references.json",
+      "octets": 9230,
+      "sha256": "a9358ce09f57c31d8334c0283043c8ad9647b1f7b33ad238efc7dc5a6960a115"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/08_Sources_editables/slides.json",
+      "fichier_archive_finale": "deep_learning_4_024/08_Sources_editables/slides.json",
+      "octets": 314119,
+      "sha256": "102ea89fff2ef87d228adfc5b2d0401b1045d3a22da426c703bdadc8acc9b28f"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/MANIFESTE_SHA256.json",
+      "fichier_archive_finale": "deep_learning_4_024/09_Originaux_et_apercus/Artefacts_techniques/MANIFESTE_SHA256_archive_precedente.json",
+      "octets": 67478,
+      "sha256": "662d43134a06494f2a70e4ca8857238ec3c91d361ff152afc30f0b21a1446480"
+    },
+    {
+      "source": "Formation_4_024_supports_et_TP.zip :: deep_learning_4_024/README.md",
+      "fichier_archive_finale": "deep_learning_4_024/README.md",
+      "octets": 2547,
+      "sha256": "d62a630aba60f445f01ce8996f133c6a57fc9d5774749818620276179668d8e0"
+    },
+    {
+      "source": "deep_learning_4_024_github.zip :: deep_learning_4_024/03_Travaux_pratiques/INDEX_TP.json",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/INDEX_TP.json",
+      "octets": 1982,
+      "sha256": "3fd0b44c4d0658389625aba89ff7937f243331f8036333a18d44fe9eb9eee8e0"
+    },
+    {
+      "source": "deep_learning_4_024_github.zip :: deep_learning_4_024/03_Travaux_pratiques/apprenants/00_Vérifier_son_environnement.ipynb",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/apprenants/00_Vérifier_son_environnement.ipynb",
+      "octets": 7369,
+      "sha256": "38ae016e77b339f963c56799c252dc8f581bde9fa1c008cbd04612fe75130a43"
+    },
+    {
+      "source": "deep_learning_4_024_github.zip :: deep_learning_4_024/03_Travaux_pratiques/apprenants/01_Tenseurs__gradients_et_taux_d_apprentissage.ipynb",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/apprenants/01_Tenseurs__gradients_et_taux_d_apprentissage.ipynb",
+      "octets": 6343,
+      "sha256": "6392de7802fd6a05a488c2b98d89b37113d2eb7926199eb5d8b097712fea96a9"
+    },
+    {
+      "source": "deep_learning_4_024_github.zip :: deep_learning_4_024/03_Travaux_pratiques/apprenants/02_Premier_pipeline_tabulaire__PyTorch_et_Keras.ipynb",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/apprenants/02_Premier_pipeline_tabulaire__PyTorch_et_Keras.ipynb",
+      "octets": 9611,
+      "sha256": "7c5d0d445050add36a67d92bb628d727796f6e5909ea8852ff2a537e8e258c5e"
+    },
+    {
+      "source": "deep_learning_4_024_github.zip :: deep_learning_4_024/03_Travaux_pratiques/apprenants/03_Métriques__calibration_et_seuils.ipynb",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/apprenants/03_Métriques__calibration_et_seuils.ipynb",
+      "octets": 7207,
+      "sha256": "799e45e3b353ccea8a4fe1ce6dcfc20b3e0d3e099755ff9151e778992104521c"
+    },
+    {
+      "source": "deep_learning_4_024_github.zip :: deep_learning_4_024/03_Travaux_pratiques/apprenants/04_CNN___classer_des_images_et_examiner_les_erreurs.ipynb",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/apprenants/04_CNN___classer_des_images_et_examiner_les_erreurs.ipynb",
+      "octets": 8261,
+      "sha256": "338779bf42ec9e80ea970521d35f85011053f77eb8d662033c54b2a5a7a597b2"
+    },
+    {
+      "source": "deep_learning_4_024_github.zip :: deep_learning_4_024/03_Travaux_pratiques/apprenants/05_Diagnostic_et_régularisation.ipynb",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/apprenants/05_Diagnostic_et_régularisation.ipynb",
+      "octets": 7278,
+      "sha256": "d78d129b9c6480635b90b48787a1b71d026df3f10efea7a772046cb8b852146f"
+    },
+    {
+      "source": "deep_learning_4_024_github.zip :: deep_learning_4_024/03_Travaux_pratiques/apprenants/06_LSTM_et_prévision_à_un_pas.ipynb",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/apprenants/06_LSTM_et_prévision_à_un_pas.ipynb",
+      "octets": 6113,
+      "sha256": "2ca5fb0de9063f0706fd84bee9b1d79b0141f3c8f84cf1dddf30a8709a351c90"
+    },
+    {
+      "source": "deep_learning_4_024_github.zip :: deep_learning_4_024/03_Travaux_pratiques/apprenants/07_Transfert_et_ajustement_fin_hors_ligne.ipynb",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/apprenants/07_Transfert_et_ajustement_fin_hors_ligne.ipynb",
+      "octets": 6655,
+      "sha256": "677b7135c92ddcd568ebeed6d50000cc933872044c4c5c1df9bc9c0ef343a8fd"
+    },
+    {
+      "source": "deep_learning_4_024_github.zip :: deep_learning_4_024/03_Travaux_pratiques/apprenants/08_Déboguer_cinq_incidents.ipynb",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/apprenants/08_Déboguer_cinq_incidents.ipynb",
+      "octets": 6765,
+      "sha256": "55c6d35bffd54f06e2892f8ccaac6866fe40d080fd3d8434600c8acc2875ad42"
+    },
+    {
+      "source": "deep_learning_4_024_github.zip :: deep_learning_4_024/03_Travaux_pratiques/apprenants/09_Priorisation_sous_capacité_et_dérive.ipynb",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/apprenants/09_Priorisation_sous_capacité_et_dérive.ipynb",
+      "octets": 6359,
+      "sha256": "50826177d8491d8be00aee01374f18f9e500ed0018ae51732d414a3bf35df10e"
+    },
+    {
+      "source": "deep_learning_4_024_github.zip :: deep_learning_4_024/03_Travaux_pratiques/apprenants/10_Projet_final___un_prototype_défendable.ipynb",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/apprenants/10_Projet_final___un_prototype_défendable.ipynb",
+      "octets": 7742,
+      "sha256": "b316354c03893952372e87850cf8169a71bb5a25f67888c130fe648b90a04904"
+    },
+    {
+      "source": "deep_learning_4_024_github.zip :: deep_learning_4_024/03_Travaux_pratiques/corriges/00_Vérifier_son_environnement.ipynb",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/corriges/00_Vérifier_son_environnement.ipynb",
+      "octets": 10380,
+      "sha256": "de530014d231c8b9cc39183c3bd1149b2751377f6d1687b378e63fda6e9f4299"
+    },
+    {
+      "source": "deep_learning_4_024_github.zip :: deep_learning_4_024/03_Travaux_pratiques/corriges/01_Tenseurs__gradients_et_taux_d_apprentissage.ipynb",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/corriges/01_Tenseurs__gradients_et_taux_d_apprentissage.ipynb",
+      "octets": 9874,
+      "sha256": "9467e80dbb7fdc6bca466d4ada4efb2b7c3f93331c0390d05eb4bee33328bcc9"
+    },
+    {
+      "source": "deep_learning_4_024_github.zip :: deep_learning_4_024/03_Travaux_pratiques/corriges/02_Premier_pipeline_tabulaire__PyTorch_et_Keras.ipynb",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/corriges/02_Premier_pipeline_tabulaire__PyTorch_et_Keras.ipynb",
+      "octets": 11823,
+      "sha256": "46cbc6fe39f1d28a9ecb0b30d2900a97adfc241b309ea9d272ef54a4bd2b4818"
+    },
+    {
+      "source": "deep_learning_4_024_github.zip :: deep_learning_4_024/03_Travaux_pratiques/corriges/03_Métriques__calibration_et_seuils.ipynb",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/corriges/03_Métriques__calibration_et_seuils.ipynb",
+      "octets": 10631,
+      "sha256": "d663fe9f64d05977b283e8910c6b38d1d78fee96f8edeed8672fbf9e073784bd"
+    },
+    {
+      "source": "deep_learning_4_024_github.zip :: deep_learning_4_024/03_Travaux_pratiques/corriges/04_CNN___classer_des_images_et_examiner_les_erreurs.ipynb",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/corriges/04_CNN___classer_des_images_et_examiner_les_erreurs.ipynb",
+      "octets": 12486,
+      "sha256": "aa8fdecaa17e47a96643501a7986afed690d83b0518c0caf83468ebbd0d37513"
+    },
+    {
+      "source": "deep_learning_4_024_github.zip :: deep_learning_4_024/03_Travaux_pratiques/corriges/05_Diagnostic_et_régularisation.ipynb",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/corriges/05_Diagnostic_et_régularisation.ipynb",
+      "octets": 10545,
+      "sha256": "39883e0a12f0a19a825ca7de08ca352967f5ae0812ade8c9803ebc57541ebb76"
+    },
+    {
+      "source": "deep_learning_4_024_github.zip :: deep_learning_4_024/03_Travaux_pratiques/corriges/06_LSTM_et_prévision_à_un_pas.ipynb",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/corriges/06_LSTM_et_prévision_à_un_pas.ipynb",
+      "octets": 9129,
+      "sha256": "0897d2954b7df1dbcae686c5ec62a79a40c86ae702e8b4304fba966949bcdec8"
+    },
+    {
+      "source": "deep_learning_4_024_github.zip :: deep_learning_4_024/03_Travaux_pratiques/corriges/07_Transfert_et_ajustement_fin_hors_ligne.ipynb",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/corriges/07_Transfert_et_ajustement_fin_hors_ligne.ipynb",
+      "octets": 9680,
+      "sha256": "0b3b920dfddb439d1a5acdad43f1dedeeabc140bf4360f9a3157c2b61ec311a6"
+    },
+    {
+      "source": "deep_learning_4_024_github.zip :: deep_learning_4_024/03_Travaux_pratiques/corriges/08_Déboguer_cinq_incidents.ipynb",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/corriges/08_Déboguer_cinq_incidents.ipynb",
+      "octets": 10363,
+      "sha256": "004450a759a119bb4616b1cd52de6edfc3cb085e4c7a4e79fdf8f3b613a86d8d"
+    },
+    {
+      "source": "deep_learning_4_024_github.zip :: deep_learning_4_024/03_Travaux_pratiques/corriges/09_Priorisation_sous_capacité_et_dérive.ipynb",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/corriges/09_Priorisation_sous_capacité_et_dérive.ipynb",
+      "octets": 9446,
+      "sha256": "70ae94459e5c798262830d1454123da108752e8a4dcad20a605087d3c9c1ab87"
+    },
+    {
+      "source": "deep_learning_4_024_github.zip :: deep_learning_4_024/03_Travaux_pratiques/corriges/10_Projet_final___un_prototype_défendable.ipynb",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/corriges/10_Projet_final___un_prototype_défendable.ipynb",
+      "octets": 15085,
+      "sha256": "8d37a83bf30dc23fbcacc57d84982acf9d048082c5235fd8a846ee456a64830c"
+    },
+    {
+      "source": "deep_learning_4_024_github.zip :: deep_learning_4_024/03_Travaux_pratiques/donnees/FICHES_DONNEES.json",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/donnees/FICHES_DONNEES.json",
+      "octets": 2069,
+      "sha256": "9bc0979123ecabea0233ff7f5830f64f7224d677e58bae4ccbc15f41c4e721c2"
+    },
+    {
+      "source": "deep_learning_4_024_github.zip :: deep_learning_4_024/03_Travaux_pratiques/donnees/chiffres_8x8.npz",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/donnees/chiffres_8x8.npz",
+      "octets": 74509,
+      "sha256": "5a1c8cf11d09908fbcb31a33be43b372686a59d40e87a23fa0fbbcfb3c32f1e7"
+    },
+    {
+      "source": "deep_learning_4_024_github.zip :: deep_learning_4_024/03_Travaux_pratiques/donnees/documents_synthetiques.csv",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/donnees/documents_synthetiques.csv",
+      "octets": 39480,
+      "sha256": "7fa43fc8cf8e60bb90250fb8f1f9961ecef0d4694a2ec1ae8e18f1c76bb35115"
+    },
+    {
+      "source": "deep_learning_4_024_github.zip :: deep_learning_4_024/03_Travaux_pratiques/donnees/dossiers_synthetiques.csv",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/donnees/dossiers_synthetiques.csv",
+      "octets": 491435,
+      "sha256": "4c8a848757025c7cbb45da2e73582850c51334766ed5697053cf8f40ef240f66"
+    },
+    {
+      "source": "deep_learning_4_024_github.zip :: deep_learning_4_024/03_Travaux_pratiques/donnees/priorisation_rare.csv",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/donnees/priorisation_rare.csv",
+      "octets": 1023160,
+      "sha256": "5d2c6fc4642ec3aeeb0d64384f37b8ff9ddc0ddfd05cee11aeea6281cf2b5f1d"
+    },
+    {
+      "source": "deep_learning_4_024_github.zip :: deep_learning_4_024/03_Travaux_pratiques/donnees/serie_synthetique.csv",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/donnees/serie_synthetique.csv",
+      "octets": 29684,
+      "sha256": "3cb2cc6ebe29ee956ed9065eeface2820464769e41a4691ca47681e8eb53a9bf"
+    },
+    {
+      "source": "deep_learning_4_024_github.zip :: deep_learning_4_024/03_Travaux_pratiques/modules/atelier.py",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/modules/atelier.py",
+      "octets": 13031,
+      "sha256": "c4990eabe16c1e006890d324aa7ed48dfd30d0081dcf88c5f93881365c6d312d"
+    },
+    {
+      "source": "deep_learning_4_024_github.zip :: deep_learning_4_024/08_Sources_editables/conducteur.json",
+      "fichier_archive_finale": "deep_learning_4_024/08_Sources_editables/conducteur.json",
+      "octets": 9470,
+      "sha256": "d6c5c77b682934c35bca17cba3f83f6a31d99eca135c78a8178d385e769a45f2"
+    },
+    {
+      "source": "deep_learning_4_024_github.zip :: deep_learning_4_024/08_Sources_editables/references.json",
+      "fichier_archive_finale": "deep_learning_4_024/08_Sources_editables/references.json",
+      "octets": 9230,
+      "sha256": "a9358ce09f57c31d8334c0283043c8ad9647b1f7b33ad238efc7dc5a6960a115"
+    },
+    {
+      "source": "deep_learning_4_024_github.zip :: deep_learning_4_024/08_Sources_editables/slides.json",
+      "fichier_archive_finale": "deep_learning_4_024/08_Sources_editables/slides.json",
+      "octets": 314119,
+      "sha256": "102ea89fff2ef87d228adfc5b2d0401b1045d3a22da426c703bdadc8acc9b28f"
+    },
+    {
+      "source": "fichier séparé :: deep_learning_4_024/01_Presentations/Formation_4_024_126_diapos.pdf",
+      "fichier_archive_finale": "deep_learning_4_024/01_Presentations/Formation_4_024_126_diapos.pdf",
+      "octets": 5841270,
+      "sha256": "5fabc175d0f25701ae88d2dafca2bc407671a39e52cff62d478583d19b488620"
+    },
+    {
+      "source": "fichier séparé :: deep_learning_4_024/01_Presentations/Formation_4_024_126_diapos.pptx",
+      "fichier_archive_finale": "deep_learning_4_024/01_Presentations/Formation_4_024_126_diapos.pptx",
+      "octets": 6111448,
+      "sha256": "cdf18f008eabc08cdaf9565ab5f884424cb0b1ddd2d69e4a96348f72e046213c"
+    },
+    {
+      "source": "fichier séparé :: deep_learning_4_024/01_Presentations/Jour_1_Fondamentaux_et_premiers_modeles.pdf",
+      "fichier_archive_finale": "deep_learning_4_024/01_Presentations/Jour_1_Fondamentaux_et_premiers_modeles.pdf",
+      "octets": 2368795,
+      "sha256": "84ca8ba8d6c859fc33d2fc7fff297663612991f91a6500e96865b6f7ce4ec9e6"
+    },
+    {
+      "source": "fichier séparé :: deep_learning_4_024/01_Presentations/Jour_1_Fondamentaux_et_premiers_modeles.pptx",
+      "fichier_archive_finale": "deep_learning_4_024/01_Presentations/Jour_1_Fondamentaux_et_premiers_modeles.pptx",
+      "octets": 2122775,
+      "sha256": "3dbca60091741a46668c900de326ef155c7713e67d486d54316c4fecd88011b9"
+    },
+    {
+      "source": "fichier séparé :: deep_learning_4_024/01_Presentations/Jour_2_CNN_LSTM_et_diagnostic.pdf",
+      "fichier_archive_finale": "deep_learning_4_024/01_Presentations/Jour_2_CNN_LSTM_et_diagnostic.pdf",
+      "octets": 2607395,
+      "sha256": "1e7534763d6b51aab13314b57defe1d6190eff537ee4d6aa7f9901cab7435fad"
+    },
+    {
+      "source": "fichier séparé :: deep_learning_4_024/01_Presentations/Jour_2_CNN_LSTM_et_diagnostic.pptx",
+      "fichier_archive_finale": "deep_learning_4_024/01_Presentations/Jour_2_CNN_LSTM_et_diagnostic.pptx",
+      "octets": 2409633,
+      "sha256": "d7ef3a55464042dc7f22962a96b2789ddb642fef8e1c1c19dab694604272bef0"
+    },
+    {
+      "source": "fichier séparé :: deep_learning_4_024/01_Presentations/Jour_3_Cas_metiers_et_projet.pdf",
+      "fichier_archive_finale": "deep_learning_4_024/01_Presentations/Jour_3_Cas_metiers_et_projet.pdf",
+      "octets": 2443128,
+      "sha256": "29e6fa1c64e7aa6f17e0e5e44ef58f91e60e010c063e8b4ad6586ed4979ca989"
+    },
+    {
+      "source": "fichier séparé :: deep_learning_4_024/01_Presentations/Jour_3_Cas_metiers_et_projet.pptx",
+      "fichier_archive_finale": "deep_learning_4_024/01_Presentations/Jour_3_Cas_metiers_et_projet.pptx",
+      "octets": 2178997,
+      "sha256": "45017c4910e92915401fbc5f7c076c62ffb9ea4d3324e6b97f019c980d31db10"
+    },
+    {
+      "source": "fichier séparé :: deep_learning_4_024/02_Documents/Cahier_participant_TP_et_projet.docx",
+      "fichier_archive_finale": "deep_learning_4_024/02_Documents/Cahier_participant_TP_et_projet.docx",
+      "octets": 198213,
+      "sha256": "a1390968ec8bcb5ca5fc4bf10eecd0d9afd439c9cce413c222e8d8ad4b8a6a1f"
+    },
+    {
+      "source": "fichier séparé :: deep_learning_4_024/02_Documents/Cahier_participant_TP_et_projet.pdf",
+      "fichier_archive_finale": "deep_learning_4_024/02_Documents/Cahier_participant_TP_et_projet.pdf",
+      "octets": 386042,
+      "sha256": "53246578c8b3cdec4b377cfaccb19c7d86b576de6a25dd6fb856d82b88853e00"
+    },
+    {
+      "source": "fichier séparé :: deep_learning_4_024/02_Documents/Dossier_pedagogique_4_024.docx",
+      "fichier_archive_finale": "deep_learning_4_024/02_Documents/Dossier_pedagogique_4_024.docx",
+      "octets": 3250311,
+      "sha256": "4c003d5da876cacaf73f7ab6372a14aa653353a8a850c35dddaa56fbe670e055"
+    },
+    {
+      "source": "fichier séparé :: deep_learning_4_024/02_Documents/Dossier_pedagogique_4_024.pdf",
+      "fichier_archive_finale": "deep_learning_4_024/02_Documents/Dossier_pedagogique_4_024.pdf",
+      "octets": 3585254,
+      "sha256": "3315fb8379157148f3fbec3d917612a35c5f6d0487986f4e8839f20839e241b5"
+    },
+    {
+      "source": "fichier séparé :: deep_learning_4_024/02_Documents/Guide_formateur_126_diapos.docx",
+      "fichier_archive_finale": "deep_learning_4_024/02_Documents/Guide_formateur_126_diapos.docx",
+      "octets": 224598,
+      "sha256": "35eb35483cee8a20fee665843e45a500ab6b5fdc2beff7f7118211e65ef2ceae"
+    },
+    {
+      "source": "fichier séparé :: deep_learning_4_024/02_Documents/Guide_formateur_126_diapos.pdf",
+      "fichier_archive_finale": "deep_learning_4_024/02_Documents/Guide_formateur_126_diapos.pdf",
+      "octets": 682845,
+      "sha256": "756bc3e590da4bea79b75f8de2e713c25fe61e3240455465c21302b3896b1170"
+    },
+    {
+      "source": "fichier séparé :: deep_learning_4_024/03_Travaux_pratiques/INDEX_TP.json",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/INDEX_TP.json",
+      "octets": 1982,
+      "sha256": "3fd0b44c4d0658389625aba89ff7937f243331f8036333a18d44fe9eb9eee8e0"
+    },
+    {
+      "source": "fichier séparé :: deep_learning_4_024/03_Travaux_pratiques/apprenants/00_Vérifier_son_environnement.ipynb",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/apprenants/00_Vérifier_son_environnement.ipynb",
+      "octets": 7369,
+      "sha256": "38ae016e77b339f963c56799c252dc8f581bde9fa1c008cbd04612fe75130a43"
+    },
+    {
+      "source": "fichier séparé :: deep_learning_4_024/03_Travaux_pratiques/apprenants/01_Tenseurs__gradients_et_taux_d_apprentissage.ipynb",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/apprenants/01_Tenseurs__gradients_et_taux_d_apprentissage.ipynb",
+      "octets": 6343,
+      "sha256": "6392de7802fd6a05a488c2b98d89b37113d2eb7926199eb5d8b097712fea96a9"
+    },
+    {
+      "source": "fichier séparé :: deep_learning_4_024/03_Travaux_pratiques/apprenants/02_Premier_pipeline_tabulaire__PyTorch_et_Keras.ipynb",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/apprenants/02_Premier_pipeline_tabulaire__PyTorch_et_Keras.ipynb",
+      "octets": 9611,
+      "sha256": "7c5d0d445050add36a67d92bb628d727796f6e5909ea8852ff2a537e8e258c5e"
+    },
+    {
+      "source": "fichier séparé :: deep_learning_4_024/03_Travaux_pratiques/apprenants/03_Métriques__calibration_et_seuils.ipynb",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/apprenants/03_Métriques__calibration_et_seuils.ipynb",
+      "octets": 7207,
+      "sha256": "799e45e3b353ccea8a4fe1ce6dcfc20b3e0d3e099755ff9151e778992104521c"
+    },
+    {
+      "source": "fichier séparé :: deep_learning_4_024/03_Travaux_pratiques/apprenants/04_CNN___classer_des_images_et_examiner_les_erreurs.ipynb",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/apprenants/04_CNN___classer_des_images_et_examiner_les_erreurs.ipynb",
+      "octets": 8261,
+      "sha256": "338779bf42ec9e80ea970521d35f85011053f77eb8d662033c54b2a5a7a597b2"
+    },
+    {
+      "source": "fichier séparé :: deep_learning_4_024/03_Travaux_pratiques/apprenants/05_Diagnostic_et_régularisation.ipynb",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/apprenants/05_Diagnostic_et_régularisation.ipynb",
+      "octets": 7278,
+      "sha256": "d78d129b9c6480635b90b48787a1b71d026df3f10efea7a772046cb8b852146f"
+    },
+    {
+      "source": "fichier séparé :: deep_learning_4_024/03_Travaux_pratiques/apprenants/06_LSTM_et_prévision_à_un_pas.ipynb",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/apprenants/06_LSTM_et_prévision_à_un_pas.ipynb",
+      "octets": 6113,
+      "sha256": "2ca5fb0de9063f0706fd84bee9b1d79b0141f3c8f84cf1dddf30a8709a351c90"
+    },
+    {
+      "source": "fichier séparé :: deep_learning_4_024/03_Travaux_pratiques/apprenants/07_Transfert_et_ajustement_fin_hors_ligne.ipynb",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/apprenants/07_Transfert_et_ajustement_fin_hors_ligne.ipynb",
+      "octets": 6655,
+      "sha256": "677b7135c92ddcd568ebeed6d50000cc933872044c4c5c1df9bc9c0ef343a8fd"
+    },
+    {
+      "source": "fichier séparé :: deep_learning_4_024/03_Travaux_pratiques/apprenants/08_Déboguer_cinq_incidents.ipynb",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/apprenants/08_Déboguer_cinq_incidents.ipynb",
+      "octets": 6765,
+      "sha256": "55c6d35bffd54f06e2892f8ccaac6866fe40d080fd3d8434600c8acc2875ad42"
+    },
+    {
+      "source": "fichier séparé :: deep_learning_4_024/03_Travaux_pratiques/apprenants/09_Priorisation_sous_capacité_et_dérive.ipynb",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/apprenants/09_Priorisation_sous_capacité_et_dérive.ipynb",
+      "octets": 6359,
+      "sha256": "50826177d8491d8be00aee01374f18f9e500ed0018ae51732d414a3bf35df10e"
+    },
+    {
+      "source": "fichier séparé :: deep_learning_4_024/03_Travaux_pratiques/apprenants/10_Projet_final___un_prototype_défendable.ipynb",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/apprenants/10_Projet_final___un_prototype_défendable.ipynb",
+      "octets": 7742,
+      "sha256": "b316354c03893952372e87850cf8169a71bb5a25f67888c130fe648b90a04904"
+    },
+    {
+      "source": "fichier séparé :: deep_learning_4_024/03_Travaux_pratiques/corriges/00_Vérifier_son_environnement.ipynb",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/corriges/00_Vérifier_son_environnement.ipynb",
+      "octets": 10380,
+      "sha256": "de530014d231c8b9cc39183c3bd1149b2751377f6d1687b378e63fda6e9f4299"
+    },
+    {
+      "source": "fichier séparé :: deep_learning_4_024/03_Travaux_pratiques/corriges/01_Tenseurs__gradients_et_taux_d_apprentissage.ipynb",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/corriges/01_Tenseurs__gradients_et_taux_d_apprentissage.ipynb",
+      "octets": 9874,
+      "sha256": "9467e80dbb7fdc6bca466d4ada4efb2b7c3f93331c0390d05eb4bee33328bcc9"
+    },
+    {
+      "source": "fichier séparé :: deep_learning_4_024/03_Travaux_pratiques/corriges/02_Premier_pipeline_tabulaire__PyTorch_et_Keras.ipynb",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/corriges/02_Premier_pipeline_tabulaire__PyTorch_et_Keras.ipynb",
+      "octets": 11823,
+      "sha256": "46cbc6fe39f1d28a9ecb0b30d2900a97adfc241b309ea9d272ef54a4bd2b4818"
+    },
+    {
+      "source": "fichier séparé :: deep_learning_4_024/03_Travaux_pratiques/corriges/03_Métriques__calibration_et_seuils.ipynb",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/corriges/03_Métriques__calibration_et_seuils.ipynb",
+      "octets": 10631,
+      "sha256": "d663fe9f64d05977b283e8910c6b38d1d78fee96f8edeed8672fbf9e073784bd"
+    },
+    {
+      "source": "fichier séparé :: deep_learning_4_024/03_Travaux_pratiques/corriges/04_CNN___classer_des_images_et_examiner_les_erreurs.ipynb",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/corriges/04_CNN___classer_des_images_et_examiner_les_erreurs.ipynb",
+      "octets": 12486,
+      "sha256": "aa8fdecaa17e47a96643501a7986afed690d83b0518c0caf83468ebbd0d37513"
+    },
+    {
+      "source": "fichier séparé :: deep_learning_4_024/03_Travaux_pratiques/corriges/05_Diagnostic_et_régularisation.ipynb",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/corriges/05_Diagnostic_et_régularisation.ipynb",
+      "octets": 10545,
+      "sha256": "39883e0a12f0a19a825ca7de08ca352967f5ae0812ade8c9803ebc57541ebb76"
+    },
+    {
+      "source": "fichier séparé :: deep_learning_4_024/03_Travaux_pratiques/corriges/06_LSTM_et_prévision_à_un_pas.ipynb",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/corriges/06_LSTM_et_prévision_à_un_pas.ipynb",
+      "octets": 9129,
+      "sha256": "0897d2954b7df1dbcae686c5ec62a79a40c86ae702e8b4304fba966949bcdec8"
+    },
+    {
+      "source": "fichier séparé :: deep_learning_4_024/03_Travaux_pratiques/corriges/07_Transfert_et_ajustement_fin_hors_ligne.ipynb",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/corriges/07_Transfert_et_ajustement_fin_hors_ligne.ipynb",
+      "octets": 9680,
+      "sha256": "0b3b920dfddb439d1a5acdad43f1dedeeabc140bf4360f9a3157c2b61ec311a6"
+    },
+    {
+      "source": "fichier séparé :: deep_learning_4_024/03_Travaux_pratiques/corriges/08_Déboguer_cinq_incidents.ipynb",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/corriges/08_Déboguer_cinq_incidents.ipynb",
+      "octets": 10363,
+      "sha256": "004450a759a119bb4616b1cd52de6edfc3cb085e4c7a4e79fdf8f3b613a86d8d"
+    },
+    {
+      "source": "fichier séparé :: deep_learning_4_024/03_Travaux_pratiques/corriges/09_Priorisation_sous_capacité_et_dérive.ipynb",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/corriges/09_Priorisation_sous_capacité_et_dérive.ipynb",
+      "octets": 9446,
+      "sha256": "70ae94459e5c798262830d1454123da108752e8a4dcad20a605087d3c9c1ab87"
+    },
+    {
+      "source": "fichier séparé :: deep_learning_4_024/03_Travaux_pratiques/corriges/10_Projet_final___un_prototype_défendable.ipynb",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/corriges/10_Projet_final___un_prototype_défendable.ipynb",
+      "octets": 15085,
+      "sha256": "8d37a83bf30dc23fbcacc57d84982acf9d048082c5235fd8a846ee456a64830c"
+    },
+    {
+      "source": "fichier séparé :: deep_learning_4_024/03_Travaux_pratiques/donnees/FICHES_DONNEES.json",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/donnees/FICHES_DONNEES.json",
+      "octets": 2069,
+      "sha256": "9bc0979123ecabea0233ff7f5830f64f7224d677e58bae4ccbc15f41c4e721c2"
+    },
+    {
+      "source": "fichier séparé :: deep_learning_4_024/03_Travaux_pratiques/donnees/chiffres_8x8.npz",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/donnees/chiffres_8x8.npz",
+      "octets": 74509,
+      "sha256": "5a1c8cf11d09908fbcb31a33be43b372686a59d40e87a23fa0fbbcfb3c32f1e7"
+    },
+    {
+      "source": "fichier séparé :: deep_learning_4_024/03_Travaux_pratiques/donnees/documents_synthetiques.csv",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/donnees/documents_synthetiques.csv",
+      "octets": 39480,
+      "sha256": "7fa43fc8cf8e60bb90250fb8f1f9961ecef0d4694a2ec1ae8e18f1c76bb35115"
+    },
+    {
+      "source": "fichier séparé :: deep_learning_4_024/03_Travaux_pratiques/donnees/dossiers_synthetiques.csv",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/donnees/dossiers_synthetiques.csv",
+      "octets": 491435,
+      "sha256": "4c8a848757025c7cbb45da2e73582850c51334766ed5697053cf8f40ef240f66"
+    },
+    {
+      "source": "fichier séparé :: deep_learning_4_024/03_Travaux_pratiques/donnees/priorisation_rare.csv",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/donnees/priorisation_rare.csv",
+      "octets": 1023160,
+      "sha256": "5d2c6fc4642ec3aeeb0d64384f37b8ff9ddc0ddfd05cee11aeea6281cf2b5f1d"
+    },
+    {
+      "source": "fichier séparé :: deep_learning_4_024/03_Travaux_pratiques/donnees/serie_synthetique.csv",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/donnees/serie_synthetique.csv",
+      "octets": 29684,
+      "sha256": "3cb2cc6ebe29ee956ed9065eeface2820464769e41a4691ca47681e8eb53a9bf"
+    },
+    {
+      "source": "fichier séparé :: deep_learning_4_024/03_Travaux_pratiques/modules/atelier.py",
+      "fichier_archive_finale": "deep_learning_4_024/03_Travaux_pratiques/modules/atelier.py",
+      "octets": 13031,
+      "sha256": "c4990eabe16c1e006890d324aa7ed48dfd30d0081dcf88c5f93881365c6d312d"
+    },
+    {
+      "source": "fichier séparé :: deep_learning_4_024/06_Qualite/RAPPORT_QUALITE.md",
+      "fichier_archive_finale": "deep_learning_4_024/06_Qualite/RAPPORT_QUALITE.md",
+      "octets": 2013,
+      "sha256": "6bfcb3d66809adcb02a0dc65d8fb51706a839808f5c71ef85cb594bd428b855b"
+    },
+    {
+      "source": "fichier séparé :: deep_learning_4_024/08_Sources_editables/conducteur.json",
+      "fichier_archive_finale": "deep_learning_4_024/08_Sources_editables/conducteur.json",
+      "octets": 9470,
+      "sha256": "d6c5c77b682934c35bca17cba3f83f6a31d99eca135c78a8178d385e769a45f2"
+    },
+    {
+      "source": "fichier séparé :: deep_learning_4_024/08_Sources_editables/references.json",
+      "fichier_archive_finale": "deep_learning_4_024/08_Sources_editables/references.json",
+      "octets": 9230,
+      "sha256": "a9358ce09f57c31d8334c0283043c8ad9647b1f7b33ad238efc7dc5a6960a115"
+    },
+    {
+      "source": "fichier séparé :: deep_learning_4_024/08_Sources_editables/slides.json",
+      "fichier_archive_finale": "deep_learning_4_024/08_Sources_editables/slides.json",
+      "octets": 314119,
+      "sha256": "102ea89fff2ef87d228adfc5b2d0401b1045d3a22da426c703bdadc8acc9b28f"
+    },
+    {
+      "source": "pièce jointe séparée :: Pasted text(2).txt",
+      "fichier_archive_finale": "deep_learning_4_024/09_Originaux_et_apercus/Source_utilisateur/Pasted text(2).txt",
+      "octets": 88499,
+      "sha256": "8d1a7e9dcc7b999a25697fbc70b25e6983d203013624f21973d221d05eac5ddd"
+    },
+    {
+      "source": "pièce jointe séparée :: a_clean_infographic_slide_like_promotional_layou.png",
+      "fichier_archive_finale": "deep_learning_4_024/09_Originaux_et_apercus/Illustration_presentation_anterieure.png",
+      "octets": 1861242,
+      "sha256": "dec1f32df6a7ed8a4e2bdbcae59d06e921c49b828e3c87dd1f5adab58b922599"
+    },
+    {
+      "source": "pièce jointe séparée :: Dossier_pedagogique_illustre_4_024_001.jpg",
+      "fichier_archive_finale": "deep_learning_4_024/09_Originaux_et_apercus/Apercus/Dossier_pedagogique_illustre_4_024_001.jpg",
+      "octets": 470129,
+      "sha256": "f2ef61e12e21c2a7c8d6767b70e75472d3158966e823db12a4d59c17b2ed3e8d"
+    },
+    {
+      "source": "pièce jointe séparée :: Dossier_pedagogique_illustre_4_024_009.jpg",
+      "fichier_archive_finale": "deep_learning_4_024/09_Originaux_et_apercus/Apercus/Dossier_pedagogique_illustre_4_024_009.jpg",
+      "octets": 486459,
+      "sha256": "a973f5c8d7852de1ae2a4b92ddfc20e6bc7908d8fb7e5615e9a472452629c17e"
+    },
+    {
+      "source": "pièce jointe séparée :: slides_001.jpg",
+      "fichier_archive_finale": "deep_learning_4_024/09_Originaux_et_apercus/Apercus/slides_001.jpg",
+      "octets": 318673,
+      "sha256": "533df3dc4ba04d1b0457f4f708cc9e139789fac90e6f0dd8e77de5205b9bcf6e"
+    },
+    {
+      "source": "pièce jointe séparée :: slides_046.jpg",
+      "fichier_archive_finale": "deep_learning_4_024/09_Originaux_et_apercus/Apercus/slides_046.jpg",
+      "octets": 322781,
+      "sha256": "4356c8992ae24811fed6dfe22e1ade424a73afbd06a9b814fe70dbe8806bf342"
+    }
+  ],
+  "comptes_par_extension_avant_ajout_inventaires": {
+    ".csv": 5,
+    ".docx": 5,
+    ".ipynb": 33,
+    ".jpg": 4,
+    ".json": 24,
+    ".keras": 1,
+    ".md": 5,
+    ".npz": 2,
+    ".pdf": 9,
+    ".pdf#": 1,
+    ".png": 162,
+    ".pptx": 4,
+    ".pt": 3,
+    ".py": 5,
+    ".svg": 142,
+    ".txt": 3
+  },
+  "controles_structurels": [
+    {
+      "fichier": "deep_learning_4_024/01_Presentations/Formation_4_024_126_diapos.pdf",
+      "ouverture_pdf": "OK",
+      "pages": 126
+    },
+    {
+      "fichier": "deep_learning_4_024/01_Presentations/Formation_4_024_126_diapos.pptx",
+      "integrite_interne": "OK",
+      "diapositives": 126,
+      "notes_orateur": 126
+    },
+    {
+      "fichier": "deep_learning_4_024/01_Presentations/Jour_1_Fondamentaux_et_premiers_modeles.pdf",
+      "ouverture_pdf": "OK",
+      "pages": 42
+    },
+    {
+      "fichier": "deep_learning_4_024/01_Presentations/Jour_1_Fondamentaux_et_premiers_modeles.pptx",
+      "integrite_interne": "OK",
+      "diapositives": 42,
+      "notes_orateur": 42
+    },
+    {
+      "fichier": "deep_learning_4_024/01_Presentations/Jour_2_CNN_LSTM_et_diagnostic.pdf",
+      "ouverture_pdf": "OK",
+      "pages": 42
+    },
+    {
+      "fichier": "deep_learning_4_024/01_Presentations/Jour_2_CNN_LSTM_et_diagnostic.pptx",
+      "integrite_interne": "OK",
+      "diapositives": 42,
+      "notes_orateur": 42
+    },
+    {
+      "fichier": "deep_learning_4_024/01_Presentations/Jour_3_Cas_metiers_et_projet.pdf",
+      "ouverture_pdf": "OK",
+      "pages": 42
+    },
+    {
+      "fichier": "deep_learning_4_024/01_Presentations/Jour_3_Cas_metiers_et_projet.pptx",
+      "integrite_interne": "OK",
+      "diapositives": 42,
+      "notes_orateur": 42
+    },
+    {
+      "fichier": "deep_learning_4_024/02_Documents/Cahier_participant_TP_et_projet.docx",
+      "integrite_interne": "OK"
+    },
+    {
+      "fichier": "deep_learning_4_024/02_Documents/Cahier_participant_TP_et_projet.pdf",
+      "ouverture_pdf": "OK",
+      "pages": 26
+    },
+    {
+      "fichier": "deep_learning_4_024/02_Documents/Dossier_pedagogique_4_024.docx",
+      "integrite_interne": "OK"
+    },
+    {
+      "fichier": "deep_learning_4_024/02_Documents/Dossier_pedagogique_4_024.pdf",
+      "ouverture_pdf": "OK",
+      "pages": 56
+    },
+    {
+      "fichier": "deep_learning_4_024/02_Documents/Guide_formateur_126_diapos.docx",
+      "integrite_interne": "OK"
+    },
+    {
+      "fichier": "deep_learning_4_024/02_Documents/Guide_formateur_126_diapos.pdf",
+      "ouverture_pdf": "OK",
+      "pages": 46
+    },
+    {
+      "fichier": "deep_learning_4_024/03_Travaux_pratiques/apprenants/00_Vérifier_son_environnement.ipynb",
+      "structure_notebook": "OK",
+      "cellules": 11
+    },
+    {
+      "fichier": "deep_learning_4_024/03_Travaux_pratiques/apprenants/01_Tenseurs__gradients_et_taux_d_apprentissage.ipynb",
+      "structure_notebook": "OK",
+      "cellules": 11
+    },
+    {
+      "fichier": "deep_learning_4_024/03_Travaux_pratiques/apprenants/02_Premier_pipeline_tabulaire__PyTorch_et_Keras.ipynb",
+      "structure_notebook": "OK",
+      "cellules": 15
+    },
+    {
+      "fichier": "deep_learning_4_024/03_Travaux_pratiques/apprenants/03_Métriques__calibration_et_seuils.ipynb",
+      "structure_notebook": "OK",
+      "cellules": 11
+    },
+    {
+      "fichier": "deep_learning_4_024/03_Travaux_pratiques/apprenants/04_CNN___classer_des_images_et_examiner_les_erreurs.ipynb",
+      "structure_notebook": "OK",
+      "cellules": 13
+    },
+    {
+      "fichier": "deep_learning_4_024/03_Travaux_pratiques/apprenants/05_Diagnostic_et_régularisation.ipynb",
+      "structure_notebook": "OK",
+      "cellules": 11
+    },
+    {
+      "fichier": "deep_learning_4_024/03_Travaux_pratiques/apprenants/06_LSTM_et_prévision_à_un_pas.ipynb",
+      "structure_notebook": "OK",
+      "cellules": 9
+    },
+    {
+      "fichier": "deep_learning_4_024/03_Travaux_pratiques/apprenants/07_Transfert_et_ajustement_fin_hors_ligne.ipynb",
+      "structure_notebook": "OK",
+      "cellules": 9
+    },
+    {
+      "fichier": "deep_learning_4_024/03_Travaux_pratiques/apprenants/08_Déboguer_cinq_incidents.ipynb",
+      "structure_notebook": "OK",
+      "cellules": 11
+    },
+    {
+      "fichier": "deep_learning_4_024/03_Travaux_pratiques/apprenants/09_Priorisation_sous_capacité_et_dérive.ipynb",
+      "structure_notebook": "OK",
+      "cellules": 9
+    },
+    {
+      "fichier": "deep_learning_4_024/03_Travaux_pratiques/apprenants/10_Projet_final___un_prototype_défendable.ipynb",
+      "structure_notebook": "OK",
+      "cellules": 10
+    },
+    {
+      "fichier": "deep_learning_4_024/03_Travaux_pratiques/corriges/00_Vérifier_son_environnement.ipynb",
+      "structure_notebook": "OK",
+      "cellules": 11
+    },
+    {
+      "fichier": "deep_learning_4_024/03_Travaux_pratiques/corriges/01_Tenseurs__gradients_et_taux_d_apprentissage.ipynb",
+      "structure_notebook": "OK",
+      "cellules": 11
+    },
+    {
+      "fichier": "deep_learning_4_024/03_Travaux_pratiques/corriges/02_Premier_pipeline_tabulaire__PyTorch_et_Keras.ipynb",
+      "structure_notebook": "OK",
+      "cellules": 15
+    },
+    {
+      "fichier": "deep_learning_4_024/03_Travaux_pratiques/corriges/03_Métriques__calibration_et_seuils.ipynb",
+      "structure_notebook": "OK",
+      "cellules": 11
+    },
+    {
+      "fichier": "deep_learning_4_024/03_Travaux_pratiques/corriges/04_CNN___classer_des_images_et_examiner_les_erreurs.ipynb",
+      "structure_notebook": "OK",
+      "cellules": 13
+    },
+    {
+      "fichier": "deep_learning_4_024/03_Travaux_pratiques/corriges/05_Diagnostic_et_régularisation.ipynb",
+      "structure_notebook": "OK",
+      "cellules": 11
+    },
+    {
+      "fichier": "deep_learning_4_024/03_Travaux_pratiques/corriges/06_LSTM_et_prévision_à_un_pas.ipynb",
+      "structure_notebook": "OK",
+      "cellules": 9
+    },
+    {
+      "fichier": "deep_learning_4_024/03_Travaux_pratiques/corriges/07_Transfert_et_ajustement_fin_hors_ligne.ipynb",
+      "structure_notebook": "OK",
+      "cellules": 9
+    },
+    {
+      "fichier": "deep_learning_4_024/03_Travaux_pratiques/corriges/08_Déboguer_cinq_incidents.ipynb",
+      "structure_notebook": "OK",
+      "cellules": 11
+    },
+    {
+      "fichier": "deep_learning_4_024/03_Travaux_pratiques/corriges/09_Priorisation_sous_capacité_et_dérive.ipynb",
+      "structure_notebook": "OK",
+      "cellules": 9
+    },
+    {
+      "fichier": "deep_learning_4_024/03_Travaux_pratiques/corriges/10_Projet_final___un_prototype_défendable.ipynb",
+      "structure_notebook": "OK",
+      "cellules": 10
+    },
+    {
+      "fichier": "deep_learning_4_024/03_Travaux_pratiques/corriges_executes/00_Vérifier_son_environnement.ipynb",
+      "structure_notebook": "OK",
+      "cellules": 11
+    },
+    {
+      "fichier": "deep_learning_4_024/03_Travaux_pratiques/corriges_executes/01_Tenseurs__gradients_et_taux_d_apprentissage.ipynb",
+      "structure_notebook": "OK",
+      "cellules": 11
+    },
+    {
+      "fichier": "deep_learning_4_024/03_Travaux_pratiques/corriges_executes/02_Premier_pipeline_tabulaire__PyTorch_et_Keras.ipynb",
+      "structure_notebook": "OK",
+      "cellules": 15
+    },
+    {
+      "fichier": "deep_learning_4_024/03_Travaux_pratiques/corriges_executes/03_Métriques__calibration_et_seuils.ipynb",
+      "structure_notebook": "OK",
+      "cellules": 11
+    },
+    {
+      "fichier": "deep_learning_4_024/03_Travaux_pratiques/corriges_executes/04_CNN___classer_des_images_et_examiner_les_erreurs.ipynb",
+      "structure_notebook": "OK",
+      "cellules": 13
+    },
+    {
+      "fichier": "deep_learning_4_024/03_Travaux_pratiques/corriges_executes/05_Diagnostic_et_régularisation.ipynb",
+      "structure_notebook": "OK",
+      "cellules": 11
+    },
+    {
+      "fichier": "deep_learning_4_024/03_Travaux_pratiques/corriges_executes/06_LSTM_et_prévision_à_un_pas.ipynb",
+      "structure_notebook": "OK",
+      "cellules": 9
+    },
+    {
+      "fichier": "deep_learning_4_024/03_Travaux_pratiques/corriges_executes/07_Transfert_et_ajustement_fin_hors_ligne.ipynb",
+      "structure_notebook": "OK",
+      "cellules": 9
+    },
+    {
+      "fichier": "deep_learning_4_024/03_Travaux_pratiques/corriges_executes/08_Déboguer_cinq_incidents.ipynb",
+      "structure_notebook": "OK",
+      "cellules": 11
+    },
+    {
+      "fichier": "deep_learning_4_024/03_Travaux_pratiques/corriges_executes/09_Priorisation_sous_capacité_et_dérive.ipynb",
+      "structure_notebook": "OK",
+      "cellules": 9
+    },
+    {
+      "fichier": "deep_learning_4_024/03_Travaux_pratiques/corriges_executes/10_Projet_final___un_prototype_défendable.ipynb",
+      "structure_notebook": "OK",
+      "cellules": 10
+    },
+    {
+      "fichier": "deep_learning_4_024/04_Evaluations/Evaluations_et_corriges.docx",
+      "integrite_interne": "OK"
+    },
+    {
+      "fichier": "deep_learning_4_024/04_Evaluations/Evaluations_et_corriges.pdf",
+      "ouverture_pdf": "OK",
+      "pages": 6
+    },
+    {
+      "fichier": "deep_learning_4_024/04_Evaluations/Evaluations_participant.docx",
+      "integrite_interne": "OK"
+    },
+    {
+      "fichier": "deep_learning_4_024/04_Evaluations/Evaluations_participant.pdf",
+      "ouverture_pdf": "OK",
+      "pages": 5
+    }
+  ],
+  "limites": [
+    "Pas de nouvelle exécution des notebooks dans ce regroupement.",
+    "Pas de modification des documents ou de leur contenu pédagogique.",
+    "Pas de nouvelle vérification visuelle page par page.",
+    "Le rapport qualité antérieur est conservé avec ses limites, notamment TensorFlow."
+  ]
+}

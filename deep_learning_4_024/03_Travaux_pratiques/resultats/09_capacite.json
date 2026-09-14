@@ -1,0 +1,54 @@
+{
+  "validation": [
+    {
+      "modele": "logistique",
+      "seuil": 0.5,
+      "exactitude": 0.9826666666666667,
+      "precision": 1.0,
+      "rappel": 0.35,
+      "f1": 0.5185185185185185,
+      "roc_auc": 0.89,
+      "precision_moyenne_AP": 0.6364794325447037,
+      "brier": 0.014992293791729198,
+      "alertes": 7,
+      "k": 30,
+      "cas_pertinents": 12,
+      "precision_a_k": 0.4,
+      "rappel_a_k": 0.6
+    },
+    {
+      "modele": "arbres",
+      "seuil": 0.5,
+      "exactitude": 0.988,
+      "precision": 1.0,
+      "rappel": 0.55,
+      "f1": 0.7096774193548387,
+      "roc_auc": 0.9543835616438356,
+      "precision_moyenne_AP": 0.8377954265289429,
+      "brier": 0.011209564901760283,
+      "alertes": 11,
+      "k": 30,
+      "cas_pertinents": 16,
+      "precision_a_k": 0.5333333333333333,
+      "rappel_a_k": 0.8
+    },
+    {
+      "modele": "MLP",
+      "seuil": 0.5,
+      "exactitude": 0.9866666666666667,
+      "precision": 0.9166666666666666,
+      "rappel": 0.55,
+      "f1": 0.6875,
+      "roc_auc": 0.9415068493150685,
+      "precision_moyenne_AP": 0.8050151448262255,
+      "brier": 0.009406212717294693,
+      "alertes": 12,
+      "k": 30,
+      "cas_pertinents": 16,
+      "precision_a_k": 0.5333333333333333,
+      "rappel_a_k": 0.8
+    }
+  ],
+  "choix": "arbres",
+  "test_ouvert": false
+}

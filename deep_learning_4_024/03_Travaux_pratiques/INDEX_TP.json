@@ -1,0 +1,79 @@
+[
+  {
+    "id": "00",
+    "titre": "Vérifier son environnement",
+    "fichier": "00_Vérifier_son_environnement.ipynb",
+    "cellules": 11,
+    "exercices": 1
+  },
+  {
+    "id": "01",
+    "titre": "Tenseurs, gradients et taux d’apprentissage",
+    "fichier": "01_Tenseurs__gradients_et_taux_d_apprentissage.ipynb",
+    "cellules": 11,
+    "exercices": 2
+  },
+  {
+    "id": "02",
+    "titre": "Premier pipeline tabulaire, PyTorch et Keras",
+    "fichier": "02_Premier_pipeline_tabulaire__PyTorch_et_Keras.ipynb",
+    "cellules": 15,
+    "exercices": 3
+  },
+  {
+    "id": "03",
+    "titre": "Métriques, calibration et seuils",
+    "fichier": "03_Métriques__calibration_et_seuils.ipynb",
+    "cellules": 11,
+    "exercices": 2
+  },
+  {
+    "id": "04",
+    "titre": "CNN : classer des images et examiner les erreurs",
+    "fichier": "04_CNN___classer_des_images_et_examiner_les_erreurs.ipynb",
+    "cellules": 13,
+    "exercices": 2
+  },
+  {
+    "id": "05",
+    "titre": "Diagnostic et régularisation",
+    "fichier": "05_Diagnostic_et_régularisation.ipynb",
+    "cellules": 11,
+    "exercices": 1
+  },
+  {
+    "id": "06",
+    "titre": "LSTM et prévision à un pas",
+    "fichier": "06_LSTM_et_prévision_à_un_pas.ipynb",
+    "cellules": 9,
+    "exercices": 2
+  },
+  {
+    "id": "07",
+    "titre": "Transfert et ajustement fin hors ligne",
+    "fichier": "07_Transfert_et_ajustement_fin_hors_ligne.ipynb",
+    "cellules": 9,
+    "exercices": 2
+  },
+  {
+    "id": "08",
+    "titre": "Déboguer cinq incidents",
+    "fichier": "08_Déboguer_cinq_incidents.ipynb",
+    "cellules": 11,
+    "exercices": 2
+  },
+  {
+    "id": "09",
+    "titre": "Priorisation sous capacité et dérive",
+    "fichier": "09_Priorisation_sous_capacité_et_dérive.ipynb",
+    "cellules": 9,
+    "exercices": 1
+  },
+  {
+    "id": "10",
+    "titre": "Projet final : un prototype défendable",
+    "fichier": "10_Projet_final___un_prototype_défendable.ipynb",
+    "cellules": 10,
+    "exercices": 2
+  }
+]

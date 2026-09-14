@@ -1,0 +1,59 @@
+FORMATION 4-024 : TOUT RÉCUPÉRER
+Intelligence artificielle : Deep Learning par la pratique
+
+Cette archive unique regroupe tous les fichiers des deux archives précédentes,
+tous les supports livrés séparément et les pièces jointes disponibles de cette
+conversation. Les doublons strictement identiques ne sont pas multipliés.
+Les deux anciennes archives ont été intégralement décompressées et intégrées :
+il n'est pas nécessaire de récupérer ou d'ouvrir un autre ZIP.
+
+OUVRIR EN PREMIER
+01_Presentations/Formation_4_024_126_diapos.pptx
+01_Presentations/Formation_4_024_126_diapos.pdf
+02_Documents/Dossier_pedagogique_4_024.pdf
+02_Documents/Guide_formateur_126_diapos.pdf
+02_Documents/Cahier_participant_TP_et_projet.pdf
+
+CONTENU
+01_Presentations : présentation intégrale et trois présentations journalières,
+chacune en PowerPoint et PDF. Notes orateur intégrées aux PowerPoint.
+02_Documents : dossier pédagogique, guide formateur et cahier participant,
+chacun en Word et PDF.
+03_Travaux_pratiques : 11 notebooks apprenants, 11 corrigés, 11 copies exécutées,
+jeux de données, module Python, dépendances, résultats et modèles sauvegardés.
+04_Evaluations : versions participant et formateur, Word, PDF et source JSON.
+05_Illustrations : illustrations et schémas, fichiers PNG et SVG.
+06_Qualite : rapports de recette précédents et contrôle du regroupement actuel.
+08_Sources_editables : textes sources, contenu des diapositives, conducteur,
+bibliographie, correspondance des illustrations et scripts de production.
+09_Originaux_et_apercus : pièce source sous son nom initial, image de présentation
+antérieure, quatre aperçus et artefacts techniques conservés.
+
+REPÈRES VÉRIFIÉS DANS LES FICHIERS
+4 PowerPoint : 126 diapositives au total, également réparties en 3 fichiers de 42.
+5 Word : 3 documents pédagogiques et 2 documents d'évaluation.
+9 PDF : 4 présentations et 5 documents.
+33 notebooks : 11 apprenants, 11 corrigés, 11 corrigés exécutés.
+Le dossier pédagogique PDF a 56 pages ; le guide formateur 46 pages ;
+le cahier participant 26 pages ; les évaluations formateur et participant
+6 et 5 pages respectivement.
+
+CONSERVATION ET CONTRÔLES
+Le contenu des supports n'a pas été modifié pendant ce regroupement.
+Le fichier de verrouillage temporaire et l'ancien manifeste ont été conservés
+sous 09_Originaux_et_apercus/Artefacts_techniques pour ne pas gêner l'ouverture.
+INVENTAIRE_COMPLET.csv donne la liste des fichiers et leurs empreintes SHA-256.
+MANIFESTE_SHA256.json fournit les mêmes empreintes sous forme structurée.
+Le contrôle d'intégrité de l'archive finale et la comparaison des empreintes
+ont été effectués après écriture du ZIP.
+
+PORTÉE
+Les contrôles de ce regroupement portent sur l'exhaustivité récupérable,
+l'intégrité des fichiers, les structures Office et Notebook et l'ouverture PDF.
+Ils ne constituent pas une nouvelle validation pédagogique ou une nouvelle
+exécution des TP. Les limites de recette antérieures sont conservées dans
+06_Qualite/RAPPORT_QUALITE.md, dont la branche TensorFlow non exécutée.
+L'image de présentation antérieure est conservée comme pièce historique :
+les quantités imprimées dans cette image, notamment « 786 pages », ne sont pas
+l'inventaire contractuel du kit. Les comptes réels sont indiqués ci-dessus.
+Aucune opération GitHub n'est nécessaire pour ouvrir les supports.

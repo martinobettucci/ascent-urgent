@@ -1,0 +1,134 @@
+[
+  {
+    "fichier": "deep_learning_4_024/03_Travaux_pratiques/INDEX_TP.json",
+    "identique": true
+  },
+  {
+    "fichier": "deep_learning_4_024/03_Travaux_pratiques/apprenants/00_Vérifier_son_environnement.ipynb",
+    "identique": true
+  },
+  {
+    "fichier": "deep_learning_4_024/03_Travaux_pratiques/apprenants/01_Tenseurs__gradients_et_taux_d_apprentissage.ipynb",
+    "identique": true
+  },
+  {
+    "fichier": "deep_learning_4_024/03_Travaux_pratiques/apprenants/02_Premier_pipeline_tabulaire__PyTorch_et_Keras.ipynb",
+    "identique": true
+  },
+  {
+    "fichier": "deep_learning_4_024/03_Travaux_pratiques/apprenants/03_Métriques__calibration_et_seuils.ipynb",
+    "identique": true
+  },
+  {
+    "fichier": "deep_learning_4_024/03_Travaux_pratiques/apprenants/04_CNN___classer_des_images_et_examiner_les_erreurs.ipynb",
+    "identique": true
+  },
+  {
+    "fichier": "deep_learning_4_024/03_Travaux_pratiques/apprenants/05_Diagnostic_et_régularisation.ipynb",
+    "identique": true
+  },
+  {
+    "fichier": "deep_learning_4_024/03_Travaux_pratiques/apprenants/06_LSTM_et_prévision_à_un_pas.ipynb",
+    "identique": true
+  },
+  {
+    "fichier": "deep_learning_4_024/03_Travaux_pratiques/apprenants/07_Transfert_et_ajustement_fin_hors_ligne.ipynb",
+    "identique": true
+  },
+  {
+    "fichier": "deep_learning_4_024/03_Travaux_pratiques/apprenants/08_Déboguer_cinq_incidents.ipynb",
+    "identique": true
+  },
+  {
+    "fichier": "deep_learning_4_024/03_Travaux_pratiques/apprenants/09_Priorisation_sous_capacité_et_dérive.ipynb",
+    "identique": true
+  },
+  {
+    "fichier": "deep_learning_4_024/03_Travaux_pratiques/apprenants/10_Projet_final___un_prototype_défendable.ipynb",
+    "identique": true
+  },
+  {
+    "fichier": "deep_learning_4_024/03_Travaux_pratiques/corriges/00_Vérifier_son_environnement.ipynb",
+    "identique": true
+  },
+  {
+    "fichier": "deep_learning_4_024/03_Travaux_pratiques/corriges/01_Tenseurs__gradients_et_taux_d_apprentissage.ipynb",
+    "identique": true
+  },
+  {
+    "fichier": "deep_learning_4_024/03_Travaux_pratiques/corriges/02_Premier_pipeline_tabulaire__PyTorch_et_Keras.ipynb",
+    "identique": true
+  },
+  {
+    "fichier": "deep_learning_4_024/03_Travaux_pratiques/corriges/03_Métriques__calibration_et_seuils.ipynb",
+    "identique": true
+  },
+  {
+    "fichier": "deep_learning_4_024/03_Travaux_pratiques/corriges/04_CNN___classer_des_images_et_examiner_les_erreurs.ipynb",
+    "identique": true
+  },
+  {
+    "fichier": "deep_learning_4_024/03_Travaux_pratiques/corriges/05_Diagnostic_et_régularisation.ipynb",
+    "identique": true
+  },
+  {
+    "fichier": "deep_learning_4_024/03_Travaux_pratiques/corriges/06_LSTM_et_prévision_à_un_pas.ipynb",
+    "identique": true
+  },
+  {
+    "fichier": "deep_learning_4_024/03_Travaux_pratiques/corriges/07_Transfert_et_ajustement_fin_hors_ligne.ipynb",
+    "identique": true
+  },
+  {
+    "fichier": "deep_learning_4_024/03_Travaux_pratiques/corriges/08_Déboguer_cinq_incidents.ipynb",
+    "identique": true
+  },
+  {
+    "fichier": "deep_learning_4_024/03_Travaux_pratiques/corriges/09_Priorisation_sous_capacité_et_dérive.ipynb",
+    "identique": true
+  },
+  {
+    "fichier": "deep_learning_4_024/03_Travaux_pratiques/corriges/10_Projet_final___un_prototype_défendable.ipynb",
+    "identique": true
+  },
+  {
+    "fichier": "deep_learning_4_024/03_Travaux_pratiques/donnees/FICHES_DONNEES.json",
+    "identique": true
+  },
+  {
+    "fichier": "deep_learning_4_024/03_Travaux_pratiques/donnees/chiffres_8x8.npz",
+    "identique": true
+  },
+  {
+    "fichier": "deep_learning_4_024/03_Travaux_pratiques/donnees/documents_synthetiques.csv",
+    "identique": true
+  },
+  {
+    "fichier": "deep_learning_4_024/03_Travaux_pratiques/donnees/dossiers_synthetiques.csv",
+    "identique": true
+  },
+  {
+    "fichier": "deep_learning_4_024/03_Travaux_pratiques/donnees/priorisation_rare.csv",
+    "identique": true
+  },
+  {
+    "fichier": "deep_learning_4_024/03_Travaux_pratiques/donnees/serie_synthetique.csv",
+    "identique": true
+  },
+  {
+    "fichier": "deep_learning_4_024/03_Travaux_pratiques/modules/atelier.py",
+    "identique": true
+  },
+  {
+    "fichier": "deep_learning_4_024/08_Sources_editables/conducteur.json",
+    "identique": true
+  },
+  {
+    "fichier": "deep_learning_4_024/08_Sources_editables/references.json",
+    "identique": true
+  },
+  {
+    "fichier": "deep_learning_4_024/08_Sources_editables/slides.json",
+    "identique": true
+  }
+]

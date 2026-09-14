@@ -1,0 +1,17 @@
+{
+  "reference": {
+    "validation_exactitude": 0.8185185185185185,
+    "derniere_perte_train": 0.5233750176429749,
+    "derniere_perte_validation": 0.6488630771636963
+  },
+  "dropout": {
+    "validation_exactitude": 0.737037037037037,
+    "derniere_perte_train": 1.1026687407493592,
+    "derniere_perte_validation": 1.056822657585144
+  },
+  "penalisation": {
+    "validation_exactitude": 0.8,
+    "derniere_perte_train": 0.633711633682251,
+    "derniere_perte_validation": 0.74449622631073
+  }
+}

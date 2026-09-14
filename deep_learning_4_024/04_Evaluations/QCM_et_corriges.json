@@ -1,0 +1,122 @@
+[
+  {
+    "numero": 1,
+    "question": "Un scaler doit être ajusté…",
+    "choix": [
+      "avant toute séparation",
+      "sur l’entraînement uniquement",
+      "sur entraînement et test",
+      "séparément sur chaque partition"
+    ],
+    "reponse": "B",
+    "justification": "Ses paramètres doivent être appris sur train puis appliqués sans réajustement aux autres partitions. [R03]"
+  },
+  {
+    "numero": 2,
+    "question": "Que réalise loss.backward() ?",
+    "choix": [
+      "Il met les poids à jour",
+      "Il calcule les gradients",
+      "Il choisit le seuil",
+      "Il sauvegarde le modèle"
+    ],
+    "reponse": "B",
+    "justification": "La mise à jour est réalisée par optimizer.step(). La rétropropagation calcule les dérivées. [R02]"
+  },
+  {
+    "numero": 3,
+    "question": "Avec 99,5 % de négatifs, une exactitude de 99,5 %…",
+    "choix": [
+      "prouve l’utilité",
+      "prouve la calibration",
+      "peut être obtenue sans détecter aucun positif",
+      "suffit à fixer le seuil"
+    ],
+    "reponse": "C",
+    "justification": "Un classifieur toujours négatif atteint déjà ce score. Examiner rappel, précision et capacité de traitement. [R04]"
+  },
+  {
+    "numero": 4,
+    "question": "Train 99 %, validation 71 % : première hypothèse ?",
+    "choix": [
+      "Surapprentissage ou décalage à examiner",
+      "Conformité garantie",
+      "Modèle nécessairement trop petit",
+      "Test inutile"
+    ],
+    "reponse": "A",
+    "justification": "Le contraste suggère un problème de généralisation ; vérifier d’abord le split et les distributions."
+  },
+  {
+    "numero": 5,
+    "question": "Pour CrossEntropyLoss multiclasse, fournir…",
+    "choix": [
+      "des probabilités et des labels réels",
+      "des logits et des indices de classe entiers",
+      "un booléen par lot",
+      "une sortie sigmoïde unique"
+    ],
+    "reponse": "B",
+    "justification": "L’API combine la transformation appropriée aux logits avec la perte de classification. [R02]"
+  },
+  {
+    "numero": 6,
+    "question": "L’intérêt central d’un CNN sur image est…",
+    "choix": [
+      "d’apprendre sans données",
+      "d’exploiter le voisinage spatial avec filtres partagés",
+      "de garantir l’équité",
+      "d’éviter toute évaluation"
+    ],
+    "reponse": "B",
+    "justification": "Localité et partage des paramètres constituent un biais inductif adapté à certaines structures spatiales."
+  },
+  {
+    "numero": 7,
+    "question": "Un LSTM…",
+    "choix": [
+      "est toujours supérieur à la persistance",
+      "maintient des états et des portes différentiables",
+      "supprime toutes les fuites temporelles",
+      "garantit la prévision financière"
+    ],
+    "reponse": "B",
+    "justification": "La structure aide à traiter des dépendances séquentielles ; sa pertinence doit être testée. [R09]"
+  },
+  {
+    "numero": 8,
+    "question": "Le seuil de revue doit être choisi…",
+    "choix": [
+      "sur le test après chaque essai",
+      "au hasard",
+      "sur validation selon coûts et capacité",
+      "toujours à 0,5"
+    ],
+    "reponse": "C",
+    "justification": "Le seuil appartient au système de décision ; il doit être figé avant l’évaluation finale. [R04]"
+  },
+  {
+    "numero": 9,
+    "question": "Un transfert prudent commence généralement par…",
+    "choix": [
+      "tout dégeler avec un taux élevé",
+      "geler l’extracteur et entraîner une nouvelle tête",
+      "supprimer la validation",
+      "réutiliser le test pour entraîner"
+    ],
+    "reponse": "B",
+    "justification": "L’ajustement de la tête précède un éventuel dégel partiel avec un taux adapté. [R06]"
+  },
+  {
+    "numero": 10,
+    "question": "Une supervision humaine effective suppose…",
+    "choix": [
+      "un simple clic obligatoire",
+      "que le score décide seul",
+      "l’accès aux éléments utiles et le pouvoir de contester",
+      "l’absence de suivi"
+    ],
+    "reponse": "C",
+    "justification": "Le contrôle doit être réel, informé et permettre de ne pas suivre la sortie du modèle. [R20]"
+  }
+]

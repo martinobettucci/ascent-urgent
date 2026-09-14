@@ -1,0 +1,34 @@
+{
+  "parcours": "priorisation",
+  "test_ouvert": false,
+  "validation": {
+    "seuil": 0.5,
+    "exactitude": 0.988,
+    "precision": 0.8666666666666667,
+    "rappel": 0.65,
+    "f1": 0.7428571428571429,
+    "roc_auc": 0.943972602739726,
+    "precision_moyenne_AP": 0.82734994985761,
+    "brier": 0.00863554235547781,
+    "alertes": 15
+  },
+  "baseline": {
+    "seuil": 0.5,
+    "exactitude": 0.9826666666666667,
+    "precision": 1.0,
+    "rappel": 0.35,
+    "f1": 0.5185185185185185,
+    "roc_auc": 0.89,
+    "precision_moyenne_AP": 0.6364794325447037,
+    "brier": 0.014992293791729198,
+    "alertes": 7
+  },
+  "capacite": {
+    "k": 30,
+    "cas_pertinents": 17,
+    "precision_a_k": 0.5666666666666667,
+    "rappel_a_k": 0.85
+  },
+  "epoques": 14,
+  "limite": "Jeu pédagogique public ou synthétique, aucune validation métier réelle."
+}

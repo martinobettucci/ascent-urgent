@@ -1,0 +1,78 @@
+{
+  "python": "3.13.5",
+  "versions_recette": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.8.0",
+    "torch": "2.10.0+cpu",
+    "keras": "3.13.2",
+    "matplotlib": "3.10.8",
+    "jupyterlab": "4.5.3",
+    "nbformat": "5.10.4",
+    "nbclient": "0.10.4"
+  },
+  "documents": [
+    {
+      "fichier": "02_Documents/Dossier_pedagogique_4_024.docx",
+      "pages_pdf": 56,
+      "images_docx": 64,
+      "paragraphes": 726
+    },
+    {
+      "fichier": "02_Documents/Cahier_participant_TP_et_projet.docx",
+      "pages_pdf": 26,
+      "images_docx": 1,
+      "paragraphes": 289
+    },
+    {
+      "fichier": "02_Documents/Guide_formateur_126_diapos.docx",
+      "pages_pdf": 46,
+      "images_docx": 1,
+      "paragraphes": 1116
+    },
+    {
+      "fichier": "04_Evaluations/Evaluations_participant.docx",
+      "pages_pdf": 5,
+      "images_docx": 1,
+      "paragraphes": 88
+    },
+    {
+      "fichier": "04_Evaluations/Evaluations_et_corriges.docx",
+      "pages_pdf": 6,
+      "images_docx": 1,
+      "paragraphes": 98
+    }
+  ],
+  "presentations": [
+    {
+      "fichier": "01_Presentations/Formation_4_024_126_diapos.pptx",
+      "diapositives": 126,
+      "notes_orateur": 126,
+      "pdf_pages": 126
+    },
+    {
+      "fichier": "01_Presentations/Jour_1_Fondamentaux_et_premiers_modeles.pptx",
+      "diapositives": 42,
+      "notes_orateur": 42,
+      "pdf_pages": 42
+    },
+    {
+      "fichier": "01_Presentations/Jour_2_CNN_LSTM_et_diagnostic.pptx",
+      "diapositives": 42,
+      "notes_orateur": 42,
+      "pdf_pages": 42
+    },
+    {
+      "fichier": "01_Presentations/Jour_3_Cas_metiers_et_projet.pptx",
+      "diapositives": 42,
+      "notes_orateur": 42,
+      "pdf_pages": 42
+    }
+  ],
+  "limites": [
+    "TensorFlow non installé : branche conditionnelle non exécutée.",
+    "Recette CPU dans l’environnement décrit, pas de validation institutionnelle métier.",
+    "Les figures conceptuelles ne sont pas des mesures expérimentales.",
+    "Publication GitHub non effectuée durant cette correction : fonctions de lecture seules exposées."
+  ]
+}

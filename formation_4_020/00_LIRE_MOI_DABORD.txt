@@ -1,0 +1,54 @@
+FORMATION 4-020 : ARCHIVE DE RÉCUPÉRATION INTÉGRALE
+Intelligence artificielle appliquée aux systèmes d’information de l’entreprise
+
+OUVRIR EN PREMIER : 00_OUVRIR_LES_SUPPORTS.html
+Cet index fonctionne localement. Aucun compte ni accès GitHub n’est requis pour consulter les documents.
+
+DOCUMENTS
+- documents/Dossier_pedagogique_4_020.pdf : 80 pages.
+- documents/Dossier_pedagogique_4_020.docx : version Word modifiable.
+- documents/Dossier_pedagogique_4_020.md : version texte Markdown.
+- documents/Cahier_participant_4_020.pdf : 22 pages.
+- documents/Cahier_participant_4_020.docx : version Word modifiable.
+
+PRÉSENTATIONS
+- presentations/Formation_4_020_Jour_1.pptx : 75 diapositives, avec notes formateur.
+- presentations/Formation_4_020_Jour_1.pdf : version PDF.
+- presentations/Formation_4_020_Jour_2.pptx : 83 diapositives, avec notes formateur.
+- presentations/Formation_4_020_Jour_2.pdf : version PDF.
+
+TRAVAUX PRATIQUES
+Le dossier travaux_pratiques comprend les trois notebooks, les données synthétiques Novalia,
+les résultats de référence, les exports pour l’exercice Power BI, le générateur de données,
+les dépendances et les instructions. Le corrigé exécuté est bien inclus.
+
+ILLUSTRATIONS ET SOURCES
+- illustrations : 25 exports PNG. Les schémas sont aussi éditables dans les PowerPoint.
+- sources_production : contenu structuré des 158 diapositives, scripts de fabrication,
+  exports et contrôles précédents.
+- apercus_controle : les 12 aperçus et images de contrôle disponibles dans la conversation.
+
+SAUVEGARDE DES VERSIONS PRÉCÉDENTES
+- historique/archives_originales : les deux anciens ZIP, conservés sans modification.
+  Ils sont inclus par précaution ; tous leurs supports sont déjà décompressés ailleurs dans ce dossier.
+- historique/fichiers_temporaires : un ancien fichier de verrouillage, isolé pour éviter de gêner
+  l’ouverture des supports. Ne pas le recopier dans presentations.
+- historique/image_fictive_GitHub : image générée artificiellement, PAS une capture réelle.
+  Elle ne prouve aucune publication et n’est pas un support pédagogique.
+
+VÉRIFICATION
+- controle_recuperation/RAPPORT_VERIFICATION.json : contrôles de lecture et de structure.
+- controle_recuperation/PROVENANCE.json : correspondance entre chaque source retrouvée et la copie archivée.
+- INVENTAIRE_COMPLET.json : liste exhaustive des fichiers et empreintes SHA-256.
+- SHA256SUMS.txt et VERIFIER_INTEGRITE.py : vérification après extraction.
+
+Les fichiers pédagogiques originaux sont conservés octet pour octet. Les documents Office et PDF
+ont été contrôlés à nouveau à l’assemblage. Les notebooks ont été validés au format, sans réexécution
+pendant cette récupération. Les rapports de leur exécution précédente sont conservés séparément.
+
+PÉRIMÈTRE RÉEL
+Cette archive réunit tous les fichiers disponibles pour la formation 4-020 dans cette conversation.
+Elle ne constitue pas une copie complète du dépôt GitHub et ne contient pas la formation 4-024.
+Aucun fichier PBIX n’avait été produit. Les données, consignes et maquettes Power BI sont incluses.
+Les illustrations du cours sont les schémas existants, pas une nouvelle série ImageGen.
+Les scripts de publication sont conservés comme sources ; leur présence n’atteste pas une publication réussie.

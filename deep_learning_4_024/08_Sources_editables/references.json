@@ -1,0 +1,202 @@
+{
+  "R00": {
+    "id": "R00",
+    "author": "Dossier fourni par Martino Bettucci",
+    "title": "Dossier de préparation pédagogique ultime, référence 4-024",
+    "date": "14 septembre 2026",
+    "url": "Fichier Dossier_original_fourni.txt",
+    "note": "Source de la structure, des intentions pédagogiques et des cas. Les anciennes balises de citation sont des marqueurs historiques, pas des liens résolus dans ce kit."
+  },
+  "R01": {
+    "id": "R01",
+    "author": "Équipe Keras",
+    "title": "Keras 3 et démarrage",
+    "date": "Documentation consultée le 14 septembre 2026",
+    "url": "https://keras.io/keras_3/",
+    "note": "Rôle de Keras, moteurs et API. Voir aussi https://keras.io/getting_started/intro_to_keras_for_engineers/."
+  },
+  "R02": {
+    "id": "R02",
+    "author": "Équipe PyTorch",
+    "title": "Tutoriel de démarrage",
+    "date": "Documentation consultée le 14 septembre 2026",
+    "url": "https://docs.pytorch.org/tutorials/beginner/basics/quickstart_tutorial.html",
+    "note": "Tenseurs, DataLoader, boucle, pertes, sauvegarde. Les versions effectivement testées sont précisées dans le rapport qualité."
+  },
+  "R03": {
+    "id": "R03",
+    "author": "Équipe scikit-learn",
+    "title": "Pièges courants et bonnes pratiques",
+    "date": "Documentation consultée le 14 septembre 2026",
+    "url": "https://scikit-learn.org/stable/common_pitfalls.html",
+    "note": "Prétraitements, séparation et fuite de données."
+  },
+  "R04": {
+    "id": "R04",
+    "author": "Équipe scikit-learn",
+    "title": "Métriques et évaluation des modèles",
+    "date": "Documentation consultée le 14 septembre 2026",
+    "url": "https://scikit-learn.org/stable/modules/model_evaluation.html",
+    "note": "Matrice de confusion, précision, rappel, courbes, moyenne de précision et calibration."
+  },
+  "R05": {
+    "id": "R05",
+    "author": "Équipe scikit-learn",
+    "title": "load_digits",
+    "date": "Documentation consultée le 14 septembre 2026",
+    "url": "https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_digits.html",
+    "note": "1 797 images, 8 × 8 pixels, dix classes ; dataset public de démonstration, issu du corpus UCI de chiffres manuscrits."
+  },
+  "R06": {
+    "id": "R06",
+    "author": "François Chollet / Keras",
+    "title": "Apprentissage par transfert et ajustement fin",
+    "date": "Documentation consultée le 14 septembre 2026",
+    "url": "https://keras.io/guides/transfer_learning/",
+    "note": "Geler, entraîner une tête, dégeler prudemment et contrôler les couches à état."
+  },
+  "R07": {
+    "id": "R07",
+    "author": "Équipe PyTorch",
+    "title": "Reproductibilité",
+    "date": "Documentation consultée le 14 septembre 2026",
+    "url": "https://docs.pytorch.org/docs/stable/notes/randomness.html",
+    "note": "Contrôle de l’aléatoire et limites entre versions et plateformes."
+  },
+  "R08": {
+    "id": "R08",
+    "author": "Krizhevsky, Sutskever et Hinton",
+    "title": "ImageNet Classification with Deep Convolutional Neural Networks",
+    "date": "2012",
+    "url": "https://proceedings.neurips.cc/paper/2012/hash/c399862d3b9d6b76c8436e924a68c45b-Abstract.html",
+    "note": "Repère historique AlexNet ; ne pas comparer des chiffres issus de versions/protocoles différents."
+  },
+  "R09": {
+    "id": "R09",
+    "author": "Hochreiter et Schmidhuber",
+    "title": "Long Short-Term Memory",
+    "date": "1997",
+    "url": "https://doi.org/10.1162/neco.1997.9.8.1735",
+    "note": "Motivation historique des mécanismes de mémoire ; les cellules modernes ont évolué."
+  },
+  "R10": {
+    "id": "R10",
+    "author": "Kingma et Ba",
+    "title": "Adam: A Method for Stochastic Optimization",
+    "date": "2014/2015",
+    "url": "https://arxiv.org/abs/1412.6980",
+    "note": "Optimisation fondée sur les moments des gradients."
+  },
+  "R11": {
+    "id": "R11",
+    "author": "Srivastava et coauteurs",
+    "title": "Dropout: A Simple Way to Prevent Neural Networks from Overfitting",
+    "date": "2014",
+    "url": "https://jmlr.org/papers/v15/srivastava14a.html",
+    "note": "Motivation et méthode du dropout."
+  },
+  "R12": {
+    "id": "R12",
+    "author": "Ioffe et Szegedy",
+    "title": "Batch Normalization",
+    "date": "2015",
+    "url": "https://arxiv.org/abs/1502.03167",
+    "note": "Article fondateur ; distinguer résultats empiriques et interprétation théorique."
+  },
+  "R13": {
+    "id": "R13",
+    "author": "He et coauteurs",
+    "title": "Deep Residual Learning for Image Recognition",
+    "date": "2015/2016",
+    "url": "https://arxiv.org/abs/1512.03385",
+    "note": "Connexions résiduelles et entraînement profond."
+  },
+  "R14": {
+    "id": "R14",
+    "author": "Vaswani et coauteurs",
+    "title": "Attention Is All You Need",
+    "date": "2017",
+    "url": "https://arxiv.org/abs/1706.03762",
+    "note": "Ouverture sur l’attention et l’architecture Transformer."
+  },
+  "R15": {
+    "id": "R15",
+    "author": "Grinsztajn, Oyallon et Varoquaux",
+    "title": "Why do tree-based models still outperform deep learning on tabular data?",
+    "date": "2022",
+    "url": "https://arxiv.org/abs/2207.08815",
+    "note": "Benchmark historique de 45 datasets. Ne pas en déduire une supériorité universelle et intemporelle des arbres."
+  },
+  "R16": {
+    "id": "R16",
+    "author": "Ministère de l’Économie",
+    "title": "Détection des fraudes, analyse de données : comment l’IA a fait son entrée à Bercy",
+    "date": "2025, consulté le 14 septembre 2026",
+    "url": "https://www.economie.gouv.fr/actualites/detection-des-fraudes-analyse-de-donnees-comment-lia-fait-son-entree-bercy",
+    "note": "Foncier Innovant, CFVR, LlaMandement et vérification humaine. Les architectures internes ne sont pas détaillées."
+  },
+  "R17": {
+    "id": "R17",
+    "author": "DGFiP / Ministère de l’Économie",
+    "title": "Publication du rapport d’activité 2024",
+    "date": "12 juin 2025",
+    "url": "https://presse.economie.gouv.fr/la-dgfip-publie-son-rapport-dactivite-2024-une-annee-de-transformation-dengagement-et-de-resultats/",
+    "note": "56 % des contrôles professionnels : indicateur de mobilisation de l’IA, non métrique d’exactitude."
+  },
+  "R18": {
+    "id": "R18",
+    "author": "De Fauw et coauteurs",
+    "title": "Clinically applicable deep learning for diagnosis and referral in retinal disease",
+    "date": "13 août 2018",
+    "url": "https://www.nature.com/articles/s41591-018-0107-6",
+    "note": "Étude sur OCT, 14 884 scans d’entraînement ; performance dans le protocole publié, pas autorisation générale de diagnostic."
+  },
+  "R19": {
+    "id": "R19",
+    "author": "Carcillo, Le Borgne, Caelen et Bontempi",
+    "title": "Streaming Active Learning Strategies for Real-Life Credit Card Fraud Detection",
+    "date": "2018",
+    "url": "https://arxiv.org/abs/1804.07481",
+    "note": "Flux, déséquilibre, non-stationnarité et coût d’investigation. Le cas ne constitue pas une démonstration de supériorité systématique du Deep Learning."
+  },
+  "R20": {
+    "id": "R20",
+    "author": "CNIL",
+    "title": "Développement des systèmes d’IA : recommandations pour respecter le RGPD",
+    "date": "Consultées le 14 septembre 2026",
+    "url": "https://www.cnil.fr/fr/developpement-des-systemes-dia-les-recommandations-de-la-cnil-pour-respecter-le-rgpd",
+    "note": "Finalité, minimisation, documentation, sécurité et analyse d’impact selon le cas. Complément : https://www.cnil.fr/fr/les-fiches-pratiques-ia."
+  },
+  "R21": {
+    "id": "R21",
+    "author": "Union européenne",
+    "title": "Règlement (UE) 2024/1689 sur l’intelligence artificielle",
+    "date": "13 juin 2024, version applicable à vérifier au projet",
+    "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/fra",
+    "note": "Cadre de qualification. Le kit ne fige pas un calendrier juridique et ne se substitue pas à un avis du service compétent."
+  },
+  "R22": {
+    "id": "R22",
+    "author": "Légifrance",
+    "title": "CRPA, article R311-3-1-2",
+    "date": "Texte à vérifier avec le service juridique",
+    "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000034195881",
+    "note": "Informations intelligibles sur certains traitements algorithmiques, sous conditions et réserves légales."
+  },
+  "R23": {
+    "id": "R23",
+    "author": "Équipe TensorFlow",
+    "title": "Démarrage TensorFlow 2",
+    "date": "Documentation consultée le 14 septembre 2026",
+    "url": "https://www.tensorflow.org/tutorials/quickstart/beginner",
+    "note": "Branche TensorFlow des exemples. Sa présence documentaire n’équivaut pas à une exécution testée dans le présent environnement."
+  },
+  "R24": {
+    "id": "R24",
+    "author": "CNIL / Légifrance",
+    "title": "Délibération 2026-068, projet de modification du traitement CFVR",
+    "date": "18 juin 2026",
+    "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054451442",
+    "note": "Complément de veille identifié lors de la production, distinct du dossier initial : supervision et décision humaines effectives. Il s’agit d’un avis sur un projet, pas à lui seul de la preuve de toutes les règles finales applicables."
+  }
+}

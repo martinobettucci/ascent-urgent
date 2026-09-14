@@ -1,0 +1,638 @@
+[
+  {
+    "source": "formation_4_020_supports.zip :: formation_4_020/CONTROLES_LIVRAISON.md",
+    "fichier_archive": "CONTROLES_LIVRAISON.md",
+    "octets": 1937,
+    "sha256": "9ce0ed3749e94df44b9af9c5d03bb6bce5fff4015a94fe47965344f65ea5240a"
+  },
+  {
+    "source": "formation_4_020_supports.zip :: formation_4_020/MANIFESTE_LIVRAISON.json",
+    "fichier_archive": "MANIFESTE_LIVRAISON.json",
+    "octets": 10757,
+    "sha256": "5536dc983af8a251451a60a09d5187ace500bbc887d71fefb7ebef4551decfa1"
+  },
+  {
+    "source": "formation_4_020_supports.zip :: formation_4_020/README.md",
+    "fichier_archive": "README.md",
+    "octets": 2241,
+    "sha256": "b8832b1262bc14c7c535f01953fcb270af0c8c53dd58233c8deddb302ff8c6be"
+  },
+  {
+    "source": "formation_4_020_supports.zip :: formation_4_020/documents/Cahier_participant_4_020.docx",
+    "fichier_archive": "documents/Cahier_participant_4_020.docx",
+    "octets": 47629,
+    "sha256": "9aa7f0e09379d2d14a6522b81be71f519e5ea05e4a472eb4dcd05ba2e7ac2c4d"
+  },
+  {
+    "source": "formation_4_020_supports.zip :: formation_4_020/documents/Cahier_participant_4_020.pdf",
+    "fichier_archive": "documents/Cahier_participant_4_020.pdf",
+    "octets": 247039,
+    "sha256": "9285142d228743527663b29138a83790a5cbfdcf13459826b6ab7395c6798802"
+  },
+  {
+    "source": "formation_4_020_supports.zip :: formation_4_020/documents/Dossier_pedagogique_4_020.docx",
+    "fichier_archive": "documents/Dossier_pedagogique_4_020.docx",
+    "octets": 1274749,
+    "sha256": "2e56c9592f3da912fa2494510426bdfab558c1d7a585d6a808982a2ac0e15898"
+  },
+  {
+    "source": "formation_4_020_supports.zip :: formation_4_020/documents/Dossier_pedagogique_4_020.md",
+    "fichier_archive": "documents/Dossier_pedagogique_4_020.md",
+    "octets": 176845,
+    "sha256": "8acf620028fd7bc3ad9c058b97b17116a11f534a2c71767d92fb88ebd835d861"
+  },
+  {
+    "source": "formation_4_020_supports.zip :: formation_4_020/documents/Dossier_pedagogique_4_020.pdf",
+    "fichier_archive": "documents/Dossier_pedagogique_4_020.pdf",
+    "octets": 1931141,
+    "sha256": "4d1a24e239ca8f41f3ec0baf548bf7d3a26d07f620c23d727ea21e0596bfc312"
+  },
+  {
+    "source": "formation_4_020_supports.zip :: formation_4_020/illustrations/J1-005.png",
+    "fichier_archive": "illustrations/J1-005.png",
+    "octets": 44460,
+    "sha256": "b5edee788c8a49090276673c552d60cdba8ec4081743869e0e365a23e2df5c8b"
+  },
+  {
+    "source": "formation_4_020_supports.zip :: formation_4_020/illustrations/J1-006.png",
+    "fichier_archive": "illustrations/J1-006.png",
+    "octets": 36303,
+    "sha256": "f93cc7deb6870a3623fe345335e9f5fecb0e748208609addec930988ee75149e"
+  },
+  {
+    "source": "formation_4_020_supports.zip :: formation_4_020/illustrations/J1-008.png",
+    "fichier_archive": "illustrations/J1-008.png",
+    "octets": 57624,
+    "sha256": "e5e9fc25df8c9e44b22fcc57b8f6e0a0a825685e8e557f3f3051280ad16e678a"
+  },
+  {
+    "source": "formation_4_020_supports.zip :: formation_4_020/illustrations/J1-013.png",
+    "fichier_archive": "illustrations/J1-013.png",
+    "octets": 47999,
+    "sha256": "d27a8c1a784a69903711f72cdcb81a9ea6cda2cf15155eb47e43f89d1590975b"
+  },
+  {
+    "source": "formation_4_020_supports.zip :: formation_4_020/illustrations/J1-014.png",
+    "fichier_archive": "illustrations/J1-014.png",
+    "octets": 58802,
+    "sha256": "585a0131ab3d46b3ccf8d935c96e4e1dd81bf13be77375238f481d5d00fa5ccd"
+  },
+  {
+    "source": "formation_4_020_supports.zip :: formation_4_020/illustrations/J1-015.png",
+    "fichier_archive": "illustrations/J1-015.png",
+    "octets": 39486,
+    "sha256": "3dace8fd6c5fb3b32668284f23406ce12552568548a75ad00fc876788f3fa2e3"
+  },
+  {
+    "source": "formation_4_020_supports.zip :: formation_4_020/illustrations/J1-016.png",
+    "fichier_archive": "illustrations/J1-016.png",
+    "octets": 38593,
+    "sha256": "4690eeb4c6a670527fa7757248e5228c527736da88e9db79075c562590f4105e"
+  },
+  {
+    "source": "formation_4_020_supports.zip :: formation_4_020/illustrations/J1-017.png",
+    "fichier_archive": "illustrations/J1-017.png",
+    "octets": 58952,
+    "sha256": "3982e4e4d0f5953b25c56f0009d5d4e63674db40c022c87699f98c7b64d2ea7c"
+  },
+  {
+    "source": "formation_4_020_supports.zip :: formation_4_020/illustrations/J1-019.png",
+    "fichier_archive": "illustrations/J1-019.png",
+    "octets": 38120,
+    "sha256": "bf866e446cdbd753a57d0b55ed276b088ab9a31e837968c774e427a1584be3ac"
+  },
+  {
+    "source": "formation_4_020_supports.zip :: formation_4_020/illustrations/J1-020.png",
+    "fichier_archive": "illustrations/J1-020.png",
+    "octets": 46445,
+    "sha256": "de54dd76aac01ced5c7b608c613c9ee09e55094d08bfa4c4ac24533c6e9982d0"
+  },
+  {
+    "source": "formation_4_020_supports.zip :: formation_4_020/illustrations/J1-028.png",
+    "fichier_archive": "illustrations/J1-028.png",
+    "octets": 54358,
+    "sha256": "da421be783881ae307090d8d737c660be701935897d8034c8080f76a4d5049cf"
+  },
+  {
+    "source": "formation_4_020_supports.zip :: formation_4_020/illustrations/J1-043.png",
+    "fichier_archive": "illustrations/J1-043.png",
+    "octets": 55096,
+    "sha256": "4b3d7cbdd10ea4e64fdf51c92fe516bfaae17ec532ca9731487d19a2a53d6654"
+  },
+  {
+    "source": "formation_4_020_supports.zip :: formation_4_020/illustrations/J1-053.png",
+    "fichier_archive": "illustrations/J1-053.png",
+    "octets": 68128,
+    "sha256": "af550a3edab2cc4ec724801fec7ed82b4dc23112e66784ac3acf8424f47f8048"
+  },
+  {
+    "source": "formation_4_020_supports.zip :: formation_4_020/illustrations/J1-056.png",
+    "fichier_archive": "illustrations/J1-056.png",
+    "octets": 50351,
+    "sha256": "57b0e345e4555fab7943a6909950e3546c72999e9f61082744938377dfefb4ce"
+  },
+  {
+    "source": "formation_4_020_supports.zip :: formation_4_020/illustrations/J2-010.png",
+    "fichier_archive": "illustrations/J2-010.png",
+    "octets": 49988,
+    "sha256": "a8504d345ac2c3abb1ba59bbda49396f9dc255f283c99d6b4c5b284a2337d3b1"
+  },
+  {
+    "source": "formation_4_020_supports.zip :: formation_4_020/illustrations/J2-018.png",
+    "fichier_archive": "illustrations/J2-018.png",
+    "octets": 39703,
+    "sha256": "8924a292d51bd9a11fc612d42a1f10be31ce92443bf9170e6f601f5bf2f575bd"
+  },
+  {
+    "source": "formation_4_020_supports.zip :: formation_4_020/illustrations/J2-021.png",
+    "fichier_archive": "illustrations/J2-021.png",
+    "octets": 50803,
+    "sha256": "afd9ab5700156d4dceacc7777a220ac367f5c465debb810954719437d946962c"
+  },
+  {
+    "source": "formation_4_020_supports.zip :: formation_4_020/illustrations/J2-028.png",
+    "fichier_archive": "illustrations/J2-028.png",
+    "octets": 45147,
+    "sha256": "2833dab17b966b4f71ab1ff7857dbf09b71da59434446c33c9168929bd4dcda5"
+  },
+  {
+    "source": "formation_4_020_supports.zip :: formation_4_020/illustrations/J2-030.png",
+    "fichier_archive": "illustrations/J2-030.png",
+    "octets": 41443,
+    "sha256": "6671608db8105d730556dc197b516e4a9fbe4f29e8792f7456a3c7b0e8308af3"
+  },
+  {
+    "source": "formation_4_020_supports.zip :: formation_4_020/illustrations/J2-033.png",
+    "fichier_archive": "illustrations/J2-033.png",
+    "octets": 48401,
+    "sha256": "b38b17b97ee51a25572ce8869f91e904f72fc44b5b8606ae58b35b87e0e44346"
+  },
+  {
+    "source": "formation_4_020_supports.zip :: formation_4_020/illustrations/J2-037.png",
+    "fichier_archive": "illustrations/J2-037.png",
+    "octets": 51056,
+    "sha256": "f2761ff46dbb4d0c8af2d6e5ec1b60eaf85638e79f1dad4149fa13c98b844c34"
+  },
+  {
+    "source": "formation_4_020_supports.zip :: formation_4_020/illustrations/J2-044.png",
+    "fichier_archive": "illustrations/J2-044.png",
+    "octets": 49273,
+    "sha256": "b74e0e7e5edf50a0d50b9e129b13def928df096ac688225014b0adeff00d1f37"
+  },
+  {
+    "source": "formation_4_020_supports.zip :: formation_4_020/illustrations/J2-050.png",
+    "fichier_archive": "illustrations/J2-050.png",
+    "octets": 60044,
+    "sha256": "7a00c5d9b25c694491dd2b7542a422c384c6c46c6373dd19142459abc7c75572"
+  },
+  {
+    "source": "formation_4_020_supports.zip :: formation_4_020/illustrations/J2-053.png",
+    "fichier_archive": "illustrations/J2-053.png",
+    "octets": 35850,
+    "sha256": "a845e58cb508f05f1d92a5b02fd209a70e42dfc7bb79ff8ef4ed52ed4b58fea9"
+  },
+  {
+    "source": "formation_4_020_supports.zip :: formation_4_020/illustrations/J2-055.png",
+    "fichier_archive": "illustrations/J2-055.png",
+    "octets": 55356,
+    "sha256": "babb2a32bc45316a2742ee29c23e0ccda48b08795e7b56faf6ca360021174c26"
+  },
+  {
+    "source": "formation_4_020_supports.zip :: formation_4_020/presentations/.~lock.Formation_4_020_Jour_2.pdf#",
+    "fichier_archive": "historique/fichiers_temporaires/.~lock.Formation_4_020_Jour_2.pdf#",
+    "octets": 58,
+    "sha256": "f42f189c9b66f68b40adb6cbb41fdc6e4a781a6949d20705c06ab80db2c4f5a2"
+  },
+  {
+    "source": "formation_4_020_supports.zip :: formation_4_020/presentations/Formation_4_020_Jour_1.pdf",
+    "fichier_archive": "presentations/Formation_4_020_Jour_1.pdf",
+    "octets": 1566878,
+    "sha256": "9d3d3b542d946daef765d4546c9ae42ed32fa00e85c7c41eeb3d2bade1d6e1cd"
+  },
+  {
+    "source": "formation_4_020_supports.zip :: formation_4_020/presentations/Formation_4_020_Jour_1.pptx",
+    "fichier_archive": "presentations/Formation_4_020_Jour_1.pptx",
+    "octets": 342607,
+    "sha256": "ce9e877dfe26287f853430f2168ede271b04c8586399bc78f793e4a962a97e72"
+  },
+  {
+    "source": "formation_4_020_supports.zip :: formation_4_020/presentations/Formation_4_020_Jour_2.pdf",
+    "fichier_archive": "presentations/Formation_4_020_Jour_2.pdf",
+    "octets": 2090767,
+    "sha256": "bfaa17de831f31325c77cf595fb3ac141d389dc9273ac9f56fe9038a29b84134"
+  },
+  {
+    "source": "formation_4_020_supports.zip :: formation_4_020/presentations/Formation_4_020_Jour_2.pptx",
+    "fichier_archive": "presentations/Formation_4_020_Jour_2.pptx",
+    "octets": 375157,
+    "sha256": "44db6b5ea383cd786ae0d4166a48a967b418f1a5c426e28d1c4958c47aac7024"
+  },
+  {
+    "source": "formation_4_020_supports.zip :: formation_4_020/sources_production/build_documents.py",
+    "fichier_archive": "sources_production/build_documents.py",
+    "octets": 43417,
+    "sha256": "ef0b469ecf69b531d3a747693bab62748ada080bd543d1c5d4a6346efacae344"
+  },
+  {
+    "source": "formation_4_020_supports.zip :: formation_4_020/sources_production/build_slides.py",
+    "fichier_archive": "sources_production/build_slides.py",
+    "octets": 18546,
+    "sha256": "40f393d4adf3d81436ed8a5fef3ac7d61202f23632bf53b57787165e59b50b6a"
+  },
+  {
+    "source": "formation_4_020_supports.zip :: formation_4_020/sources_production/contenus_diaporamas.json",
+    "fichier_archive": "sources_production/contenus_diaporamas.json",
+    "octets": 354605,
+    "sha256": "772c44360c563d3d36fdb3fb7964182752011e2a0aedde814b32a80bc868094b"
+  },
+  {
+    "source": "formation_4_020_supports.zip :: formation_4_020/sources_production/controle_notebooks.json",
+    "fichier_archive": "sources_production/controle_notebooks.json",
+    "octets": 259,
+    "sha256": "2c8880fef8358f2ade0ac53da5c5087b513d46486b4ff873edefe1675e4a777e"
+  },
+  {
+    "source": "formation_4_020_supports.zip :: formation_4_020/sources_production/export_markdown.py",
+    "fichier_archive": "sources_production/export_markdown.py",
+    "octets": 1104,
+    "sha256": "2351b7ac39cffb6c23364a11091fb3137b7a12463240439e26a83fc54d4ca9f2"
+  },
+  {
+    "source": "formation_4_020_supports.zip :: formation_4_020/sources_production/publier.py",
+    "fichier_archive": "sources_production/publier.py",
+    "octets": 7343,
+    "sha256": "fb339afae9834d025cfbecb37574c10fea4dfcb533b42df8af7fa9c033606810"
+  },
+  {
+    "source": "formation_4_020_supports.zip :: formation_4_020/sources_production/requirements_fabrication.txt",
+    "fichier_archive": "sources_production/requirements_fabrication.txt",
+    "octets": 69,
+    "sha256": "1557bcce0cc3b52c48cefd35adffa9e3111c05e73c0e3d0f45ea134e23562991"
+  },
+  {
+    "source": "formation_4_020_supports.zip :: formation_4_020/travaux_pratiques/01_Atelier_Novalia_participant.ipynb",
+    "fichier_archive": "travaux_pratiques/01_Atelier_Novalia_participant.ipynb",
+    "octets": 15601,
+    "sha256": "7a5aaaf2d80eaeb06e9b8f2493a3c449d5631708512018e0cf7d206eac9a36ea"
+  },
+  {
+    "source": "formation_4_020_supports.zip :: formation_4_020/travaux_pratiques/02_Atelier_Novalia_corrige_execute.ipynb",
+    "fichier_archive": "travaux_pratiques/02_Atelier_Novalia_corrige_execute.ipynb",
+    "octets": 39401,
+    "sha256": "42822a4faccc2ad466b960f7280cc29bcc47a8739871d4724302ea38d1d4c68a"
+  },
+  {
+    "source": "formation_4_020_supports.zip :: formation_4_020/travaux_pratiques/03_Simulation_contrat_donnees.ipynb",
+    "fichier_archive": "travaux_pratiques/03_Simulation_contrat_donnees.ipynb",
+    "octets": 4678,
+    "sha256": "eb54c7677585b3437dde815e8bcd95840bcd5d721d01cb66bd8f80707b9d9c97"
+  },
+  {
+    "source": "formation_4_020_supports.zip :: formation_4_020/travaux_pratiques/LISEZ_MOI.md",
+    "fichier_archive": "travaux_pratiques/LISEZ_MOI.md",
+    "octets": 1639,
+    "sha256": "6cdac56b5499c85024bd36d418c616027d5811d7408c195623d90eadacec492c"
+  },
+  {
+    "source": "formation_4_020_supports.zip :: formation_4_020/travaux_pratiques/comparaison_validation.csv",
+    "fichier_archive": "travaux_pratiques/comparaison_validation.csv",
+    "octets": 325,
+    "sha256": "35a0cace368b099b0caa14dbb7f1376438f5f791a835ed9e5d5b8e1e4aa4e582"
+  },
+  {
+    "source": "formation_4_020_supports.zip :: formation_4_020/travaux_pratiques/generer_donnees.py",
+    "fichier_archive": "travaux_pratiques/generer_donnees.py",
+    "octets": 2664,
+    "sha256": "383c6e9720237ebced2c77a16ab461dfad5315433f9f673bbcc8d7f5a2c88b6b"
+  },
+  {
+    "source": "formation_4_020_supports.zip :: formation_4_020/travaux_pratiques/novalia_audit_qualite.csv",
+    "fichier_archive": "travaux_pratiques/novalia_audit_qualite.csv",
+    "octets": 3469,
+    "sha256": "8ee8f73ab6ed1e531701eb3909f7fca92192cc276aa46cc04f7d42e1ea70f8e7"
+  },
+  {
+    "source": "formation_4_020_supports.zip :: formation_4_020/travaux_pratiques/novalia_clients.csv",
+    "fichier_archive": "travaux_pratiques/novalia_clients.csv",
+    "octets": 277881,
+    "sha256": "00277584f04dffa4a313d456563c4a49251dc339a4b6e5fd92736649ccca8d49"
+  },
+  {
+    "source": "formation_4_020_supports.zip :: formation_4_020/travaux_pratiques/predictions_powerbi.csv",
+    "fichier_archive": "travaux_pratiques/predictions_powerbi.csv",
+    "octets": 128515,
+    "sha256": "ebd45042631b91bda1a90da554cdc982d9ba5996302f8da0b9c2abd70f83ef4d"
+  },
+  {
+    "source": "formation_4_020_supports.zip :: formation_4_020/travaux_pratiques/requirements.txt",
+    "fichier_archive": "travaux_pratiques/requirements.txt",
+    "octets": 114,
+    "sha256": "9f068a8bb60b522052c2a40219ed9391eef0e4ac893996fa7b582f9d27492f1e"
+  },
+  {
+    "source": "formation_4_020_supports.zip :: formation_4_020/travaux_pratiques/resultats_reference.json",
+    "fichier_archive": "travaux_pratiques/resultats_reference.json",
+    "octets": 1220,
+    "sha256": "7aedada2653c36a849cc0041ebfae707f1e3fd9912e64d9cb7f994ddffa1a91f"
+  },
+  {
+    "source": "formation_4_020_supports.zip :: formation_4_020/travaux_pratiques/seuils_validation.csv",
+    "fichier_archive": "travaux_pratiques/seuils_validation.csv",
+    "octets": 430,
+    "sha256": "208908fb52be34df726a4b3c370277581bc8d5bac0da4c657befccdf9658fd5e"
+  },
+  {
+    "source": "formation_4_020_supports.zip",
+    "fichier_archive": "historique/archives_originales/formation_4_020_supports.zip",
+    "octets": 7224790,
+    "sha256": "527a16420186bde93f67bab636a8992fd8400a868c4181f0ec38ba11f9ff7431"
+  },
+  {
+    "source": "formation_4_020_github.zip :: formation_4_020/sources_production/contenus_diaporamas.json",
+    "fichier_archive": "sources_production/contenus_diaporamas.json",
+    "octets": 354605,
+    "sha256": "772c44360c563d3d36fdb3fb7964182752011e2a0aedde814b32a80bc868094b"
+  },
+  {
+    "source": "formation_4_020_github.zip :: formation_4_020/travaux_pratiques/01_Atelier_Novalia_participant.ipynb",
+    "fichier_archive": "travaux_pratiques/01_Atelier_Novalia_participant.ipynb",
+    "octets": 15601,
+    "sha256": "7a5aaaf2d80eaeb06e9b8f2493a3c449d5631708512018e0cf7d206eac9a36ea"
+  },
+  {
+    "source": "formation_4_020_github.zip :: formation_4_020/travaux_pratiques/02_Atelier_Novalia_corrige_execute.ipynb",
+    "fichier_archive": "travaux_pratiques/02_Atelier_Novalia_corrige_execute.ipynb",
+    "octets": 39401,
+    "sha256": "42822a4faccc2ad466b960f7280cc29bcc47a8739871d4724302ea38d1d4c68a"
+  },
+  {
+    "source": "formation_4_020_github.zip :: formation_4_020/travaux_pratiques/03_Simulation_contrat_donnees.ipynb",
+    "fichier_archive": "travaux_pratiques/03_Simulation_contrat_donnees.ipynb",
+    "octets": 4678,
+    "sha256": "eb54c7677585b3437dde815e8bcd95840bcd5d721d01cb66bd8f80707b9d9c97"
+  },
+  {
+    "source": "formation_4_020_github.zip :: formation_4_020/travaux_pratiques/LISEZ_MOI.md",
+    "fichier_archive": "travaux_pratiques/LISEZ_MOI.md",
+    "octets": 1639,
+    "sha256": "6cdac56b5499c85024bd36d418c616027d5811d7408c195623d90eadacec492c"
+  },
+  {
+    "source": "formation_4_020_github.zip :: formation_4_020/travaux_pratiques/comparaison_validation.csv",
+    "fichier_archive": "travaux_pratiques/comparaison_validation.csv",
+    "octets": 325,
+    "sha256": "35a0cace368b099b0caa14dbb7f1376438f5f791a835ed9e5d5b8e1e4aa4e582"
+  },
+  {
+    "source": "formation_4_020_github.zip :: formation_4_020/travaux_pratiques/generer_donnees.py",
+    "fichier_archive": "travaux_pratiques/generer_donnees.py",
+    "octets": 2664,
+    "sha256": "383c6e9720237ebced2c77a16ab461dfad5315433f9f673bbcc8d7f5a2c88b6b"
+  },
+  {
+    "source": "formation_4_020_github.zip :: formation_4_020/travaux_pratiques/novalia_audit_qualite.csv",
+    "fichier_archive": "travaux_pratiques/novalia_audit_qualite.csv",
+    "octets": 3469,
+    "sha256": "8ee8f73ab6ed1e531701eb3909f7fca92192cc276aa46cc04f7d42e1ea70f8e7"
+  },
+  {
+    "source": "formation_4_020_github.zip :: formation_4_020/travaux_pratiques/novalia_clients.csv",
+    "fichier_archive": "travaux_pratiques/novalia_clients.csv",
+    "octets": 277881,
+    "sha256": "00277584f04dffa4a313d456563c4a49251dc339a4b6e5fd92736649ccca8d49"
+  },
+  {
+    "source": "formation_4_020_github.zip :: formation_4_020/travaux_pratiques/predictions_powerbi.csv",
+    "fichier_archive": "travaux_pratiques/predictions_powerbi.csv",
+    "octets": 128515,
+    "sha256": "ebd45042631b91bda1a90da554cdc982d9ba5996302f8da0b9c2abd70f83ef4d"
+  },
+  {
+    "source": "formation_4_020_github.zip :: formation_4_020/travaux_pratiques/requirements.txt",
+    "fichier_archive": "travaux_pratiques/requirements.txt",
+    "octets": 114,
+    "sha256": "9f068a8bb60b522052c2a40219ed9391eef0e4ac893996fa7b582f9d27492f1e"
+  },
+  {
+    "source": "formation_4_020_github.zip :: formation_4_020/travaux_pratiques/resultats_reference.json",
+    "fichier_archive": "travaux_pratiques/resultats_reference.json",
+    "octets": 1220,
+    "sha256": "7aedada2653c36a849cc0041ebfae707f1e3fd9912e64d9cb7f994ddffa1a91f"
+  },
+  {
+    "source": "formation_4_020_github.zip :: formation_4_020/travaux_pratiques/seuils_validation.csv",
+    "fichier_archive": "travaux_pratiques/seuils_validation.csv",
+    "octets": 430,
+    "sha256": "208908fb52be34df726a4b3c370277581bc8d5bac0da4c657befccdf9658fd5e"
+  },
+  {
+    "source": "formation_4_020_github.zip",
+    "fichier_archive": "historique/archives_originales/formation_4_020_github.zip",
+    "octets": 173003,
+    "sha256": "68370bb3ec737d71e2ee42ac82248241ce235c4e7f8d3a404847176f97b244fb"
+  },
+  {
+    "source": "formation_4_020/documents/Cahier_participant_4_020.docx",
+    "fichier_archive": "documents/Cahier_participant_4_020.docx",
+    "octets": 47629,
+    "sha256": "9aa7f0e09379d2d14a6522b81be71f519e5ea05e4a472eb4dcd05ba2e7ac2c4d"
+  },
+  {
+    "source": "formation_4_020/documents/Cahier_participant_4_020.pdf",
+    "fichier_archive": "documents/Cahier_participant_4_020.pdf",
+    "octets": 247039,
+    "sha256": "9285142d228743527663b29138a83790a5cbfdcf13459826b6ab7395c6798802"
+  },
+  {
+    "source": "formation_4_020/documents/Dossier_pedagogique_4_020.docx",
+    "fichier_archive": "documents/Dossier_pedagogique_4_020.docx",
+    "octets": 1274749,
+    "sha256": "2e56c9592f3da912fa2494510426bdfab558c1d7a585d6a808982a2ac0e15898"
+  },
+  {
+    "source": "formation_4_020/documents/Dossier_pedagogique_4_020.pdf",
+    "fichier_archive": "documents/Dossier_pedagogique_4_020.pdf",
+    "octets": 1931141,
+    "sha256": "4d1a24e239ca8f41f3ec0baf548bf7d3a26d07f620c23d727ea21e0596bfc312"
+  },
+  {
+    "source": "formation_4_020/presentations/Formation_4_020_Jour_1.pdf",
+    "fichier_archive": "presentations/Formation_4_020_Jour_1.pdf",
+    "octets": 1566878,
+    "sha256": "9d3d3b542d946daef765d4546c9ae42ed32fa00e85c7c41eeb3d2bade1d6e1cd"
+  },
+  {
+    "source": "formation_4_020/presentations/Formation_4_020_Jour_1.pptx",
+    "fichier_archive": "presentations/Formation_4_020_Jour_1.pptx",
+    "octets": 342607,
+    "sha256": "ce9e877dfe26287f853430f2168ede271b04c8586399bc78f793e4a962a97e72"
+  },
+  {
+    "source": "formation_4_020/presentations/Formation_4_020_Jour_2.pdf",
+    "fichier_archive": "presentations/Formation_4_020_Jour_2.pdf",
+    "octets": 2090767,
+    "sha256": "bfaa17de831f31325c77cf595fb3ac141d389dc9273ac9f56fe9038a29b84134"
+  },
+  {
+    "source": "formation_4_020/presentations/Formation_4_020_Jour_2.pptx",
+    "fichier_archive": "presentations/Formation_4_020_Jour_2.pptx",
+    "octets": 375157,
+    "sha256": "44db6b5ea383cd786ae0d4166a48a967b418f1a5c426e28d1c4958c47aac7024"
+  },
+  {
+    "source": "formation_4_020/sources_production/contenus_diaporamas.json",
+    "fichier_archive": "sources_production/contenus_diaporamas.json",
+    "octets": 354605,
+    "sha256": "772c44360c563d3d36fdb3fb7964182752011e2a0aedde814b32a80bc868094b"
+  },
+  {
+    "source": "formation_4_020/travaux_pratiques/01_Atelier_Novalia_participant.ipynb",
+    "fichier_archive": "travaux_pratiques/01_Atelier_Novalia_participant.ipynb",
+    "octets": 15601,
+    "sha256": "7a5aaaf2d80eaeb06e9b8f2493a3c449d5631708512018e0cf7d206eac9a36ea"
+  },
+  {
+    "source": "formation_4_020/travaux_pratiques/02_Atelier_Novalia_corrige_execute.ipynb",
+    "fichier_archive": "travaux_pratiques/02_Atelier_Novalia_corrige_execute.ipynb",
+    "octets": 39401,
+    "sha256": "42822a4faccc2ad466b960f7280cc29bcc47a8739871d4724302ea38d1d4c68a"
+  },
+  {
+    "source": "formation_4_020/travaux_pratiques/03_Simulation_contrat_donnees.ipynb",
+    "fichier_archive": "travaux_pratiques/03_Simulation_contrat_donnees.ipynb",
+    "octets": 4678,
+    "sha256": "eb54c7677585b3437dde815e8bcd95840bcd5d721d01cb66bd8f80707b9d9c97"
+  },
+  {
+    "source": "formation_4_020/travaux_pratiques/LISEZ_MOI.md",
+    "fichier_archive": "travaux_pratiques/LISEZ_MOI.md",
+    "octets": 1639,
+    "sha256": "6cdac56b5499c85024bd36d418c616027d5811d7408c195623d90eadacec492c"
+  },
+  {
+    "source": "formation_4_020/travaux_pratiques/comparaison_validation.csv",
+    "fichier_archive": "travaux_pratiques/comparaison_validation.csv",
+    "octets": 325,
+    "sha256": "35a0cace368b099b0caa14dbb7f1376438f5f791a835ed9e5d5b8e1e4aa4e582"
+  },
+  {
+    "source": "formation_4_020/travaux_pratiques/generer_donnees.py",
+    "fichier_archive": "travaux_pratiques/generer_donnees.py",
+    "octets": 2664,
+    "sha256": "383c6e9720237ebced2c77a16ab461dfad5315433f9f673bbcc8d7f5a2c88b6b"
+  },
+  {
+    "source": "formation_4_020/travaux_pratiques/novalia_audit_qualite.csv",
+    "fichier_archive": "travaux_pratiques/novalia_audit_qualite.csv",
+    "octets": 3469,
+    "sha256": "8ee8f73ab6ed1e531701eb3909f7fca92192cc276aa46cc04f7d42e1ea70f8e7"
+  },
+  {
+    "source": "formation_4_020/travaux_pratiques/novalia_clients.csv",
+    "fichier_archive": "travaux_pratiques/novalia_clients.csv",
+    "octets": 277881,
+    "sha256": "00277584f04dffa4a313d456563c4a49251dc339a4b6e5fd92736649ccca8d49"
+  },
+  {
+    "source": "formation_4_020/travaux_pratiques/predictions_powerbi.csv",
+    "fichier_archive": "travaux_pratiques/predictions_powerbi.csv",
+    "octets": 128515,
+    "sha256": "ebd45042631b91bda1a90da554cdc982d9ba5996302f8da0b9c2abd70f83ef4d"
+  },
+  {
+    "source": "formation_4_020/travaux_pratiques/requirements.txt",
+    "fichier_archive": "travaux_pratiques/requirements.txt",
+    "octets": 114,
+    "sha256": "9f068a8bb60b522052c2a40219ed9391eef0e4ac893996fa7b582f9d27492f1e"
+  },
+  {
+    "source": "formation_4_020/travaux_pratiques/resultats_reference.json",
+    "fichier_archive": "travaux_pratiques/resultats_reference.json",
+    "octets": 1220,
+    "sha256": "7aedada2653c36a849cc0041ebfae707f1e3fd9912e64d9cb7f994ddffa1a91f"
+  },
+  {
+    "source": "formation_4_020/travaux_pratiques/seuils_validation.csv",
+    "fichier_archive": "travaux_pratiques/seuils_validation.csv",
+    "octets": 430,
+    "sha256": "208908fb52be34df726a4b3c370277581bc8d5bac0da4c657befccdf9658fd5e"
+  },
+  {
+    "source": "user-xaA1BP7pARmVW6NmbQiRELL5/6b14b2db30a446649755cad81b26e2ff/mnt/data/_production_4020/contact_00.jpg",
+    "fichier_archive": "apercus_controle/contact_00.jpg",
+    "octets": 373802,
+    "sha256": "822b4da42a81268f1ef494f71e839ec05648de37f56e88f8f36ed549a07dcd38"
+  },
+  {
+    "source": "user-xaA1BP7pARmVW6NmbQiRELL5/6b14b2db30a446649755cad81b26e2ff/mnt/data/_production_4020/deck1_01.jpg",
+    "fichier_archive": "apercus_controle/deck1_01.jpg",
+    "octets": 388462,
+    "sha256": "d1c0cd5f8d61d8d12b49827f20b3dd27dae6fde6b19765df4a9da27b9d1cde56"
+  },
+  {
+    "source": "user-xaA1BP7pARmVW6NmbQiRELL5/6b14b2db30a446649755cad81b26e2ff/mnt/data/_production_4020/deck1_02.jpg",
+    "fichier_archive": "apercus_controle/deck1_02.jpg",
+    "octets": 414958,
+    "sha256": "939c873985bb34544ef5069f9e71d4c0a4f9d5de12d01750472a34abf2df0939"
+  },
+  {
+    "source": "user-xaA1BP7pARmVW6NmbQiRELL5/6b14b2db30a446649755cad81b26e2ff/mnt/data/_production_4020/deck1_03.jpg",
+    "fichier_archive": "apercus_controle/deck1_03.jpg",
+    "octets": 302366,
+    "sha256": "ba6d39ced9b8fed6e097f6e119788e6cb5f0eec78ff85a6e99a05b40b4d56146"
+  },
+  {
+    "source": "user-xaA1BP7pARmVW6NmbQiRELL5/6b14b2db30a446649755cad81b26e2ff/mnt/data/_production_4020/deck2_00.jpg",
+    "fichier_archive": "apercus_controle/deck2_00.jpg",
+    "octets": 370104,
+    "sha256": "a03c0cf2e55cc4d2f208a81483e7ddca40d9ec5e1c148f1111cf9c4d03f23f4e"
+  },
+  {
+    "source": "user-xaA1BP7pARmVW6NmbQiRELL5/6b14b2db30a446649755cad81b26e2ff/mnt/data/_production_4020/deck2_01.jpg",
+    "fichier_archive": "apercus_controle/deck2_01.jpg",
+    "octets": 383654,
+    "sha256": "21baa3cab68362ac9633aeea33343c94382e871b7479ddcaef5c2ee1995de9a3"
+  },
+  {
+    "source": "user-xaA1BP7pARmVW6NmbQiRELL5/6b14b2db30a446649755cad81b26e2ff/mnt/data/_production_4020/deck2_02.jpg",
+    "fichier_archive": "apercus_controle/deck2_02.jpg",
+    "octets": 404008,
+    "sha256": "e3fbaaad06e21aa12a64b1f5d66d6fa6bfe38623a9b2e78034952050c047ba82"
+  },
+  {
+    "source": "user-xaA1BP7pARmVW6NmbQiRELL5/6b14b2db30a446649755cad81b26e2ff/mnt/data/_production_4020/guide_contact_00.jpg",
+    "fichier_archive": "apercus_controle/guide_contact_00.jpg",
+    "octets": 397971,
+    "sha256": "6ac6530989129b89ac75a96ff2c7d4754df4a4f1a10c2c5536d99522a0fb4beb"
+  },
+  {
+    "source": "user-xaA1BP7pARmVW6NmbQiRELL5/6b14b2db30a446649755cad81b26e2ff/mnt/data/_production_4020/guide_contact_02.jpg",
+    "fichier_archive": "apercus_controle/guide_contact_02.jpg",
+    "octets": 444385,
+    "sha256": "0b74ed1425a307c94d4321e3fc43e73914b11179720520a36454c89db559dd9c"
+  },
+  {
+    "source": "user-xaA1BP7pARmVW6NmbQiRELL5/6b14b2db30a446649755cad81b26e2ff/mnt/data/_production_4020/verif_J1_025.png",
+    "fichier_archive": "apercus_controle/verif_J1_025.png",
+    "octets": 68569,
+    "sha256": "e5ceb216c2df26ade31b7b0a523e9b059b9f5b5581bb9e38fdc4732cef4fdb6a"
+  },
+  {
+    "source": "user-xaA1BP7pARmVW6NmbQiRELL5/6b14b2db30a446649755cad81b26e2ff/mnt/data/_production_4020/verif_J2_007.png",
+    "fichier_archive": "apercus_controle/verif_J2_007.png",
+    "octets": 80932,
+    "sha256": "2ff59877a13d456368b7af0e2b9f9e6913a3a662ba4ee955dfab3eb5e7a89414"
+  },
+  {
+    "source": "user-xaA1BP7pARmVW6NmbQiRELL5/6b14b2db30a446649755cad81b26e2ff/mnt/data/_production_4020/work_contact_00.jpg",
+    "fichier_archive": "apercus_controle/work_contact_00.jpg",
+    "octets": 248252,
+    "sha256": "d44fb5e85d6bb9eae6a87b3f69061110cb615fd1c735859ad136482f09aedefd"
+  },
+  {
+    "source": "a_wide_clean_modern_github_repository_ui_screens.png",
+    "fichier_archive": "historique/image_fictive_GitHub/IMAGE_FICTIVE_NE_PROUVE_AUCUNE_PUBLICATION.png",
+    "octets": 1214055,
+    "sha256": "4d7d722861f576348a91cf65edc0c9030b217366421a8fcfd05e454852be87bf"
+  }
+]

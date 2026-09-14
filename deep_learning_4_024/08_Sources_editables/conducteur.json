@@ -1,0 +1,502 @@
+[
+  {
+    "day": 1,
+    "block": "1A",
+    "start": 0,
+    "end": 15,
+    "label": "Accueil et diagnostic initial",
+    "minutes": 15,
+    "nature": "E",
+    "proof": "Réponses individuelles"
+  },
+  {
+    "day": 1,
+    "block": "1A",
+    "start": 15,
+    "end": 30,
+    "label": "Langage commun IA/ML/DL",
+    "minutes": 15,
+    "nature": "E",
+    "proof": "Exemples reformulés"
+  },
+  {
+    "day": 1,
+    "block": "1A",
+    "start": 30,
+    "end": 40,
+    "label": "Classer des besoins métiers",
+    "minutes": 10,
+    "nature": "P",
+    "proof": "Fiche tâche/cible"
+  },
+  {
+    "day": 1,
+    "block": "1A",
+    "start": 40,
+    "end": 55,
+    "label": "Neurone et activations",
+    "minutes": 15,
+    "nature": "E",
+    "proof": "Calcul commenté"
+  },
+  {
+    "day": 1,
+    "block": "1A",
+    "start": 55,
+    "end": 70,
+    "label": "Tenseurs et formes, TP 01",
+    "minutes": 15,
+    "nature": "P",
+    "proof": "Cellules et assertions"
+  },
+  {
+    "day": 1,
+    "block": "1A",
+    "start": 70,
+    "end": 90,
+    "label": "Gradient et boucle d’apprentissage",
+    "minutes": 20,
+    "nature": "E",
+    "proof": "Explication du rôle des étapes"
+  },
+  {
+    "day": 1,
+    "block": "1A",
+    "start": 90,
+    "end": 105,
+    "label": "Optimiser une variable, TP 01",
+    "minutes": 15,
+    "nature": "P",
+    "proof": "Trois courbes comparées"
+  },
+  {
+    "day": 1,
+    "block": "1A",
+    "start": 105,
+    "end": 120,
+    "label": "Histoire et raisons du succès",
+    "minutes": 15,
+    "nature": "E",
+    "proof": "Limites des généralisations"
+  },
+  {
+    "day": 1,
+    "block": "1B",
+    "start": 120,
+    "end": 140,
+    "label": "Comparer les bibliothèques",
+    "minutes": 20,
+    "nature": "E",
+    "proof": "Tableau de rôles"
+  },
+  {
+    "day": 1,
+    "block": "1B",
+    "start": 140,
+    "end": 155,
+    "label": "Démonstration environnement",
+    "minutes": 15,
+    "nature": "D",
+    "proof": "Machine formateur"
+  },
+  {
+    "day": 1,
+    "block": "1B",
+    "start": 155,
+    "end": 180,
+    "label": "Diagnostic environnement, TP 00",
+    "minutes": 25,
+    "nature": "P",
+    "proof": "Rapport local"
+  },
+  {
+    "day": 1,
+    "block": "1B",
+    "start": 180,
+    "end": 210,
+    "label": "Boucles Keras/PyTorch",
+    "minutes": 30,
+    "nature": "P",
+    "proof": "Cellules annotées"
+  },
+  {
+    "day": 1,
+    "block": "1B",
+    "start": 210,
+    "end": 230,
+    "label": "Graine et sauvegarde",
+    "minutes": 20,
+    "nature": "P",
+    "proof": "Rechargement vérifié"
+  },
+  {
+    "day": 1,
+    "block": "1B",
+    "start": 230,
+    "end": 240,
+    "label": "Retour collectif",
+    "minutes": 10,
+    "nature": "E",
+    "proof": "Questions résolues"
+  },
+  {
+    "day": 1,
+    "block": "1C",
+    "start": 240,
+    "end": 250,
+    "label": "Consigne du TP tabulaire",
+    "minutes": 10,
+    "nature": "E",
+    "proof": "Protocole annoncé"
+  },
+  {
+    "day": 1,
+    "block": "1C",
+    "start": 250,
+    "end": 270,
+    "label": "Préparer et séparer les données",
+    "minutes": 20,
+    "nature": "P",
+    "proof": "Contrat de données"
+  },
+  {
+    "day": 1,
+    "block": "1C",
+    "start": 270,
+    "end": 300,
+    "label": "Construire et entraîner",
+    "minutes": 30,
+    "nature": "P",
+    "proof": "Courbes et modèle"
+  },
+  {
+    "day": 1,
+    "block": "1C",
+    "start": 300,
+    "end": 330,
+    "label": "Métriques et seuils, TP 03",
+    "minutes": 30,
+    "nature": "P",
+    "proof": "Tableau de validation"
+  },
+  {
+    "day": 1,
+    "block": "1C",
+    "start": 330,
+    "end": 345,
+    "label": "Comparer et documenter",
+    "minutes": 15,
+    "nature": "P",
+    "proof": "Journal"
+  },
+  {
+    "day": 1,
+    "block": "1C",
+    "start": 345,
+    "end": 360,
+    "label": "Retour et point de contrôle",
+    "minutes": 15,
+    "nature": "E",
+    "proof": "Réponses individuelles"
+  },
+  {
+    "day": 2,
+    "block": "2A",
+    "start": 0,
+    "end": 10,
+    "label": "Réactivation",
+    "minutes": 10,
+    "nature": "E",
+    "proof": "Vocabulaire vérifié"
+  },
+  {
+    "day": 2,
+    "block": "2A",
+    "start": 10,
+    "end": 35,
+    "label": "CNN et dimensions",
+    "minutes": 25,
+    "nature": "E",
+    "proof": "Schémas commentés"
+  },
+  {
+    "day": 2,
+    "block": "2A",
+    "start": 35,
+    "end": 45,
+    "label": "Démonstration convolution",
+    "minutes": 10,
+    "nature": "D",
+    "proof": "Calcul formateur"
+  },
+  {
+    "day": 2,
+    "block": "2A",
+    "start": 45,
+    "end": 115,
+    "label": "TP CNN et erreurs, TP 04",
+    "minutes": 70,
+    "nature": "P",
+    "proof": "Modèles, courbes et galerie"
+  },
+  {
+    "day": 2,
+    "block": "2A",
+    "start": 115,
+    "end": 135,
+    "label": "RNN et LSTM",
+    "minutes": 20,
+    "nature": "E",
+    "proof": "Mémoire et portes"
+  },
+  {
+    "day": 2,
+    "block": "2A",
+    "start": 135,
+    "end": 170,
+    "label": "Mini-TP séquences, TP 06",
+    "minutes": 35,
+    "nature": "P",
+    "proof": "Fenêtres et référence naïve"
+  },
+  {
+    "day": 2,
+    "block": "2A",
+    "start": 170,
+    "end": 180,
+    "label": "Ouverture attention",
+    "minutes": 10,
+    "nature": "E",
+    "proof": "Différences reconnues"
+  },
+  {
+    "day": 2,
+    "block": "2B",
+    "start": 180,
+    "end": 195,
+    "label": "Matrice symptômes/hypothèses",
+    "minutes": 15,
+    "nature": "P",
+    "proof": "Diagnostic écrit"
+  },
+  {
+    "day": 2,
+    "block": "2B",
+    "start": 195,
+    "end": 220,
+    "label": "Leviers d’optimisation",
+    "minutes": 25,
+    "nature": "E",
+    "proof": "Choix argumentés"
+  },
+  {
+    "day": 2,
+    "block": "2B",
+    "start": 220,
+    "end": 235,
+    "label": "Micro-lot mémorisable",
+    "minutes": 15,
+    "nature": "P",
+    "proof": "Test de boucle"
+  },
+  {
+    "day": 2,
+    "block": "2B",
+    "start": 235,
+    "end": 245,
+    "label": "Démonstration régularisation",
+    "minutes": 10,
+    "nature": "D",
+    "proof": "Courbes commentées"
+  },
+  {
+    "day": 2,
+    "block": "2B",
+    "start": 245,
+    "end": 285,
+    "label": "Défi diagnostic, TP 05/08",
+    "minutes": 40,
+    "nature": "P",
+    "proof": "Journal de correction"
+  },
+  {
+    "day": 2,
+    "block": "2B",
+    "start": 285,
+    "end": 300,
+    "label": "Principes du transfert",
+    "minutes": 15,
+    "nature": "E",
+    "proof": "Gel et dégel"
+  },
+  {
+    "day": 2,
+    "block": "2B",
+    "start": 300,
+    "end": 340,
+    "label": "TP transfert, TP 07",
+    "minutes": 40,
+    "nature": "P",
+    "proof": "Phases et modèle cible"
+  },
+  {
+    "day": 2,
+    "block": "2B",
+    "start": 340,
+    "end": 360,
+    "label": "Défense des diagnostics",
+    "minutes": 20,
+    "nature": "E",
+    "proof": "Justifications orales"
+  },
+  {
+    "day": 3,
+    "block": "3A",
+    "start": 0,
+    "end": 10,
+    "label": "Grille des études de cas",
+    "minutes": 10,
+    "nature": "E",
+    "proof": "Statuts de preuve"
+  },
+  {
+    "day": 3,
+    "block": "3A",
+    "start": 10,
+    "end": 35,
+    "label": "Atelier Foncier Innovant",
+    "minutes": 25,
+    "nature": "P",
+    "proof": "Pipeline et erreurs"
+  },
+  {
+    "day": 3,
+    "block": "3A",
+    "start": 35,
+    "end": 60,
+    "label": "Atelier CFVR/priorisation",
+    "minutes": 25,
+    "nature": "P",
+    "proof": "Capacité et métrique"
+  },
+  {
+    "day": 3,
+    "block": "3A",
+    "start": 60,
+    "end": 75,
+    "label": "Fraude en flux",
+    "minutes": 15,
+    "nature": "E",
+    "proof": "Labels et dérive"
+  },
+  {
+    "day": 3,
+    "block": "3A",
+    "start": 75,
+    "end": 95,
+    "label": "Atelier cas clinique OCT",
+    "minutes": 20,
+    "nature": "P",
+    "proof": "Coûts et limites"
+  },
+  {
+    "day": 3,
+    "block": "3A",
+    "start": 95,
+    "end": 105,
+    "label": "Cas LlaMandement",
+    "minutes": 10,
+    "nature": "E",
+    "proof": "Tâches et évaluations"
+  },
+  {
+    "day": 3,
+    "block": "3A",
+    "start": 105,
+    "end": 130,
+    "label": "Gouvernance et règles",
+    "minutes": 25,
+    "nature": "E",
+    "proof": "Points à qualifier"
+  },
+  {
+    "day": 3,
+    "block": "3A",
+    "start": 130,
+    "end": 165,
+    "label": "Atelier transposition et risques",
+    "minutes": 35,
+    "nature": "P",
+    "proof": "Fiche projet"
+  },
+  {
+    "day": 3,
+    "block": "3A",
+    "start": 165,
+    "end": 180,
+    "label": "Mise en commun",
+    "minutes": 15,
+    "nature": "E",
+    "proof": "Limites clarifiées"
+  },
+  {
+    "day": 3,
+    "block": "3B",
+    "start": 180,
+    "end": 190,
+    "label": "Lancement du projet",
+    "minutes": 10,
+    "nature": "E",
+    "proof": "Parcours et rôles"
+  },
+  {
+    "day": 3,
+    "block": "3B",
+    "start": 190,
+    "end": 290,
+    "label": "Projet : préparation et expériences",
+    "minutes": 100,
+    "nature": "P",
+    "proof": "Notebook et journal"
+  },
+  {
+    "day": 3,
+    "block": "3B",
+    "start": 290,
+    "end": 310,
+    "label": "Projet : analyse et slide",
+    "minutes": 20,
+    "nature": "P",
+    "proof": "Livrables"
+  },
+  {
+    "day": 3,
+    "block": "3B",
+    "start": 310,
+    "end": 330,
+    "label": "Soutenances",
+    "minutes": 20,
+    "nature": "E",
+    "proof": "Questions de validation"
+  },
+  {
+    "day": 3,
+    "block": "3B",
+    "start": 330,
+    "end": 350,
+    "label": "Épreuve pratique individuelle",
+    "minutes": 20,
+    "nature": "P",
+    "proof": "Fiche corrigée"
+  },
+  {
+    "day": 3,
+    "block": "3B",
+    "start": 350,
+    "end": 360,
+    "label": "QCM final",
+    "minutes": 10,
+    "nature": "E",
+    "proof": "Réponses individuelles"
+  }
+]

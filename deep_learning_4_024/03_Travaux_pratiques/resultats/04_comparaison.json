@@ -1,0 +1,16 @@
+{
+  "validation": {
+    "Dense": {
+      "exactitude": 0.9481481481481482,
+      "f1_macro": 0.9477362058662951,
+      "secondes": 1.0608140070000331
+    },
+    "CNN": {
+      "exactitude": 0.9481481481481482,
+      "f1_macro": 0.9470158997063768,
+      "secondes": 0.43967285499996933
+    }
+  },
+  "test_utilise": false,
+  "rechargement_verifie": true
+}

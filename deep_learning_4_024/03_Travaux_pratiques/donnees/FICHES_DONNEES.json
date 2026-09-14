@@ -1,0 +1,46 @@
+{
+  "dossiers_synthetiques.csv": {
+    "nature": "Synthétique, généré par sklearn.make_classification",
+    "n": 2400,
+    "cible": "examen_utile, ne constate aucune fraude",
+    "variables": "v00 à v19, purement artificielles",
+    "interdit": "dossier_id et resultat_apres_examen exclus des entrées normales",
+    "sha256": "4c8a848757025c7cbb45da2e73582850c51334766ed5697053cf8f40ef240f66"
+  },
+  "priorisation_rare.csv": {
+    "nature": "Synthétique",
+    "n": 5000,
+    "positifs": "Environ 2,5 %, bruit d’annotation simulé",
+    "usage": "Priorisation sous capacité, pas prédiction fiscale",
+    "sha256": "5d2c6fc4642ec3aeeb0d64384f37b8ff9ddc0ddfd05cee11aeea6281cf2b5f1d"
+  },
+  "chiffres_8x8.npz": {
+    "nature": "Dataset public sklearn load_digits",
+    "n": 1797,
+    "forme": "8 × 8, intensités 0 à 16, 10 classes",
+    "source": "https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_digits.html",
+    "origine": "Copie réduite des chiffres manuscrits UCI fournie par scikit-learn",
+    "licence": "Consulter les conditions du dataset source UCI ; aucune licence supplémentaire n’est revendiquée par le kit",
+    "sha256": "5a1c8cf11d09908fbcb31a33be43b372686a59d40e87a23fa0fbbcfb3c32f1e7"
+  },
+  "serie_synthetique.csv": {
+    "nature": "Synthétique",
+    "n": 1200,
+    "processus": "Tendance + saisonnalités 24/168 + bruit + rupture à 1020",
+    "usage": "Prévision à un pas, observations passées disponibles, aucune prédiction financière réelle",
+    "sha256": "3cb2cc6ebe29ee956ed9065eeface2820464769e41a4691ca47681e8eb53a9bf"
+  },
+  "documents_synthetiques.csv": {
+    "nature": "Synthétique, textes créés pour la formation",
+    "n": 384,
+    "classes": [
+      "information",
+      "paiement",
+      "rendez_vous",
+      "rectification"
+    ],
+    "split": "Par famille de gabarit, pas par variante textuelle",
+    "limite": "Vocabulaire artificiel et faible diversité, non représentatif de courriers réels",
+    "sha256": "7fa43fc8cf8e60bb90250fb8f1f9961ecef0d4694a2ec1ae8e18f1c76bb35115"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "date": "2026-09-14",
+  "moteur": "CPU",
+  "keras_backend": "torch",
+  "tensorflow": "Non installé : branche conditionnelle non exécutée",
+  "notebooks": [
+    {
+      "fichier": "00_Vérifier_son_environnement.ipynb",
+      "statut": "REUSSI",
+      "secondes": 9.31,
+      "cellules_code": 5
+    },
+    {
+      "fichier": "01_Tenseurs__gradients_et_taux_d_apprentissage.ipynb",
+      "statut": "REUSSI",
+      "secondes": 4.5,
+      "cellules_code": 5
+    },
+    {
+      "fichier": "02_Premier_pipeline_tabulaire__PyTorch_et_Keras.ipynb",
+      "statut": "REUSSI",
+      "secondes": 7.59,
+      "cellules_code": 7
+    },
+    {
+      "fichier": "03_Métriques__calibration_et_seuils.ipynb",
+      "statut": "REUSSI",
+      "secondes": 5.76,
+      "cellules_code": 5
+    },
+    {
+      "fichier": "04_CNN___classer_des_images_et_examiner_les_erreurs.ipynb",
+      "statut": "REUSSI",
+      "secondes": 7.02,
+      "cellules_code": 6
+    },
+    {
+      "fichier": "05_Diagnostic_et_régularisation.ipynb",
+      "statut": "REUSSI",
+      "secondes": 7.02,
+      "cellules_code": 5
+    },
+    {
+      "fichier": "06_LSTM_et_prévision_à_un_pas.ipynb",
+      "statut": "REUSSI",
+      "secondes": 5.66,
+      "cellules_code": 4
+    },
+    {
+      "fichier": "07_Transfert_et_ajustement_fin_hors_ligne.ipynb",
+      "statut": "REUSSI",
+      "secondes": 5.53,
+      "cellules_code": 4
+    },
+    {
+      "fichier": "08_Déboguer_cinq_incidents.ipynb",
+      "statut": "REUSSI",
+      "secondes": 3.92,
+      "cellules_code": 5
+    },
+    {
+      "fichier": "09_Priorisation_sous_capacité_et_dérive.ipynb",
+      "statut": "REUSSI",
+      "secondes": 7.02,
+      "cellules_code": 4
+    },
+    {
+      "fichier": "10_Projet_final___un_prototype_défendable.ipynb",
+      "statut": "REUSSI",
+      "secondes": 5.82,
+      "cellules_code": 4
+    }
+  ]
+}

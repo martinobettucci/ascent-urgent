@@ -1,0 +1,9 @@
+# Installer PyTorch CPU séparément, voir LISEZ_MOI.md.
+numpy==2.3.5
+pandas==2.2.3
+scikit-learn==1.8.0
+keras==3.13.2
+matplotlib==3.10.8
+jupyterlab==4.5.3
+nbformat==5.10.4
+nbclient==0.10.4

@@ -1,0 +1,786 @@
+# Dossier de préparation pédagogique ultime — Intelligence artificielle : Deep Learning par la pratique
+
+`[MÉTA-DOSSIER | Référence: 4-024 | Lot: 4 | Niveau SAME visé: Application (A) | Durée: 18 h | Format: 3 jours présentiels | Client: DGFiP | Dates: 21–23 septembre 2026 | Lieu: Asnières-sur-Seine | Version de préparation: 14 septembre 2026]`
+
+**Positionnement pédagogique.** Le présent dossier transforme le programme contractuel fourni en un dispositif de formation directement exploitable par un formateur : contenu scientifique, discours pédagogique, démonstrations, travaux pratiques, études de cas, questions à poser, erreurs à provoquer volontairement, critères d’évaluation, variantes selon le niveau des stagiaires et descriptions des visuels à produire. Le niveau SAME annoncé est « Application (A) » ; dans les référentiels utilisant cette échelle, ce niveau correspond à la capacité de réaliser des actes simples dans le domaine, par opposition à la seule sensibilisation ou à la maîtrise d’actes complexes. citeturn19search11
+
+**Principe directeur.** À l’issue des trois jours, les participants ne doivent surtout pas seulement savoir réciter ce qu’est un CNN, un LSTM, un optimiseur ou une fonction de perte. Ils doivent être capables de partir d’un problème, identifier correctement la nature des données et de la cible, construire une baseline, sélectionner une architecture raisonnable, entraîner le modèle, repérer les principaux symptômes d’un apprentissage défaillant, modifier méthodiquement l’expérience, évaluer les résultats et expliquer pourquoi le modèle serait — ou ne serait pas — raisonnablement utilisable dans un contexte métier.
+
+`ILLUSTRATION: Concevoir une page de couverture sobre et institutionnelle. Au centre, un réseau de neurones stylisé doit relier quatre blocs situés à gauche — « données tabulaires », « images », « séries temporelles », « textes » — à quatre résultats situés à droite — « score », « classe », « prévision », « aide à la décision ». Au milieu, faire apparaître les étapes « entraînement → validation → diagnostic → amélioration ». Ajouter en bas la mention DGFiP, 21–23 septembre 2026, Asnières-sur-Seine. Le visuel doit transmettre l’idée que le Deep Learning n’est pas une boîte noire magique mais une chaîne d’ingénierie.`
+
+## `[MÉTA-CHAPITRE | Fondamentaux | Public: grand public → initié | Objectif: créer un langage commun | Priorité: critique]` Rappels indispensables pour comprendre réellement le Deep Learning
+
+`[MÉTA | NOTION-CARDINALE | à expliquer avant tout code]` **Commencer par remettre l’intelligence artificielle à sa juste place.** « Intelligence artificielle », « Machine Learning », « Deep Learning » et « IA générative » ne sont pas des synonymes. Pour cette formation, on présentera l’IA comme la catégorie générale des systèmes accomplissant des tâches associées à des capacités de perception, de prédiction, de décision ou de génération ; le Machine Learning comme une famille de méthodes dans lesquelles une partie du comportement est apprise à partir de données ; et le Deep Learning comme une famille du Machine Learning fondée sur des réseaux de neurones comportant plusieurs transformations successives. Les frameworks utilisés pendant la formation — TensorFlow, PyTorch et Keras — fournissent précisément les abstractions nécessaires pour représenter ces couches, calculer des pertes et optimiser les paramètres. citeturn3search0turn20search1
+
+`ILLUSTRATION: Dessiner quatre ensembles emboîtés. Grand cercle « Intelligence artificielle ». À l’intérieur, « Machine Learning ». À l’intérieur de celui-ci, « Deep Learning ». À côté, faire chevaucher partiellement une zone « IA générative » pour montrer que l’IA générative moderne fait largement appel au Deep Learning mais que tout Deep Learning n’est pas génératif. Sous le schéma, placer quatre exemples : règles expertes, régression/classification classique, CNN de classification d’images, modèle génératif de texte.`
+
+`[MÉTA | ANALOGIE | grand-public]` Une analogie très efficace consiste à comparer le modèle à un **instrument dont on règle automatiquement des millions de petits boutons**. Le programmeur ne spécifie pas manuellement « une piscine est un rectangle bleu entouré de végétation » ou « telle combinaison de transactions est frauduleuse ». Il fournit des exemples, définit une architecture, une mesure d’erreur et une procédure d’optimisation. L’entraînement ajuste alors les paramètres afin de réduire l’erreur sur les exemples d’apprentissage. Il faut immédiatement ajouter que cette optimisation ne garantit ni la compréhension du phénomène, ni la causalité, ni la robustesse hors distribution, ni l’équité : le modèle apprend ce qui lui permet de réduire la fonction objectif dans les données disponibles.
+
+`[MÉTA | FORMULE | niveau: accessible]` Le neurone artificiel élémentaire peut être résumé par :
+
+\[
+z = w_1x_1 + w_2x_2 + \dots + w_nx_n + b
+\]
+
+puis
+
+\[
+a=f(z)
+\]
+
+Les \(x_i\) sont les entrées, les \(w_i\) les poids appris, \(b\) un biais et \(f\) une fonction d’activation. Une couche empile de nombreux calculs de ce type ; un réseau profond enchaîne de nombreuses transformations. Keras illustre directement ce principe avec des couches `Dense`, `Conv2D`, `Activation`, `Dropout` et d’autres briques composables. citeturn20search1
+
+`ILLUSTRATION: Montrer un seul neurone de manière non biologique et non trompeuse. À gauche, cinq variables métier fictives x1 à x5, chacune passant par un poids w1 à w5. Les flèches convergent vers un cercle « somme pondérée + biais », puis vers un petit bloc « activation », puis vers une sortie « score = 0,83 ». Sous l’illustration, écrire en grand : « Ce qui est appris : les paramètres. Ce qui est choisi par l’humain : données, architecture, objectif, protocole d’évaluation. »`
+
+`[MÉTA | VOCABULAIRE | incontournable]` **Un tenseur** est la structure numérique omniprésente. Un scalaire possède zéro axe, un vecteur un axe, une matrice deux axes, une image couleur est souvent représentée par hauteur × largeur × canaux, et un lot d’images ajoute une dimension de batch. Cette transition vers les tenseurs doit être enseignée très tôt, car beaucoup d’erreurs de débutants ne concernent pas « l’IA » mais simplement des dimensions incompatibles. PyTorch articule son API autour des tenseurs et de modules capables de les transformer ; TensorFlow adopte la même logique computationnelle. citeturn2search2turn3search0
+
+`ILLUSTRATION: Réaliser un escalier visuel : « 0D : 7 », « 1D : [7, 2, 9] », « 2D : tableau lignes × colonnes », « 3D : image H × W × C », « 4D : batch B × H × W × C ». À droite, représenter une erreur typique en rouge : « attendu 28×28×1, reçu 28×28 », puis sa correction.`
+
+`[MÉTA | CYCLE-APPRENTISSAGE]` Le cœur du Deep Learning peut être résumé par une boucle en cinq opérations : **prédire, mesurer l’erreur, calculer le gradient, modifier les paramètres, recommencer**. Dans un apprentissage supervisé, le réseau produit \(\hat y\), la fonction de perte compare \(\hat y\) à \(y\), la différentiation automatique calcule les dérivées nécessaires et l’optimiseur modifie les paramètres. Adam, proposé par Kingma et Ba, utilise des estimations adaptatives des premiers et seconds moments des gradients et reste une référence pédagogique utile pour expliquer pourquoi « l’optimiseur » est distinct du modèle lui-même. citeturn4academia19
+
+\[
+\theta_{t+1}=\theta_t-\eta \nabla_\theta L
+\]
+
+Cette formule de descente de gradient simplifiée suffit au premier niveau : \(\theta\) représente les paramètres, \(L\) la perte et \(\eta\) le taux d’apprentissage.
+
+`ILLUSTRATION: Créer une boucle circulaire en cinq secteurs : 1. Batch de données ; 2. Forward pass ; 3. Calcul de la loss ; 4. Backpropagation/gradients ; 5. Mise à jour des poids. Une flèche revient au batch suivant. En parallèle, dessiner une petite courbe de loss qui descend progressivement. Ajouter un avertissement : « Loss qui baisse ≠ modèle nécessairement utile en production. »`
+
+`[MÉTA | QUESTION-FORMATEUR]` À ce stade, poser : **« Quelle différence faites-vous entre apprendre les données et apprendre une règle qui se généralise ? »** L’objectif est d’amener naturellement la distinction entre entraînement et généralisation.
+
+`[MÉTA | SPLIT-DONNÉES | critique]` Les données doivent en pratique être séparées en ensembles ayant des rôles différents. Le **train** sert à ajuster les paramètres. La **validation** sert au choix des hyperparamètres et des décisions de conception. Le **test** doit rester une estimation finale sur des exemples non exploités pour ajuster le système. Toute information issue du futur, du test ou d'une variable indirectement inaccessible au moment réel de la prédiction peut provoquer une **fuite de données** et produire des performances artificiellement optimistes. La documentation officielle de scikit-learn identifie explicitement la fuite de données comme un des principaux pièges d’évaluation. citeturn7search0
+
+`ILLUSTRATION: Représenter un grand jeu de données comme une barre divisée en trois parties : 70 % entraînement, 15 % validation, 15 % test, en précisant que les ratios ne constituent qu’un exemple. Au-dessus de la barre, montrer une flèche interdite allant du test vers l’entraînement avec l’inscription « fuite de données ». Ajouter une variante séries temporelles où train se trouve chronologiquement avant validation puis test.`
+
+`[MÉTA | PIÈGE | à provoquer en salle]` Exemple volontairement caricatural : pour prédire si un contrôle révélera une anomalie, inclure par erreur comme variable d’entrée une information renseignée **après** le contrôle. Le modèle atteint alors une performance spectaculaire mais inutilisable au moment où la décision doit être prise. Demander aux participants de détecter le problème avant d’introduire le mot « leakage ».
+
+`[MÉTA | SURAPPRENTISSAGE]` **Sous-apprentissage** : le modèle n’arrive même pas à capturer suffisamment la structure du jeu d’entraînement. **Surapprentissage** : l’erreur d’entraînement continue de diminuer tandis que la performance de validation stagne ou se dégrade. Entre les deux se trouve la recherche d’une capacité et d’une régularisation adaptées.
+
+`ILLUSTRATION: Trois colonnes contenant chacune un nuage de points. Colonne 1 « sous-apprentissage » : ligne presque droite incapable de suivre la structure. Colonne 2 « compromis raisonnable » : courbe lisse épousant le phénomène. Colonne 3 « surapprentissage » : courbe très oscillante passant par chaque point. Sous chaque colonne, afficher train et validation avec des flèches qualitatives.`
+
+`[MÉTA | RÉGULARISATION]` Le **dropout** consiste, durant l’entraînement, à neutraliser aléatoirement une partie des unités afin de réduire les co-adaptations excessives. L’article fondateur de Srivastava et ses coauteurs formalise cette technique comme un moyen de réduire le surapprentissage. citeturn4search2
+
+`ILLUSTRATION: Afficher deux petits réseaux identiques. À gauche « inference » : tous les neurones connectés. À droite « entraînement avec dropout » : plusieurs neurones grisés et leurs connexions supprimées aléatoirement. Ajouter « masque différent à chaque passage d’entraînement ».`
+
+`[MÉTA | BATCH-NORMALIZATION]` La **Batch Normalization** introduite par Ioffe et Szegedy normalise des activations intermédiaires au cours de l’apprentissage et a historiquement facilité l’entraînement de réseaux profonds en permettant notamment des réglages d’optimisation plus tolérants. Il est préférable, pédagogiquement, de présenter son comportement concret avant de débattre de toutes les interprétations théoriques de ses effets. citeturn20academia12
+
+`[MÉTA | MÉTRIQUES | critique pour fraude]` Une accuracy élevée ne signifie pas automatiquement que le système est bon. Considérons 10 000 dossiers dont seulement 100 positifs : un système qui répond systématiquement « négatif » atteint 99 % d’accuracy tout en ne détectant aucun positif. Il faut donc enseigner au minimum matrice de confusion, précision, rappel, F1, ROC-AUC et, lorsque la classe positive est rare, la courbe précision-rappel. Ces métriques et leurs fonctions de calcul sont documentées explicitement dans scikit-learn. citeturn7search1
+
+\[
+Precision = \frac{TP}{TP+FP}
+\qquad
+Recall = \frac{TP}{TP+FN}
+\]
+
+`ILLUSTRATION: Matrice de confusion 2×2 occupant une demi-page : vrais négatifs, faux positifs, faux négatifs, vrais positifs. Autour, quatre personnages métiers posent des questions différentes : « combien d’alertes étaient pertinentes ? », « combien de cas ai-je détectés ? », « combien de dossiers vais-je faire examiner ? », « que coûte un cas manqué ? ». L’objectif est de faire comprendre qu’une métrique correspond à une question opérationnelle.`
+
+`[MÉTA | SEUIL-DE-DÉCISION]` Une distinction fondamentale pour des professionnels est la différence entre **score** et **décision**. Un réseau peut produire un score de 0 à 1 ; le seuil qui transforme ce score en alerte est une décision de conception dépendant du coût des faux positifs, du coût des faux négatifs et de la capacité opérationnelle. Modifier le seuil peut changer fortement la précision et le rappel sans réentraîner le réseau.
+
+`ILLUSTRATION: Afficher une ligne horizontale de scores entre 0 et 1, avec points rouges et bleus. Positionner trois seuils possibles à 0,3, 0,5 et 0,8. Pour chacun, afficher en dessous « beaucoup d’alertes / rappel élevé », « compromis », « peu d’alertes / précision plus élevée ». Ne pas présenter 0,5 comme un seuil intrinsèquement optimal.`
+
+`[MÉTA | MESSAGE-À-RETENIR]` La phrase que les stagiaires doivent être capables de prononcer dès la fin de la première heure est : **« En Deep Learning, on ne choisit pas seulement un réseau ; on conçoit un système données–objectif–modèle–évaluation–décision. »**
+
+## `[MÉTA-CHAPITRE | Histoire-et-architectures | Objectif: comprendre pourquoi ces modèles existent | Niveau: fondamentaux → application]` De la percée du Deep Learning aux CNN, LSTM et Transformers
+
+`[MÉTA | HISTOIRE | ne pas transformer en cours chronologique]` L’histoire doit servir à expliquer les choix techniques, et non à accumuler les dates. Quatre repères suffisent pour donner une structure intellectuelle solide.
+
+**Le LSTM, 1997.** Hochreiter et Schmidhuber proposent le Long Short-Term Memory afin de mieux traiter l’apprentissage de dépendances sur de longues séquences que les réseaux récurrents simples. Le papier de 1997 constitue le repère historique à utiliser lorsque les RNN et LSTM sont introduits au deuxième jour. citeturn20search3
+
+**AlexNet, 2012.** Krizhevsky, Sutskever et Hinton entraînent un grand CNN sur ImageNet à l’aide de GPU. Le réseau comporte notamment cinq couches convolutionnelles puis trois couches pleinement connectées ; l’article décrit environ 60 millions de paramètres et l’utilisation de dropout. Son résultat ILSVRC a fortement contribué à démontrer la puissance des grands réseaux convolutionnels entraînés sur des données et du calcul à grande échelle. citeturn1view0
+
+**Batch Normalization et ResNet, 2015.** Batch Normalization fournit un nouvel outil de stabilisation de l’apprentissage profond. ResNet formalise ensuite l’apprentissage résiduel : plutôt que de forcer chaque empilement à apprendre directement une transformation complète, des connexions de raccourci facilitent le passage de l’information et l’optimisation de réseaux extrêmement profonds. Les auteurs de ResNet expérimentent jusqu’à 152 couches et obtiennent des performances de premier plan sur ImageNet. citeturn20academia12turn4academia18
+
+**Transformer, 2017.** Vaswani et ses coauteurs proposent une architecture reposant sur l’attention plutôt que sur la récurrence ou les convolutions pour leur tâche de traduction. Ce jalon est indispensable pour situer les LSTM historiquement : les LSTM restent pédagogiquement très utiles pour comprendre les séquences, mais une formation en 2026 ne doit pas laisser croire qu’ils constituent l’architecture dominante de tout le traitement moderne du langage. citeturn5academia20
+
+`ILLUSTRATION: Frise horizontale très épurée comportant seulement quatre jalons : 1997 LSTM — séquences ; 2012 AlexNet — CNN + GPU + ImageNet ; 2015 BatchNorm/ResNet — réseaux profonds plus faciles à optimiser ; 2017 Transformer — attention. En dessous, ajouter une deuxième frise « concepts du stage » : Dense → CNN → LSTM → transfer learning → ouverture Transformer.`
+
+`[MÉTA | POURQUOI-MAINTENANT]` Le succès contemporain du Deep Learning s’explique par une combinaison de facteurs plutôt que par une invention unique : disponibilité de très grands volumes de données numériques, accélération matérielle notamment par GPU, architectures plus efficaces, optimisation et régularisation améliorées, et industrialisation des bibliothèques logicielles. AlexNet documentait déjà explicitement l’importance du calcul GPU et du dropout ; l’écosystème actuel rend ces techniques accessibles par des API de haut niveau comme Keras et par des frameworks complets comme TensorFlow et PyTorch. citeturn1view0turn20search1turn3search0
+
+`ILLUSTRATION: Concevoir une « convergence des facteurs » avec cinq flèches entrant dans un même cercle « Deep Learning à grande échelle » : données, GPU, architectures, optimisation, logiciels open source. Ne pas représenter un unique facteur comme la cause du succès.`
+
+`[MÉTA | ARCHITECTURE-MLP]` **MLP / réseau Dense.** Chaque unité d’une couche dense reçoit les sorties de la couche précédente. C’est l’architecture la plus simple à utiliser pour enseigner les transformations non linéaires et les paramètres. Elle constitue une bonne première expérience sur des données simples, mais son utilisation sur des images aplaties fait perdre explicitement la structure spatiale.
+
+`ILLUSTRATION: À gauche, image 28×28. Au centre, opération « Flatten → 784 nombres ». À droite, MLP Dense. Puis sous le schéma, montrer que deux pixels voisins dans l’image ne sont plus distingués, structurellement, de deux positions éloignées une fois aplaties.`
+
+`[MÉTA | ARCHITECTURE-CNN | cœur du jour 2]` **CNN.** Une convolution applique des filtres locaux partagés sur l’image. Cela permet au réseau de construire progressivement des représentations : motifs locaux dans les premières couches, compositions plus complexes dans les suivantes. Le pooling ou les opérations de sous-échantillonnage réduisent les dimensions spatiales. L’objectif pédagogique n’est pas d’effectuer à la main des dizaines de convolutions : il est de comprendre trois notions — localité, partage des poids et hiérarchie des représentations.
+
+`ILLUSTRATION: Image d’entrée d’un « 7 ». Montrer un filtre 3×3 se déplaçant sur l’image, puis une feature map. Dans une seconde ligne, présenter plusieurs feature maps stylisées : bords horizontaux, verticaux, texture, motif plus complexe. Ajouter la mention « les filtres sont appris, pas dessinés manuellement ».`
+
+`[MÉTA | ARCHITECTURE-RNN]` **RNN.** Pour une séquence \(x_1, x_2, \dots, x_t\), le réseau maintient un état transmis d’un pas au suivant. Cette construction rend intuitive l’idée de mémoire : ce qui arrive à \(t\) peut être interprété à partir de ce qui précédait.
+
+`ILLUSTRATION: Représenter un RNN une première fois comme une cellule avec une boucle, puis « dérouler » cette cellule sur cinq instants t1 à t5. Chaque cellule reçoit xt et l’état précédent ht−1, produit ht. Utiliser une série temporelle métier plutôt qu’une phrase pour conserver la pertinence multisectorielle.`
+
+`[MÉTA | ARCHITECTURE-LSTM]` **LSTM.** Le LSTM ajoute des mécanismes de contrôle — couramment décrits comme des portes — permettant de préserver, modifier ou écarter des informations au cours de la séquence. Il doit être présenté comme une réponse historique importante aux difficultés des RNN simples sur des dépendances longues, sans prétendre qu’il constitue automatiquement le meilleur modèle de toute série temporelle. citeturn20search3
+
+`ILLUSTRATION: Produire un schéma pédagogique d’une cellule LSTM très simplifiée : flux principal de mémoire c_t en ligne horizontale ; trois portes « oublier », « écrire », « lire » ; entrée x_t et état h_{t-1}. Éviter de surcharger le premier schéma de sigmoïdes et multiplications. Prévoir éventuellement une deuxième version plus mathématique en annexe.`
+
+`[MÉTA | ARCHITECTURE-TRANSFORMER | ouverture seulement]` Les Transformers seront introduits en **ouverture**, pas au détriment des objectifs contractuels CNN/RNN/LSTM. Leur inclusion est néanmoins indispensable à la culture professionnelle en 2026 : le papier fondateur montre précisément que le Transformer s’appuie sur l’attention en supprimant la récurrence de l’architecture de traduction étudiée. citeturn5academia20
+
+`ILLUSTRATION: Comparaison en trois colonnes : CNN « voisinage spatial », LSTM « séquence traitée avec état récurrent », Transformer « chaque élément peut pondérer l’importance des autres par attention ». Utiliser le même exemple : une séquence de dix événements, afin de comparer visuellement les mécanismes.`
+
+`[MÉTA | NUANCE-MÉTIER | très important]` **Deep Learning ne veut pas dire “meilleur pour toutes les données”.** Pour des problèmes tabulaires classiques de taille limitée, les méthodes à base d’arbres constituent des baselines particulièrement importantes. L’étude systématique de Grinsztajn, Oyallon et Varoquaux publiée à NeurIPS montre que, sur de nombreux jeux tabulaires typiques évalués dans leur protocole, les modèles à base d’arbres conservaient un avantage sur les réseaux neuronaux examinés. citeturn20search2
+
+Cette nuance est particulièrement importante pour un public DGFiP : le bon réflexe professionnel n’est pas **« j’ai appris le Deep Learning, donc je vais remplacer le gradient boosting par un MLP »**, mais **« je vais comparer honnêtement une architecture profonde à une baseline adaptée au problème »**.
+
+`ILLUSTRATION: Faire un arbre de décision intitulé « Dois-je tester le Deep Learning ? ». Questions : données image/son/texte non structuré ? → forte pertinence ; très gros volume et représentation complexe ? → potentiellement pertinent ; petit tableau structuré ? → commencer par baseline arbre/linéaire ; séquences longues ou signal complexe ? → comparer architectures. En bas : « benchmark > dogme ».`
+
+## `[MÉTA-CHAPITRE | Stack-technique | TensorFlow-PyTorch-Keras | Objectif: autonomie pratique]` Environnement de travail, bibliothèques et stratégie d’outillage
+
+`[MÉTA | MISE-À-JOUR-2026 | important]` Le programme contractuel cite « TensorFlow, PyTorch et Keras » comme trois bibliothèques. Il faut apporter une précision actualisée : **Keras 3 est aujourd’hui une API multi-backend capable de fonctionner avec TensorFlow, PyTorch ou JAX**. Il n’est donc plus pédagogiquement exact de présenter Keras comme un troisième moteur totalement indépendant placé au même niveau que TensorFlow et PyTorch. citeturn2search3turn20search1
+
+`ILLUSTRATION: Architecture logicielle en couches. Couche supérieure : « Keras 3 — API haut niveau ». En dessous, trois blocs de backend : TensorFlow, PyTorch, JAX. À côté, représenter « PyTorch natif » et « TensorFlow natif » donnant accès à davantage de contrôle. Ajouter une note : « le stage approfondit TensorFlow/PyTorch et utilise Keras comme couche de productivité ».`
+
+`[MÉTA | RECOMMANDATION-FORTE]` **Je déconseille de faire coder trois fois le même exercice complet dans trois syntaxes.** Cela consommerait des heures sans construire trois fois plus de compétences. Le scénario recommandé est :
+
+| Besoin pédagogique | Outil principal | Raisonnement |
+|---|---|---|
+| Premier modèle opérationnel | Keras 3 | Réduire la charge cognitive syntaxique |
+| Comprendre le cycle `forward → loss → backward → step` | PyTorch natif | Rendre explicites les étapes d’entraînement |
+| Montrer l’écosystème TensorFlow | TensorFlow/Keras | Pipelines, modèles, TensorBoard et déploiement potentiel |
+| Comparer les abstractions | Keras ↔ PyTorch | Comprendre que les concepts transcendent l’API |
+
+Keras documente son approche multi-framework et sa capacité à exécuter des modèles sur les backends TensorFlow, PyTorch et JAX. TensorFlow fournit parallèlement un workflow complet de préparation, construction, entraînement et évaluation de modèles ; PyTorch rend directement disponibles datasets, DataLoaders, modules, optimiseurs et autograd. citeturn20search1turn3search0turn2search2
+
+`[MÉTA | ENVIRONNEMENT]` Le support devra prévoir **deux environnements possibles** : Google Colab pour démarrer sans installation locale complexe, et Jupyter Notebook local ou institutionnel en solution de continuité. Les notebooks doivent être préparés de manière à fonctionner sur CPU pour les exercices fondamentaux ; le GPU doit accélérer l’activité et non être une condition absolue de réussite.
+
+`ILLUSTRATION: Dessiner deux chemins convergents vers les mêmes notebooks. Chemin A « navigateur → Colab → CPU/GPU disponible ». Chemin B « poste local → Python/Jupyter → CPU/GPU selon configuration ». Au centre, afficher un dossier identique de notebooks et datasets afin de montrer que le contenu pédagogique ne dépend pas de l’hébergement.`
+
+`[MÉTA | CHECK-IN-TECHNIQUE | J-7/J-1]` Le formateur doit impérativement préparer en avance :
+
+| Élément | Validation attendue avant la session |
+|---|---|
+| Python | Import fonctionnel |
+| TensorFlow | import + petit tensor operation |
+| PyTorch | import + tensor + forward |
+| Keras 3 | import + modèle Dense |
+| scikit-learn | métriques et preprocessing |
+| matplotlib | graphiques |
+| pandas/numpy | manipulation des données |
+| Notebook | exécution de toutes les cellules dans l’ordre |
+| Dataset principal | copie locale de secours |
+| Dataset CNN | copie locale de secours |
+| Modèles pré-entraînés éventuels | cache ou procédure alternative |
+| Connexion | scénario « Internet indisponible » prêt |
+| Temps d’entraînement | chronométré sur CPU et GPU |
+
+`[MÉTA | REPRODUCTIBILITÉ]` Fixer des graines aléatoires améliore la reproductibilité, mais il faut expliquer qu’une reproduction bit-à-bit n’est pas nécessairement garantie entre versions, plateformes ou matériels. La documentation officielle PyTorch avertit explicitement qu’une reproductibilité complète n’est pas garantie entre releases, plateformes ou certains chemins d’exécution et détaille le contrôle des sources d’aléa. citeturn2search5
+
+`ILLUSTRATION: Deux expériences A et B partent du même code. Au-dessus d’A « seed non fixée » : initialisation, shuffle et augmentation différents. Au-dessus de B « seed fixée + versions tracées + données figées ». Montrer que la seconde expérience réduit la variabilité sans promettre l’identité absolue sur toutes les infrastructures.`
+
+`[MÉTA | FICHE-EXPÉRIENCE]` Chaque TP doit obliger les stagiaires à remplir une mini-fiche :
+
+**Hypothèse → modification → métrique attendue → résultat → interprétation → décision suivante.**
+
+Il faut bannir le comportement « changer cinq hyperparamètres, relancer, constater que c’est mieux ». Ce n’est pas du diagnostic ; c’est de la recherche aléatoire non documentée.
+
+`ILLUSTRATION: Une fiche A5 intitulée « Journal d’expérience ». Six cases avec les libellés précédents. Faire apparaître un exemple rempli : « hypothèse : overfitting ; changement : dropout 0,3 ; attendu : gap train/val réduit ; observé : val +2 pts mais train −4 pts ; décision : conserver puis tester augmentation ».`
+
+`[MÉTA | PREMIER-CODE]` Le premier exemple Keras doit être intentionnellement court afin que les participants identifient le modèle conceptuel plutôt que les détails syntaxiques. L’API officielle Keras construit précisément les workflows autour de `compile()`, `fit()` et de couches composables. citeturn20search1
+
+```python
+import keras
+from keras import layers
+
+model = keras.Sequential([
+    layers.Input(shape=(20,)),
+    layers.Dense(32, activation="relu"),
+    layers.Dense(16, activation="relu"),
+    layers.Dense(1, activation="sigmoid"),
+])
+
+model.compile(
+    optimizer="adam",
+    loss="binary_crossentropy",
+    metrics=["accuracy"],
+)
+```
+
+`[MÉTA | DÉCONSTRUCTION-CODE]` Le formateur ne poursuit pas immédiatement avec `fit()`. Il fait commenter chaque ligne par la salle : forme d’entrée, nombre de neurones, non-linéarité, couche de sortie, optimiseur, fonction de perte, métrique. Objectif : faire constater que les décisions importantes sont conceptuelles avant d’être syntaxiques.
+
+`[MÉTA | PYTORCH-BOUCLE]` Ensuite, PyTorch sert à ouvrir la « boîte » et expliciter le cycle :
+
+```python
+for x_batch, y_batch in loader:
+    optimizer.zero_grad()
+    predictions = model(x_batch)
+    loss = criterion(predictions, y_batch)
+    loss.backward()
+    optimizer.step()
+```
+
+`[MÉTA | QUESTION-FORMATEUR]` Demander : **« Quelle ligne apprend réellement ? »** La bonne réponse est subtile : aucune ligne isolée. Le forward produit les prédictions, la loss construit l’objectif, `backward()` calcule les gradients et `step()` applique la modification des paramètres. L’apprentissage résulte de la chaîne entière.
+
+`ILLUSTRATION: Reprendre exactement les quatre lignes importantes de la boucle PyTorch dans quatre grands blocs reliés par des flèches. À côté de `loss.backward()`, montrer des flèches qui repartent en sens inverse dans le réseau ; à côté de `optimizer.step()`, représenter les poids qui changent de w vers w'.`
+
+## `[MÉTA-CHAPITRE | Jour-un | Durée: 6 h | Orientation: découverte active | Ratio pratique proposé: 3 h 40]` Introduction, bibliothèques et premier modèle de bout en bout
+
+`[MÉTA | ALIGNEMENT-CONTRACTUEL]` Le Jour 1 conserve les trois blocs du programme fourni : introduction aux réseaux de neurones et au Deep Learning ; découverte des bibliothèques ; premier modèle de base. La proposition ci-dessous réserve **3 h 40 sur 6 h** à des manipulations, mini-expériences ou TP, soit environ 61 % de pratique dès le premier jour.
+
+| Temps pédagogique | Séquence | Théorie / pratique | Résultat observable |
+|---:|---|---|---|
+| 0:00–0:20 | Accueil, diagnostic initial | interactif | niveau et attentes identifiés |
+| 0:20–1:10 | IA → ML → DL, données, tenseurs | 35 min théorie + 15 min exercice | vocabulaire commun |
+| 1:10–2:00 | neurone, loss, gradient, train/val/test | 35 min théorie + 15 min micro-TP | boucle d’apprentissage comprise |
+| 2:00–2:50 | TensorFlow, PyTorch, Keras | 25 min exposé + 25 min manipulation | frameworks différenciés |
+| 2:50–4:00 | environnement, tenseurs, premiers modèles | 15 min théorie + 55 min pratique | notebook fonctionnel |
+| 4:00–6:00 | TP complet de classification | 20 min briefing + 100 min pratique | premier pipeline évalué |
+
+`[MÉTA | DIAGNOSTIC-ENTRÉE]` Le quiz initial ne doit pas être noté. Il comporte cinq questions très discriminantes :
+
+1. Quelle différence entre validation et test ?
+2. Pourquoi normaliser certaines variables ?
+3. Qu’est-ce qu’un paramètre appris ?
+4. Que signifie une accuracy de 95 % ?
+5. À quoi sert le gradient ?
+
+Les réponses permettent au formateur de décider si le rappel mathématique doit durer quinze minutes ou quarante-cinq.
+
+`ILLUSTRATION: Slide « baromètre de départ » avec cinq jauges : Python, données, Machine Learning, réseaux de neurones, évaluation. Les stagiaires se positionnent de 0 à 3. L’objectif n’est pas la notation mais l’adaptation du rythme.`
+
+`[MÉTA | MICRO-TP-TENSEURS]` **Manipulation zéro : “le Deep Learning est d’abord de l’algèbre sur des tenseurs”.** Faire créer un tenseur 2×3, afficher sa forme, effectuer une multiplication matricielle, provoquer volontairement une incompatibilité de dimensions puis la corriger. Durée : quinze minutes. Cette séquence, modeste, économise énormément de temps lorsque les premières erreurs de CNN apparaissent.
+
+`[MÉTA | MICRO-TP-GRADIENT]` **Manipulation un : optimisation d’une seule variable.** Définir \(L(w)=(w-3)^2\), initialiser \(w=-4\), calculer ou faire calculer le gradient, puis exécuter plusieurs pas de descente. Aucun réseau neuronal n’est nécessaire. C’est l’exercice le plus rapide pour rendre concrète la notion d’optimisation.
+
+`ILLUSTRATION: Parabole y=(w−3)² avec un point initial à w=−4. Afficher une suite de cinq points descendant progressivement vers w=3. À chaque point, représenter une petite flèche de gradient. Ajouter « le gradient indique la pente, l’optimiseur décide du déplacement ».`
+
+`[MÉTA | DÉMONSTRATION-LR]` Le formateur exécute ensuite trois apprentissages identiques avec des learning rates volontairement différents : trop petit, raisonnable, trop grand. Les participants doivent prédire la forme des courbes **avant** l’exécution.
+
+`ILLUSTRATION: Trois courbes de loss fictives à produire. A : diminution extrêmement lente ; B : descente régulière ; C : oscillation ou divergence. Même axe vertical et horizontal pour éviter les comparaisons trompeuses.`
+
+`[MÉTA | TP-PRINCIPAL-J1 | 100 min]` **TP : de données brutes à une décision mesurée.**
+
+Le jeu de données doit être suffisamment simple pour que le coût cognitif porte sur le pipeline et non sur le domaine. Un dataset synthétique de classification binaire est idéal parce qu’il permet de contrôler le bruit, le déséquilibre et les variables non pertinentes.
+
+**Étapes imposées :**
+
+- inspection des colonnes et de la cible ;
+- séparation train/validation/test ;
+- standardisation apprise uniquement sur train ;
+- baseline très simple ;
+- réseau Dense ;
+- entraînement ;
+- visualisation train/validation ;
+- matrice de confusion ;
+- précision, rappel et F1 ;
+- changement du seuil ;
+- rédaction de trois phrases d’interprétation métier.
+
+`[MÉTA | SCÉNARIO-DATASET]` Scénario suggéré : **priorisation de dossiers fictifs nécessitant une analyse complémentaire**. Il doit être explicitement annoncé qu’il s’agit d’un jeu synthétique sans données fiscales réelles. Variables fictives : fréquence d’événements, variation temporelle, nombre de modifications, indicateurs agrégés, ancienneté, quelques variables bruitées. La cible ne doit jamais porter le nom « fraude » : cela évite de faire croire qu’un score pédagogique constituerait une conclusion sur une personne.
+
+`ILLUSTRATION: Tableau de huit lignes fictives montrant cinq variables d’entrée et une cible « examen utile : oui/non ». Colorer visuellement uniquement les structures, pas les individus. À droite, afficher le pipeline : dataframe → split → preprocessing → réseau → score → seuil → matrice de confusion.`
+
+`[MÉTA | ERREUR-À-PROVOQUER]` À mi-TP, distribuer une version du notebook où le scaler est ajusté **avant** le split. Demander : « Voyez-vous un problème ? » L’objectif est d’identifier le leakage. La documentation scikit-learn recommande justement d’apprendre les transformations exclusivement sur les données d’entraînement puis de les appliquer aux ensembles ultérieurs. citeturn7search0
+
+`[MÉTA | DÉBRIEF-J1]` Le débrief ne demande pas « quel groupe a la meilleure accuracy ? », mais :
+
+**Qu’avez-vous changé ? Pourquoi ? Quelle métrique a changé ? Quelle conséquence opérationnelle cela aurait-il ?**
+
+`[MÉTA | ÉVALUATION-FORMATIVE-J1]` Exit ticket de cinq minutes : chaque participant complète trois phrases.
+
+> Une époque est…
+>
+> Le surapprentissage se repère notamment lorsque…
+>
+> Avant de faire confiance à une accuracy, je vérifie…
+
+`ILLUSTRATION: Carte de fin de journée en trois zones « Je sais expliquer », « Je sais faire », « Je dois revoir ». Les participants placent six notions : tenseur, loss, split, réseau Dense, matrice de confusion, seuil.`
+
+## `[MÉTA-CHAPITRE | Jour-deux | Durée: 6 h | CNN-RNN-LSTM-diagnostic | Ratio pratique proposé: 4 h 15]` Concevoir, entraîner, diagnostiquer et améliorer des réseaux avancés
+
+`[MÉTA | OBJECTIF-J2]` Le Jour 2 doit provoquer un changement de posture : le stagiaire ne se contente plus de « faire tourner le notebook ». Il apprend à lire le comportement du modèle comme un ingénieur.
+
+La répartition proposée est de **1 h 45 d’apports structurés pour 4 h 15 de pratique**, soit environ 71 % de pratique.
+
+| Temps | Bloc | Activité |
+|---:|---|---|
+| 0:00–0:30 | Réactivation | quiz + correction du TP J1 |
+| 0:30–1:15 | CNN | convolution, pooling, feature maps |
+| 1:15–3:00 | TP CNN | classification d’images + diagnostic |
+| 3:00–3:40 | RNN/LSTM | séquences, état, mémoire |
+| 3:40–4:30 | Mini-TP séquence | prévision/classification temporelle |
+| 4:30–5:00 | Diagnostic | symptômes et leviers |
+| 5:00–6:00 | Challenge optimisation | expériences contrôlées en équipes |
+
+`[MÉTA | TP-CNN]` **Objectif : montrer l’intérêt de préserver la structure spatiale.** Le TP compare d’abord un MLP recevant des pixels aplatis à un CNN recevant les images dans leur forme spatiale.
+
+Les participants doivent pouvoir répondre à trois questions :
+
+**Que sait exploiter le CNN que le MLP aplati ne représente pas explicitement ? Pourquoi le nombre de paramètres change-t-il ? Que montrent les feature maps ?**
+
+`ILLUSTRATION: Comparaison côte à côte du MLP et du CNN pour la même image. MLP : Flatten → Dense → Dense. CNN : Conv → ReLU → Pool → Conv → Global Pool/Dense. Sous chaque architecture, afficher symboliquement la structure du nombre de paramètres.`
+
+`[MÉTA | TP-CNN-ÉTAPES]` Le notebook doit comporter une progression contrôlée :
+
+**Expérience A — baseline naïve.** Petit MLP.
+
+**Expérience B — CNN minimal.** Deux blocs convolution/pooling.
+
+**Expérience C — réseau volontairement trop capacitaire.** Montrer un gap train/validation.
+
+**Expérience D — régularisation.** Dropout et éventuellement augmentation de données.
+
+**Expérience E — interprétation.** Visualiser quelques erreurs de classification.
+
+Le dropout est particulièrement adapté à cette progression car son intention historique est précisément de réduire la co-adaptation excessive et le surapprentissage. citeturn4search2
+
+`ILLUSTRATION: Page « laboratoire CNN » avec cinq mini-graphiques alignés A à E. Chaque graphique doit montrer loss train et validation. L’idée est de transformer le diagnostic en série d’expériences et non en catalogue de recettes.`
+
+`[MÉTA | ANALYSE-DES-ERREURS]` L’analyse qualitative des erreurs est obligatoire. Montrer vingt erreurs de classification avec vraie classe, classe prédite et score. Demander aux groupes de les répartir en catégories : entrée ambiguë, qualité insuffisante, classe visuellement proche, possible erreur d’étiquette, surconfiance.
+
+`ILLUSTRATION: Grille de 4×5 images mal classées. Sous chaque image : « vrai », « prédit », « confiance ». Encadrer trois cas typiques et ajouter une zone à droite « hypothèses sur la cause ».`
+
+`[MÉTA | RNN-LSTM]` Pour le bloc séquentiel, le jeu de données devrait être volontairement simple : une série temporelle synthétique comportant tendance, saisonnalité, bruit et rupture. Le stagiaire transforme d’abord la série en fenêtres \(x_{t-k:t}\rightarrow y_{t+1}\), puis entraîne un petit LSTM.
+
+`ILLUSTRATION: Série temporelle horizontale. Encadrer dix points consécutifs en bleu « fenêtre d’entrée » et le point immédiatement suivant en orange « cible ». Déplacer visuellement la fenêtre d’un cran pour expliquer la génération des exemples.`
+
+`[MÉTA | PIÈGE-SÉRIES-TEMPORELLES]` Ici, il faut absolument montrer pourquoi un `train_test_split(..., shuffle=True)` peut être absurde pour certains scénarios temporels. La validation doit simuler le futur si le futur est précisément ce que l’on veut prédire.
+
+`ILLUSTRATION: Frise janvier → décembre. Bonne séparation : janvier–août train, septembre–octobre validation, novembre–décembre test. Mauvaise séparation : points de tous les mois mélangés au hasard. Sur la mauvaise séparation, afficher une flèche « le modèle voit indirectement le futur ».`
+
+`[MÉTA | MODÈLE-LSTM]` Le LSTM de 1997 a été conçu pour améliorer l’apprentissage des dépendances temporelles longues par rapport aux réseaux récurrents simples de l’époque. Cette motivation historique suffit pour le cours ; il est préférable d’investir le temps restant dans la préparation des données, le diagnostic et l’évaluation plutôt que dans la dérivation complète des équations des portes. citeturn20search3
+
+`[MÉTA | DIAGNOSTIC | fiche centrale du stage]` Le formateur distribue ensuite la **matrice symptômes → hypothèses → tests → actions** :
+
+| Symptôme | Hypothèses possibles | Test à réaliser | Leviers possibles |
+|---|---|---|---|
+| Train mauvais, validation mauvaise | capacité insuffisante, features pauvres, LR inadapté | vérifier baseline et évolution loss | architecture, durée, preprocessing |
+| Train excellent, validation mauvaise | overfitting | comparer courbes et erreurs | régularisation, données, augmentation |
+| Loss instable | LR trop haut, gradients instables | réduire LR, inspecter gradients | LR, normalisation, clipping selon cas |
+| Loss ne bouge presque pas | LR trop bas, problème de pipeline | tester petit batch surapprenable | LR, labels, forward |
+| Validation initialement bonne puis baisse | surapprentissage | courbes par époque | early stopping |
+| Accuracy élevée, rappel faible | classe déséquilibrée/seuil | confusion matrix, PR curve | métriques, poids, sampling, seuil |
+| Train très lent | modèle/données/hardware | profiler grossièrement | batch, architecture, transfert |
+| Résultats variables | hasard ou pipeline instable | seeds, versions, split | reproductibilité |
+
+`ILLUSTRATION: Transformer ce tableau en grande « carte médicale du modèle ». En haut : symptômes. Au centre : diagnostic. En bas : interventions. Utiliser la métaphore du diagnostic clinique sans représenter le modèle comme une personne.`
+
+`[MÉTA | DEBUGGING-ULTIME]` **Test de surapprentissage d’un mini-échantillon.** Donner 16 ou 32 exemples seulement et demander au réseau d’obtenir une loss très faible. Si un réseau suffisamment capable n’arrive même pas à mémoriser ce micro-jeu, il faut soupçonner un bug dans les données, les labels, la loss, l’architecture ou l’optimisation avant d’ajouter des techniques sophistiquées.
+
+`[MÉTA | BATCH-NORM]` Batch Normalization pourra être introduite ici comme outil architectural et d’optimisation. L’article original rapporte une accélération importante de l’entraînement dans les expériences étudiées et une plus grande tolérance à certains réglages. citeturn20academia12
+
+`[MÉTA | TRANSFER-LEARNING]` **Transfer learning et fine-tuning.** C’est l’une des compétences les plus utiles professionnellement. Le principe consiste à partir d’un réseau pré-entraîné, utiliser ses représentations comme extracteur de caractéristiques, entraîner une nouvelle tête de classification puis éventuellement défiger une partie du réseau avec précaution. Les guides officiels Keras et TensorFlow détaillent explicitement les deux phases « feature extraction » puis « fine-tuning ». citeturn21search1turn21search4
+
+`ILLUSTRATION: Grand CNN pré-entraîné représenté comme une série de blocs. Étape A : tous les blocs du backbone sont gelés avec cadenas, seule une nouvelle tête de classification est en couleur. Étape B : les derniers blocs du backbone sont dégelés, avec une mention « LR plus faible ». Étape C : évaluation sur validation indépendante.`
+
+`[MÉTA | QUESTION-PIÈGE]` Poser : **« Pourquoi ne pas tout dégeler immédiatement ? »** Les participants doivent verbaliser que la nouvelle tête commence avec des poids non adaptés et que de grandes mises à jour peuvent détériorer des représentations pré-entraînées utiles. Le tutoriel officiel TensorFlow met précisément en garde contre un fine-tuning prématuré de tout le réseau. citeturn21search4
+
+`[MÉTA | CHALLENGE-J2]` **Challenge “sauvez le modèle”.** Chaque équipe reçoit le même notebook volontairement dégradé, mais une carte-problème différente :
+
+- surapprentissage ;
+- learning rate trop élevé ;
+- classe déséquilibrée ;
+- split contaminé ;
+- architecture inutilement massive.
+
+La contrainte est de n’effectuer qu’**une modification à la fois** et de documenter le résultat.
+
+`ILLUSTRATION: Carte de challenge ressemblant à une fiche d’incident informatique : symptômes observés, courbes fournies, métriques, budget de trois expériences maximum, zone « hypothèse », zone « décision ».`
+
+`[MÉTA | ÉVALUATION-J2]` Chaque équipe défend en trois minutes son diagnostic. La qualité de la justification doit compter davantage que le score brut obtenu.
+
+## `[MÉTA-CHAPITRE | Jour-trois | Études-de-cas | Durée: 6 h | Contexte DGFiP + santé + finance + services publics]` Cas réels, transposition métier et projet final
+
+`[MÉTA | OBJECTIF-J3]` Le Jour 3 doit répondre à une question différente : **« Comment passer d’un notebook qui fonctionne à un problème professionnel correctement formulé ? »**
+
+La proposition consacre **4 h 30 sur 6 h à des études de cas actives, ateliers, projet et restitution**. Sur l’ensemble des trois jours, le dispositif représente environ **12 h 25 de pratique sur 18 h, soit près de 69 %**, dépassant donc le minimum contractuel de 60 % de travaux pratiques.
+
+### Note méthodologique sans créer un sous-chapitre supplémentaire
+
+`[MÉTA | ÉTUDE-DE-CAS]` Une étude de cas ne doit jamais être racontée comme « une entreprise a mis de l’IA, cela a marché ». Chaque cas est analysé avec la grille suivante :
+
+**problème → donnée → cible → architecture → métrique → workflow humain → erreurs possibles → contraintes → enseignement transférable.**
+
+`ILLUSTRATION: Produire une matrice universelle à huit cases correspondant exactement aux huit éléments ci-dessus. Elle doit devenir le canevas graphique de toutes les études de cas du chapitre.`
+
+`[MÉTA | CAS-DGFIP-VISION | priorité maximale]` **Étude de cas : Foncier Innovant.**
+
+Le ministère décrit Foncier Innovant comme un dispositif déployé fin 2022 exploitant des prises de vue aériennes publiques de l’IGN. Des algorithmes repèrent notamment les contours de bâtiments et piscines ; les informations sont comparées aux données cadastrales et déclaratives. Point pédagogiquement essentiel : **un agent vérifie manuellement chaque anomalie détectée avant la suite du processus**. citeturn23view3
+
+C’est un cas particulièrement puissant pour introduire un système de vision complet. La problématique n’est pas simplement « classer une image en piscine/non piscine ». Le système réel évoqué publiquement comporte plusieurs étapes : extraction à partir d’images, identification d’objets ou contours, rapprochement avec une source de référence, qualification d’une anomalie potentielle puis vérification humaine. citeturn23view3
+
+`ILLUSTRATION: Reconstituer le workflow pédagogique de Foncier Innovant en six blocs, sans prétendre reproduire l’architecture interne réelle : 1. photographie aérienne IGN ; 2. algorithme de vision repérant un contour ; 3. objet candidat ; 4. rapprochement avec informations cadastrales/déclaratives ; 5. signalement d’une anomalie potentielle ; 6. vérification par un agent. Entre 5 et 6, ajouter un grand pictogramme « humain dans la boucle ».`
+
+`[MÉTA | PRÉCAUTION-SCIENTIFIQUE]` Il faut être rigoureux : les sources publiques citées parlent d’« algorithmes » et d’IA, mais elles ne documentent pas suffisamment l’architecture interne pour enseigner que le système DGFiP utilise tel CNN précis, tel backbone ou telle fonction de perte. **Le formateur doit donc distinguer les faits publiquement documentés de la transposition pédagogique.** Utiliser un CNN dans le TP est une manière d’étudier la classe de problèmes de vision, pas une prétention à reproduire la solution technique de la DGFiP. citeturn23view3
+
+`[MÉTA | QUESTIONS-DGFIP]` Questions à soumettre aux groupes :
+
+**Que signifie un faux positif ici ?** Un objet est signalé comme potentiellement pertinent alors qu’il ne doit pas conduire à la conclusion envisagée.
+
+**Que signifie un faux négatif ?** Un objet pertinent n’est pas détecté.
+
+**La métrique doit-elle être choisie uniquement sur des critères statistiques ?** Non : elle doit être reliée à la capacité humaine de traitement, aux coûts et aux conséquences des erreurs.
+
+**Pourquoi conserver une validation humaine ?** Parce que la sortie algorithmique est un élément de ciblage/assistance et que le processus administratif engage des réalités plus riches que l’image seule ; la description officielle place explicitement l’agent dans la boucle. citeturn23view3
+
+`ILLUSTRATION: Quatre vignettes aériennes fictives : vrai positif, faux positif, faux négatif, vrai négatif. Pour le faux positif, montrer par exemple un objet rectangulaire ressemblant visuellement à la cible. Le but est de concrétiser la matrice de confusion.`
+
+`[MÉTA | CAS-DGFIP-DATAMINING]` **Étude de cas : CFVR et ciblage du contrôle.**
+
+Le ministère indique que le dispositif CFVR — « ciblage de la fraude et valorisation des requêtes » — a été développé à partir de 2014 et s’appuie sur le datamining pour analyser de grandes quantités de données et faire émerger des cas d’anomalies ou de fraude fiscale possibles. Les agents examinent ensuite les dossiers ciblés avant de décider de la pertinence d’un contrôle. citeturn23view4
+
+Le rapport d’activité 2024 de la DGFiP précise par ailleurs que l’intelligence artificielle a été mobilisée dans **56 % des contrôles professionnels** cette année-là. citeturn23view5
+
+`[MÉTA | PRÉCAUTION-TERMINOLOGIQUE]` Ici encore, ne pas dire « CFVR est un réseau neuronal profond ». La source publique citée documente du datamining et de l’IA, mais pas l’utilisation d’un modèle Deep Learning précis. C’est justement une excellente occasion d’enseigner la distinction entre **problème métier**, **famille Machine Learning** et **architecture particulière**. citeturn23view4
+
+`ILLUSTRATION: Trois niveaux superposés. Niveau 1 « besoin : prioriser l’analyse de dossiers ». Niveau 2 « familles possibles : règles, statistiques, arbres, Machine Learning, Deep Learning ». Niveau 3 « architectures concrètes ». Encadrer l’idée : « le besoin ne détermine pas automatiquement une architecture neuronale ».`
+
+`[MÉTA | TRANSPOSITION-TP]` L’exercice associé propose un flux de dossiers fictifs très déséquilibré. Les participants disposent d’une capacité de revue humaine limitée, par exemple 50 dossiers par jour. Leur mission n’est pas de maximiser l’accuracy, mais de définir un seuil et une métrique cohérents avec cette capacité.
+
+**Question décisive :** un modèle A avec meilleur ROC-AUC mais seulement 20 cas réellement pertinents dans les 50 premières alertes est-il nécessairement plus utile qu’un modèle B dont l’AUC globale est légèrement inférieure mais qui remonte 35 cas pertinents dans les 50 premières positions ? La réponse est non : l’alignement entre métrique et processus métier fait partie de la qualité du système.
+
+`ILLUSTRATION: Deux listes classées de 100 dossiers fictifs, modèles A et B. Les 50 premiers sont dans un rectangle « capacité quotidienne des analystes ». Montrer que la qualité opérationnelle dans cette zone peut différer de la métrique globale.`
+
+`[MÉTA | CAS-FRAUDE-CARTE]` **Étude de cas académique : détection de fraude à la carte bancaire en flux.**
+
+Carcillo, Le Borgne, Caelen et Bontempi décrivent la fraude à la carte comme un problème marqué par le fort déséquilibre des classes, la non-stationnarité et un goulot d’étranglement de labellisation : dans leur contexte réel, les enquêteurs ne peuvent contacter qu’un nombre limité de titulaires afin d’établir les labels de certaines transactions. Leur travail étudie donc l’apprentissage actif en flux, c’est-à-dire la sélection des transactions les plus informatives à faire expertiser. citeturn26view0
+
+C’est extrêmement important pédagogiquement : dans un système réel, **les labels ont un coût et arrivent parfois tard**. Le dataset propre, parfaitement labellisé et statique du notebook est une simplification. Le monde opérationnel comporte également du drift : les comportements évoluent et les stratégies de fraude changent. citeturn26view0
+
+`ILLUSTRATION: Frise de transactions arrivant en continu. Le modèle attribue un score. Seules quelques transactions passent vers « enquête humaine » puis reviennent plus tard avec un label. Les autres restent non labellisées. Faire apparaître au-dessus de la frise un changement de distribution entre période A et B afin de matérialiser le concept drift.`
+
+`[MÉTA | LEÇON-TRANSVERSALE]` Trois enseignements à faire verbaliser :
+
+**Un dataset n’est pas nécessairement statique.**
+
+**Une vérité terrain peut coûter cher.**
+
+**Une performance historique n’est pas une garantie de performance future.**
+
+`[MÉTA | CAS-SANTÉ]` **Étude de cas : diagnostic et orientation à partir d’OCT rétiniennes.**
+
+De Fauw et ses coauteurs ont développé un système de Deep Learning sur des volumes tridimensionnels d’OCT provenant de patients adressés à Moorfields Eye Hospital. L’étude a utilisé 14 884 scans pour l’entraînement et rapporte une performance de recommandation d’orientation atteignant ou dépassant celle d’experts sur le protocole étudié. Un intérêt architectural majeur du travail est l’utilisation d’une représentation intermédiaire par segmentation tissulaire, qui permettait notamment de maintenir l’exactitude de l’orientation lorsque les segmentations provenaient d’un autre type d’appareil. citeturn25search3turn25search6
+
+`ILLUSTRATION: Pipeline inspiré de l’article mais clairement marqué « simplification pédagogique » : volume OCT 3D → réseau de segmentation → cartes de tissus/pathologies → réseau de classification/orientation → catégories d’urgence. Montrer les cartes de segmentation comme représentation interprétable intermédiaire.`
+
+`[MÉTA | POURQUOI-CE-CAS-EST-IMPORTANT]` Cette étude montre que l’innovation n’est pas nécessairement « faire un réseau encore plus gros ». Le découpage de la tâche et la création d’une représentation intermédiaire peuvent répondre à un problème de généralisation et faciliter l’interprétation. Le papier et ses matériels supplémentaires documentent également des cas ambigus et des échecs liés notamment à la qualité du signal, ce qui constitue une matière pédagogique bien plus intéressante qu’une simple performance moyenne. citeturn25search6
+
+`ILLUSTRATION: Page « Ne montrer pas seulement les succès ». Colonne gauche : cas correctement traité, segmentation nette. Colonne droite : image dégradée ou ambiguë, segmentation incertaine. En bas, question : « Comment un utilisateur doit-il être informé de l’incertitude ? »`
+
+`[MÉTA | ATELIER-SANTÉ]` Demander aux participants d’imaginer quatre niveaux de recommandation — observation, routine, semi-urgent, urgent — puis de réfléchir au fait que le coût d’une erreur n’est pas symétrique. Sans faire de diagnostic médical, l’exercice montre que les conséquences de faux négatifs et de faux positifs doivent être intégrées à l’évaluation.
+
+`[MÉTA | CAS-SERVICE-PUBLIC-NLP]` **Étude de cas : LlaMandement et traitement des amendements.**
+
+Bercy décrit le projet LlaMandement, expérimenté autour du projet de loi de finances pour 2024, comme une solution utilisant un modèle de langage afin d’aider au traitement d’amendements fiscaux. La source indique qu’environ **7 000 amendements** ont pu être analysés et automatiquement attribués aux équipes concernées, avec génération de résumés neutres. citeturn23view3
+
+Ce cas sert de passerelle vers le Deep Learning moderne pour le texte. Il permet de montrer que le cours sur CNN et LSTM n’est pas la fin de l’histoire : les Transformers et modèles de langage constituent aujourd’hui une autre grande famille d’applications. Le papier Transformer de 2017 fournit le jalon scientifique approprié. citeturn5academia20
+
+`ILLUSTRATION: Pipeline LlaMandement très abstrait et sans prétendre reproduire l’architecture interne : texte d’amendement → représentation/modèle de langage → deux sorties parallèles « routage vers équipe compétente » et « résumé ». À droite, validation/utilisation par l’agent.`
+
+`[MÉTA | MÉTIERS]` À partir de ces cas, le formateur demande aux participants de remplir une matrice de transposition :
+
+| Métier / domaine | Donnée dominante | Tâche potentielle | Famille à tester | Risque principal |
+|---|---|---|---|---|
+| contrôle / analyse | tabulaire | scoring/priorisation | baseline arbres + réseau si justifié | faux signaux, biais |
+| foncier | image | détection/segmentation | CNN / vision moderne | variation des images |
+| santé | imagerie | classification/segmentation | CNN / transfer learning | sécurité clinique |
+| finance | flux tabulaire | anomalie/scoring | ML + DL à comparer | déséquilibre, drift |
+| maintenance | capteurs | prévision/anomalie | LSTM/Transformer temporel | dérive capteurs |
+| relation usager | texte | routage/classification | Transformer | erreurs sémantiques |
+| juridique | texte | extraction/classement | Transformer | interprétation et traçabilité |
+| logistique | séries temporelles | prévision | modèles temporels | changement de régime |
+
+Il s’agit ici de **pistes pédagogiques de formulation de problèmes**, et non d’affirmations selon lesquelles le Deep Learning serait la solution optimale dans chaque ligne.
+
+`ILLUSTRATION: Carte de huit métiers autour d’un noyau « même démarche ». Chaque métier pointe vers le même cycle : définir → baseliner → apprendre → évaluer → décider → surveiller.`
+
+`[MÉTA | PROJET-FINAL | 3 h]` **Projet final : “du besoin au prototype défendable”.**
+
+Chaque équipe reçoit ou choisit l’un de quatre tracks :
+
+**Track Vision — “anomalie visuelle”.** Classifier ou détecter une catégorie d’objets sur images ouvertes/synthétiques.
+
+**Track Risque — “priorisation”.** Classifier des observations tabulaires très déséquilibrées et choisir un seuil compatible avec un budget de revue humaine.
+
+**Track Séquence — “prévoir le prochain état”.** Construire des fenêtres temporelles puis comparer baseline naïve et LSTM.
+
+**Track Documents — “routage”.** Utiliser un dataset textuel déjà vectorisé ou un modèle pré-entraîné fourni afin de classer des documents fictifs.
+
+`[MÉTA | LIVRABLE-PROJET]` Chaque groupe doit rendre **une seule slide exécutive** et **un notebook propre**. La slide contient obligatoirement :
+
+**problème métier ; données ; baseline ; architecture ; protocole de split ; métrique ; résultat ; erreur principale ; risque ; recommandation.**
+
+`ILLUSTRATION: Maquette exacte de la slide finale. À gauche 25 % de l’espace : problème/données. Centre 40 % : pipeline + graphique principal. À droite 35 % : métriques, risques, décision « continuer / expérimenter / abandonner ». Interdire les slides remplies de code.`
+
+`[MÉTA | BARÈME]` Barème proposé sur 100 :
+
+| Critère | Points |
+|---|---:|
+| Formulation correcte du problème | 15 |
+| Qualité du split et preprocessing | 15 |
+| Baseline pertinente | 10 |
+| Architecture justifiée | 10 |
+| Protocole expérimental | 15 |
+| Métriques adaptées | 15 |
+| Analyse d’erreurs | 10 |
+| Risques / limites / recommandation | 10 |
+
+Le score brut du réseau **ne rapporte aucun point à lui seul**. Un groupe expliquant correctement pourquoi son modèle est insuffisant peut obtenir une excellente évaluation.
+
+## `[MÉTA-CHAPITRE | Gouvernance-et-conformité | RGPD-RIA-CRPA | Contexte: administration publique | Priorité: critique]` De la performance technique à une IA utilisable, explicable et gouvernée
+
+`[MÉTA | MESSAGE-CENTRAL]` Pour un public de la DGFiP, traiter la gouvernance comme une annexe de dix minutes serait une erreur pédagogique. Dans une administration, la qualité d’un système ne se réduit pas à une métrique statistique : provenance et finalité des données, sécurité, documentation, supervision humaine, droits des personnes, traçabilité et conséquences de la décision sont constitutifs de la solution.
+
+`[MÉTA | RGPD-IA]` La CNIL précise que ses recommandations relatives au développement des systèmes d’IA s’appliquent notamment aux systèmes de Machine Learning entraînés sur des données personnelles et couvrent la conception, la constitution de la base d’apprentissage et l’apprentissage lui-même. Elle rappelle également que, lorsqu’un système d’IA utilise des données personnelles, le RGPD et le règlement européen sur l’IA peuvent tous deux s’appliquer. citeturn22view3
+
+`ILLUSTRATION: Cycle de vie IA entouré par une couronne « gouvernance ». Étapes internes : finalité → collecte → préparation → entraînement → validation → déploiement → monitoring. Autour : RGPD, RIA/AI Act, sécurité, documentation, contrôle humain, droits des personnes.`
+
+`[MÉTA | FINALITÉ]` La CNIL insiste sur la définition d’une **finalité déterminée, explicite et légitime** lorsque des données personnelles sont utilisées. Cette finalité contribue ensuite à limiter les données utilisées et à éviter la collecte ou le traitement d’informations inutiles. citeturn22view3
+
+**Exercice de cinq minutes.** Comparer :
+
+> « Utiliser l’IA pour améliorer le contrôle. »
+
+à
+
+> « Développer un modèle expérimental destiné à prioriser, parmi des dossiers fictifs, ceux nécessitant une revue humaine, sans automatiser la décision finale. »
+
+Demander quelle formulation permet réellement de discuter des données nécessaires, de la métrique et du processus humain.
+
+`ILLUSTRATION: Deux fiches projet. Première très vague avec de nombreux points d’interrogation. Deuxième avec finalité, population, entrée, sortie, utilisateur et action autorisée clairement délimités.`
+
+`[MÉTA | DOCUMENTATION]` La CNIL recommande également de documenter les données utilisées afin d’assurer leur traçabilité et mentionne explicitement l’intérêt de schémas distinguant les données d’apprentissage, le modèle et ses sorties, ainsi que l’usage possible de dataset cards, model cards ou system cards. citeturn22view3
+
+`ILLUSTRATION: Trois cartes reliées : DATA CARD — provenance, période, population, labels, exclusions ; MODEL CARD — architecture, version, entraînement, métriques, limites ; SYSTEM CARD — workflow, utilisateur, seuil, supervision, monitoring.`
+
+`[MÉTA | SÉCURITÉ]` La CNIL souligne que la sécurité d’un système d’IA concerne non seulement le modèle mais également les infrastructures, habilitations, sauvegardes, interfaces, communications et bases de données d’entraînement. citeturn22view3
+
+**Consigne ferme pour la formation : aucun jeu de données fiscal réel contenant des données personnelles ne doit être chargé dans l’environnement pédagogique externe.** Les TP doivent employer des données ouvertes, anonymes lorsque cela est effectivement établi, ou préférentiellement synthétiques pour les scénarios métier. Cette règle constitue une mesure pédagogique prudente cohérente avec les exigences de finalité, de minimisation et de sécurité rappelées par la CNIL. citeturn22view3
+
+`ILLUSTRATION: Grand panneau « données autorisées en TP ». Vert : synthétique, dataset public validé. Orange : données internes non personnelles uniquement après validation institutionnelle. Rouge : données fiscales personnelles/réelles sur services externes. Ajouter « en cas de doute : ne pas charger ».`
+
+`[MÉTA | AIPD]` La CNIL recommande fortement une analyse d’impact relative à la protection des données pour le développement de systèmes d’IA lorsque certains facteurs de risque sont réunis, notamment données sensibles, grands volumes de données personnelles, croisements de jeux de données, personnes vulnérables ou technologies innovantes ; elle souligne également les risques de discrimination automatisée, de mésusage, de violation de données et de décision automatisée insuffisamment contrôlée. citeturn22view3
+
+`[MÉTA | AI-ACT]` Le règlement européen sur l’IA — règlement (UE) 2024/1689 — constitue désormais le cadre européen transversal relatif aux systèmes d’IA. Pour cette formation, l’objectif n’est pas de transformer les stagiaires en juristes mais de leur inculquer un réflexe : **avant le déploiement, qualifier le cas d’usage et le rôle de l’organisation, puis déterminer les obligations applicables plutôt que présumer arbitrairement qu’un système est ou n’est pas « à haut risque ».** citeturn22view5turn22view3
+
+`ILLUSTRATION: Entonnoir de qualification juridique : « Quel système ? » → « Quel usage prévu ? » → « Quel contexte ? » → « Quel rôle de l’organisation ? » → « Quelles données ? » → « Quel niveau de risque / quelles obligations ? ». Inscrire « analyse au cas par cas » en très visible.`
+
+`[MÉTA | ADMINISTRATION-ALGORITHMES]` Le contexte administratif français ajoute une question importante : lorsqu’une décision administrative individuelle est fondée sur un traitement algorithmique dans les conditions prévues par le Code des relations entre le public et l’administration, les règles de transparence peuvent conduire à communiquer, sur demande, des informations intelligibles relatives notamment au degré et au mode de contribution du traitement, aux données et sources utilisées, aux paramètres appliqués et aux opérations effectuées. citeturn15search4
+
+`ILLUSTRATION: Citoyen à gauche, décision administrative à droite. Entre les deux, un bloc « traitement algorithmique ». Quatre bulles d’explication sortent du bloc : degré de contribution ; données et sources ; paramètres pertinents ; opérations effectuées. Le visuel doit insister sur l’intelligibilité et non seulement sur la publication de code.`
+
+`[MÉTA | HUMAN-IN-THE-LOOP]` Les exemples officiels de Bercy sont pédagogiquement précieux parce qu’ils présentent souvent l’IA comme un instrument au service de l’agent. Dans CFVR, les agents examinent les dossiers ciblés avant de décider d’un contrôle ; dans Foncier Innovant, l’agent vérifie chaque anomalie ; dans les exemples de traitement de demandes ou d’amendements, l’IA est décrite comme une aide au travail. citeturn23view3turn23view4
+
+Mais il faut éviter une simplification : **mettre un humain « après le modèle » ne garantit pas automatiquement une supervision effective.** Une vraie supervision suppose que la personne comprenne la nature de la sortie, dispose d’informations suffisantes pour la contester et possède réellement la possibilité organisationnelle de ne pas suivre le système. La CNIL identifie précisément comme risque la situation où l’utilisateur ne peut pas vérifier les performances réelles ou prendre une décision contraire à la sortie du système. citeturn22view3
+
+`ILLUSTRATION: Deux workflows. Mauvais « human in the loop » : modèle → score → agent avec tampon automatique, aucune information supplémentaire. Bon : modèle → score + facteurs + incertitude + dossier source → agent → vérification → décision motivée → feedback. Inscrire « présence humaine ≠ supervision humaine ».`
+
+`[MÉTA | BIAIS]` Le module doit distinguer plusieurs sources de biais : données historiques non représentatives, sous-représentation de certains cas, règles d’annotation, variables proxy, choix de la fonction objectif, seuil de décision et boucle de feedback. La CNIL cite explicitement parmi les risques à analyser celui d’une discrimination automatisée causée par un biais du système introduit pendant le développement. citeturn22view3
+
+`ILLUSTRATION: Pipeline horizontal. Sous chaque étape — collecte, échantillonnage, annotation, entraînement, métrique, seuil, usage — placer un petit triangle « biais possible ». Message final : « le biais n’est pas uniquement dans le modèle ».`
+
+`[MÉTA | DRIFT]` Un modèle validé une fois n’est pas nécessairement validé pour toujours. L’étude sur la fraude en flux de Carcillo et ses coauteurs décrit explicitement la non-stationnarité comme une difficulté opérationnelle. citeturn26view0
+
+`ILLUSTRATION: Deux distributions statistiques superposées : période d’entraînement et période actuelle. Montrer trois formes de dérive : entrée X change ; relation X→Y change ; prévalence Y change. Ajouter un tableau de monitoring avec métriques dans le temps.`
+
+`[MÉTA | CHECKLIST-DÉPLOIEMENT]` Le formateur doit faire conclure la formation avec la question **« Êtes-vous capable de remplir cette fiche avant production ? »**
+
+| Question | Réponse obligatoire |
+|---|---|
+| Quelle finalité exacte ? | |
+| Qui utilisera la sortie ? | |
+| Quelle action peut en découler ? | |
+| Quelle population est concernée ? | |
+| Quelles données ? | |
+| Quelle provenance ? | |
+| Comment ont-elles été séparées ? | |
+| Quelle baseline ? | |
+| Quelle métrique principale ? | |
+| Quels sous-groupes tester ? | |
+| Quel seuil ? | |
+| Quel coût FP/FN ? | |
+| Comment exprimer l’incertitude ? | |
+| Quel contrôle humain ? | |
+| Quel journal/audit ? | |
+| Quel monitoring ? | |
+| Quel plan en cas de drift ? | |
+| Quelles obligations RGPD/RIA/CRPA ? | |
+| Qui est responsable ? | |
+| Quand arrêter le système ? | |
+
+## `[MÉTA-CHAPITRE | Évaluation-et-kit-formateur | Objectif: rendre la session immédiatement exécutable | Usage: avant/pendant/après]` Évaluation, supports, questions, préparation logistique et référentiel documentaire
+
+`[MÉTA | ALIGNEMENT-SAME-A]` Puisque le niveau attendu est **Application**, l’évaluation finale doit tester la capacité à exécuter et justifier des actes simples de conception et d’entraînement, pas une expertise de recherche. Un stagiaire peut valider le parcours sans savoir dériver mathématiquement BatchNorm ou toutes les portes d’un LSTM, mais pas s’il est incapable de construire un split correct, lire une loss, interpréter une matrice de confusion ou expliquer pourquoi un modèle surapprend.
+
+`ILLUSTRATION: Pyramide de compétences du stage. Base « expliquer ». Niveau 2 « exécuter ». Niveau 3 « diagnostiquer ». Niveau 4 « justifier ». Niveau supérieur grisé « concevoir des architectures de recherche avancées — hors périmètre du niveau A ».`
+
+`[MÉTA | OBJECTIFS-ÉVALUABLES]` À l’issue des 18 heures, le stagiaire doit pouvoir :
+
+| Compétence | Preuve observable |
+|---|---|
+| Distinguer IA, ML et DL | explication correcte avec exemple |
+| Lire les dimensions d’un tenseur | correction d’un problème de shape |
+| Construire un réseau simple | notebook fonctionnel |
+| Choisir loss/sortie cohérentes | exercice de correspondance |
+| Séparer train/validation/test | pipeline sans fuite évidente |
+| Entraîner un modèle | courbes produites |
+| Identifier over/underfitting | diagnostic argumenté |
+| Évaluer une classification | confusion matrix + métriques |
+| Modifier un seuil | conséquences analysées |
+| Construire un CNN simple | TP J2 |
+| Expliquer RNN/LSTM | schéma et mini-TP |
+| Appliquer transfer learning | exercice guidé |
+| Comparer à une baseline | projet final |
+| Documenter une expérience | journal rempli |
+| Identifier limites et risques | soutenance finale |
+| Proposer un workflow humain | étude de cas |
+
+`[MÉTA | QCM-FINAL]` **Banque de questions de validation.**
+
+**Question —** Un modèle obtient 99 % sur train et 71 % sur validation. Quel diagnostic est le plus probable ?  
+**Réponse attendue —** Surapprentissage, sous réserve de vérifier la comparabilité des distributions et le protocole.
+
+**Question —** Pourquoi ne faut-il pas ajuster un scaler sur train + test ?  
+**Réponse —** Parce que des informations du test influenceraient alors le pipeline d’apprentissage, rendant l’évaluation optimiste. citeturn7search0
+
+**Question —** Une accuracy de 99,5 % est-elle excellente sur un dataset contenant 99,5 % de négatifs ?  
+**Réponse —** Pas nécessairement ; le classifieur trivial prédisant toujours négatif obtient déjà 99,5 %. Il faut examiner les métriques par classe et la matrice de confusion. citeturn7search1
+
+**Question —** Que fait `loss.backward()` en PyTorch ?  
+**Réponse —** Il calcule les gradients de la loss relativement aux paramètres impliqués dans le graphe différentiable ; la modification des paramètres est ensuite effectuée par l’optimiseur.
+
+**Question —** Quel intérêt possède un CNN face à une image ?  
+**Réponse —** Il exploite la structure spatiale locale avec des filtres partagés plutôt que de traiter dès le départ chaque pixel comme une feature indépendante.
+
+**Question —** Pourquoi un LSTM est-il adapté à l’enseignement des séquences ?  
+**Réponse —** Il maintient des états et des mécanismes de portes conçus pour mieux préserver des dépendances sur la séquence. citeturn20search3
+
+**Question —** Un score de 0,72 signifie-t-il qu’une décision doit nécessairement être positive ?  
+**Réponse —** Non ; le seuil et le processus de décision constituent une couche distincte du modèle.
+
+**Question —** Pourquoi comparer un réseau profond à un modèle à arbres sur des données tabulaires ?  
+**Réponse —** Parce que le Deep Learning n’est pas automatiquement dominant sur le tabulaire ; une étude systématique de NeurIPS montre la force persistante des arbres sur de nombreux datasets tabulaires typiques. citeturn20search2
+
+**Question —** Qu’est-ce que le transfer learning ?  
+**Réponse —** La réutilisation de représentations apprises par un modèle pré-entraîné, généralement suivie d’une adaptation de la tête puis éventuellement d’un fine-tuning contrôlé. citeturn21search1turn21search4
+
+**Question —** Pourquoi une validation humaine peut-elle rester importante dans un système d’aide au contrôle ?  
+**Réponse —** Parce que le score algorithmique n’épuise pas l’ensemble du contexte de décision ; les usages publics DGFiP documentés pour CFVR et Foncier Innovant intègrent précisément une vérification par les agents. citeturn23view3turn23view4
+
+`[MÉTA | EXAMEN-PRATIQUE]` **Épreuve pratique individuelle de vingt minutes** : fournir un petit notebook comportant cinq erreurs :
+
+- preprocessing avant le split ;
+- mauvaise activation de sortie ;
+- métrique inadéquate seule ;
+- trop grand modèle ;
+- conclusion excessive à partir de la validation.
+
+Le stagiaire doit identifier au moins trois problèmes, corriger deux d’entre eux et expliquer ses décisions.
+
+`ILLUSTRATION: Capture fictive du notebook avec cinq petits marqueurs numérotés cachés dans le code. Une seconde illustration destinée au formateur montre la solution et le type d’erreur associé : données, architecture, évaluation, diagnostic, interprétation.`
+
+`[MÉTA | SUPPORTS-À-PRODUIRE]` Le kit pédagogique idéal comprend :
+
+| Support | Contenu |
+|---|---|
+| Slides formateur | ~90 à 120 slides, fortement visuelles |
+| Workbook stagiaire | notions + espaces de réponse |
+| Notebook 00 | diagnostic environnement |
+| Notebook 01 | tenseurs et gradients |
+| Notebook 02 | premier réseau Dense |
+| Notebook 03 | métriques et seuils |
+| Notebook 04 | CNN |
+| Notebook 05 | surapprentissage et régularisation |
+| Notebook 06 | LSTM/série temporelle |
+| Notebook 07 | transfer learning |
+| Notebook 08 | challenge diagnostic |
+| Notebook 09 | étude de cas déséquilibrée |
+| Notebook 10 | projet final |
+| Corrections | versions séparées formateur |
+| Datasets | version locale figée |
+| Cheatsheet | TensorFlow/PyTorch/Keras |
+| Cheatsheet | diagnostic des modèles |
+| Fiche | model card simplifiée |
+| QCM | entrée + final |
+| Rubrique | projet final |
+
+`[MÉTA | TYPOGRAPHIE]` **Recommandation de direction graphique.**
+
+`ILLUSTRATION: Préparer une planche de typographie plutôt qu’un visuel décoratif. Utiliser une police sans serif extrêmement lisible pour les titres, une seconde sans serif compatible avec les écrans pour le corps, et une police monospace pour le code. Établir cinq niveaux visuels : grand titre 40–44 pt ; titre de chapitre 30–34 pt ; titre de concept 24–28 pt ; texte 18–22 pt ; annotations 14–16 pt. Les mots clés techniques doivent être distingués par graisse et non par multiplication de couleurs. Les formules doivent bénéficier d’un espace blanc généreux. Sur chaque slide, viser une seule idée principale.`
+
+`[MÉTA | SYSTÈME-VISUEL]`
+
+`ILLUSTRATION: Concevoir un langage graphique répétable : rectangle arrondi = opération ; cylindre = données ; hexagone = modèle ; losange = décision ; silhouette = intervention humaine ; triangle d’avertissement = risque ; cadenas = couche gelée ou sécurité ; loupe = évaluation/inspection. Cette légende doit figurer au début du support et rester strictement cohérente sur les trois jours.`
+
+`[MÉTA | SLIDES]` Une mauvaise slide affiche « CNN : convolution, pooling, padding, stride… » avec quinze lignes. Une bonne slide montre une seule convolution et pose une question. Les détails sont développés oralement et consignés dans le workbook.
+
+`ILLUSTRATION: Produire une paire avant/après. À gauche « slide dense » remplie de texte. À droite « slide pédagogique » avec une image 5×5, un kernel 3×3 et le résultat d’une seule position. L’objectif est de montrer au concepteur du support comment éviter les slides encyclopédiques.`
+
+`[MÉTA | SCRIPT-FORMATEUR | démarrage]` **Phrase d’ouverture proposée :**
+
+> « Pendant trois jours, nous n’allons pas essayer de fabriquer le plus gros réseau possible. Nous allons apprendre à savoir quand utiliser un réseau, comment vérifier qu’il apprend réellement ce que nous pensons lui faire apprendre, et comment éviter de confondre une métrique impressionnante avec une solution métier. »
+
+`[MÉTA | SCRIPT-FORMATEUR | transition J1→J2]`
+
+> « Hier, nous avons construit un modèle. Aujourd’hui, nous allons apprendre à ne plus lui faire confiance aveuglément. »
+
+`[MÉTA | SCRIPT-FORMATEUR | transition J2→J3]`
+
+> « Un bon modèle dans un notebook n’est toujours pas une bonne application. Aujourd’hui, nous allons ajouter ce qui manque : le métier, le processus humain, les contraintes, le risque et la décision. »
+
+`[MÉTA | SCRIPT-FORMATEUR | conclusion]`
+
+> « La compétence que vous devez emporter n’est pas “je sais appeler `model.fit`”. C’est “je sais construire une expérience, détecter quand elle me trompe, et expliquer jusqu’où son résultat peut être utilisé”. »
+
+`[MÉTA | PLAN-B]` **Gestion des incidents.**
+
+**GPU indisponible :** utiliser le petit CNN et réduire les époques.
+
+**Internet indisponible :** datasets et poids pré-entraînés doivent avoir une copie locale.
+
+**Groupe très hétérogène :** notebooks avec cellules « obligatoire » et « extension ».
+
+**Python insuffisant :** fournir davantage de cellules préremplies ; l’évaluation porte sur les choix ML, pas sur la mémorisation de pandas.
+
+**Groupe très avancé :** ajouter calibration, courbes PR, class weighting, saliency/Grad-CAM, mixed precision ou petite comparaison Transformer.
+
+**Entraînement trop long :** distribuer un checkpoint afin que l’analyse des erreurs puisse continuer.
+
+**Bug collectif :** ne pas corriger immédiatement ; utiliser l’incident comme exercice de debugging pendant cinq minutes.
+
+`ILLUSTRATION: Arbre « incident → plan B » avec six branches : réseau, GPU, dépendances, dataset, temps d’entraînement, niveau du groupe. Chaque branche doit déboucher sur une solution pré-écrite.`
+
+`[MÉTA | CHECKLIST-J-7]` **Préparation immédiate pour la session des 21–23 septembre 2026.**
+
+Au regard de la date de préparation, les points les plus critiques sont désormais les éléments qui peuvent faire échouer la pratique : exécuter tous les notebooks depuis un environnement vierge ; tester les datasets sans accès Internet ; mesurer le temps de chaque entraînement ; préparer les corrigés ; vérifier le vidéoprojecteur et la lisibilité du code ; imprimer ou distribuer le journal d’expérience ; disposer d’un environnement de secours ; figer les dépendances utilisées pendant la session.
+
+`[MÉTA | CHECKLIST-MATIN]` Avant chaque journée, exécuter le notebook clé sur la machine réelle du formateur. Ne jamais découvrir en direct qu’un package a modifié son API.
+
+`[MÉTA | RÉFÉRENTIEL-SCIENTIFIQUE]` **Corpus minimal à faire figurer en bibliographie du support.**
+
+Krizhevsky, Sutskever et Hinton, *ImageNet Classification with Deep Convolutional Neural Networks*, constitue le repère CNN/AlexNet et documente l’usage du GPU, le dropout et les résultats ImageNet historiques. citeturn1view0
+
+Hochreiter et Schmidhuber, *Long Short-Term Memory*, constitue le repère fondateur du LSTM. citeturn20search3
+
+Ioffe et Szegedy, *Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift*, constitue le repère historique Batch Normalization. citeturn20academia12
+
+He et ses coauteurs, *Deep Residual Learning for Image Recognition*, constitue le repère ResNet et apprentissage résiduel. citeturn4academia18
+
+Kingma et Ba, *Adam: A Method for Stochastic Optimization*, constitue le repère sur Adam. citeturn4academia19
+
+Srivastava et ses coauteurs, *Dropout: A Simple Way to Prevent Neural Networks from Overfitting*, constitue le repère sur dropout. citeturn4search2
+
+Vaswani et ses coauteurs, *Attention Is All You Need*, constitue le repère Transformer. citeturn5academia20
+
+Grinsztajn, Oyallon et Varoquaux, *Why do tree-based models still outperform deep learning on typical tabular data?*, est une référence particulièrement utile pour éviter une vision dogmatique du Deep Learning sur données structurées. citeturn20search2
+
+De Fauw et ses coauteurs, *Clinically applicable deep learning for diagnosis and referral in retinal disease*, constitue une étude de cas remarquable sur l’imagerie, les représentations intermédiaires, la généralisation entre appareils et l’intégration dans un problème clinique. citeturn25search3turn25search6
+
+Carcillo et ses coauteurs, *Streaming Active Learning Strategies for Real-Life Credit Card Fraud Detection*, fournit une étude de cas réaliste sur déséquilibre, non-stationnarité et coût des labels. citeturn26view0
+
+La documentation officielle TensorFlow est la référence opérationnelle pour les workflows TensorFlow/Keras et les tutoriels d’apprentissage par transfert. citeturn3search0turn21search4
+
+La documentation officielle Keras doit être privilégiée pour Keras 3, son architecture multi-backend, ses API de modèles et le fine-tuning. citeturn20search1turn21search1
+
+La documentation officielle PyTorch doit être privilégiée pour les DataLoaders, les boucles d’entraînement, la reproductibilité et le transfer learning PyTorch. citeturn2search2turn2search5turn21search2
+
+Les recommandations CNIL sur le développement des systèmes d’IA constituent une référence prioritaire pour le traitement de données personnelles, la finalité, la documentation, la sécurité, l’AIPD et les risques propres aux systèmes d’IA. citeturn22view3
+
+Le règlement européen sur l’IA fournit le cadre juridique européen de référence pour la qualification et la gouvernance des systèmes d’IA. citeturn22view5
+
+Les pages officielles de Bercy relatives à CFVR, Foncier Innovant et LlaMandement fournissent enfin des études de cas directement contextualisées pour le public DGFiP, tout en montrant la place conservée par les agents dans plusieurs workflows documentés. citeturn23view3turn23view4turn23view5
+
+`[MÉTA | CARTE-FINALE | à imprimer en A3]`
+
+`ILLUSTRATION: Concevoir la synthèse ultime de la formation sous la forme d’un grand cycle en dix étapes : 1. formuler le problème ; 2. définir la cible et le moment de prédiction ; 3. comprendre les données ; 4. créer le split ; 5. établir une baseline ; 6. sélectionner une architecture ; 7. entraîner et surveiller ; 8. analyser les erreurs et optimiser ; 9. traduire le score en processus métier ; 10. documenter, gouverner et monitorer. Au centre du cycle écrire : « Une bonne IA n’est pas seulement un bon modèle ». Autour du cycle, quatre garde-fous permanents : « données », « humain », « métriques », « conformité ». Cette illustration doit être la dernière slide projetée et le document récapitulatif remis aux stagiaires.`
+
+`[MÉTA | CONCLUSION-PÉDAGOGIQUE | message final]` **La réussite de cette formation ne se mesurera pas au nombre d’architectures vues.** En dix-huit heures, il est préférable de former des participants capables de raisonner correctement sur cinq modèles que de leur faire survoler vingt architectures. La progression proposée commence donc par la compréhension de la chaîne d’apprentissage, fait construire un premier réseau, introduit CNN et LSTM par le problème qu’ils résolvent, apprend à diagnostiquer les échecs, puis replace les modèles dans des workflows réels — notamment ceux documentés à la DGFiP — avec une exigence constante : baseline, protocole expérimental, métriques appropriées, contrôle humain, documentation et gouvernance. Cette orientation est cohérente à la fois avec un niveau SAME « Application », avec l’exigence contractuelle d’au moins 60 % de pratique, avec l’état des frameworks en 2026 et avec la réalité de systèmes publics où le modèle n’est qu’une composante d’une chaîne de décision plus large. citeturn20search1turn23view3turn22view3

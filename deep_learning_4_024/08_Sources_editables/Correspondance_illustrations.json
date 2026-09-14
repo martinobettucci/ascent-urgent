@@ -1,0 +1,380 @@
+[
+  {
+    "figure": 1,
+    "instruction_source": "Concevoir une page de couverture sobre et institutionnelle. Au centre, un réseau de neurones stylisé doit relier quatre blocs situés à gauche — « données tabulaires », « images », « séries temporelles », « textes » — à quatre résultats situés à droite — « score », « classe », « prévision », « aide à la décision ». Au milieu, faire apparaître les étapes « entraînement → validation → diagnostic → amélioration ». Ajouter en bas la mention DGFiP, 21–23 septembre 2026, Asnières-sur-Seine. Le visuel doit transmettre l’idée que le Deep Learning n’est pas une boîte noire magique mais une chaîne d’ingénierie.",
+    "schema": "001_hero.png",
+    "diapositive": 1
+  },
+  {
+    "figure": 2,
+    "instruction_source": "Dessiner quatre ensembles emboîtés. Grand cercle « Intelligence artificielle ». À l’intérieur, « Machine Learning ». À l’intérieur de celui-ci, « Deep Learning ». À côté, faire chevaucher partiellement une zone « IA générative » pour montrer que l’IA générative moderne fait largement appel au Deep Learning mais que tout Deep Learning n’est pas génératif. Sous le schéma, placer quatre exemples : règles expertes, régression/classification classique, CNN de classification d’images, modèle génératif de texte.",
+    "schema": "005_taxonomy.png",
+    "diapositive": 5
+  },
+  {
+    "figure": 3,
+    "instruction_source": "Montrer un seul neurone de manière non biologique et non trompeuse. À gauche, cinq variables métier fictives x1 à x5, chacune passant par un poids w1 à w5. Les flèches convergent vers un cercle « somme pondérée + biais », puis vers un petit bloc « activation », puis vers une sortie « score = 0,83 ». Sous l’illustration, écrire en grand : « Ce qui est appris : les paramètres. Ce qui est choisi par l’humain : données, architecture, objectif, protocole d’évaluation. »",
+    "schema": "010_neuron.png",
+    "diapositive": 10
+  },
+  {
+    "figure": 4,
+    "instruction_source": "Réaliser un escalier visuel : « 0D : 7 », « 1D : [7, 2, 9] », « 2D : tableau lignes × colonnes », « 3D : image H × W × C », « 4D : batch B × H × W × C ». À droite, représenter une erreur typique en rouge : « attendu 28×28×1, reçu 28×28 », puis sa correction.",
+    "schema": "013_tensors.png",
+    "diapositive": 13
+  },
+  {
+    "figure": 5,
+    "instruction_source": "Créer une boucle circulaire en cinq secteurs : 1. Batch de données ; 2. Forward pass ; 3. Calcul de la loss ; 4. Backpropagation/gradients ; 5. Mise à jour des poids. Une flèche revient au batch suivant. En parallèle, dessiner une petite courbe de loss qui descend progressivement. Ajouter un avertissement : « Loss qui baisse ≠ modèle nécessairement utile en production. »",
+    "schema": "018_backprop.png",
+    "diapositive": 18
+  },
+  {
+    "figure": 6,
+    "instruction_source": "Représenter un grand jeu de données comme une barre divisée en trois parties : 70 % entraînement, 15 % validation, 15 % test, en précisant que les ratios ne constituent qu’un exemple. Au-dessus de la barre, montrer une flèche interdite allant du test vers l’entraînement avec l’inscription « fuite de données ». Ajouter une variante séries temporelles où train se trouve chronologiquement avant validation puis test.",
+    "schema": "031_split.png",
+    "diapositive": 31
+  },
+  {
+    "figure": 7,
+    "instruction_source": "Trois colonnes contenant chacune un nuage de points. Colonne 1 « sous-apprentissage » : ligne presque droite incapable de suivre la structure. Colonne 2 « compromis raisonnable » : courbe lisse épousant le phénomène. Colonne 3 « surapprentissage » : courbe très oscillante passant par chaque point. Sous chaque colonne, afficher train et validation avec des flèches qualitatives.",
+    "schema": "DOC_007.png",
+    "diapositive": null
+  },
+  {
+    "figure": 8,
+    "instruction_source": "Afficher deux petits réseaux identiques. À gauche « inference » : tous les neurones connectés. À droite « entraînement avec dropout » : plusieurs neurones grisés et leurs connexions supprimées aléatoirement. Ajouter « masque différent à chaque passage d’entraînement ».",
+    "schema": "070_dropout.png",
+    "diapositive": 70
+  },
+  {
+    "figure": 9,
+    "instruction_source": "Matrice de confusion 2×2 occupant une demi-page : vrais négatifs, faux positifs, faux négatifs, vrais positifs. Autour, quatre personnages métiers posent des questions différentes : « combien d’alertes étaient pertinentes ? », « combien de cas ai-je détectés ? », « combien de dossiers vais-je faire examiner ? », « que coûte un cas manqué ? ». L’objectif est de faire comprendre qu’une métrique correspond à une question opérationnelle.",
+    "schema": "039_confusion.png",
+    "diapositive": 39
+  },
+  {
+    "figure": 10,
+    "instruction_source": "Afficher une ligne horizontale de scores entre 0 et 1, avec points rouges et bleus. Positionner trois seuils possibles à 0,3, 0,5 et 0,8. Pour chacun, afficher en dessous « beaucoup d’alertes / rappel élevé », « compromis », « peu d’alertes / précision plus élevée ». Ne pas présenter 0,5 comme un seuil intrinsèquement optimal.",
+    "schema": "040_threshold.png",
+    "diapositive": 40
+  },
+  {
+    "figure": 11,
+    "instruction_source": "Frise horizontale très épurée comportant seulement quatre jalons : 1997 LSTM — séquences ; 2012 AlexNet — CNN + GPU + ImageNet ; 2015 BatchNorm/ResNet — réseaux profonds plus faciles à optimiser ; 2017 Transformer — attention. En dessous, ajouter une deuxième frise « concepts du stage » : Dense → CNN → LSTM → transfer learning → ouverture Transformer.",
+    "schema": "020_timeline.png",
+    "diapositive": 20
+  },
+  {
+    "figure": 12,
+    "instruction_source": "Concevoir une « convergence des facteurs » avec cinq flèches entrant dans un même cercle « Deep Learning à grande échelle » : données, GPU, architectures, optimisation, logiciels open source. Ne pas représenter un unique facteur comme la cause du succès.",
+    "schema": "021_drivers.png",
+    "diapositive": 21
+  },
+  {
+    "figure": 13,
+    "instruction_source": "À gauche, image 28×28. Au centre, opération « Flatten → 784 nombres ». À droite, MLP Dense. Puis sous le schéma, montrer que deux pixels voisins dans l’image ne sont plus distingués, structurellement, de deux positions éloignées une fois aplaties.",
+    "schema": "046_mlpcnn.png",
+    "diapositive": 46
+  },
+  {
+    "figure": 14,
+    "instruction_source": "Image d’entrée d’un « 7 ». Montrer un filtre 3×3 se déplaçant sur l’image, puis une feature map. Dans une seconde ligne, présenter plusieurs feature maps stylisées : bords horizontaux, verticaux, texture, motif plus complexe. Ajouter la mention « les filtres sont appris, pas dessinés manuellement ».",
+    "schema": "048_convolution.png",
+    "diapositive": 48
+  },
+  {
+    "figure": 15,
+    "instruction_source": "Représenter un RNN une première fois comme une cellule avec une boucle, puis « dérouler » cette cellule sur cinq instants t1 à t5. Chaque cellule reçoit xt et l’état précédent ht−1, produit ht. Utiliser une série temporelle métier plutôt qu’une phrase pour conserver la pertinence multisectorielle.",
+    "schema": "056_rnn.png",
+    "diapositive": 56
+  },
+  {
+    "figure": 16,
+    "instruction_source": "Produire un schéma pédagogique d’une cellule LSTM très simplifiée : flux principal de mémoire c_t en ligne horizontale ; trois portes « oublier », « écrire », « lire » ; entrée x_t et état h_{t-1}. Éviter de surcharger le premier schéma de sigmoïdes et multiplications. Prévoir éventuellement une deuxième version plus mathématique en annexe.",
+    "schema": "057_lstm.png",
+    "diapositive": 57
+  },
+  {
+    "figure": 17,
+    "instruction_source": "Comparaison en trois colonnes : CNN « voisinage spatial », LSTM « séquence traitée avec état récurrent », Transformer « chaque élément peut pondérer l’importance des autres par attention ». Utiliser le même exemple : une séquence de dix événements, afin de comparer visuellement les mécanismes.",
+    "schema": "DOC_017.png",
+    "diapositive": null
+  },
+  {
+    "figure": 18,
+    "instruction_source": "Faire un arbre de décision intitulé « Dois-je tester le Deep Learning ? ». Questions : données image/son/texte non structuré ? → forte pertinence ; très gros volume et représentation complexe ? → potentiellement pertinent ; petit tableau structuré ? → commencer par baseline arbre/linéaire ; séquences longues ou signal complexe ? → comparer architectures. En bas : « benchmark > dogme ».",
+    "schema": "098_decisiontree.png",
+    "diapositive": 98
+  },
+  {
+    "figure": 19,
+    "instruction_source": "Architecture logicielle en couches. Couche supérieure : « Keras 3 — API haut niveau ». En dessous, trois blocs de backend : TensorFlow, PyTorch, JAX. À côté, représenter « PyTorch natif » et « TensorFlow natif » donnant accès à davantage de contrôle. Ajouter une note : « le stage approfondit TensorFlow/PyTorch et utilise Keras comme couche de productivité ».",
+    "schema": "023_framework.png",
+    "diapositive": 23
+  },
+  {
+    "figure": 20,
+    "instruction_source": "Dessiner deux chemins convergents vers les mêmes notebooks. Chemin A « navigateur → Colab → CPU/GPU disponible ». Chemin B « poste local → Python/Jupyter → CPU/GPU selon configuration ». Au centre, afficher un dossier identique de notebooks et datasets afin de montrer que le contenu pédagogique ne dépend pas de l’hébergement.",
+    "schema": "025_environment.png",
+    "diapositive": 25
+  },
+  {
+    "figure": 21,
+    "instruction_source": "Deux expériences A et B partent du même code. Au-dessus d’A « seed non fixée » : initialisation, shuffle et augmentation différents. Au-dessus de B « seed fixée + versions tracées + données figées ». Montrer que la seconde expérience réduit la variabilité sans promettre l’identité absolue sur toutes les infrastructures.",
+    "schema": "027_repro.png",
+    "diapositive": 27
+  },
+  {
+    "figure": 22,
+    "instruction_source": "Une fiche A5 intitulée « Journal d’expérience ». Six cases avec les libellés précédents. Faire apparaître un exemple rempli : « hypothèse : overfitting ; changement : dropout 0,3 ; attendu : gap train/val réduit ; observé : val +2 pts mais train −4 pts ; décision : conserver puis tester augmentation ».",
+    "schema": "041_journal.png",
+    "diapositive": 41
+  },
+  {
+    "figure": 23,
+    "instruction_source": "Reprendre exactement les quatre lignes importantes de la boucle PyTorch dans quatre grands blocs reliés par des flèches. À côté de `loss.backward()`, montrer des flèches qui repartent en sens inverse dans le réseau ; à côté de `optimizer.step()`, représenter les poids qui changent de w vers w'.",
+    "schema": "028_code_torch.png",
+    "diapositive": 28
+  },
+  {
+    "figure": 24,
+    "instruction_source": "Slide « baromètre de départ » avec cinq jauges : Python, données, Machine Learning, réseaux de neurones, évaluation. Les stagiaires se positionnent de 0 à 3. L’objectif n’est pas la notation mais l’adaptation du rythme.",
+    "schema": "004_diagnostic.png",
+    "diapositive": 4
+  },
+  {
+    "figure": 25,
+    "instruction_source": "Parabole y=(w−3)² avec un point initial à w=−4. Afficher une suite de cinq points descendant progressivement vers w=3. À chaque point, représenter une petite flèche de gradient. Ajouter « le gradient indique la pente, l’optimiseur décide du déplacement ».",
+    "schema": "016_gradient.png",
+    "diapositive": 16
+  },
+  {
+    "figure": 26,
+    "instruction_source": "Trois courbes de loss fictives à produire. A : diminution extrêmement lente ; B : descente régulière ; C : oscillation ou divergence. Même axe vertical et horizontal pour éviter les comparaisons trompeuses.",
+    "schema": "017_lr.png",
+    "diapositive": 17
+  },
+  {
+    "figure": 27,
+    "instruction_source": "Tableau de huit lignes fictives montrant cinq variables d’entrée et une cible « examen utile : oui/non ». Colorer visuellement uniquement les structures, pas les individus. À droite, afficher le pipeline : dataframe → split → preprocessing → réseau → score → seuil → matrice de confusion.",
+    "schema": "DOC_027.png",
+    "diapositive": null
+  },
+  {
+    "figure": 28,
+    "instruction_source": "Carte de fin de journée en trois zones « Je sais expliquer », « Je sais faire », « Je dois revoir ». Les participants placent six notions : tenseur, loss, split, réseau Dense, matrice de confusion, seuil.",
+    "schema": "DOC_028.png",
+    "diapositive": null
+  },
+  {
+    "figure": 29,
+    "instruction_source": "Comparaison côte à côte du MLP et du CNN pour la même image. MLP : Flatten → Dense → Dense. CNN : Conv → ReLU → Pool → Conv → Global Pool/Dense. Sous chaque architecture, afficher symboliquement la structure du nombre de paramètres.",
+    "schema": "046_mlpcnn.png",
+    "diapositive": 46
+  },
+  {
+    "figure": 30,
+    "instruction_source": "Page « laboratoire CNN » avec cinq mini-graphiques alignés A à E. Chaque graphique doit montrer loss train et validation. L’idée est de transformer le diagnostic en série d’expériences et non en catalogue de recettes.",
+    "schema": "DOC_030.png",
+    "diapositive": null
+  },
+  {
+    "figure": 31,
+    "instruction_source": "Grille de 4×5 images mal classées. Sous chaque image : « vrai », « prédit », « confiance ». Encadrer trois cas typiques et ajouter une zone à droite « hypothèses sur la cause ».",
+    "schema": "055_errors.png",
+    "diapositive": 55
+  },
+  {
+    "figure": 32,
+    "instruction_source": "Série temporelle horizontale. Encadrer dix points consécutifs en bleu « fenêtre d’entrée » et le point immédiatement suivant en orange « cible ». Déplacer visuellement la fenêtre d’un cran pour expliquer la génération des exemples.",
+    "schema": "059_window.png",
+    "diapositive": 59
+  },
+  {
+    "figure": 33,
+    "instruction_source": "Frise janvier → décembre. Bonne séparation : janvier–août train, septembre–octobre validation, novembre–décembre test. Mauvaise séparation : points de tous les mois mélangés au hasard. Sur la mauvaise séparation, afficher une flèche « le modèle voit indirectement le futur ».",
+    "schema": "060_timesplit.png",
+    "diapositive": 60
+  },
+  {
+    "figure": 34,
+    "instruction_source": "Transformer ce tableau en grande « carte médicale du modèle ». En haut : symptômes. Au centre : diagnostic. En bas : interventions. Utiliser la métaphore du diagnostic clinique sans représenter le modèle comme une personne.",
+    "schema": "066_diagnosticmatrix.png",
+    "diapositive": 66
+  },
+  {
+    "figure": 35,
+    "instruction_source": "Grand CNN pré-entraîné représenté comme une série de blocs. Étape A : tous les blocs du backbone sont gelés avec cadenas, seule une nouvelle tête de classification est en couleur. Étape B : les derniers blocs du backbone sont dégelés, avec une mention « LR plus faible ». Étape C : évaluation sur validation indépendante.",
+    "schema": "074_transfer.png",
+    "diapositive": 74
+  },
+  {
+    "figure": 36,
+    "instruction_source": "Carte de challenge ressemblant à une fiche d’incident informatique : symptômes observés, courbes fournies, métriques, budget de trois expériences maximum, zone « hypothèse », zone « décision ».",
+    "schema": "081_incident.png",
+    "diapositive": 81
+  },
+  {
+    "figure": 37,
+    "instruction_source": "Produire une matrice universelle à huit cases correspondant exactement aux huit éléments ci-dessus. Elle doit devenir le canevas graphique de toutes les études de cas du chapitre.",
+    "schema": "086_casegrid.png",
+    "diapositive": 86
+  },
+  {
+    "figure": 38,
+    "instruction_source": "Reconstituer le workflow pédagogique de Foncier Innovant en six blocs, sans prétendre reproduire l’architecture interne réelle : 1. photographie aérienne IGN ; 2. algorithme de vision repérant un contour ; 3. objet candidat ; 4. rapprochement avec informations cadastrales/déclaratives ; 5. signalement d’une anomalie potentielle ; 6. vérification par un agent. Entre 5 et 6, ajouter un grand pictogramme « humain dans la boucle ».",
+    "schema": "088_foncierflow.png",
+    "diapositive": 88
+  },
+  {
+    "figure": 39,
+    "instruction_source": "Quatre vignettes aériennes fictives : vrai positif, faux positif, faux négatif, vrai négatif. Pour le faux positif, montrer par exemple un objet rectangulaire ressemblant visuellement à la cible. Le but est de concrétiser la matrice de confusion.",
+    "schema": "089_aerial.png",
+    "diapositive": 89
+  },
+  {
+    "figure": 40,
+    "instruction_source": "Trois niveaux superposés. Niveau 1 « besoin : prioriser l’analyse de dossiers ». Niveau 2 « familles possibles : règles, statistiques, arbres, Machine Learning, Deep Learning ». Niveau 3 « architectures concrètes ». Encadrer l’idée : « le besoin ne détermine pas automatiquement une architecture neuronale ».",
+    "schema": "DOC_040.png",
+    "diapositive": null
+  },
+  {
+    "figure": 41,
+    "instruction_source": "Deux listes classées de 100 dossiers fictifs, modèles A et B. Les 50 premiers sont dans un rectangle « capacité quotidienne des analystes ». Montrer que la qualité opérationnelle dans cette zone peut différer de la métrique globale.",
+    "schema": "091_topk.png",
+    "diapositive": 91
+  },
+  {
+    "figure": 42,
+    "instruction_source": "Frise de transactions arrivant en continu. Le modèle attribue un score. Seules quelques transactions passent vers « enquête humaine » puis reviennent plus tard avec un label. Les autres restent non labellisées. Faire apparaître au-dessus de la frise un changement de distribution entre période A et B afin de matérialiser le concept drift.",
+    "schema": "092_stream.png",
+    "diapositive": 92
+  },
+  {
+    "figure": 43,
+    "instruction_source": "Pipeline inspiré de l’article mais clairement marqué « simplification pédagogique » : volume OCT 3D → réseau de segmentation → cartes de tissus/pathologies → réseau de classification/orientation → catégories d’urgence. Montrer les cartes de segmentation comme représentation interprétable intermédiaire.",
+    "schema": "095_oct.png",
+    "diapositive": 95
+  },
+  {
+    "figure": 44,
+    "instruction_source": "Page « Ne montrer pas seulement les succès ». Colonne gauche : cas correctement traité, segmentation nette. Colonne droite : image dégradée ou ambiguë, segmentation incertaine. En bas, question : « Comment un utilisateur doit-il être informé de l’incertitude ? »",
+    "schema": "DOC_044.png",
+    "diapositive": null
+  },
+  {
+    "figure": 45,
+    "instruction_source": "Pipeline LlaMandement très abstrait et sans prétendre reproduire l’architecture interne : texte d’amendement → représentation/modèle de langage → deux sorties parallèles « routage vers équipe compétente » et « résumé ». À droite, validation/utilisation par l’agent.",
+    "schema": "097_documents.png",
+    "diapositive": 97
+  },
+  {
+    "figure": 46,
+    "instruction_source": "Carte de huit métiers autour d’un noyau « même démarche ». Chaque métier pointe vers le même cycle : définir → baseliner → apprendre → évaluer → décider → surveiller.",
+    "schema": "099_sectors.png",
+    "diapositive": 99
+  },
+  {
+    "figure": 47,
+    "instruction_source": "Maquette exacte de la slide finale. À gauche 25 % de l’espace : problème/données. Centre 40 % : pipeline + graphique principal. À droite 35 % : métriques, risques, décision « continuer / expérimenter / abandonner ». Interdire les slides remplies de code.",
+    "schema": "120_executive.png",
+    "diapositive": 120
+  },
+  {
+    "figure": 48,
+    "instruction_source": "Cycle de vie IA entouré par une couronne « gouvernance ». Étapes internes : finalité → collecte → préparation → entraînement → validation → déploiement → monitoring. Autour : RGPD, RIA/AI Act, sécurité, documentation, contrôle humain, droits des personnes.",
+    "schema": "100_governance.png",
+    "diapositive": 100
+  },
+  {
+    "figure": 49,
+    "instruction_source": "Deux fiches projet. Première très vague avec de nombreux points d’interrogation. Deuxième avec finalité, population, entrée, sortie, utilisateur et action autorisée clairement délimités.",
+    "schema": "101_purpose.png",
+    "diapositive": 101
+  },
+  {
+    "figure": 50,
+    "instruction_source": "Trois cartes reliées : DATA CARD — provenance, période, population, labels, exclusions ; MODEL CARD — architecture, version, entraînement, métriques, limites ; SYSTEM CARD — workflow, utilisateur, seuil, supervision, monitoring.",
+    "schema": "104_cards.png",
+    "diapositive": 104
+  },
+  {
+    "figure": 51,
+    "instruction_source": "Grand panneau « données autorisées en TP ». Vert : synthétique, dataset public validé. Orange : données internes non personnelles uniquement après validation institutionnelle. Rouge : données fiscales personnelles/réelles sur services externes. Ajouter « en cas de doute : ne pas charger ».",
+    "schema": "DOC_051.png",
+    "diapositive": null
+  },
+  {
+    "figure": 52,
+    "instruction_source": "Entonnoir de qualification juridique : « Quel système ? » → « Quel usage prévu ? » → « Quel contexte ? » → « Quel rôle de l’organisation ? » → « Quelles données ? » → « Quel niveau de risque / quelles obligations ? ». Inscrire « analyse au cas par cas » en très visible.",
+    "schema": "103_compliance.png",
+    "diapositive": 103
+  },
+  {
+    "figure": 53,
+    "instruction_source": "Citoyen à gauche, décision administrative à droite. Entre les deux, un bloc « traitement algorithmique ». Quatre bulles d’explication sortent du bloc : degré de contribution ; données et sources ; paramètres pertinents ; opérations effectuées. Le visuel doit insister sur l’intelligibilité et non seulement sur la publication de code.",
+    "schema": "DOC_053.png",
+    "diapositive": null
+  },
+  {
+    "figure": 54,
+    "instruction_source": "Deux workflows. Mauvais « human in the loop » : modèle → score → agent avec tampon automatique, aucune information supplémentaire. Bon : modèle → score + facteurs + incertitude + dossier source → agent → vérification → décision motivée → feedback. Inscrire « présence humaine ≠ supervision humaine ».",
+    "schema": "102_humanloop.png",
+    "diapositive": 102
+  },
+  {
+    "figure": 55,
+    "instruction_source": "Pipeline horizontal. Sous chaque étape — collecte, échantillonnage, annotation, entraînement, métrique, seuil, usage — placer un petit triangle « biais possible ». Message final : « le biais n’est pas uniquement dans le modèle ».",
+    "schema": "DOC_055.png",
+    "diapositive": null
+  },
+  {
+    "figure": 56,
+    "instruction_source": "Deux distributions statistiques superposées : période d’entraînement et période actuelle. Montrer trois formes de dérive : entrée X change ; relation X→Y change ; prévalence Y change. Ajouter un tableau de monitoring avec métriques dans le temps.",
+    "schema": "093_drift.png",
+    "diapositive": 93
+  },
+  {
+    "figure": 57,
+    "instruction_source": "Pyramide de compétences du stage. Base « expliquer ». Niveau 2 « exécuter ». Niveau 3 « diagnostiquer ». Niveau 4 « justifier ». Niveau supérieur grisé « concevoir des architectures de recherche avancées — hors périmètre du niveau A ».",
+    "schema": "DOC_057.png",
+    "diapositive": null
+  },
+  {
+    "figure": 58,
+    "instruction_source": "Capture fictive du notebook avec cinq petits marqueurs numérotés cachés dans le code. Une seconde illustration destinée au formateur montre la solution et le type d’erreur associé : données, architecture, évaluation, diagnostic, interprétation.",
+    "schema": "124_incident.png",
+    "diapositive": 124
+  },
+  {
+    "figure": 59,
+    "instruction_source": "Préparer une planche de typographie plutôt qu’un visuel décoratif. Utiliser une police sans serif extrêmement lisible pour les titres, une seconde sans serif compatible avec les écrans pour le corps, et une police monospace pour le code. Établir cinq niveaux visuels : grand titre 40–44 pt ; titre de chapitre 30–34 pt ; titre de concept 24–28 pt ; texte 18–22 pt ; annotations 14–16 pt. Les mots clés techniques doivent être distingués par graisse et non par multiplication de couleurs. Les formules doivent bénéficier d’un espace blanc généreux. Sur chaque slide, viser une seule idée principale.",
+    "schema": "DOC_059.png",
+    "diapositive": null
+  },
+  {
+    "figure": 60,
+    "instruction_source": "Concevoir un langage graphique répétable : rectangle arrondi = opération ; cylindre = données ; hexagone = modèle ; losange = décision ; silhouette = intervention humaine ; triangle d’avertissement = risque ; cadenas = couche gelée ou sécurité ; loupe = évaluation/inspection. Cette légende doit figurer au début du support et rester strictement cohérente sur les trois jours.",
+    "schema": "DOC_060.png",
+    "diapositive": null
+  },
+  {
+    "figure": 61,
+    "instruction_source": "Produire une paire avant/après. À gauche « slide dense » remplie de texte. À droite « slide pédagogique » avec une image 5×5, un kernel 3×3 et le résultat d’une seule position. L’objectif est de montrer au concepteur du support comment éviter les slides encyclopédiques.",
+    "schema": "DOC_061.png",
+    "diapositive": null
+  },
+  {
+    "figure": 62,
+    "instruction_source": "Arbre « incident → plan B » avec six branches : réseau, GPU, dépendances, dataset, temps d’entraînement, niveau du groupe. Chaque branche doit déboucher sur une solution pré-écrite.",
+    "schema": "DOC_062.png",
+    "diapositive": null
+  },
+  {
+    "figure": 63,
+    "instruction_source": "Concevoir la synthèse ultime de la formation sous la forme d’un grand cycle en dix étapes : 1. formuler le problème ; 2. définir la cible et le moment de prédiction ; 3. comprendre les données ; 4. créer le split ; 5. établir une baseline ; 6. sélectionner une architecture ; 7. entraîner et surveiller ; 8. analyser les erreurs et optimiser ; 9. traduire le score en processus métier ; 10. documenter, gouverner et monitorer. Au centre du cycle écrire : « Une bonne IA n’est pas seulement un bon modèle ». Autour du cycle, quatre garde-fous permanents : « données », « humain », « métriques », « conformité ». Cette illustration doit être la dernière slide projetée et le document récapitulatif remis aux stagiaires.",
+    "schema": "DOC_063.png",
+    "diapositive": null
+  }
+]
