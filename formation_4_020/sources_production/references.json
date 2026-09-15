@@ -1,0 +1,299 @@
+{
+  "P01": {
+    "id": "P01",
+    "author": "",
+    "title": "Calculs reproductibles du TP Novalia",
+    "date": "2026-09-14",
+    "url": "travaux_pratiques/resultats_reference.json",
+    "note": "Simulation synthétique ; graine 4020 ; aucune performance réelle d’entreprise.",
+    "libelle": "Calculs reproductibles du TP Novalia"
+  },
+  "S01": {
+    "id": "S01",
+    "author": "",
+    "title": "Référentiel et dossier fournis par Martino",
+    "date": "2026-09-14",
+    "url": "Texte fourni dans la conversation",
+    "note": "Périmètre contractuel fourni ; dépôt officiel non reconsulté.",
+    "libelle": "Référentiel et dossier fournis par Martino"
+  },
+  "S02": {
+    "id": "S02",
+    "author": "scikit-learn",
+    "title": "guide utilisateur",
+    "date": "2026-09-14",
+    "url": "https://scikit-learn.org/stable/user_guide.html",
+    "note": "Documentation technique ; environnement du TP épinglé séparément.",
+    "libelle": "scikit-learn : guide utilisateur"
+  },
+  "S03": {
+    "id": "S03",
+    "author": "scikit-learn",
+    "title": "pièges et fuites de données",
+    "date": "2026-09-14",
+    "url": "https://scikit-learn.org/1.8/common_pitfalls.html",
+    "note": "Documentation primaire.",
+    "libelle": "scikit-learn : pièges et fuites de données"
+  },
+  "S04": {
+    "id": "S04",
+    "author": "scikit-learn",
+    "title": "métriques et scores",
+    "date": "2026-09-14",
+    "url": "https://scikit-learn.org/stable/modules/model_evaluation.html",
+    "note": "Documentation primaire.",
+    "libelle": "scikit-learn : métriques et scores"
+  },
+  "S05": {
+    "id": "S05",
+    "author": "LeCun, Bengio et Hinton",
+    "title": "apprentissage profond",
+    "date": "2015-05-27",
+    "url": "https://www.nature.com/articles/nature14539",
+    "note": "Article de synthèse scientifique, Nature.",
+    "libelle": "LeCun, Bengio et Hinton : apprentissage profond"
+  },
+  "S06": {
+    "id": "S06",
+    "author": "Vaswani et al.",
+    "title": "Attention Is All You Need",
+    "date": "2017-06-12",
+    "url": "https://arxiv.org/abs/1706.03762",
+    "note": "Article scientifique fondateur des Transformers.",
+    "libelle": "Vaswani et al. : Attention Is All You Need"
+  },
+  "S07": {
+    "id": "S07",
+    "author": "Gomez-Uribe et Hunt",
+    "title": "le système de recommandation Netflix",
+    "date": "2015-12-28",
+    "url": "https://doi.org/10.1145/2843948",
+    "note": "Article de chercheurs Netflix ; contexte historique.",
+    "libelle": "Gomez-Uribe et Hunt : le système de recommandation Netflix"
+  },
+  "S08": {
+    "id": "S08",
+    "author": "Cheng et al.",
+    "title": "Wide & Deep pour la recommandation",
+    "date": "2016",
+    "url": "https://research.google/pubs/wide-deep-learning-for-recommender-systems/",
+    "note": "Publication Google Research ; résultats historiques.",
+    "libelle": "Cheng et al. : Wide & Deep pour la recommandation"
+  },
+  "S09": {
+    "id": "S09",
+    "author": "Zielnicki et al.",
+    "title": "valeur des recommandations Netflix",
+    "date": "2025-11-10",
+    "url": "https://arxiv.org/abs/2511.07280",
+    "note": "Prépublication scientifique ; estimations contrefactuelles, pas KPI officiel.",
+    "libelle": "Zielnicki et al. : valeur des recommandations Netflix"
+  },
+  "S10": {
+    "id": "S10",
+    "author": "Stripe Radar",
+    "title": "données et performance déclarées",
+    "date": "2026-09-14",
+    "url": "https://stripe.com/radar",
+    "note": "Page fournisseur ; aucun audit indépendant présumé.",
+    "libelle": "Stripe Radar : données et performance déclarées"
+  },
+  "S11": {
+    "id": "S11",
+    "author": "Airbus",
+    "title": "maintenir les flottes en vol",
+    "date": "2024-10",
+    "url": "https://www.aircraft.airbus.com/en/newsroom/news/2024-10-keeping-the-fleet-flying",
+    "note": "Résultats easyJet rapportés par Airbus ; non généralisables.",
+    "libelle": "Airbus : maintenir les flottes en vol"
+  },
+  "S12": {
+    "id": "S12",
+    "author": "UPS",
+    "title": "initiatives IA et jumeau numérique",
+    "date": "2026-06-18",
+    "url": "https://about.ups.com/us/en/newsroom/press-releases/innovation-driven/proof-over-promises--ups-s-bold-ai-initiatives-enhance-products-.html",
+    "note": "Communiqué de l’entreprise ; déclarations et déploiements annoncés.",
+    "libelle": "UPS : initiatives IA et jumeau numérique"
+  },
+  "S13": {
+    "id": "S13",
+    "author": "Michelin",
+    "title": "assistant IA de gestion de flotte",
+    "date": "2026-06-29",
+    "url": "https://www.michelin.com/publications/produits-et-services/michelin-connected-fleet-performance-op%C3%A9rationnelle",
+    "note": "Communiqué fournisseur français ; absence de benchmark indépendant.",
+    "libelle": "Michelin : assistant IA de gestion de flotte"
+  },
+  "S14": {
+    "id": "S14",
+    "author": "John Deere",
+    "title": "documentation des API et OAuth 2",
+    "date": "2026-09-14",
+    "url": "https://developer.deere.com/dev-docs/customer-linkage",
+    "note": "Documentation officielle, micro-cas de contrôle d’accès.",
+    "libelle": "John Deere : documentation des API et OAuth 2"
+  },
+  "S15": {
+    "id": "S15",
+    "author": "CNIL",
+    "title": "fiches pratiques IA",
+    "date": "2026-09-14",
+    "url": "https://www.cnil.fr/fr/les-fiches-pratiques-ia",
+    "note": "Cadre RGPD, finalité, minimisation, droits et sécurité.",
+    "libelle": "CNIL : fiches pratiques IA"
+  },
+  "S16": {
+    "id": "S16",
+    "author": "ANSSI",
+    "title": "sécurité d’un système d’IA générative",
+    "date": "2024-04-29",
+    "url": "https://messervices.cyber.gouv.fr/guides/recommandations-de-securite-pour-un-systeme-dia-generative",
+    "note": "Recommandations de sécurité ; ne couvrent pas toutes les questions juridiques.",
+    "libelle": "ANSSI : sécurité d’un système d’IA générative"
+  },
+  "S17": {
+    "id": "S17",
+    "author": "NIST",
+    "title": "fonctions du cadre AI RMF 1.0",
+    "date": "2023",
+    "url": "https://airc.nist.gov/airmf-resources/airmf/5-sec-core/",
+    "note": "Cadre volontaire ; version 1.0 utilisée, révision annoncée.",
+    "libelle": "NIST : fonctions du cadre AI RMF 1.0"
+  },
+  "S18": {
+    "id": "S18",
+    "author": "ISO/IEC 42001",
+    "title": "système de management de l’IA",
+    "date": "2023-12",
+    "url": "https://www.iso.org/fr/standard/81230.html",
+    "note": "Présentation officielle ; norme complète non reproduite.",
+    "libelle": "ISO/IEC 42001 : système de management de l’IA"
+  },
+  "S19": {
+    "id": "S19",
+    "author": "Commission européenne",
+    "title": "cadre réglementaire IA",
+    "date": "2026-09-14",
+    "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+    "note": "État de la page officielle consultée.",
+    "libelle": "Commission européenne : cadre réglementaire IA"
+  },
+  "S20": {
+    "id": "S20",
+    "author": "Commission européenne",
+    "title": "calendrier d’application IA",
+    "date": "2026-09-14",
+    "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/eu-ai-act-implementation-timeline",
+    "note": "Calendrier officiel intégrant les modifications de 2026.",
+    "libelle": "Commission européenne : calendrier d’application IA"
+  },
+  "S21": {
+    "id": "S21",
+    "author": "Commission européenne",
+    "title": "maîtrise de l’IA",
+    "date": "2026-09-14",
+    "url": "https://digital-strategy.ec.europa.eu/en/faqs/ai-literacy-questions-answers",
+    "note": "FAQ officielle ; dispositions et risques adaptés aux rôles.",
+    "libelle": "Commission européenne : maîtrise de l’IA"
+  },
+  "S22": {
+    "id": "S22",
+    "author": "Commission européenne",
+    "title": "règlement sur les données",
+    "date": "2026-09-14",
+    "url": "https://digital-strategy.ec.europa.eu/en/policies/data-act",
+    "note": "Data Act ; champ d’application et dispositions à vérifier par cas.",
+    "libelle": "Commission européenne : règlement sur les données"
+  },
+  "S23": {
+    "id": "S23",
+    "author": "Commission européenne",
+    "title": "gouvernance des données",
+    "date": "2026-09-14",
+    "url": "https://digital-strategy.ec.europa.eu/en/policies/data-governance-act",
+    "note": "Data Governance Act ; complément, non substitut au RGPD.",
+    "libelle": "Commission européenne : gouvernance des données"
+  },
+  "S24": {
+    "id": "S24",
+    "author": "IETF",
+    "title": "cadre d’autorisation OAuth 2.0",
+    "date": "2012",
+    "url": "https://www.rfc-editor.org/rfc/rfc6749",
+    "note": "Cadre d’autorisation, à distinguer d’un protocole d’authentification utilisateur.",
+    "libelle": "IETF : cadre d’autorisation OAuth 2.0"
+  },
+  "S25": {
+    "id": "S25",
+    "author": "Projet Jupyter",
+    "title": "documentation",
+    "date": "2026-09-14",
+    "url": "https://docs.jupyter.org/en/latest/",
+    "note": "Notebooks interactifs.",
+    "libelle": "Projet Jupyter : documentation"
+  },
+  "S26": {
+    "id": "S26",
+    "author": "Microsoft",
+    "title": "scripts Python dans Power BI Desktop",
+    "date": "2026-09-14",
+    "url": "https://learn.microsoft.com/fr-fr/power-bi/connect-data/desktop-python-scripts",
+    "note": "Documentation officielle ; interface non exécutée dans ce livrable.",
+    "libelle": "Microsoft : scripts Python dans Power BI Desktop"
+  },
+  "S27": {
+    "id": "S27",
+    "author": "NIST",
+    "title": "architecture de référence Big Data",
+    "date": "2019-10-21",
+    "url": "https://www.nist.gov/publications/nist-big-data-interoperability-framework-volume-6-reference-architecture",
+    "note": "Cadre conceptuel ; les cinq V du cours sont une grille pédagogique.",
+    "libelle": "NIST : architecture de référence Big Data"
+  },
+  "S28": {
+    "id": "S28",
+    "author": "Sculley et al.",
+    "title": "dette technique des systèmes ML",
+    "date": "2015",
+    "url": "https://research.google/pubs/hidden-technical-debt-in-machine-learning-systems/",
+    "note": "Article scientifique sur l’industrialisation.",
+    "libelle": "Sculley et al. : dette technique des systèmes ML"
+  },
+  "S29": {
+    "id": "S29",
+    "author": "scikit-learn",
+    "title": "validation croisée",
+    "date": "2026-09-14",
+    "url": "https://scikit-learn.org/stable/modules/cross_validation.html",
+    "note": "Séparation adaptée aux données et dépendances.",
+    "libelle": "scikit-learn : validation croisée"
+  },
+  "S30": {
+    "id": "S30",
+    "author": "scikit-learn",
+    "title": "choix du seuil de décision",
+    "date": "2026-09-14",
+    "url": "https://scikit-learn.org/stable/modules/classification_threshold.html",
+    "note": "Séparer score, seuil et validation de la politique.",
+    "libelle": "scikit-learn : choix du seuil de décision"
+  },
+  "S31": {
+    "id": "S31",
+    "author": "Commission européenne",
+    "title": "entrée en vigueur de l’AI Omnibus",
+    "date": "2026-07-27",
+    "url": "https://digital-strategy.ec.europa.eu/en/news/ai-omnibus-enters-force",
+    "note": "Actualisation du calendrier de 2026.",
+    "libelle": "Commission européenne : entrée en vigueur de l’AI Omnibus"
+  },
+  "S32": {
+    "id": "S32",
+    "author": "CNIL",
+    "title": "recommandations relatives à l’intérêt légitime",
+    "date": "2025-06-19",
+    "url": "https://cnil.fr/fr/recommandations-developpement-ia-interet-legitime",
+    "note": "Base légale conditionnelle, pas permission générale de collecte.",
+    "libelle": "CNIL : recommandations relatives à l’intérêt légitime"
+  }
+}

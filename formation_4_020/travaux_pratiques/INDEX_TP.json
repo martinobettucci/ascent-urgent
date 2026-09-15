@@ -1,0 +1,48 @@
+[
+  {
+    "id": "01",
+    "titre": "Atelier Novalia : du risque de départ à une décision dans le SI",
+    "blocs": [
+      "B4.3",
+      "B4.5",
+      "B4.7"
+    ],
+    "variantes": {
+      "apprenant": "01_Atelier_Novalia_participant.ipynb",
+      "corrige": null,
+      "corrige_execute": "02_Atelier_Novalia_corrige_execute.ipynb"
+    },
+    "donnees": [
+      "novalia_clients.csv",
+      "predictions_powerbi.csv"
+    ],
+    "note": "Les cellules d’exercice sont des analyses rédigées, pas des cellules de code à compléter.",
+    "cellules": 21,
+    "cellules_code": 8,
+    "exercices": 4,
+    "variantes_absentes": [
+      "corrige"
+    ]
+  },
+  {
+    "id": "02",
+    "titre": "Simulation d’un contrat de données partenaire",
+    "blocs": [
+      "B5.4"
+    ],
+    "variantes": {
+      "apprenant": null,
+      "corrige": null,
+      "corrige_execute": "03_Simulation_contrat_donnees.ipynb"
+    },
+    "donnees": [],
+    "note": "Annexe facultative du bloc B5. Le corrigé est inclus dans le notebook : à ne pas distribuer avant le débrief.",
+    "cellules": 3,
+    "cellules_code": 1,
+    "exercices": 1,
+    "variantes_absentes": [
+      "apprenant",
+      "corrige"
+    ]
+  }
+]

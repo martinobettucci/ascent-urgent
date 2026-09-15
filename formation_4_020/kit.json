@@ -1,0 +1,219 @@
+{
+  "ref": "4-020",
+  "dossier": "formation_4_020",
+  "titre": "Intelligence artificielle appliquée aux systèmes d’information de l’entreprise",
+  "accroche": "Comprendre. Relier au SI. Arbitrer.",
+  "duree": "12 heures • 2 journées",
+  "niveau": "Application (A)",
+  "session": "Lot 4 • aucun client ni date de session attribué",
+  "index": "00_OUVRIR_LES_SUPPORTS.html",
+  "resume": "Documents, présentations, travaux pratiques, illustrations et sources de fabrication. Cet index fonctionne localement : aucun compte ni accès réseau n’est requis pour consulter les supports.",
+  "conducteur": {
+    "source": "sources_production/conducteur.json",
+    "format": "conducteur",
+    "note": "Minutes nettes de face-à-face, pauses non comptées. La colonne « preuve » indique ce que le participant doit produire pour valider la séquence. Les annexes ne constituent pas des heures contractuelles supplémentaires."
+  },
+  "documents": [
+    {
+      "titre": "Dossier pédagogique et guide formateur",
+      "meta": "80 pages • une section par diapositive",
+      "liens": [
+        [
+          "Ouvrir le PDF",
+          "documents/Dossier_pedagogique_4_020.pdf",
+          true
+        ],
+        [
+          "Version Word modifiable",
+          "documents/Dossier_pedagogique_4_020.docx",
+          false
+        ],
+        [
+          "Version Markdown",
+          "documents/Dossier_pedagogique_4_020.md",
+          false
+        ]
+      ]
+    },
+    {
+      "titre": "Cahier participant",
+      "meta": "22 pages",
+      "liens": [
+        [
+          "Ouvrir le PDF",
+          "documents/Cahier_participant_4_020.pdf",
+          true
+        ],
+        [
+          "Version Word modifiable",
+          "documents/Cahier_participant_4_020.docx",
+          false
+        ]
+      ]
+    }
+  ],
+  "journees": [
+    {
+      "num": 1,
+      "titre": "Fondamentaux, valeur des données et gouvernance",
+      "meta": "75 diapositives avec notes formateur",
+      "liens": [
+        [
+          "Ouvrir le PDF",
+          "presentations/Formation_4_020_Jour_1.pdf",
+          true
+        ],
+        [
+          "Version PowerPoint",
+          "presentations/Formation_4_020_Jour_1.pptx",
+          false
+        ]
+      ]
+    },
+    {
+      "num": 2,
+      "titre": "Machine Learning, Deep Learning et intégration SI",
+      "meta": "83 diapositives avec notes formateur",
+      "liens": [
+        [
+          "Ouvrir le PDF",
+          "presentations/Formation_4_020_Jour_2.pdf",
+          true
+        ],
+        [
+          "Version PowerPoint",
+          "presentations/Formation_4_020_Jour_2.pptx",
+          false
+        ]
+      ]
+    }
+  ],
+  "tp": {
+    "dossier": "travaux_pratiques",
+    "lisezmoi": "travaux_pratiques/LISEZ_MOI.md",
+    "format": "index_tp_variantes",
+    "source": "travaux_pratiques/INDEX_TP.json",
+    "variantes": [
+      [
+        "Apprenant",
+        "apprenant"
+      ],
+      [
+        "Corrigé",
+        "corrige"
+      ],
+      [
+        "Corrigé exécuté",
+        "corrige_execute"
+      ]
+    ],
+    "intro": "Données Novalia entièrement synthétiques. Aucun compte externe ni achat de service n’est nécessaire. Ne pas distribuer le corrigé exécuté avant le débrief.",
+    "fichiers": [
+      [
+        "Données clients Novalia",
+        "travaux_pratiques/novalia_clients.csv"
+      ],
+      [
+        "Données pour l’audit qualité",
+        "travaux_pratiques/novalia_audit_qualite.csv"
+      ],
+      [
+        "Résultats pour l’exercice Power BI",
+        "travaux_pratiques/predictions_powerbi.csv"
+      ],
+      [
+        "Comparaison de validation",
+        "travaux_pratiques/comparaison_validation.csv"
+      ],
+      [
+        "Seuils de validation",
+        "travaux_pratiques/seuils_validation.csv"
+      ],
+      [
+        "Résultats de référence",
+        "travaux_pratiques/resultats_reference.json"
+      ],
+      [
+        "Générateur de données (graine 4020)",
+        "travaux_pratiques/generer_donnees.py"
+      ],
+      [
+        "Dépendances épinglées",
+        "travaux_pratiques/requirements.txt"
+      ],
+      [
+        "Index des ateliers",
+        "travaux_pratiques/INDEX_TP.json"
+      ]
+    ]
+  },
+  "ressources": [
+    {
+      "titre": "Illustrations",
+      "chemin": "illustrations",
+      "compter": "*.png",
+      "note": "Les schémas restent éditables dans les PowerPoint."
+    },
+    {
+      "titre": "Sources de fabrication",
+      "chemin": "sources_production",
+      "note": "Contenu structuré des 158 diapositives et scripts de production. Inutiles pour lire les supports."
+    },
+    {
+      "titre": "Aperçus de contrôle",
+      "chemin": "apercus_controle",
+      "compter": "*",
+      "note": "Aperçus disponibles au moment de la récupération."
+    },
+    {
+      "titre": "Historique",
+      "chemin": "historique",
+      "note": "Anciennes archives conservées à l’identique. Les supports sont déjà extraits : inutile d’ouvrir les ZIP."
+    },
+    {
+      "titre": "Bibliographie indexée",
+      "chemin": "sources_production/references.json",
+      "note": "Références S01 à S32 et P01, citées diapositive par diapositive."
+    }
+  ],
+  "controles": [
+    [
+      "Manifeste de livraison",
+      "MANIFESTE_LIVRAISON.json"
+    ],
+    [
+      "Inventaire complet et empreintes SHA-256",
+      "INVENTAIRE_COMPLET.json"
+    ],
+    [
+      "Contrôles de livraison",
+      "CONTROLES_LIVRAISON.md"
+    ],
+    [
+      "Rapport de vérification",
+      "controle_recuperation/RAPPORT_VERIFICATION.json"
+    ],
+    [
+      "Provenance des fichiers",
+      "controle_recuperation/PROVENANCE.json"
+    ],
+    [
+      "Sommes SHA-256",
+      "SHA256SUMS.txt"
+    ],
+    [
+      "Script de vérification",
+      "VERIFIER_INTEGRITE.py"
+    ],
+    [
+      "Détail du contenu et des limites",
+      "00_LIRE_MOI_DABORD.txt"
+    ]
+  ],
+  "avertissements": [
+    "Aucun fichier PBIX n’a été produit. Les données, consignes et maquettes de restitution Power BI sont fournies ; l’interface Power BI Desktop n’a pas été testée.",
+    "Les notebooks ont été validés au format pendant la récupération, sans réexécution. Les rapports de leur exécution précédente sont conservés séparément.",
+    "Les pages réglementaires doivent être revérifiées avant une future session.",
+    "L’image GitHub conservée dans l’historique est générée artificiellement : elle ne prouve aucune publication."
+  ]
+}

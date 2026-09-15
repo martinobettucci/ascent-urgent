@@ -1,11 +1,11 @@
 {
   "portee": "Tous les fichiers de cette archive, hors INVENTAIRE_COMPLET.csv et ce manifeste lui-même.",
-  "nombre_fichiers_inventories": 410,
+  "nombre_fichiers_inventories": 412,
   "fichiers": [
     {
       "fichier": "00_LIRE_EN_PREMIER.txt",
-      "octets": 3420,
-      "sha256": "e78d90f2b8fe2c15e2d8e42ed2b397e68cc06792d7aa9b5a5e5214c9518d31b6"
+      "octets": 3542,
+      "sha256": "a1e881ac36b5a122bfd85787ba67b035b21bc70b484a9e7c544e202ea0cff966"
     },
     {
       "fichier": "01_Presentations/Formation_4_024_126_diapos.pdf",
@@ -2049,8 +2049,32 @@
     },
     {
       "fichier": "README.md",
-      "octets": 2547,
-      "sha256": "d62a630aba60f445f01ce8996f133c6a57fc9d5774749818620276179668d8e0"
+      "octets": 2854,
+      "sha256": "31dcda167055a886a392ebb6f1efe47e380b9a9f1898c3060c8bcaaedeffccea"
+    },
+    {
+      "fichier": "00_OUVRIR_LES_SUPPORTS.html",
+      "octets": 28689,
+      "sha256": "55109d2497ff6e297f59e7d5014b3f4d1a185bc06716f43cf2b508b7455ecab3"
+    },
+    {
+      "fichier": "kit.json",
+      "octets": 8076,
+      "sha256": "f9a3eb4c05caeab15cda7be4eb1b4f7c774f423eaecbf4abecd8b906ffeebf0b"
+    }
+  ],
+  "revisions": [
+    {
+      "date": "2026-09-15",
+      "motif": "Ajout d’un index de navigation généré et des descripteurs de conducteur, de bibliographie et d’ateliers ; renvoi vers cet index depuis les points d’entrée. Aucun support pédagogique modifié.",
+      "ajoutes": [
+        "00_OUVRIR_LES_SUPPORTS.html",
+        "kit.json"
+      ],
+      "recalcules": [
+        "README.md",
+        "00_LIRE_EN_PREMIER.txt"
+      ]
     }
   ]
 }

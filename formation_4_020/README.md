@@ -4,6 +4,8 @@ Lot 4. Niveau Application (A). 12 heures sur 2 jours. Aucun client ni date de se
 
 ## Supports à ouvrir
 
+Commencer par [00_OUVRIR_LES_SUPPORTS.html](00_OUVRIR_LES_SUPPORTS.html) : index local qui rassemble les documents, les deux journées avec leur conducteur minuté et ses preuves attendues, les travaux pratiques et les contrôles d’intégrité. Il s’ouvre sans compte ni accès réseau.
+
 | Support | Version modifiable | PDF |
 | --- | --- | --- |
 | Jour 1, 75 diapositives avec notes | [PowerPoint](presentations/Formation_4_020_Jour_1.pptx) | [PDF](presentations/Formation_4_020_Jour_1.pdf) |

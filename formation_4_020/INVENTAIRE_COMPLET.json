@@ -1,7 +1,7 @@
 {
   "titre": "Récupération intégrale de la formation 4-020",
   "date": "2026-09-14",
-  "fichiers_manifestes": 78,
+  "fichiers_manifestes": 82,
   "fichiers_totaux_archive": 80,
   "note": "Le manifeste et SHA256SUMS.txt ne se référencent pas eux-mêmes. Les autres fichiers sont tous vérifiés.",
   "fichiers": [
@@ -12,8 +12,8 @@
     },
     {
       "chemin": "00_OUVRIR_LES_SUPPORTS.html",
-      "octets": 4197,
-      "sha256": "e0336dc0f6fe8495121fad8699a344677531ca43fe52a83d2bfdde04d2189f38"
+      "octets": 19021,
+      "sha256": "ec7012ae1d8d00d7039eb4591a72b50c7dc9a323a2c2820145f43535acfa4ad6"
     },
     {
       "chemin": "CONTROLES_LIVRAISON.md",
@@ -27,8 +27,8 @@
     },
     {
       "chemin": "README.md",
-      "octets": 2241,
-      "sha256": "b8832b1262bc14c7c535f01953fcb270af0c8c53dd58233c8deddb302ff8c6be"
+      "octets": 2533,
+      "sha256": "f65f18160e4ab2fa25ccd03aa655d515d347e5c1909d1b08d03766f7f02e5dcc"
     },
     {
       "chemin": "VERIFIER_INTEGRITE.py",
@@ -394,6 +394,42 @@
       "chemin": "travaux_pratiques/seuils_validation.csv",
       "octets": 430,
       "sha256": "208908fb52be34df726a4b3c370277581bc8d5bac0da4c657befccdf9658fd5e"
+    },
+    {
+      "chemin": "kit.json",
+      "octets": 6475,
+      "sha256": "97629050b8092765977c9d193655a38d456faffd05c3c4008b68538a6d454df5"
+    },
+    {
+      "chemin": "sources_production/conducteur.json",
+      "octets": 7584,
+      "sha256": "48402189ce61deec545bb1a67f39be1665c902d664a3290b9ad17cc66bc4509c"
+    },
+    {
+      "chemin": "sources_production/references.json",
+      "octets": 11503,
+      "sha256": "5bf4ecd7b857336545383fbd76ba6459b693825475c795bcafc6fb29ce96ff3d"
+    },
+    {
+      "chemin": "travaux_pratiques/INDEX_TP.json",
+      "octets": 1201,
+      "sha256": "5468b1c9173f3b4c6e3288b2842cf5b7c60367305ad59b96d651708e4374f34c"
+    }
+  ],
+  "revisions": [
+    {
+      "date": "2026-09-15",
+      "motif": "Ajout d’un index de navigation généré et des descripteurs de conducteur, de bibliographie et d’ateliers ; renvoi vers cet index depuis les points d’entrée. Aucun support pédagogique modifié.",
+      "ajoutes": [
+        "kit.json",
+        "sources_production/conducteur.json",
+        "sources_production/references.json",
+        "travaux_pratiques/INDEX_TP.json"
+      ],
+      "recalcules": [
+        "00_OUVRIR_LES_SUPPORTS.html",
+        "README.md"
+      ]
     }
   ]
 }

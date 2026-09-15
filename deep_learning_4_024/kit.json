@@ -1,0 +1,277 @@
+{
+  "ref": "4-024",
+  "dossier": "deep_learning_4_024",
+  "titre": "Intelligence artificielle : Deep Learning par la pratique",
+  "accroche": "Comprendre. Construire. Vérifier.",
+  "duree": "18 heures • 3 journées",
+  "niveau": "Application (A)",
+  "session": "DGFiP • 21 au 23 septembre 2026, Asnières-sur-Seine • Martino Bettucci, P2Enjoy",
+  "index": "00_OUVRIR_LES_SUPPORTS.html",
+  "resume": "Paquet de livrables directement ouvrables : présentations, documents, 33 notebooks, évaluations, illustrations et sources. Cet index fonctionne localement, sans compte ni accès réseau.",
+  "conducteur": {
+    "source": "08_Sources_editables/conducteur.json",
+    "format": "conducteur",
+    "note": "Minutes nettes de face-à-face, pauses non comptées. La colonne « preuve » indique ce que le participant doit produire pour valider la séquence."
+  },
+  "documents": [
+    {
+      "titre": "Dossier pédagogique illustré",
+      "meta": "56 pages",
+      "liens": [
+        [
+          "Ouvrir le PDF",
+          "02_Documents/Dossier_pedagogique_4_024.pdf",
+          true
+        ],
+        [
+          "Version Word modifiable",
+          "02_Documents/Dossier_pedagogique_4_024.docx",
+          false
+        ]
+      ]
+    },
+    {
+      "titre": "Guide formateur",
+      "meta": "46 pages • les 126 diapositives",
+      "liens": [
+        [
+          "Ouvrir le PDF",
+          "02_Documents/Guide_formateur_126_diapos.pdf",
+          true
+        ],
+        [
+          "Version Word modifiable",
+          "02_Documents/Guide_formateur_126_diapos.docx",
+          false
+        ]
+      ]
+    },
+    {
+      "titre": "Cahier participant, TP et projet",
+      "meta": "26 pages",
+      "liens": [
+        [
+          "Ouvrir le PDF",
+          "02_Documents/Cahier_participant_TP_et_projet.pdf",
+          true
+        ],
+        [
+          "Version Word modifiable",
+          "02_Documents/Cahier_participant_TP_et_projet.docx",
+          false
+        ]
+      ]
+    },
+    {
+      "titre": "Évaluations",
+      "meta": "participant 5 pages • formateur avec corrigés 6 pages",
+      "liens": [
+        [
+          "Version participant (PDF)",
+          "04_Evaluations/Evaluations_participant.pdf",
+          true
+        ],
+        [
+          "Version formateur (PDF)",
+          "04_Evaluations/Evaluations_et_corriges.pdf",
+          true
+        ],
+        [
+          "Participant (Word)",
+          "04_Evaluations/Evaluations_participant.docx",
+          false
+        ],
+        [
+          "Formateur (Word)",
+          "04_Evaluations/Evaluations_et_corriges.docx",
+          false
+        ],
+        [
+          "Source QCM (JSON)",
+          "04_Evaluations/QCM_et_corriges.json",
+          false
+        ]
+      ]
+    }
+  ],
+  "presentation_complete": {
+    "titre": "Diaporama complet",
+    "meta": "126 diapositives • notes, questions d’animation et réponses attendues",
+    "liens": [
+      [
+        "Ouvrir le PDF",
+        "01_Presentations/Formation_4_024_126_diapos.pdf",
+        true
+      ],
+      [
+        "Version PowerPoint",
+        "01_Presentations/Formation_4_024_126_diapos.pptx",
+        false
+      ]
+    ]
+  },
+  "journees": [
+    {
+      "num": 1,
+      "titre": "Fondamentaux et premiers modèles",
+      "meta": "42 diapositives avec notes formateur",
+      "liens": [
+        [
+          "Ouvrir le PDF",
+          "01_Presentations/Jour_1_Fondamentaux_et_premiers_modeles.pdf",
+          true
+        ],
+        [
+          "Version PowerPoint",
+          "01_Presentations/Jour_1_Fondamentaux_et_premiers_modeles.pptx",
+          false
+        ]
+      ]
+    },
+    {
+      "num": 2,
+      "titre": "CNN, LSTM et diagnostic",
+      "meta": "42 diapositives avec notes formateur",
+      "liens": [
+        [
+          "Ouvrir le PDF",
+          "01_Presentations/Jour_2_CNN_LSTM_et_diagnostic.pdf",
+          true
+        ],
+        [
+          "Version PowerPoint",
+          "01_Presentations/Jour_2_CNN_LSTM_et_diagnostic.pptx",
+          false
+        ]
+      ]
+    },
+    {
+      "num": 3,
+      "titre": "Cas métiers et projet",
+      "meta": "42 diapositives avec notes formateur",
+      "liens": [
+        [
+          "Ouvrir le PDF",
+          "01_Presentations/Jour_3_Cas_metiers_et_projet.pdf",
+          true
+        ],
+        [
+          "Version PowerPoint",
+          "01_Presentations/Jour_3_Cas_metiers_et_projet.pptx",
+          false
+        ]
+      ]
+    }
+  ],
+  "tp": {
+    "dossier": "03_Travaux_pratiques",
+    "lisezmoi": "03_Travaux_pratiques/LISEZ_MOI.md",
+    "format": "index_tp",
+    "source": "03_Travaux_pratiques/INDEX_TP.json",
+    "variantes": [
+      [
+        "Apprenant",
+        "03_Travaux_pratiques/apprenants"
+      ],
+      [
+        "Corrigé",
+        "03_Travaux_pratiques/corriges"
+      ],
+      [
+        "Corrigé exécuté",
+        "03_Travaux_pratiques/corriges_executes"
+      ]
+    ],
+    "intro": "Ouvrir d’abord le TP 00. Les données sont synthétiques ou publiques ; aucun téléchargement ne se produit dans les notebooks. Les corrigés et les sorties de recette sont destinés au formateur.",
+    "fichiers": [
+      [
+        "Fiches des jeux de données",
+        "03_Travaux_pratiques/donnees/FICHES_DONNEES.json"
+      ],
+      [
+        "Module commun des ateliers",
+        "03_Travaux_pratiques/modules/atelier.py"
+      ],
+      [
+        "Dépendances CPU",
+        "03_Travaux_pratiques/requirements-cpu.txt"
+      ],
+      [
+        "Résultats de référence",
+        "03_Travaux_pratiques/resultats"
+      ],
+      [
+        "Jeux de données locaux",
+        "03_Travaux_pratiques/donnees"
+      ]
+    ]
+  },
+  "ressources": [
+    {
+      "titre": "Illustrations vectorielles",
+      "chemin": "05_Illustrations",
+      "compter": "*.svg",
+      "note": "Chaque schéma est aussi exporté en PNG dans le même dossier."
+    },
+    {
+      "titre": "Sources éditables",
+      "chemin": "08_Sources_editables",
+      "note": "Contenu des diapositives, conducteur, bibliographie indexée, correspondance des illustrations et scripts de fabrication."
+    },
+    {
+      "titre": "Originaux et aperçus",
+      "chemin": "09_Originaux_et_apercus",
+      "note": "Pièce source sous son nom initial, aperçus et artefacts techniques conservés."
+    },
+    {
+      "titre": "Bibliographie indexée",
+      "chemin": "08_Sources_editables/references.json",
+      "note": "Références R00 à Rnn citées diapositive par diapositive."
+    }
+  ],
+  "controles": [
+    [
+      "Rapport de qualité et limites de recette",
+      "06_Qualite/RAPPORT_QUALITE.md"
+    ],
+    [
+      "Recette des notebooks",
+      "06_Qualite/recette_notebooks.json"
+    ],
+    [
+      "Recette des exports",
+      "06_Qualite/recette_exports.json"
+    ],
+    [
+      "Contrôle des livrables",
+      "06_Qualite/controle_livrables.json"
+    ],
+    [
+      "Contrôle de la géométrie des PDF",
+      "06_Qualite/controle_geometrie_pdf.json"
+    ],
+    [
+      "Contrôle de l’archive unique",
+      "06_Qualite/CONTROLE_ARCHIVE_UNIQUE.json"
+    ],
+    [
+      "Inventaire complet et empreintes SHA-256",
+      "INVENTAIRE_COMPLET.csv"
+    ],
+    [
+      "Manifeste SHA-256",
+      "MANIFESTE_SHA256.json"
+    ],
+    [
+      "Détail du contenu et des limites",
+      "00_LIRE_EN_PREMIER.txt"
+    ]
+  ],
+  "avertissements": [
+    "Recette effectuée sur CPU avec Python 3.13.5, PyTorch 2.10.0+cpu et Keras 3.13.2 (moteur PyTorch). TensorFlow n’a pas été installé : la branche conditionnelle TensorFlow n’a pas été exécutée.",
+    "L’installation depuis un poste vierge, le GPU, Colab et les variantes des quatre projets n’ont pas tous été recettés.",
+    "Aucune donnée personnelle ou fiscale réelle ne doit être chargée dans un service externe.",
+    "L’image de présentation antérieure conservée dans 09_Originaux_et_apercus est une pièce historique : la mention « 786 pages » n’est pas l’inventaire de ce kit.",
+    "La présence de ce dossier dans une archive n’atteste pas d’une publication GitHub."
+  ]
+}

@@ -8,6 +8,8 @@ Les deux anciennes archives ont été intégralement décompressées et intégr�
 il n'est pas nécessaire de récupérer ou d'ouvrir un autre ZIP.
 
 OUVRIR EN PREMIER
+00_OUVRIR_LES_SUPPORTS.html : index local de tous les supports,
+du conducteur minute par minute et des travaux pratiques.
 01_Presentations/Formation_4_024_126_diapos.pptx
 01_Presentations/Formation_4_024_126_diapos.pdf
 02_Documents/Dossier_pedagogique_4_024.pdf

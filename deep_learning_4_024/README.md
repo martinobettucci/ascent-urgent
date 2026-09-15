@@ -6,6 +6,8 @@ Session prévue : DGFiP, 21 au 23 septembre 2026, Asnières-sur-Seine. Formateur
 
 ## Ouvrir les supports
 
+Commencer par [00_OUVRIR_LES_SUPPORTS.html](00_OUVRIR_LES_SUPPORTS.html) : index local qui rassemble les documents, les trois journées avec leur conducteur minuté et ses preuves attendues, les 11 ateliers dans leurs trois variantes et les rapports de recette. Il s’ouvre sans compte ni accès réseau.
+
 - [Diaporama complet (PPTX, 126 diapositives)](01_Presentations/Formation_4_024_126_diapos.pptx)
 - [Diaporama complet (PDF)](01_Presentations/Formation_4_024_126_diapos.pdf)
 - [Dossier pédagogique illustré (Word)](02_Documents/Dossier_pedagogique_4_024.docx)
